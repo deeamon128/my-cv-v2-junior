@@ -21,13 +21,39 @@
     line-height: 40px;
     text-align: center;
     color: white;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
 }
+
 .section__title-wrapper {
     padding: 10px;
     height: 60px;
     background-color: #d52027;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16)
-}
+    position: relative;
+    
+    &::before {
+        position: absolute;
+        content: '';
+        background-color: #d52027;
+        left: -36px;
+        top: 0;
+        bottom: 0;
+        right: -36px;
+    }
+    &::after {
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.27);
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+}   
+
+
+
 
 .description-box__with-shadow {
     background-color: #fff;
@@ -61,4 +87,26 @@
 }
 .button__disc--red {
     background-color: #d52027;
+}
+
+.button__pill--blue {
+    height: 40px;
+    margin: 20px auto 0;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 14px 10px 24px;
+    display: flex;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.button__pill--blue {
+    background-color: #1875f0;
+}
+
+button[class^="button__pill"] i[class^="icon__"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
 }
