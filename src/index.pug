@@ -1,11 +1,10 @@
 doctype html
 html
-  head
+  head the restart
+    title add your title here
     link(rel="stylesheet", href="style.css")
-    meta(name="viewport" content="width=device-width, initial-scale=1")
-    title This is the title indented and the head is title's father 
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
   body
-    .content-wrapper
-      .grid-system
-        include _component/welcome/welcome
-        include _component/chat/chat
+    .content
+      .grid
+        include _component/about-me/about-me.pug
