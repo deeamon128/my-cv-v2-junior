@@ -1,4 +1,76 @@
 {
     "sectionTitle": "Meet me",
-    "avatarPath": "asset/image/poza.jpg"
+    "avatarPath": "asset/image/poza.jpg",
+    "socialList": [
+        {
+            "icon": "codetap",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "github",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "linkedin",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "codewars",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "udemy",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "facebook",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "skype",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "instagram",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "twitter",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        },
+        {
+            "icon": "stackoverflow",
+            "title": "CodeTap",
+            "description": "asdaseadaads",
+            "label": "codetap.academy",
+            "link" :"https://codetap.academy"
+        }
+    ]
 }
