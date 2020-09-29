@@ -1,4 +1,11 @@
+.connect__radio:checked + .column .connect__disc {
+    background-color: #d52027;
+
+}
+
 .connect__disc {
+    transition: 250ms;
+    display: block;
     background-color: #1875f0;
     border-radius: 50%;
     padding-top: 100%;
