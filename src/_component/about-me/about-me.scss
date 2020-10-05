@@ -1,112 +1,112 @@
 .about-me__main-title,
 .about-me__sub-title{   
-    font-weight: 600;
-    color: #707070;
-    text-align: center;
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
 }
 
 .about-me__lead-title {
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: 600;
-    color: #808080;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
 }
 
 .about-me__sub-title {
-    font-size: 36px;
-    line-height: 48px;
+  font-size: 36px;
+  line-height: 48px;
 }
 .section__title {
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: white;
-    position: relative;
-    font-size: 24px;
-    font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .section__title-wrapper {
-    padding: 10px;
-    height: 60px;
-    background-color: #d52027;
-    position: relative;
-    
-    &::before {
-        position: absolute;
-        content: '';
-        background-color: #d52027;
-        left: -36px;
-        top: 0;
-        bottom: 0;
-        right: -36px;
-    }
-    &::after {
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.27);
-        position: absolute;
-        content: '';
-        left: 0;
-        top: 0;
-        bottom: 0;
-        right: 0;
-    }
+  padding: 10px;
+  height: 60px;
+  background-color: #d52027;
+  position: relative;
+  
+  &::before {
+      position: absolute;
+      content: '';
+      background-color: #d52027;
+      left: -36px;
+      top: 0;
+      bottom: 0;
+      right: -36px;
+  }
+  &::after {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.27);
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+  }
 }   
 
 
 
 
 .description-box__with-shadow {
-    background-color: #fff;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-    padding: 20px;
-    border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
 }
 
 .description {
-    font-size: 14px;
-    color: #707070;
-    font-weight: 600;
-    line-height: 30px;
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  line-height: 30px;
 }
 
 .button__disc--red,
 .button__disc--green {
-    margin: 0px auto;
-    width: 40px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border: 0;
-    border-radius: 50%;
-    color: #fff;
+  margin: 0px auto;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
 }
 
 .button__disc--green {
-    background-color:#50d166;
+  background-color:#50d166;
 }
 .button__disc--red {
-    background-color: #d52027;
+  background-color: #d52027;
 }
 
 .button__pill--blue {
-    height: 40px;
-    margin: 0 auto;
-    color: white;
-    border: 0;
-    border-radius: 20px;
-    padding: 12px 10px 24px;
-    display: inline-flex;
-    font-size: 15px;
-    font-weight: bolder;
+  height: 40px;
+  margin: 0 auto;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 10px 24px;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 .button__pill--blue {
-    background-color: #1875f0;
+  background-color: #1875f0;
 }
 
 button[class^="button__pill"] i[class^="icon__"] {
-    width: 16px;
-    height: 16px;
-    margin-right: 12px;
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
 }

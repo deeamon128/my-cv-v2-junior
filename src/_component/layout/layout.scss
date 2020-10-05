@@ -1,40 +1,40 @@
 // this is hou to quickly reset margin, padding and box sizing to all elements
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
 }
 .column[span="row"] {
-    grid-column: 1/-1;
+  grid-column: 1/-1;
 }
 
 .content {
-    padding: 0 36px;
+  padding: 0 36px;
 }
 
 .column[height="10"] {
-    height: 10px;
+  height: 10px;
 }
 
 input[type="radio"] {
-    display: none;
+  display: none;
 }
 
 .button-text {
-    padding-left: 12px;
+  padding-left: 12px;
 }
 
 .button__pill--blue {
-    text-decoration: none;
+  text-decoration: none;
 }
