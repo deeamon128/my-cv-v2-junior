@@ -5,23 +5,23 @@
         {
             "icon": "codetap",
             "title": "CodeTap",
-            "description": "asdaseadaads",
+            "description": "sdsdsdsdddsssdsds",
             "label": "codetap.academy",
             "link" :"https://codetap.academy"
         },
         {
             "icon": "github",
-            "title": "CodeTap",
-            "description": "asdaseadaads",
-            "label": "codetap.academy",
-            "link" :"https://codetap.academy"
+            "title": "My GitHub profile",
+            "description": "My projects",
+            "label": "github.com/samuray90",
+            "link" :"https://github.com/samuray90"
         },
         {
             "icon": "linkedin",
-            "title": "CodeTap",
-            "description": "asdaseadaads",
-            "label": "codetap.academy",
-            "link" :"https://codetap.academy"
+            "title": "LinkedIn",
+            "description": " Bath College HNC/HND Computing, I am a proud young student of CodeTap Academy that wants to jump-start a web developer career by following Codetap academy and make use of all it's resources ",
+            "label": "linkedin.com/in/i-daniel-petrut-88153b2b",
+            "link" :"https://www.linkedin.com/in/i-daniel-petrut-88153b2b/"
         },
         {
             "icon": "codewars",
