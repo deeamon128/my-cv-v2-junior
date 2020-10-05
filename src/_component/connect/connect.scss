@@ -1,6 +1,40 @@
 .connect__radio:checked + .column .connect__disc {
     background-color: #d52027;
+}
 
+.description-box__body,
+.description-box__footer {
+    padding: 20px;
+}
+
+.description-box__body {
+    border-top: 2px solid #f1ecec;
+    border-bottom: 2px solid #f1ecec;
+
+}
+
+.description-box__with-shadow {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.726);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.description-box__header {
+    padding: 20px;
+    display: flex;
+}
+
+.description-box__paragraph {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.description-box__title {
+    flex-grow: 1;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: capitalize;
 }
 
 .connect__disc {
@@ -11,6 +45,12 @@
     padding-top: 100%;
     position: relative;
     color: white;
+
+    
+&[for="connect__label--reset"] {
+    width: 40px;
+    color: white;
+}
 
     [class^="icon__"] {
         position: absolute;
