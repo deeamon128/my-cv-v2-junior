@@ -1,5 +1,6 @@
 {
   "sectionTitle": "Skills",
+  "description": "light...",
   "legend": {
     "title": "Legend",
     "itemList": [
@@ -19,5 +20,145 @@
         "label":"Skills I'd like to improve"
       }
     ]
-  }
+  },
+  "skillTypeList": [
+    {
+      "type": "Front End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "heart",
+          "label": "Styled Components"
+        },
+        {
+          "type": "trophy",
+          "label": "SASS"
+        },
+        {
+          "type": "trophy",
+          "label": "less"
+        },
+        {
+          "type": "trophy",
+          "label": "matgerial UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SEO"
+        }
+      ]
+    },
+    {
+      "type": "Back End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "pug"
+        },
+        {
+          "type": "heart",
+          "label": "nodeJS"
+        },
+        {
+          "type": "heart",
+          "label": "FireBase"
+        },
+        {
+          "type": "trophy",
+          "label": "Git"
+        },
+        {
+          "type": "trophy",
+          "label": "Redux"
+        },
+        {
+          "type": "trophy",
+          "label": "Linux"
+        },
+        {
+          "type": "trophy",
+          "label": "Rest"
+        },
+        {
+          "type": "trophy",
+          "label": "MySQL"
+        },
+        {
+          "type": "book",
+          "label": "BlockCHain"
+        },
+        {
+          "type": "book",
+          "label": "ElasticSearch"
+        }
+      ]
+    },
+    {
+      "type": "Front End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "heart",
+          "label": "Styled Components"
+        },
+        {
+          "type": "trophy",
+          "label": "SASS"
+        },
+        {
+          "type": "trophy",
+          "label": "less"
+        },
+        {
+          "type": "trophy",
+          "label": "matgerial UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SEO"
+        }
+      ]
+    }
+  ]
 }
+
+
+
