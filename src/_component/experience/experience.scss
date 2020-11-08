@@ -1,3 +1,91 @@
 .experience__list {
-    @extend %rounder-border-list;
+  @extend %rounder-border-list;
 }
+
+.experience__item {
+  @extend %list-item;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.experience__logo-image {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+.experience__logo,
+.experience__chevron {
+ grid-row: 1/3; 
+}
+
+.experience__job-title {
+  grid-column: 2/3;
+  font-weight: bold;
+  grid-row: 1/3;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.experience__chevron {
+  grid-row: 1/3;
+  grid-column: 3/3;
+  margin: 25px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+  .icon__arrow-up {
+    transform: rotate(180deg);
+    margin-bottom: 9px;
+  }
+}
+
+
+
+.experience__company-name {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-bottom: 40px;
+  margin-top: -38px;
+  font-style: italic;
+}
+
+.experience__body {
+  grid-column: 1/-1;
+  padding: 20px;
+  display: none;
+}
+
+.experience__chevron {
+  grid-column: 3/4;
+}
+
+.experience__date {
+  font-size: 12px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.experience__checkbox {
+  display: none;
+
+  &:checked ~ .experience__body {
+    display: block;
+    border-top: 3px solid #707070;
+  }
+
+  &:checked ~ .experience__chevron .icon__arrow-up {
+    transform: rotate(0);
+  }
+}
+
+.experience__more-info {
+  font-weight: 500;
+  font-size: 14px;
+}
+
