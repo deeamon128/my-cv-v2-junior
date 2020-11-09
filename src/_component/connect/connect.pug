@@ -8,36 +8,36 @@ include ../section-title/section-title.pug
 
 each social, key in data.connect.socialList
   input.connect__radio(
-      type="radio"
-      name="connect__label"
-      id=`connect__label--${key}`    
+    type="radio"
+    name="connect__label"
+    id=`connect__label--${key}`    
   )
   .column(span="1")
-      label(for=`connect__label--${key}`).connect__disc
-          i(class=`icon__${social.icon}`)
+    label(for=`connect__label--${key}`).connect__disc
+      i(class=`icon__${social.icon}`)
 
 each social, key in data.connect.socialList
   .column(span="row" data-description-box=key+1)
-      .description-box__with-arrow
-          .description-box__header
-              .description-box__title=social.title
-              .description-box__close
-                  input.connect__radio(
-                      type="radio"
-                      name="connect__label"
-                      id=`connect__label--reset`
-                  )
-                  label(for=`connect__label--reset`).connect__disc
-                      i(class=`icon__cross`)
-          .description-box__body
-              p.description-box__paragraph=social.description
-          .description-box__footer
-              a(
-                  href=social.link
-                  target="_blank"
-              ).button__pill--blue
-                  i.icon__link
-                  span.button-text=social.label
+    .description-box__with-arrow
+      .description-box__header
+        .description-box__title=social.title
+        .description-box__close
+          input.connect__radio(
+              type="radio"
+              name="connect__label"
+              id=`connect__label--reset`
+          )
+          label(for=`connect__label--reset`).connect__disc
+            i(class=`icon__cross`)
+      .description-box__body
+          p.description-box__paragraph=social.description
+      .description-box__footer
+        a(
+          href=social.link
+          target="_blank"
+        ).button__pill--blue
+          i.icon__link
+          span.button-text=social.label
 
 .column(span="row" height="10")
 .column(span="row")

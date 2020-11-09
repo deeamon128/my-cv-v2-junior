@@ -71,7 +71,7 @@
 
 .button__disc--red,
 .button__disc--green {
-  margin: 0px auto;
+  margin: 0 auto;
   width: 40px;
   height: 40px;
   justify-content: center;
@@ -111,4 +111,5 @@ button[class^="button__pill"] i[class^="icon__"] {
   width: 16px;
   height: 16px;
   margin-right: 12px;
+  align-items: center;
 }
