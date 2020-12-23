@@ -1,3 +1,41 @@
+.name,.profession {
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+}
+
+.name {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.profession {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+
+.welcome-info {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.about-me-box {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0,0.25);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.about-me-box-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #707070;
+}
+
 .section-title-wrapper {
   padding: 10px;
   height: 60px;
