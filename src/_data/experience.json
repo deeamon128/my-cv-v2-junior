@@ -1,0 +1,27 @@
+{
+    "sectionTitle":"Experience",
+    "jobList": [
+        {
+            "jobTitle": " React developer",
+            "startDate": "2020 month",
+            "endDate": "2020 month",
+            "iconPath": "arcadia.png",
+            "companyName":"Alibaba",
+            "moreInfoList": [
+                "this is some achievement",
+                "this is another achievement"
+            ]
+        },
+        {
+            "jobTitle": " HTMLS developer",
+            "startDate": "2020 month",
+            "endDate": "2020 month",
+            "iconPath": "argus.png",
+            "companyName":"Alibaba",
+            "moreInfoList": [
+                "this is some achievement",
+                "this is another achievement"
+            ]
+        }
+    ]
+}

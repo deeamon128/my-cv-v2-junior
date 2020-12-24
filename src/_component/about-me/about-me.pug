@@ -1,22 +1,24 @@
+//- pre=JSON.stringify(data['about-me'], null, 2)
+- var sectionTitle = data['about-me'].sectionTitle;
+include ../section-title/section-title
 .column(span="row")
-  .section__title-wrapper
-    .section__title Ionut Daniel Petrut
+  h1.about-me__main-title=data['about-me'].mainTitle
+.column(span="row" height="10")
 .column(span="row")
-  button.button__disc--red
-    i.icon__youtube
+  h2.about-me__sub-title=data['about-me'].subTitle
 .column(span="row")
-  h1.about-me__main-title Curriculum Vitae
-.column(span="row")
-  h2.about-me__sub-title Junior Web Developer
-.column(span="row")
-  h3.about-me__lead-title About me
+  h3.about-me__lead-title=data['about-me'].leadTitle
 .column(span="row")
   .description-box__with-shadow
-    p.description Describe yourself here erfuhnerhfdwersjerwjwerjhfdwerhjfsdrwejfdswrejhfdjfsdhjfsdjfsd
+    each description in data['about-me'].descriptionList
+      p.description=description
+.column(span="row" height="10")
 .column(span="row")
   button.button__pill--blue
     i.icon__download
-    span.button-text Download My CV
+    span.button-text=data['about-me'].downloadButtonLabel
+.column(span="row" height="10")
 .column(span="row")
   button.button__disc--green
     i.icon__arrow-down
+.column(span="row" height="10")
