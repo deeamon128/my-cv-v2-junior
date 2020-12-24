@@ -1,30 +1,28 @@
+//- pre=JSON.stringify(data['welcome-data'], null, 2)
 .column(span="row")
   .section-title-wrapper
-    .section-title Let's get to know each other
+    .section-title=data['welcome-data'].sectionTitle
 .column(span="row" height="10")
 .column(span="row")
   button.circle-red
     i.icon__youtube
 .column(span="row" height="10")
 .column(span="row")
-  h1.name Laurentiu Oncescu
+  h1.name=data['welcome-data'].name
 .column(span="row")
-  h2.profession Junior Web Developer
+  h2.profession=data['welcome-data'].profession
 .column(span="row" height="10")
 .column(span="row")
-  h3.welcome-info Some info about me
+  h3.welcome-info=data['welcome-data'].welcomeInfo
 .column(span="row")
   .about-me-box
-    p.about-me-box-text I am a shy person which once I manage to attach myself to someone or a group of people I can't stop talking.
-      |Once someone becames a part of my life I like to help them and see them succed.Happy people makes me happy too.
-      |I want to see more happy people.In the end this what'll remain with,all the interactions and emotions with people that we met.
-    p.about-me-box-text I like working in web development because web offers me the posibility to work on projects that can be seen by a lot of people around the globe.
-      |While I work on a project I can see my work taking shape every minute,for me this is a very important thing because this makes me feel very happy.
+    each boxText in data['welcome-data'].aboutMeBoxTextList
+      p.about-me-box-text=boxText
 .column(span="row" height="10")
 .column(span="row")
   button.btn-download-blue
     i.icon__download
-    span.text-for-button Click to get my CV
+    span.text-for-button=data['welcome-data'].btnDownloadText
 .column(span="row" height="10")
 .column(span="row")
   button.circle-green
