@@ -8,7 +8,6 @@
     btnDownloadText
   } = data['welcome-data']
 
-//- pre=JSON.stringify(data['welcome-data'], null, 2)
 .column(span="row")
   .section-title-wrapper
     .section-title=sectionTitle
@@ -26,8 +25,6 @@
   h3.welcome-info=welcomeInfo
 .column(span="row")
   .about-me-box
-    each boxText in aboutMeBoxTextList
-      p.about-me-box-text=boxText
     each boxText in aboutMeBoxTextList
       p.about-me-box-text=boxText
 .column(span="row" height="10")
