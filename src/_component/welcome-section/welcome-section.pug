@@ -1,0 +1,39 @@
+-
+  const {
+    aboutMeBoxTextList,
+    sectionTitle,
+    name,
+    profession,
+    welcomeInfo,
+    btnDownloadText
+  } = data['welcome-data']
+
+.column(span="row")
+  .section-title-wrapper
+    .section-title=sectionTitle
+.column(span="row" height="10")
+.column(span="row")
+  button.circle-red
+    i.icon__youtube
+.column(span="row" height="10")
+.column(span="row")
+  h1.name=name
+.column(span="row")
+  h2.profession=profession
+.column(span="row" height="10")
+.column(span="row")
+  h3.welcome-info=welcomeInfo
+.column(span="row")
+  .about-me-box
+    each boxText in aboutMeBoxTextList
+      p.about-me-box-text=boxText
+.column(span="row" height="10")
+.column(span="row")
+  button.btn-download-blue
+    i.icon__download
+    span.text-for-button=btnDownloadText
+.column(span="row" height="10")
+.column(span="row")
+  button.circle-green
+    i.icon__arrow-down
+.column(span="row" height="10")

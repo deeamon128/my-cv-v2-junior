@@ -1,0 +1,121 @@
+.circle-red {
+  background-color: #D52027;
+}
+
+.circle-green {
+  background-color: #50D166;
+}
+
+.circle-red,
+.circle-green {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.name,
+.profession {
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+}
+
+.name {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.profession {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+
+.welcome-info {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.about-me-box {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.about-me-box-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #707070;
+}
+
+.section-title-wrapper {
+  padding: 10px;
+  height: 60px;
+  background-color: #d52027;
+  position: relative;
+  
+  &::before{
+    position: absolute;
+    content: '';
+    background-color: #d52027;
+    top: 0;
+    bottom: 0;
+    left: -36px;
+    right: -36px;
+  }
+  &::after{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.section-title {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+button[class^="btn-download"] i[class^="icon__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-download-blue {
+  height: 40px;
+  margin: 0 auto;
+  color: #FFF;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.btn-download-blue {
+  background-color: #1875F0;
+}
