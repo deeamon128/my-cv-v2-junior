@@ -1,16 +1,20 @@
 .contact__profile-picture {
   padding-top: 100%;
-  background-color: red;
+  background-color: white;
   position: relative;
-
+  box-shadow:0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  transform: rotate(-2.5deg);
+  
   &::after {
     content: '';
     background-image: url('asset/image/Instagram 1080 x 1080 - london.jpg');
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
     background-size: cover;
+    border-radius: 6px;
   }
 }
