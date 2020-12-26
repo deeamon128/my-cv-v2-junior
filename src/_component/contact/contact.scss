@@ -5,12 +5,13 @@
   position: relative;
   color: #FFF;
 
-  .icon__codetap {
+  [class^="icon__"] {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    font-size: 8vw;
     display: flex;
     justify-content: center;
     align-items: center;

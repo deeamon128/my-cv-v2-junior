@@ -1,4 +1,76 @@
 {
   "sectionTitle": "Let's connect", 
-  "profilePicturePath": "asset/image/Instagram 1080 x 1080 - london.jpg"
+  "profilePicturePath": "asset/image/Instagram 1080 x 1080 - london.jpg",
+  "iconsList": [
+    {
+      "icon":"codetap",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"github",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"linkedin",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"stackoverflow",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"codewars",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"udemy",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"facebook",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"skype",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"instagram",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon":"twitter",
+      "title": "CodeTap",
+      "descripiton": "lafoqmfomaofmaomfom",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    }
+  ]
 }

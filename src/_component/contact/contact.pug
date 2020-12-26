@@ -3,10 +3,14 @@ include ../section-title/section-title
 
 .column(span="row")
   .contact__profile-picture
+.column(span="row" height="10")
+each iconita in data.contact.iconsList 
+  .column(span="1")
+    .contact__icon
+      div(class=`icon__${iconita.icon}`)
+
+.column(span="row" height="10")
 .column(span="row")
-.column(span="1")
-  .contact__icon
-    .icon__codetap
-.column(span="1")
-  .contact__icon
-    .icon__codetap
+  button.circle-green
+    i.icon__arrow-down
+.column(span="row" height="10")
