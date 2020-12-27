@@ -16,14 +16,17 @@ each iconita, cheie in data.contact.iconsList
 
 .column(span="row" height="10")
 .column(span="row")
-  .about-me-box
-    input.contact__radio(
-      type="radio"
-      name="contact__label"
-      id=`contact__label--remove`
-    )
-    label(for=`contact__label--remove`).contact__icon
-      div(class=`icon__cross`)
+  .about-me-box__with-arrow
+    .about-me-box__title
+      .about-me-box__title-text HIHIHIHEHEHE
+      .about-me-box__cross
+        input.contact__radio(
+          type="radio"
+          name="contact__label"
+          id=`contact__label--remove`
+        )
+        label(for=`contact__label--remove`).contact__icon
+          div(class=`icon__cross`)
 .column(span="row" height="10")
 .column(span="row")
   button.circle-green

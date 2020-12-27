@@ -13,6 +13,8 @@
   color: #FFF;
   cursor: pointer;
 
+  
+
   [class^="icon__"] {
     position: absolute;
     top: 0;
@@ -45,4 +47,25 @@
     background-size: cover;
     border-radius: 6px;
   }
+}
+
+.about-me-box__with-arrow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.about-me-box__title {
+  padding: 20px;
+  display: flex;
+}
+
+.about-me-box__title-text {
+  flex-grow: 1;
+  line-height: 40px;
+
+}
+
+[for="contact__label--remove"] {
+  width: 40px;
+  color: white;
 }
