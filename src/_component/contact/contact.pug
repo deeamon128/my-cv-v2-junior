@@ -18,7 +18,7 @@ each iconita, cheie in data.contact.iconsList
 .column(span="row")
   .about-me-box__with-arrow
     .about-me-box__title
-      .about-me-box__title-text HIHIHIHEHEHE
+      .about-me-box__title-text hihehehhehe
       .about-me-box__cross
         input.contact__radio(
           type="radio"
@@ -27,6 +27,12 @@ each iconita, cheie in data.contact.iconsList
         )
         label(for=`contact__label--remove`).contact__icon
           div(class=`icon__cross`)
+    .about-me-box__content
+      p.about-me-box_paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero! Cum placeat maiores aperiam omnis? Magni tenetur debitis nihil. Dicta harum cumque vel voluptates maiores similique incidunt odio modi libero.
+    .about-me-box__end
+      button.btn-download-blue
+        i.icon__link
+        span.text-for-button=btnDownloadText
 .column(span="row" height="10")
 .column(span="row")
   button.circle-green

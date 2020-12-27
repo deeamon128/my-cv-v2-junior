@@ -13,7 +13,10 @@
   color: #FFF;
   cursor: pointer;
 
-  
+  &[for="contact__label--remove"] {
+    width: 40px;
+    color: white;
+  }
 
   [class^="icon__"] {
     position: absolute;
@@ -52,6 +55,7 @@
 .about-me-box__with-arrow {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
+  background-color: #fff;
 }
 
 .about-me-box__title {
@@ -62,10 +66,26 @@
 .about-me-box__title-text {
   flex-grow: 1;
   line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: capitalize;
 
 }
 
-[for="contact__label--remove"] {
-  width: 40px;
-  color: white;
+.about-me-box__end,
+.about-me-box__content {
+  padding: 20px;
 }
+
+.about-me-box__content {
+  border-top: 2px solid #F5F5F5;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.about-me-box_paragraph {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+
+
