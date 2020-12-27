@@ -7,13 +7,23 @@ include ../section-title/section-title
 each iconita, cheie in data.contact.iconsList
   input.contact__radio(
     type="radio"
-    name="socialRadio"
+    name="contact__label"
     id=`contact__label--${cheie}`
   )
   .column(span="1")
     label(for=`contact__label--${cheie}`).contact__icon
       div(class=`icon__${iconita.icon}`)
 
+.column(span="row" height="10")
+.column(span="row")
+  .about-me-box
+    input.contact__radio(
+      type="radio"
+      name="contact__label"
+      id=`contact__label--remove`
+    )
+    label(for=`contact__label--remove`).contact__icon
+      div(class=`icon__cross`)
 .column(span="row" height="10")
 .column(span="row")
   button.circle-green
