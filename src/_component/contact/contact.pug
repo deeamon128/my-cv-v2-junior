@@ -4,10 +4,14 @@ include ../section-title/section-title
 .column(span="row")
   .contact__profile-picture
 .column(span="row" height="10")
-each iconita in data.contact.iconsList
-  input.contact__radio(type="radio")
+each iconita, cheie in data.contact.iconsList
+  input.contact__radio(
+    type="radio"
+    name="socialRadio"
+    id=`contact__label--${cheie}`
+  )
   .column(span="1")
-    .contact__icon
+    label(for=`contact__label--${cheie}`).contact__icon
       div(class=`icon__${iconita.icon}`)
 
 .column(span="row" height="10")
