@@ -4,7 +4,8 @@ include ../section-title/section-title
 .column(span="row")
   .contact__profile-picture
 .column(span="row" height="10")
-each iconita in data.contact.iconsList 
+each iconita in data.contact.iconsList
+  input.contact__radio(type="radio")
   .column(span="1")
     .contact__icon
       div(class=`icon__${iconita.icon}`)
