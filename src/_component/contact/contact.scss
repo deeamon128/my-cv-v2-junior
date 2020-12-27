@@ -3,6 +3,18 @@
 
 }
 
+@for $pere from 1 to 11 {
+  .contact__radio:nth-of-type(#{$pere}):checked ~ [about-me-box="#{$pere}"] {
+    display: block;
+  
+  }
+}
+
+[about-me-box] {
+  display: none;
+}
+
+
 .contact__icon {
   display: block;
   transition: 250ms;
@@ -57,6 +69,8 @@
   border-radius: 6px;
   background-color: #fff;
   position: relative;
+  margin-top: 1rem;
+  
   
   &::after {
     content: "";
@@ -89,6 +103,11 @@
 .about-me-box__end,
 .about-me-box__content {
   padding: 20px;
+}
+
+.about-me-box__end {
+  display: flex;
+  justify-content: center;
 }
 
 .about-me-box__content {
