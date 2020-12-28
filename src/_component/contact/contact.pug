@@ -1,0 +1,44 @@
+- var { sectionTitle } = data['contact']
+include ../section-title/section-title
+
+.column(span="row")
+  .contact__profile-picture
+
+.column(span="row" height="10")
+each iconita, cheie in data.contact.iconsList
+  input.contact__radio(
+    type="radio"
+    name="contact__label"
+    id=`contact__label--${cheie}`
+  )
+  .column(span="1")
+    label(for=`contact__label--${cheie}`).contact__icon
+      div(class=`icon__${iconita.icon}`)
+
+each iconita, cheie in data.contact.iconsList
+  .column(span="row" about-me-box=cheie + 1)
+    .about-me-box__with-arrow
+      .about-me-box__title
+        .about-me-box__title-text=iconita.title
+        .about-me-box__cross
+          input.contact__radio(
+            type="radio"
+            name="contact__label"
+            id=`contact__label--remove`
+          )
+          label.contact__icon(for=`contact__label--remove`)
+            div(class=`icon__cross`)
+      .about-me-box__content
+        p.about-me-box_paragraph=iconita.description
+      .about-me-box__end
+        a.btn-download-blue(
+          href=iconita.link
+          target="_blank"
+        )
+          i.icon__link
+          span.text-for-button=iconita.label
+.column(span="row" height="10")
+.column(span="row")
+  button.circle-green
+    i.icon__arrow-down
+.column(span="row" height="10")

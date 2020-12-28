@@ -1,0 +1,118 @@
+.contact__radio:checked + .column .contact__icon {
+  background-color: #d52027;
+}
+
+@for $pere from 1 to 11 {
+  .contact__radio:nth-of-type(#{$pere}):checked ~ [about-me-box="#{$pere}"] {
+    display: block;
+  }
+}
+
+[about-me-box] {
+  display: none;
+}
+
+
+.contact__icon {
+  display: block;
+  transition: 250ms;
+  background-color: #1875F0;
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+  color: #FFF;
+  cursor: pointer;
+
+  &[for="contact__label--remove"] {
+    width: 40px;
+    color: white;
+  }
+
+  [class^="icon__"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+.contact__profile-picture {
+  padding-top: 100%;
+  background-color: white;
+  position: relative;
+  box-shadow:0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  transform: rotate(-2.5deg);
+  
+  &::after {
+    content: '';
+    background-image: url('asset/image/Instagram 1080 x 1080 - london.jpg');
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background-size: cover;
+    border-radius: 6px;
+  }
+}
+
+.about-me-box__with-arrow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  background-color: #fff;
+  position: relative;
+  margin-top: 1rem;
+  
+  
+  &::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    top: -7px;
+    left: 15px;
+    clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+    transform: rotate(45deg);
+  }
+}
+
+.about-me-box__title {
+  padding: 20px;
+  display: flex;
+}
+
+.about-me-box__title-text {
+  flex-grow: 1;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.about-me-box__end,
+.about-me-box__content {
+  padding: 20px;
+}
+
+.about-me-box__end {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-box__content {
+  border-top: 2px solid #F5F5F5;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.about-me-box_paragraph {
+  font-size: 14px;
+  line-height: 30px;
+}
