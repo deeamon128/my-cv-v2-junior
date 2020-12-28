@@ -1,12 +1,10 @@
 .contact__radio:checked + .column .contact__icon {
   background-color: #d52027;
-
 }
 
 @for $pere from 1 to 11 {
   .contact__radio:nth-of-type(#{$pere}):checked ~ [about-me-box="#{$pere}"] {
     display: block;
-  
   }
 }
 
@@ -97,7 +95,6 @@
   font-weight: 500;
   font-size: 22px;
   text-transform: capitalize;
-
 }
 
 .about-me-box__end,
@@ -119,6 +116,3 @@
   font-size: 14px;
   line-height: 30px;
 }
-
-
-
