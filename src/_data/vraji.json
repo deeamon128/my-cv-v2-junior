@@ -9,12 +9,12 @@
         "label": "Skills I love"
       },
       {
-        "icon": "heart",
+        "icon": "trophy",
         "color": "orange",
         "label": "Skills I'm good at"
       },
       {
-        "icon": "heart",
+        "icon": "book",
         "color": "green",
         "label": "Skills I'd love to get better at"
       }

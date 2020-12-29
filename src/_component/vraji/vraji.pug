@@ -3,9 +3,10 @@ include ../section-title/section-title
 
 .column(span="row")
   h3.welcome-info=data.vraji.legend.titlu
-  ul
+.column(span="row")
+  ul.lista__vraji
     each burlan, cheie in data.vraji.legend.listaElemente
       li
-        span=burlan.icon
+        span(class=`icon__${burlan.icon}`)=burlan.icon
         span=burlan.label
         span=cheie + 1
