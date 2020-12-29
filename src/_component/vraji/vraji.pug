@@ -6,7 +6,7 @@ include ../section-title/section-title
 .column(span="row")
   ul.lista__vraji
     each burlan, cheie in data.vraji.legend.listaElemente
-      li
-        span(class=`icon__${burlan.icon}`)=burlan.icon
-        span=burlan.label
-        span=cheie + 1
+      li.item__vraji
+        span.icon__vraji(class=`icon__${burlan.icon}`)
+        span.label__vraji=burlan.label
+        span.numar__vraji=cheie + 1
