@@ -42,3 +42,29 @@
 .label__vraji {
   flex-grow: 1;
 }
+
+.vraji__vraja--heart {
+  background-color: #d52027;
+}
+
+.vraji__vraja--trophy {
+  background-color: #50D166;
+}
+
+.vraji__vraja--book {
+  background-color: #F18F1C;
+}
+
+.vraji__vraja--book,
+.vraji__vraja--trophy,
+.vraji__vraja--heart {
+  font-size: 12px;
+  font-weight: bolder;
+  color: #FFF;
+  line-height: 30px;
+  padding: 0 18px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

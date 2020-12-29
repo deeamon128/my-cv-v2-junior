@@ -10,3 +10,16 @@ include ../section-title/section-title
         span.icon__vraji(class=`icon__${burlan.icon}`)
         span.label__vraji=burlan.label
         span.numar__vraji=cheie + 1
+each vrajaType in data.vraji.vrajiTypeList
+  .column(span="row" height="10")
+  .column(span="row")
+    h3.welcome-info=vrajaType.titlu
+  .column(span="row")
+    each vraja in vrajaType.vrajiList
+      span(
+        class=`vraji__vraja--${vraja.type}`
+      )=vraja.label
+
+.column(span="row")
+  .about-me-box
+    p.about-me-box-text=data.vraji.description
