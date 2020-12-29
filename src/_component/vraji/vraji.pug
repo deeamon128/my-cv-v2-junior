@@ -1,2 +1,11 @@
 - var { sectionTitle } = data['vraji']
 include ../section-title/section-title
+
+.column(span="row")
+  h3.welcome-info=data.vraji.legend.titlu
+  ul
+    each burlan, cheie in data.vraji.legend.listaElemente
+      li
+        span=burlan.icon
+        span=burlan.label
+        span=cheie + 1
