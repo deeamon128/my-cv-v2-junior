@@ -3,3 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.column[span="row"] {
+  grid-column: 1/-1;
+}
