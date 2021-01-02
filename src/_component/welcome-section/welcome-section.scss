@@ -49,3 +49,24 @@
   color: #707070;
   font-weight: 600;
 }
+
+.circle__button--green {
+  background-color: #50D166;
+}
+
+.circle__button--red {
+  background-color: #D52027;
+}
+
+.circle__button--red,
+.circle__button--green {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0;
+  color: #FFF;
+  margin: 0 auto;
+}
