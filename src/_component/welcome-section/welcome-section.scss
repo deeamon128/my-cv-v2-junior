@@ -2,7 +2,27 @@
   padding: 10px;
   height: 60px;
   background-color: #D52027;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: #D52027;
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    right: -36px;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 .titlu__text {
@@ -10,6 +30,9 @@
   line-height: 40px;
   text-align: center;
   color: #FFF;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .nume__tandem,
@@ -70,3 +93,4 @@
   color: #FFF;
   margin: 0 auto;
 }
+
