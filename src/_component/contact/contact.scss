@@ -61,12 +61,13 @@
   align-items: center;
 }
 
-.aboutus__box__text {
+.aboutus__box__titlu {
   flex-grow: 1;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 30px;
   color: #808080;
+  text-transform: capitalize;
 }
 
 .aboutus__box__end,
@@ -74,3 +75,29 @@
   padding: 20px;
 }
 
+.aboutus__box__content {
+  border-top: 2px solid #F5F5F5;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.button__link {
+  height: 40px;
+  background-color: #1875F0;
+  margin: 0 auto;
+  color: #FFF;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+
+button [class^="icon__"] {
+  width: 16px;
+  height: 16px;
+}
+
+.button__link [class^="icon__"] {
+  margin-right: 12px;
+}
