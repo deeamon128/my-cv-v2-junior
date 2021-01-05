@@ -28,6 +28,10 @@
   color: #FFF;
   cursor: pointer;
   
+  &[for="contact__label--reset"] {
+    width: 40px;
+  }
+  
   [class^="icon__"] {
     position: absolute;
     top: 0;
@@ -54,12 +58,19 @@
 .aboutus__box__top {
   padding: 20px;
   display: flex;
+  align-items: center;
 }
 
 .aboutus__box__text {
   flex-grow: 1;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #808080;
 }
 
-[for="contact__label--reset"] {
-  width: 40px;
+.aboutus__box__end,
+.aboutus__box__content {
+  padding: 20px;
 }
+
