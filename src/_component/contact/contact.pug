@@ -5,9 +5,14 @@ include ../titlu/titlu
   .contact__image
 .column(span="row" height="10")
 
-each cerc in data.contact.buttonsList
+each cerc, cheita in data.contact.buttonsList
+  input.contact__radio(
+    type="radio"
+    name="varza"
+    id=`contact__label--${cheita+1}`
+    )
   .column(span="1")
-    .contact__button
+    label(for=`contact__label--${cheita+1}`).contact__button
       div(class=`icon__${cerc.icon}`)
 
 .column(span="row" height="10")
