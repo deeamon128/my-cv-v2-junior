@@ -5,16 +5,31 @@ include ../titlu/titlu
   .contact__image
 .column(span="row" height="10")
 
+
+
 each cerc, cheita in data.contact.buttonsList
   input.contact__radio(
     type="radio"
-    name="varza"
+    name="contact__label"
     id=`contact__label--${cheita+1}`
     )
   .column(span="1")
     label(for=`contact__label--${cheita+1}`).contact__button
-      div(class=`icon__${cerc.icon}`)
+      i(class=`icon__${cerc.icon}`)
 
+.column(span="row" height="10")
+.column(span="row")
+  .aboutus__box__contact
+    .aboutus__box__top
+      .aboutus__box__text Margarina cu gem
+      .aboutus__box__reset
+        input.contact__radio(
+          type="radio"
+          name="contact__label"
+          id=`contact__label--reset`
+          )
+        label(for=`contact__label--reset`).contact__button
+          i(class=`icon__cross`)
 .column(span="row" height="10")
 .column(span="row")
   button.circle__button--green
