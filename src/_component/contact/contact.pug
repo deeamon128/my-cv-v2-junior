@@ -3,11 +3,16 @@ include ../titlu/titlu
 
 .column(span="row")
   .contact__image
-.column(height="10")
+.column(span="row" height="10")
+
+each cerc in data.contact.buttonsList
+  .column(span="1")
+    .contact__button
+      div(class=`icon__${cerc.icon}`)
+
+.column(span="row" height="10")
 .column(span="row")
-.column(span="1")
-  .contact__button
-    .icon__twitter
-.column(span="1")
-  .contact__button
-    .icon__twitter
+  button.circle__button--green
+    i.icon__arrow-down
+.column(span="row" height="10")
+
