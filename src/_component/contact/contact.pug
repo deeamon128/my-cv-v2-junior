@@ -17,25 +17,28 @@ each cerc, cheita in data.contact.buttonsList
     label(for=`contact__label--${cheita+1}`).contact__button
       i(class=`icon__${cerc.icon}`)
 
-.column(span="row" height="10")
-.column(span="row")
-  .aboutus__box__contact
-    .aboutus__box__top
-      .aboutus__box__titlu Margarina cu gem
-      .aboutus__box__reset
-        input.contact__radio(
-          type="radio"
-          name="contact__label"
-          id=`contact__label--reset`
-          )
-        label(for=`contact__label--reset`).contact__button
-          i(class=`icon__cross`)
-    .aboutus__box__content
-      p.aboutus__box__text Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam voluptatem esse facere, repudiandae sequi est ducimus. Eius iure quos expedita suscipit iusto ea in molestias, voluptatem odio commodi omnis debitis?
-    .aboutus__box__end
-      button.button__link
-        i.icon__link
-        span.button_text=data.contact.buttonsList[0].label
+each cerc, cheita in data.contact.buttonsList
+  .column(span="row" data-contact-box=cheita+1)
+    .aboutus__box__contact
+      .aboutus__box__top
+        .aboutus__box__titlu=cerc.header
+        .aboutus__box__reset
+          input.contact__radio(
+            type="radio"
+            name="contact__label"
+            id=`contact__label--reset`
+            )
+          label(for=`contact__label--reset`).contact__button
+            i(class=`icon__cross`)
+      .aboutus__box__content
+        p.aboutus__box__text=cerc.buttonContent
+      .aboutus__box__end
+        a(
+          href=cerc.link
+          target="_blank"
+        ).button__link
+          i.icon__link
+          span.button_text=cerc.label
 
 .column(span="row" height="10")
 .column(span="row")
