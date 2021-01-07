@@ -1,11 +1,6 @@
-.column(span="row")
-  .titlu
-    .titlu__text=data['welcome-section'].titluText
-.column(span="row" height="10")
-.column(span="row")
-  button.circle__button--red
-    i.icon__twitter
-.column(span="row" height="10")
+- var titluText=data['welcome-section'].titluText
+include ../titlu/titlu
+
 .column(span="row")
   h1.nume__tandem=data['welcome-section'].numeTandem
 .column(span="row")
