@@ -1,0 +1,137 @@
+.contact__image {
+  background-color: #FFF;
+  padding-top: 100%;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  
+  &::after {
+    content: '';
+    background-image: url('asset/image/tandemuloncescu.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 6px;
+  }
+}
+
+.contact__button {
+  display: block;
+  transition: 250ms;
+  background-color: #1875F0;
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+  color: #FFF;
+  cursor: pointer;
+  
+  &[for="contact__label--reset"] {
+    width: 40px;
+  }
+  
+  [class^="icon__"] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+  }
+}
+
+.contact__radio:checked + .column .contact__button{
+  background-color: #DF2027; 
+}
+
+.aboutus__box__contact {
+  background-color: #FFF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  position: relative;
+  margin-top: 1rem;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    top: -7px;
+    left: 15px;
+    clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+    transform: rotate(45deg);
+  }
+}
+
+.aboutus__box__top {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.aboutus__box__titlu {
+  flex-grow: 1;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
+  text-transform: capitalize;
+}
+
+.aboutus__box__end {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus__box__end,
+.aboutus__box__content {
+  padding: 20px;
+}
+
+.aboutus__box__content {
+  border-top: 2px solid #F5F5F5;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.button__link {
+  height: 40px;
+  background-color: #1875F0;
+  margin: 0 auto;
+  color: #FFF;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+button [class^="icon__"] {
+  width: 16px;
+  height: 16px;
+}
+
+.button__link [class^="icon__"] {
+  margin-right: 12px;
+}
+
+a.button__link {
+  text-decoration: none;
+}
+
+@for $sardina from 1 to 5 {
+  .contact__radio:nth-of-type(#{$sardina}):checked ~ [data-contact-box="#{$sardina}"] {
+    display: block;
+  }
+}
+
+[data-contact-box] {
+  display: none;
+}
