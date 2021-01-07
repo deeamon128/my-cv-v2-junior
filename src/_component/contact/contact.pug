@@ -11,10 +11,10 @@ each cerc, cheita in data.contact.buttonsList
   input.contact__radio(
     type="radio"
     name="contact__label"
-    id=`contact__label--${cheita+1}`
+    id=`contact__label--${cheita + 1}`
   )
   .column(span="1")
-    label(for=`contact__label--${cheita+1}`).contact__button
+    label(for=`contact__label--${cheita + 1}`).contact__button
       i(class=`icon__${cerc.icon}`)
 
 each cerc, cheita in data.contact.buttonsList
@@ -27,7 +27,7 @@ each cerc, cheita in data.contact.buttonsList
             type="radio"
             name="contact__label"
             id=`contact__label--reset`
-            )
+          )
           label(for=`contact__label--reset`).contact__button
             i(class=`icon__cross`)
       .aboutus__box__content
