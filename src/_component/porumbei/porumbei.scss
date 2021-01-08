@@ -1,0 +1,8 @@
+.contact__image {
+
+  @for $numar from 1 to 7 {
+    &[porumbel="porumbelul#{$numar}"]::after {
+      background-image: url('asset/image/porumbel#{$numar}.jpg');
+    }
+  }
+}
