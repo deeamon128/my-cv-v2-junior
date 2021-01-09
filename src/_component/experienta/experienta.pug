@@ -9,8 +9,8 @@ include ../section-title/section-title
         .logo-firma__experienta
           img(src=`${baseUrl}asset/image/company-logo/${serviciu.imagePath}`)
         .titlu-job__experienta=serviciu.jobRole
+        .chevron__experienta aaa
         .nume-companie__experienta=serviciu.companyName
-        .chevron__experienta
         .content__experienta
           .data__experienta=`${serviciu.firstDate} - ${serviciu.secondDate}`
           each contentExperienta in serviciu.content
