@@ -3,9 +3,12 @@
 }
 
 .element__experienta {
-  @extend %list-item;
   display: grid;
   grid-template-columns: auto 1fr auto;
+  
+  &:not(:last-child) {
+    @extend %list-item;
+  }
 }
 
 .chevron__experienta {
@@ -29,6 +32,10 @@
 
 .content__experienta {
   grid-column: 1/-1;
+  padding: 20px;
+  color: #707070;
+  display: none;
+  border-top: 2px solid #707070;
 }
 
 .logo-firma__imagine {
@@ -62,8 +69,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
   .icon__arrow-up {
     transform: rotate(180deg);
+  }
+}
+
+.data__experienta {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.text__experienta {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.experienta__checkbox {
+  display: none;
+
+  &:checked ~ .content__experienta {
+    display: block;
+  }
+
+  &:checked ~ .chevron__experienta .icon__arrow-up{
+    transform: rotate(0);
   }
 }

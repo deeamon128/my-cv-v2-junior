@@ -4,15 +4,21 @@ include ../section-title/section-title
 .column(span="row" height="10")
 .column(span="row")
   ul.lista__experienta
-    each serviciu in data.experienta.experienceList
+    each serviciu, cheie in data.experienta.experienceList
       li.element__experienta
+        input(
+          type="checkbox"
+          id=`experienta_checkbox-${cheie}`
+        ).experienta__checkbox
         .logo-firma__experienta
           img.logo-firma__imagine(
             src=`${baseUrl}asset/image/company-logo/${serviciu.imagePath}`
             width="50"
           )
         .titlu-job__experienta=serviciu.jobRole
-        .chevron__experienta
+        label(
+          for=`experienta_checkbox-${cheie}`
+        ).chevron__experienta
           .icon__arrow-up
         .nume-companie__experienta=serviciu.companyName
         .content__experienta

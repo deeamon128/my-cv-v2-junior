@@ -4,7 +4,11 @@
 
 .item__vraji {
   display: flex;
-  @extend %list-item;
+
+  &:not(:last-child) {
+    @extend %list-item;
+  }
+
 
   &:first-child .icon__vraji{
     color: #d52027;
