@@ -7,9 +7,13 @@ include ../section-title/section-title
     each serviciu in data.experienta.experienceList
       li.element__experienta
         .logo-firma__experienta
-          img(src=`${baseUrl}asset/image/company-logo/${serviciu.imagePath}`)
+          img.logo-firma__imagine(
+            src=`${baseUrl}asset/image/company-logo/${serviciu.imagePath}`
+            width="50"
+          )
         .titlu-job__experienta=serviciu.jobRole
-        .chevron__experienta aaa
+        .chevron__experienta
+          .icon__arrow-up
         .nume-companie__experienta=serviciu.companyName
         .content__experienta
           .data__experienta=`${serviciu.firstDate} - ${serviciu.secondDate}`

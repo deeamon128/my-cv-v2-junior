@@ -30,3 +30,40 @@
 .content__experienta {
   grid-column: 1/-1;
 }
+
+.logo-firma__imagine {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.titlu-job__experienta {
+  margin-top: 20px;
+  color: #808080;
+  font-weight: bold;
+}
+
+.nume-companie__experienta,
+.titlu-job__experienta {
+  line-height: 20px;
+}
+
+.nume-companie__experienta {
+  margin-bottom: 20px;
+  color: #707070;
+  font-style: italic;
+}
+
+.chevron__experienta {
+  margin: 25px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .icon__arrow-up {
+    transform: rotate(180deg);
+  }
+}
