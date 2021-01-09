@@ -5,7 +5,16 @@ include ../section-title/section-title
 .column(span="row")
   ul.lista__experienta
     each serviciu in data.experienta.experienceList
-      li=serviciu.jobRole
+      li.element__experienta
+        .logo-firma__experienta
+          img(src=`${baseUrl}asset/image/company-logo/${serviciu.imagePath}`)
+        .titlu-job__experienta=serviciu.jobRole
+        .nume-companie__experienta=serviciu.companyName
+        .chevron__experienta
+        .content__experienta
+          .data__experienta=`${serviciu.firstDate} - ${serviciu.secondDate}`
+          each contentExperienta in serviciu.content
+            .text__experienta=contentExperienta
 .column(span="row" height="10")
 .column(span="row")
   button.circle-green
