@@ -1,0 +1,32 @@
+- var { sectionTitle } = data.experienta
+include ../section-title/section-title
+
+.column(span="row" height="10")
+.column(span="row")
+  ul.lista__experienta
+    each serviciu, cheie in data.experienta.experienceList
+      li.element__experienta
+        input(
+          type="checkbox"
+          id=`experienta_checkbox-${cheie}`
+        ).experienta__checkbox
+        .logo-firma__experienta
+          img.logo-firma__imagine(
+            src=`${baseUrl}asset/image/company-logo/${serviciu.imagePath}`
+            width="50"
+          )
+        .titlu-job__experienta=serviciu.jobRole
+        label(
+          for=`experienta_checkbox-${cheie}`
+        ).chevron__experienta
+          .icon__arrow-up
+        .nume-companie__experienta=serviciu.companyName
+        .content__experienta
+          .data__experienta=`${serviciu.firstDate} - ${serviciu.secondDate}`
+          each contentExperienta in serviciu.content
+            .text__experienta=contentExperienta
+.column(span="row" height="10")
+.column(span="row")
+  button.circle-green
+    i.icon__arrow-down
+.column(span="row" height="10")

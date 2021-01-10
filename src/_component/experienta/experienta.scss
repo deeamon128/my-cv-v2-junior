@@ -1,0 +1,100 @@
+.lista__experienta {
+  @extend %rounded-border-list;
+}
+
+.element__experienta {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  
+  &:not(:last-child) {
+    @extend %list-item;
+  }
+}
+
+.chevron__experienta {
+  grid-column: 3/4;
+}
+
+.chevron__experienta,
+.logo-firma__experienta {
+  grid-row: 1/3;
+}
+
+.titlu-job__experienta {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.nume-companie__experienta {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.content__experienta {
+  grid-column: 1/-1;
+  padding: 20px;
+  color: #707070;
+  display: none;
+  border-top: 2px solid #707070;
+}
+
+.logo-firma__imagine {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.titlu-job__experienta {
+  margin-top: 20px;
+  color: #808080;
+  font-weight: bold;
+}
+
+.nume-companie__experienta,
+.titlu-job__experienta {
+  line-height: 20px;
+}
+
+.nume-companie__experienta {
+  margin-bottom: 20px;
+  color: #707070;
+  font-style: italic;
+}
+
+.chevron__experienta {
+  margin: 25px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .icon__arrow-up {
+    transform: rotate(180deg);
+  }
+}
+
+.data__experienta {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.text__experienta {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.experienta__checkbox {
+  display: none;
+
+  &:checked ~ .content__experienta {
+    display: block;
+  }
+
+  &:checked ~ .chevron__experienta .icon__arrow-up{
+    transform: rotate(0);
+  }
+}
