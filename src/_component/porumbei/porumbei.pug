@@ -1,9 +1,9 @@
-- var titluText=data.porumbei.titluText
+- var titluText = data.porumbei.titluText
 include ../titlu/titlu.pug
 
 each animal in data.porumbei.listaPorumbei
   .column(span="row")
-    .contact__image(porumbel=`${animal}`)
+    .contact__image(porumbel=${animal})
   .column(span="row" height="10")
 
 .column(span="row")
