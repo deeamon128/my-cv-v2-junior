@@ -1,2 +1,12 @@
 - var {sectionTitle} = data['open-source']
 include ../section-title/section-title
+
+.column(span="row")
+  h3.stats__title=data['open-source'].statsSection.statsTitle
+.column(span="row")
+  ul.stats__list
+    each statsRow in data['open-source'].statsSection.statsBox
+      li.stats__item
+        i.stas__icon(class=`icon__${statsRow.icon}`)
+        each paragraf in statsRow.contentRow
+          p=paragraf

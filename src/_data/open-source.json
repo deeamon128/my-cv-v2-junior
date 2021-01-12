@@ -1,3 +1,31 @@
 {
-  "sectionTitle": "Open source"
+  "sectionTitle": "Open source",
+  "statsSection": {
+    "statsTitle": "Stats",
+    "statsBox": [
+      {
+        "icon":"github",
+        "contentRow": [
+          "Contributions last year: 126",
+          "Longest streak: 41"  
+        ]
+      },
+      {
+        "icon":"codewars",
+        "contentRow": [
+          "Rank: 3kyu",
+          "Honor: 341"  
+        ]
+      },
+      {
+        "icon":"stackoverflow",
+        "contentRow": [
+          "Top: 70%",
+          "Reputation: 1241",
+          "People reached: 327",
+          "Answers: 17"
+        ]
+      }
+    ]
+  }
 }
