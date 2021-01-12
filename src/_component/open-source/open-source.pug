@@ -14,3 +14,23 @@ include ../section-title/section-title
 
 .column(span="row" height="10")
 .column(span="row")
+  h3.semi__title=data['open-source'].githubSection.githubTitle
+.column(span="row")
+  each project in data['open-source'].githubSection.githubProjects
+    ul.githubList
+      li.githubItem
+        p=project.projectTitle
+        p=project.projectTehnologies
+      li.githubItem
+        each percentage in project.percentages
+          p=percentage
+      li.githubItem
+        each number in project.githubNumbers
+          i.icon__github
+          p=number.content
+      li.githubItem
+        p=project.projectDescription
+      li.githubItem
+        button.button__project
+          .text hahaha
+          span=project.projectButton.buttonText
