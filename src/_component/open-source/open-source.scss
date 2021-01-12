@@ -1,0 +1,37 @@
+.semi__title {
+  font-size: 22px;
+  line-height: 30px;
+  color: #707070;
+  font-weight: 500;
+}
+
+.stats__list {
+  @extend %rounded-border-list;
+  width: 302px;
+}
+
+.stats__item {
+  @extend %list-item;
+  display: flex;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.stats__icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats__content {
+  padding-top: 8px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #707070;
+  font-weight: 700;
+}
