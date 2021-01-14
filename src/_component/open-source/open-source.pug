@@ -15,22 +15,24 @@ include ../section-title/section-title
 .column(span="row" height="10")
 .column(span="row")
   h3.semi__title=data['open-source'].githubSection.githubTitle
-.column(span="row")
-  each project in data['open-source'].githubSection.githubProjects
+
+each project in data['open-source'].githubSection.githubProjects
+  .column(span="row")
     ul.githubList
       li.githubItem
-        p=project.projectTitle
-        p=project.projectTehnologies
+        p.projectTitle=project.projectTitle
+        p.projectTehnologies=project.projectTehnologies
       li.githubItem
-        each percentage in project.percentages
-          p=percentage
+        each percentage, pnumber in project.percentages
+          p.percentage=percentage
+            span(class=`percentage-circle__${pnumber}`)
       li.githubItem
         each number in project.githubNumbers
+          p.githubStats=number.content
+            i.githubStats__icon(class=`icon__${number.icon}`)
+      li.githubItem
+        p.percentage=project.projectDescription
+      li.githubItem
+        button.btn-download-blue
           i.icon__github
-          p=number.content
-      li.githubItem
-        p=project.projectDescription
-      li.githubItem
-        button.button__project
-          .text hahaha
-          span=project.projectButton.buttonText
+          span.text-for-button=project.projectButton.buttonText
