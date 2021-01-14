@@ -75,18 +75,22 @@
   left: -15px;
 }
 
+.bar-number__0,
 .percentage-circle__0 {
   background-color: #1875F0;
 }
 
+.bar-number__1,
 .percentage-circle__1 {
   background-color: #D52027;
 }
 
+.bar-number__2,
 .percentage-circle__2 {
   background-color: #20D55D;
 }
 
+.bar-number__3,
 .percentage-circle__3 {
   background-color: #F0E218;
 }
@@ -103,6 +107,11 @@
   align-items: center;
 }
 
+.githubItem:last-child {
+  height: 10px;
+  padding: 0;
+}
+
 .githubStats {
   color: #707070;
   font-size: 16px;
@@ -115,4 +124,8 @@
   position: absolute;
   left: -25px;
   top: 5px;
+}
+
+[class^="bar-number__"] {
+  height: 100%;
 }

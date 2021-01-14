@@ -36,6 +36,10 @@ each project in data['open-source'].githubSection.githubProjects
         button.btn-download-blue
           i.icon__github
           span.text-for-button=project.projectButton.buttonText
+      li.githubItem
+        each bara, numar in project.percentages
+          span(class=`bar-number__${numar}`)
+
 
 .column(span="row" height="10")
 .column(span="row")
