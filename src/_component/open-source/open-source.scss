@@ -10,6 +10,10 @@
   @extend %rounded-border-list;
 }
 
+.githubList {
+  margin-bottom: 50px;
+}
+
 .githubItem,
 .stats__item {
   @extend %list-item;
@@ -112,6 +116,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: 11% 32% 34% 23%;
+  position: relative;
 }
 
 .githubStats {
@@ -130,4 +135,31 @@
 
 [class^="bar-number__"] {
   height: 100%;
+}
+
+[class^="pink__button"] {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #FF006D;
+  border-radius: 0 0 20px 20px;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink__button-1 {
+  bottom: -40px;
+  right: 10px;
+}
+
+.pink__button-2 {
+  bottom: -40px;
+  right: 51px;
+}
+
+.pink__button-3 {
+  bottom: -40px;
+  right: 92px;
 }
