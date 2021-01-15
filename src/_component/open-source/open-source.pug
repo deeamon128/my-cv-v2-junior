@@ -37,24 +37,24 @@ each project, numar in data['open-source'].githubSection.githubProjects
         i.icon__info
       label.pink__button-4(for=`info-project__close${numar}`)
         i.icon__cross
-      li.githubItem
+      li.githubItem(gitlist=`${numar}`)
         p.projectTitle=project.projectTitle
         p.projectTehnologies=project.projectTehnologies
-      li.githubItem
+      li.githubItem(gitlist=`${numar}`)
         each percentage, pnumber in project.percentages
           p.percentage=percentage
             span(class=`percentage-circle__${pnumber}`)
-      li.githubItem
+      li.githubItem(gitlist=`${numar}`)
         each number in project.githubNumbers
           p.githubStats=number.content
             i.githubStats__icon(class=`icon__${number.icon}`)
-      li.githubItem
+      li.githubItem(gitlist=`${numar}`)
         p.percentage=project.projectDescription
-      li.githubItem
+      li.githubItem(gitlist=`${numar}`)
         button.btn-download-blue
           i.icon__github
           span.text-for-button=project.projectButton.buttonText
-      li.githubItem
+      li.githubItem(gitlist=`${numar}`)
         each bara, numar in project.percentages
           span(class=`bar-number__${numar}`)
 

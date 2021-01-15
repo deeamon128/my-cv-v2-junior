@@ -97,15 +97,17 @@
 }
 
 .githubItem:nth-child(8) {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 43px;
 }
 
 .githubItem:nth-child(9) {
-  display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.githubItem:not(:first-of-type,:last-of-type) {
+  display: none;
 }
 
 .githubItem:last-of-type {
@@ -164,32 +166,35 @@
 .pink__button-4 {
   bottom: -40px;
   right: 92px;
-}
-
-.info__button:checked ~ .githubItem:not(:last-of-type,:first-of-type),
-.info__button:checked ~ .pink__button-3,
-.info__button[id="info-project__close1"]:checked ~ .pink__button-4,
-.pink__button-4 {
   display: none;
 }
 
-.info__button:checked ~ .pink__button-4 {
-  display: flex;
-}
+@for $btn from 0 to 2 {
+  .info__button[id="info-project__close#{$btn}"]:checked ~ .githubItem[gitlist="#{$btn}"]:not(:first-of-type,:last-of-type) {
+    display: none;
+  }
 
-.info__button[id="info-project__close1"]:checked ~ .githubItem:nth-child(8),
-.info__button[id="info-project__close2"]:checked ~ .githubItem:nth-child(8) {
-  display: grid;
-}
+  .info__button[id="info-project__close#{$btn}"]:checked ~ .pink__button-4[for="info-project__close#{$btn}"] {
+    display: none;
+  }
 
-.info__button[id="info-project__close1"]:checked ~ .githubItem:nth-child(9),
-.info__button[id="info-project__close1"]:checked ~ .pink__button-3,
-.info__button[id="info-project__close2"]:checked ~ .githubItem:nth-child(9),
-.info__button[id="info-project__close2"]:checked ~ .pink__button-3 {
-  display: flex;
-}
+  .info__button[id="info-project__button#{$btn}"]:checked ~ .githubItem:nth-child(8) {
+    display: grid;
+  }
 
-.info__button[id="info-project__close1"]:checked ~ .githubItem:nth-child(10),
-.info__button[id="info-project__close2"]:checked ~ .githubItem:nth-child(10) {
-  display: block;
+  .info__button[id="info-project__button#{$btn}"]:checked ~ .pink__button-4,
+  .info__button[id="info-project__button#{$btn}"]:checked ~ .githubItem:nth-child(9) {
+    display: flex;
+  }
+
+  .info__button[id="info-project__button#{$btn}"]:checked ~ .githubItem:not(:nth-child(8),:nth-child(9),:last-of-type) {
+    display: block;
+  }
+  
+  
+
+
+
+
+
 }
