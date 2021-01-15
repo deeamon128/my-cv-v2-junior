@@ -16,26 +16,26 @@ include ../section-title/section-title
 .column(span="row")
   h3.semi__title=data['open-source'].githubSection.githubTitle
 
-each project in data['open-source'].githubSection.githubProjects
+each project, numar in data['open-source'].githubSection.githubProjects
   .column(span="row")
     ul.githubList
       input.info__button(
         type="radio"
-        name="info-project"
-        id="info-project__button"
+        name=`${project.projectTitle}`
+        id=`info-project__button${numar}`
       )
       input.info__button(
         type="radio"
-        name="info-project"
-        id="info-project__close"
+        name=`${project.projectTitle}`
+        id=`info-project__close${numar}`
       )
       .pink__button-1
         i.icon__github
       .pink__button-2
         i.icon__youtube
-      label.pink__button-3(for="info-project__button")
+      label.pink__button-3(for=`info-project__button${numar}`)
         i.icon__info
-      label.pink__button-4(for="info-project__close")
+      label.pink__button-4(for=`info-project__close${numar}`)
         i.icon__cross
       li.githubItem
         p.projectTitle=project.projectTitle

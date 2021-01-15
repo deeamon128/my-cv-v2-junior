@@ -168,7 +168,7 @@
 
 .info__button:checked ~ .githubItem:not(:last-of-type,:first-of-type),
 .info__button:checked ~ .pink__button-3,
-.info__button[id="info-project__close"]:checked ~ .pink__button-4,
+.info__button[id="info-project__close1"]:checked ~ .pink__button-4,
 .pink__button-4 {
   display: none;
 }
@@ -177,15 +177,19 @@
   display: flex;
 }
 
-.info__button[id="info-project__close"]:checked ~ .githubItem:nth-child(8) {
+.info__button[id="info-project__close1"]:checked ~ .githubItem:nth-child(8),
+.info__button[id="info-project__close2"]:checked ~ .githubItem:nth-child(8) {
   display: grid;
 }
 
-.info__button[id="info-project__close"]:checked ~ .githubItem:nth-child(9),
-.info__button[id="info-project__close"]:checked ~ .pink__button-3 {
+.info__button[id="info-project__close1"]:checked ~ .githubItem:nth-child(9),
+.info__button[id="info-project__close1"]:checked ~ .pink__button-3,
+.info__button[id="info-project__close2"]:checked ~ .githubItem:nth-child(9),
+.info__button[id="info-project__close2"]:checked ~ .pink__button-3 {
   display: flex;
 }
 
-.info__button[id="info-project__close"]:checked ~ .githubItem:nth-child(10) {
+.info__button[id="info-project__close1"]:checked ~ .githubItem:nth-child(10),
+.info__button[id="info-project__close2"]:checked ~ .githubItem:nth-child(10) {
   display: block;
 }
