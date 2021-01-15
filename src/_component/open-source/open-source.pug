@@ -19,6 +19,24 @@ include ../section-title/section-title
 each project in data['open-source'].githubSection.githubProjects
   .column(span="row")
     ul.githubList
+      input.info__button(
+        type="radio"
+        name="info-project"
+        id="info-project__button"
+      )
+      input.info__button(
+        type="radio"
+        name="info-project"
+        id="info-project__close"
+      )
+      .pink__button-1
+        i.icon__github
+      .pink__button-2
+        i.icon__youtube
+      label.pink__button-3(for="info-project__button")
+        i.icon__info
+      label.pink__button-4(for="info-project__close")
+        i.icon__cross
       li.githubItem
         p.projectTitle=project.projectTitle
         p.projectTehnologies=project.projectTehnologies
@@ -39,13 +57,6 @@ each project in data['open-source'].githubSection.githubProjects
       li.githubItem
         each bara, numar in project.percentages
           span(class=`bar-number__${numar}`)
-        .pink__button-1
-          i.icon__github
-        .pink__button-2
-          i.icon__youtube
-        .pink__button-3
-          i.icon__info
-
 
 .column(span="row" height="10")
 .column(span="row")
