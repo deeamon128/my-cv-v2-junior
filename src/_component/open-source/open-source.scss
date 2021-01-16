@@ -1,0 +1,200 @@
+.semi__title {
+  font-size: 22px;
+  line-height: 30px;
+  color: #707070;
+  font-weight: 500;
+}
+
+.githubList,
+.stats__list {
+  @extend %rounded-border-list;
+}
+
+.githubList {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.githubItem,
+.stats__item {
+  @extend %list-item;
+}
+
+.stats__item {
+  display: flex;
+}
+
+.githubItem {
+  padding: 20px;
+}
+
+.stats__icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats__content {
+  padding-top: 8px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #707070;
+  font-weight: 700;
+}
+
+.projectTitle {
+  color: #808080;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.projectTehnologies {
+  color: #707070;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.percentage {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #707070;
+}
+
+[class^="percentage-circle"] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: -15px;
+}
+
+.bar-number__0,
+.percentage-circle__0 {
+  background-color: #1875F0;
+}
+
+.bar-number__1,
+.percentage-circle__1 {
+  background-color: #D52027;
+}
+
+.bar-number__2,
+.percentage-circle__2 {
+  background-color: #20D55D;
+}
+
+.bar-number__3,
+.percentage-circle__3 {
+  background-color: #F0E218;
+}
+
+.githubItem:nth-child(8) {
+  grid-template-columns: 1fr 1fr;
+  padding-left: 43px;
+}
+
+.githubItem:nth-child(9) {
+  flex-direction: column;
+  align-items: center;
+}
+
+.githubItem:not(:first-of-type,:last-of-type) {
+  display: none;
+}
+
+.githubItem:last-of-type {
+  height: 10px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 11% 32% 34% 23%;
+  position: relative;
+}
+
+.githubStats {
+  color: #707070;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.githubStats__icon {
+  position: absolute;
+  left: -25px;
+  top: 5px;
+}
+
+[class^="bar-number__"] {
+  height: 100%;
+}
+
+[class^="pink__button"] {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #FF006D;
+  border-radius: 0 0 20px 20px;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink__button-1 {
+  bottom: -40px;
+  right: 10px;
+}
+
+.pink__button-2 {
+  bottom: -40px;
+  right: 51px;
+}
+
+.pink__button-3 {
+  bottom: -40px;
+  right: 92px;
+}
+
+.pink__button-4 {
+  bottom: -40px;
+  right: 92px;
+  display: none;
+}
+
+@for $btn from 0 to 2 {
+  .info__button[id="info-project__close#{$btn}"]:checked ~ .githubItem[gitlist="#{$btn}"]:not(:first-of-type,:last-of-type) {
+    display: none;
+  }
+
+  .info__button[id="info-project__close#{$btn}"]:checked ~ .pink__button-4[for="info-project__close#{$btn}"] {
+    display: none;
+  }
+
+  .info__button[id="info-project__button#{$btn}"]:checked ~ .githubItem:nth-child(8) {
+    display: grid;
+  }
+
+  .info__button[id="info-project__button#{$btn}"]:checked ~ .pink__button-4,
+  .info__button[id="info-project__button#{$btn}"]:checked ~ .githubItem:nth-child(9) {
+    display: flex;
+  }
+
+  .info__button[id="info-project__button#{$btn}"]:checked ~ .githubItem:not(:nth-child(8),:nth-child(9),:last-of-type) {
+    display: block;
+  }
+  
+  
+
+
+
+
+
+}

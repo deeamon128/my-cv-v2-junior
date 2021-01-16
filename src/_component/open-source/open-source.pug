@@ -1,0 +1,65 @@
+- var {sectionTitle} = data['open-source']
+include ../section-title/section-title
+
+.column(span="row")
+  h3.semi__title=data['open-source'].statsSection.statsTitle
+.column(span="row")
+  ul.stats__list
+    each statsRow in data['open-source'].statsSection.statsBox
+      li.stats__item
+        i.stats__icon(class=`icon__${statsRow.icon}`)
+        .stats__content
+          each paragraf in statsRow.contentRow
+            p=paragraf
+
+.column(span="row" height="10")
+.column(span="row")
+  h3.semi__title=data['open-source'].githubSection.githubTitle
+
+each project, numar in data['open-source'].githubSection.githubProjects
+  .column(span="row")
+    ul.githubList
+      input.info__button(
+        type="radio"
+        name=`${project.projectTitle}`
+        id=`info-project__button${numar}`
+      )
+      input.info__button(
+        type="radio"
+        name=`${project.projectTitle}`
+        id=`info-project__close${numar}`
+      )
+      .pink__button-1
+        i.icon__github
+      .pink__button-2
+        i.icon__youtube
+      label.pink__button-3(for=`info-project__button${numar}`)
+        i.icon__info
+      label.pink__button-4(for=`info-project__close${numar}`)
+        i.icon__cross
+      li.githubItem(gitlist=`${numar}`)
+        p.projectTitle=project.projectTitle
+        p.projectTehnologies=project.projectTehnologies
+      li.githubItem(gitlist=`${numar}`)
+        each percentage, pnumber in project.percentages
+          p.percentage=percentage
+            span(class=`percentage-circle__${pnumber}`)
+      li.githubItem(gitlist=`${numar}`)
+        each number in project.githubNumbers
+          p.githubStats=number.content
+            i.githubStats__icon(class=`icon__${number.icon}`)
+      li.githubItem(gitlist=`${numar}`)
+        p.percentage=project.projectDescription
+      li.githubItem(gitlist=`${numar}`)
+        button.btn-download-blue
+          i.icon__github
+          span.text-for-button=project.projectButton.buttonText
+      li.githubItem(gitlist=`${numar}`)
+        each bara, numar in project.percentages
+          span(class=`bar-number__${numar}`)
+
+.column(span="row" height="10")
+.column(span="row")
+  button.circle-green
+    i.icon__arrow-down
+.column(span="row" height="10")
