@@ -1,0 +1,25 @@
+.profileImg {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+}
+
+.profileTitle {
+  display: flex;
+}
+
+.recom-profile__text {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileJob {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #808080;
+}
