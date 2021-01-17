@@ -1,2 +1,10 @@
 - var { sectionTitle } = data.recomandari
 include ../section-title/section-title
+
+each recomandare in data.recomandari.recomandariList 
+  .column(span="row")
+    .profileTitle
+      img.profileImg(src=`asset/image/profile/${recomandare.profilePicture}`)
+  .column(span="row")
+    .about-me-box
+      p.about-me-box-text=recomandare.recomText
