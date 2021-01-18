@@ -1,0 +1,32 @@
+.green-up {
+  transform: rotate(180deg);
+}
+
+.proud-list {
+  @extend %rounded-border-list;
+}
+
+.proud-item {
+  @extend %list-item;
+  padding: 10px 22px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.proud-item_text {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 22px;
+  color: #707070;
+}
+
+.proud-item_title {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #707070;
+  text-align: right;
+}
