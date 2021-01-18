@@ -1,4 +1,11 @@
 - var { sectionTitle } = data.proud
 include ../section-title/section-title
 
-
+.column(span="row")
+  h3.semi__title=data.proud.semiTitle
+.column(span="row")
+  ul.proud-list
+    each proudItem in data.proud.proudList
+      li.proud-item
+        p.proud-item_title=proudItem.date
+        p.proud-item_text=proudItem.proudText
