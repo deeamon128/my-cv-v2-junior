@@ -1,0 +1,17 @@
+- var { sectionTitle } = data.proud
+include ../section-title/section-title
+
+.column(span="row")
+  h3.semi__title=data.proud.semiTitle
+.column(span="row")
+  ul.proud-list
+    each proudItem in data.proud.proudList
+      li.proud-item
+        p.proud-item_title=proudItem.date
+        p.proud-item_text=proudItem.proudText
+
+.column(span="row" height="10")
+.column(span="row")
+  button.circle-green(class="green-up")
+    i.icon__arrow-down
+.column(span="row" height="10")
