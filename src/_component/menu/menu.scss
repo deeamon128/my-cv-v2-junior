@@ -8,6 +8,7 @@
   width: 40px;
   height: 40px;
   padding: 14px 12px;
+  transition: width 0.3s, height 0.3s;
 }
 
 .menu__link {
@@ -17,6 +18,7 @@
   font-size: 20px;
   line-height: 30px;
   padding: 5px 20px;
+  transition: display 3s;
 }
 
 [class^="hamburger"] {
@@ -39,8 +41,8 @@
 }
 
 .menu:hover {
-  width: auto;
-  height: auto;
+  width: 295px;
+  height: 324px;
   padding: 0;
 }
 
