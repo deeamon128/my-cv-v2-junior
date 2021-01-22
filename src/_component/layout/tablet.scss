@@ -3,6 +3,15 @@
     grid-template-columns: repeat(8, 1fr);
   }
 
+  .column[span-tablet="image"] {
+    grid-column: 1/5;
+    grid-row: 19/24;
+  }
+
+  .column[span-tablet="start-four"] {
+    grid-column: 1/5;
+  }
+
   .content {
     padding: 0 80px;
   }
@@ -13,7 +22,19 @@
     background-color: #d52027;
     top: 0;
     bottom: 0;
-    left: -80px;
-    right: -80px;
+    left: -80px !important;
+    right: -80px !important;
+  }
+  
+  .contact__icon {
+    padding-top: 62px;
+  }
+
+  .contact__icon [class^="icon__"] {
+    font-size: 4vw !important;
+  }
+
+  [hide-tablet] {
+    display: none;
   }
 }
