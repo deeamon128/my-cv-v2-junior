@@ -38,3 +38,11 @@
     display: none;
   }
 }
+
+.column[span-project]:nth-child(even) {
+  grid-column: 1/5;
+}
+
+.column[span-project]:nth-child(odd) {
+  grid-column: 5/9;
+}

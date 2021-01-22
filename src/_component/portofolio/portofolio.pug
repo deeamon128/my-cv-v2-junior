@@ -3,8 +3,8 @@ include ../section-title/section-title
 
 .column(span="row")
   h3.semi__title=data.portofolio.semiTitle
-each project in data.portofolio.portofolioProjects
-  .column(span="row")
+each project, key in data.portofolio.portofolioProjects
+  .column(span="row" span-project=`${key + 1}`)
     ul.projectPortofolio
       li.portofolioItem
         p.projectTitle=project.projectTitle
