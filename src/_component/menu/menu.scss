@@ -32,13 +32,19 @@
   display: block;
 }
 
-.menu__item:hover {
-  background-color: #FF006D;
+.menu__item {
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #FF006D;
+  }
+
+  &:hover .menu__link {
+    color: #FFF;
+  }
 }
 
-.menu__item:hover .menu__link {
-  color: #FFF;
-}
 
 .menu:hover {
   width: 295px;
