@@ -37,12 +37,12 @@
   [hide-tablet] {
     display: none;
   }
+
+  #portfolio {
+    grid-column: 1/9;
+    display: grid;
+    grid-template-columns: repeat(2, 302px);
+    grid-gap: 10px;
+  }
 }
 
-.column[span-project]:nth-child(even) {
-  grid-column: 1/5;
-}
-
-.column[span-project]:nth-child(odd) {
-  grid-column: 5/9;
-}
