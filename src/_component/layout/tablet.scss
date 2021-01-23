@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px) {
   .grid {
     grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
   }
 
   .column[span-tablet="image"] {
@@ -30,8 +31,8 @@
     padding-top: 62px;
   }
 
-  .contact__icon [class^="icon__"] {
-    font-size: 4vw !important;
+  label.contact__icon [class^="icon__"] {
+    font-size: 4vw;
   }
 
   [hide-tablet] {
