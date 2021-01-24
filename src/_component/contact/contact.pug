@@ -1,10 +1,10 @@
 - var { sectionTitle } = data['contact']
 include ../section-title/section-title
 
-.column(span="row")
+.column(span="row" span-tablet="image")
   .contact__profile-picture
 
-.column(span="row" height="10")
+.column(span="row" height="10" hide-tablet)
 each iconita, cheie in data.contact.iconsList
   input.contact__radio(
     type="radio"
