@@ -2,17 +2,17 @@
 include ../section-title/section-title
 
 each recomandare in data.recomandari.recomandariList 
-  .column(span="row" height="10")
-  .column(span="row")
-    .profileTitle
-      img.profileImg(src=`asset/image/profile/${recomandare.profilePicture}`)
-      .recom-profile__text
-        h3.semi__title=recomandare.profileName
-        p.profileJob=recomandare.profileJob
-  .column(span="row")
-  .column(span="row")
-    .about-me-box(class="top-polygon")
-      p.about-me-box-text=recomandare.recomText
+  .column(span="row-4")
+    .recomend-grid
+      .profileTitle
+        img.profileImg(src=`asset/image/profile/${recomandare.profilePicture}`)
+        .recom-profile__text
+          h3.semi__title=recomandare.profileName
+          p.profileJob=recomandare.profileJob
+    .column(span="row")
+    .column(span="row")
+      .about-me-box(class="top-polygon")
+        p.about-me-box-text=recomandare.recomText
 
 .column(span="row" height="10")
 .column(span="row")

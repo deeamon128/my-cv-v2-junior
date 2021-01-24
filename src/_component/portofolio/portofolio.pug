@@ -3,18 +3,18 @@ include ../section-title/section-title
 
 .column(span="row")
   h3.semi__title=data.portofolio.semiTitle
-each project in data.portofolio.portofolioProjects
-  .column(span="row")
-    ul.projectPortofolio
-      li.portofolioItem
-        p.projectTitle=project.projectTitle
-        p.projectTehnologies=project.projectTehnologies
-      li.portofolioItem
-        img.projectPortofolio__image(src=`${project.projectImagePath}`)
-        .pink__button-1
-          i.icon__github
-        .pink__button-2
-          i.icon__earth
+.column(span="row" id="portfolio")
+  each project, key in data.portofolio.portofolioProjects
+      ul.projectPortofolio
+        li.portofolioItem
+          p.projectTitle=project.projectTitle
+          p.projectTehnologies=project.projectTehnologies
+        li.portofolioItem
+          img.projectPortofolio__image(src=`${project.projectImagePath}`)
+          .pink__button-1
+            i.icon__github
+          .pink__button-2
+            i.icon__earth
 
 .column(span="row" height="10")
 .column(span="row")
