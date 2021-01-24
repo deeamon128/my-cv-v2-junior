@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1366px) {
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px;
+  }
+
+  .content {
+    padding: 0 139px;
+  }
+
+  ul.menu {
+    right: 139px;
+  }
+
+  div.section-title-wrapper::before {
+    position: absolute;
+    content: '';
+    background-color: #d52027;
+    top: 0;
+    bottom: 0;
+    left: -139px;
+    right: -139px;
+  }
+
+  label.contact__icon [class^="icon__"] {
+    font-size: 2vw;
+  }
+
+  .column[span^="row"] {
+    grid-column: 1/10;
+  }
+
+  .column[span^="row-title"] {
+    grid-column: 1/-1;
+  }
+
+  .column[span-tablet="image"] {
+    grid-column: span 4;
+    grid-row: 19/24;
+  }
+
+  .column[span-tablet="start-four"] {
+    grid-column: span 4;
+  }
+  
+  .column[span^="row-4"] {
+    grid-column: span 3;
+  }
+
+  .menu .menu__link {
+    display: block;
+  }
+
+  ul.menu {
+    width: 295px;
+    height: 324px;
+    padding: 0;
+  }
+
+  .menu [class^="hamburger"] {
+    display: none;
+  }
+}
