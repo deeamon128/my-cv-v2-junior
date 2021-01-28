@@ -1,9 +1,9 @@
 - var titluText = data.porumbei.titluText
 include ../titlu/titlu.pug
 
-each animal in data.porumbei.listaPorumbei
+each image in data.porumbei.listaPorumbei
   .column(span="row")
-    img.pingeon__image(src=`asset/image/${animal}`)
+    img.pingeon__image(src=`asset/image/${image}`)
   .column(span="row" height="10")
 
 .column(span="row")
