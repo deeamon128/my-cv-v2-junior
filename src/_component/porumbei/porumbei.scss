@@ -1,8 +1,7 @@
-.contact__image {
-
-  @for $numar from 1 to 7 {
-    &[porumbel="porumbelul#{$numar}"]::after {
-      background-image: url('asset/image/porumbel#{$numar}.jpg');
-    }
-  }
+.pingeon__image {
+  background-color: #FFF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
 }
