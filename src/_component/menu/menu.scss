@@ -1,0 +1,57 @@
+.menu {
+  
+
+  position: fixed;
+  right: 10px;
+  top: 50vh;
+  text-align: right;
+  width: 40px;
+  height: 40px;
+  padding: 14px 12px;
+  transition: width 0.3s, height 0.3s;
+}
+
+.menu__link {
+  display: none;
+  text-decoration: none;
+  color: #808080;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 5px 20px;
+  transition: display 3s;
+}
+
+[class^="hamburger"] {
+  width: 12px;
+  height: 3px;
+  margin-bottom: 1px;
+  background: #000;
+}
+
+.menu:hover .menu__link {
+  display: block;
+}
+
+.menu__item {
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #FF006D;
+  }
+
+  &:hover .menu__link {
+    color: #FFF;
+  }
+}
+
+
+.menu:hover {
+  width: 295px;
+  height: 324px;
+  padding: 0;
+}
+
+.menu:hover [class^="hamburger"] {
+  display: none;
+}
