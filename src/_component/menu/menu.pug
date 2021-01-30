@@ -1,8 +1,7 @@
 ul.menu
   each item in data.menu.menuList
     li.menu__item
-    each sectionId in data.menu.idList
-      a.menu__link(href=sectionId)=item
+      a.menu__link(href=item.linkId)=item.linkText
   .hamburger1
   .hamburger2
   .hamburger3
