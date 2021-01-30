@@ -5,8 +5,8 @@
     "Porumbei"
   ],
   "idList": [
-    "welcome",
-    "contact",
-    "porumbei"
+    "#welcome",
+    "#contact",
+    "#porumbei"
   ]
 }
