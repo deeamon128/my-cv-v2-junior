@@ -7,9 +7,10 @@ each porumbel in data.porumbei.listaPorumbei
       .pingeon__image__wrapper
         img.pingeon__image(src=`asset/image/${porumbel.imagePorumbel}`)
       .pingeon__content
-        h1=porumbel.numePorumbel
+        h2.pingeon__number=porumbel.codPorumbel
+        h3.pingeon__name=porumbel.numePorumbel
         each premiu in porumbel.palmares
-          p=premiu
+          p.pingeon__content-text=premiu
 
   .column(span="row" height="10")
 

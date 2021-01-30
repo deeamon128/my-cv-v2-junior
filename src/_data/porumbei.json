@@ -4,6 +4,7 @@
     {
       "numePorumbel":"Adjunctul",
       "imagePorumbel": "Adjunctul.jpg",
+      "codPorumbel": "RO 16-048934 M",
       "palmares": [
         "3e Viteza.Pui EXPO. UCPR '16",
         "15e Viteza.Y EXPO. YCPR '17",
@@ -19,6 +20,7 @@
     {
       "numePorumbel":"Argintia",
       "imagePorumbel": "Argintia.jpg",
+      "codPorumbel": "RO 15-174968 F",
       "palmares": [
         "5e - 554km - 1482p. '15 ",
         "2e Club Maraton UCPR '19",
@@ -32,6 +34,7 @@
     {
       "numePorumbel":"Beauty",
       "imagePorumbel": "Beauty.jpg",
+      "codPorumbel": "RO 15-175921 F",
       "palmares": [
         "Cea mai buna Reproducatoare a crescatoriei ! ",
         "1e - 388km - 267p. '16",
@@ -52,6 +55,7 @@
     {
       "numePorumbel":"Cuca",
       "imagePorumbel": "Cuca.jpg",
+      "codPorumbel": "RO 11-0011544 F",
       "palmares": [
         "Super Reproducatoare ! ",
         "Mama la : 48908-16 (GENERALU '08)",
@@ -72,8 +76,9 @@
       ]
     },
     {
-      "numePorumbel":"DE285",
+      "numePorumbel":"DE 285",
       "imagePorumbel": "DE285.jpg",
+      "codPorumbel": "RO 14-1000285 F",
       "palmares": [
         "5e AS M+Y EXPO. UCPR 2017",
         "10e Demifond Palmares 3ani EXPO UCPR 18",
@@ -93,8 +98,9 @@
       ]
     },
     {
-      "numePorumbel":"DE515",
+      "numePorumbel":"DE 515",
       "imagePorumbel": "DE515.jpg",
+      "codPorumbel": "RO 20-000515 M",
       "palmares": [
         "1e Demifond Pui Jud. Db '20",
         "14e Nat. Demifond Pui UCPR '20",
@@ -102,8 +108,9 @@
       ]
     },
     {
-      "numePorumbel":"DE814",
+      "numePorumbel":"DE 814",
       "imagePorumbel": "DE814.jpg",
+      "codPorumbel": "RO 18-168814 F",
       "palmares": [
         "1e - 181km -Ruta Bulgaria- lansare 2852p.",
         "Mama lui 390924-19",
@@ -121,8 +128,9 @@
       ]
     },
     {
-      "numePorumbel":"DE901",
+      "numePorumbel":"DE 901",
       "imagePorumbel": "DE901.jpg",
+      "codPorumbel": "RO 15-175901 M",
       "palmares": [
         "5e Fond M+Y Expo UCP '18",
         "11e Nat Fond M+Y '18",
@@ -135,8 +143,9 @@
       ]
     },
     {
-      "numePorumbel":"DE924",
+      "numePorumbel":"DE 924",
       "imagePorumbel": "DE924.jpg",
+      "codPorumbel": "RO 19-390924 M",
       "palmares": [
         "8e Nat. Demifond Palm. Y. Expo. UCPR '20",
         "11e Demifond Pui Expo. UCPR '19",
@@ -144,8 +153,9 @@
       ]
     },
     {
-      "numePorumbel":"DE930",
+      "numePorumbel":"DE 930",
       "imagePorumbel": "DE930.jpg",
+      "codPorumbel": "RO 19-390930 F",
       "palmares": [
         "4e AS Demifond Jud. Db '20",
         "33e Nat. AS Demifond UCPR '20",
@@ -155,6 +165,7 @@
     {
       "numePorumbel":"Fondista",
       "imagePorumbel": "Fondista.jpg",
+      "codPorumbel": "RO 17-016919 F",
       "palmares": [
         "1e Fond Palm. 3 ani club",
         "15e Maraton Palm. 3 ani Jud. DB",
@@ -171,8 +182,9 @@
       ]
     },
     {
-      "numePorumbel":"Generalu'08",
+      "numePorumbel":"Generalu' 08",
       "imagePorumbel": "Generalu08.jpg",
+      "codPorumbel": "RO 16-048908 M",
       "palmares": [
         "6e AS M+Y EXPO UCPR '18",
         "15 angajari/15 clasari",
@@ -191,6 +203,7 @@
     {
       "numePorumbel":"Hermesa",
       "imagePorumbel": "Hermesa.jpg",
+      "codPorumbel": "RO 13-010485 F",
       "palmares": [
         "Super Reproducatoare !",
         "Mama : 175901-15 M",
@@ -211,6 +224,7 @@
     {
       "numePorumbel":"ILC",
       "imagePorumbel": "ilc.jpg",
+      "codPorumbel": "RO 14-1270041 M",
       "palmares": [
         "Tatal lui RO 16-048908 M - GENERALU '08",
         "6e AS M+Y EXPO. UCPR '1",
@@ -226,6 +240,7 @@
     {
       "numePorumbel":"Iris",
       "imagePorumbel": "Iris.jpg",
+      "codPorumbel": "RO 19-390918 F",
       "palmares": [
         "Multipla Campioana Nationala UCPR 2020",
         "1e Nat. AS Viteza M+Y '20",
@@ -251,6 +266,7 @@
     {
       "numePorumbel":"Lucky",
       "imagePorumbel": "Lucky.jpg",
+      "codPorumbel": "RO 15-175933 M",
       "palmares": [
         "Loc 21 General M+Y Expo. UCPR 2018",
         "Frate cu 144404-17",
@@ -264,8 +280,9 @@
       ]
     },
     {
-      "numePorumbel":"MosuCiocos",
+      "numePorumbel":"Mosu Ciocos",
       "imagePorumbel": "MosuCiocos.jpg",
+      "codPorumbel": "RO 09-709160 M",
       "palmares": [
         "Orig. Popescu Petre Mihai"
       ]
@@ -273,6 +290,7 @@
     {
       "numePorumbel":"Neagra",
       "imagePorumbel": "Neagra.jpg",
+      "codPorumbel": "RO 11-0011537 F",
       "palmares": [
         "Super Reproducatoare !",
         "Mama la: 175933-15 ",
@@ -283,8 +301,9 @@
       ]
     },
     {
-      "numePorumbel":"RedLady",
+      "numePorumbel":"Red Lady",
       "imagePorumbel": "RedLady.jpg",
+      "codPorumbel": "RO 16-002548 F",
       "palmares": [
         "Super Reproducatoare !",
         "4e Nat Viteza M+Y UCP '18",
@@ -306,6 +325,7 @@
     {
       "numePorumbel":"Smaola",
       "imagePorumbel": "Smaola.jpg",
+      "codPorumbel": "RO 17-144410 M",
       "palmares": [
         "35e Nat. Super AS M+Y UCPR 2019",
         "1e Club Super As 2019",
@@ -313,8 +333,9 @@
       ]
     },
     {
-      "numePorumbel":"SuperLady",
+      "numePorumbel":"Super Lady",
       "imagePorumbel": "SuperLady.jpg",
+      "codPorumbel": "RO 19-07773 F",
       "palmares": [
         "Mama lui RO 20-000515 M",
         "1e Demifond Pui Jud. DB '20",
@@ -323,8 +344,9 @@
       ]
     },
     {
-      "numePorumbel":"VanDamme",
+      "numePorumbel":"Van Damme",
       "imagePorumbel": "VanDamme.jpg",
+      "codPorumbel": "RO 12-041193 M",
       "palmares": [
         "Super Reproducator !",
         "Tatal lui RO 15-175901 M",
@@ -339,8 +361,9 @@
       ]
     },
     {
-      "numePorumbel":"VanLoonul",
+      "numePorumbel":"Van Loonul",
       "imagePorumbel": "VanLoonul.jpg",
+      "codPorumbel": "RO 11-0011530 M",
       "palmares": [
         "Super Reproducator !",
         "Tatal lui : 000515-20",
