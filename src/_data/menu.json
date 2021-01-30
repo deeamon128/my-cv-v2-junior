@@ -1,12 +1,16 @@
 {
   "menuList": [
-    "Bine ați venit!",
-    "Contact",
-    "Porumbei"
-  ],
-  "idList": [
-    "#welcome",
-    "#contact",
-    "#porumbei"
+    {
+      "linkText": "Bine ați venit!",
+      "linkId": "#welcome"
+    },
+    {
+      "linkText": "Contact",
+      "linkId": "#contact"
+    },
+    {
+      "linkText": "Porumbei",
+      "linkId": "#porumbei"
+    }
   ]
 }
