@@ -5,7 +5,10 @@ each porumbel in data.porumbei.listaPorumbei
   .column(span="row")
     .pingeon__card
       .pingeon__image__wrapper
-        img.pingeon__image(src=`asset/image/${porumbel.imagePorumbel}`)
+        img.pingeon__image(
+          src=`asset/image/${porumbel.imagePorumbel}`
+          alt=porumbel.codPorumbel
+        )
       .pingeon__content
         h2.pingeon__number=porumbel.codPorumbel
         h3.pingeon__name=porumbel.numePorumbel
