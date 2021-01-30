@@ -3,5 +3,10 @@
     "Bine ați venit!",
     "Contact",
     "Porumbei"
+  ],
+  "idList": [
+    "welcome",
+    "contact",
+    "porumbei"
   ]
 }
