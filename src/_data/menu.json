@@ -1,7 +1,16 @@
 {
   "menuList": [
-    "Bine ați venit!",
-    "Contact",
-    "Porumbei"
+    {
+      "linkText": "Bine ați venit!",
+      "linkId": "#welcome"
+    },
+    {
+      "linkText": "Contact",
+      "linkId": "#contact"
+    },
+    {
+      "linkText": "Porumbei",
+      "linkId": "#porumbei"
+    }
   ]
 }

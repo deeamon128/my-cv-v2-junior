@@ -1,9 +1,22 @@
-- var titluText = data.porumbei.titluText
+- 
+  var sectionId = "porumbei"
+  var titluText = data.porumbei.titluText
 include ../titlu/titlu.pug
 
-each image in data.porumbei.listaPorumbei
+each porumbel in data.porumbei.listaPorumbei
   .column(span="row")
-    img.pingeon__image(src=`asset/image/${image}`)
+    .pingeon__card
+      .pingeon__image__wrapper
+        img.pingeon__image(
+          src=`asset/image/${porumbel.imagePorumbel}`
+          alt=porumbel.codPorumbel
+        )
+      .pingeon__content
+        h2.pingeon__number=porumbel.codPorumbel
+        h3.pingeon__name=porumbel.numePorumbel
+        each premiu in porumbel.palmares
+          p.pingeon__content-text=premiu
+
   .column(span="row" height="10")
 
 .column(span="row")
