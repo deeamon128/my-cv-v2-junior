@@ -1,0 +1,18 @@
+- 
+  var sectionId = "porumbeiMatca"
+  var titluText = data.matca.sectionTitle
+include ../titlu/titlu.pug
+
+each porumbel in data.matca.listaPorumbei
+  .column(span="row")
+    .pingeon__card
+      .pingeon__image__wrapper
+        img.pingeon__image(
+          src=`asset/image/${porumbel.imagePorumbel}`
+          alt=porumbel.codPorumbel
+        )
+      .pingeon__content
+        h2.pingeon__number=porumbel.codPorumbel
+        h3.pingeon__name=porumbel.numePorumbel
+        each premiu in porumbel.palmares
+          p.pingeon__content-text=premiu

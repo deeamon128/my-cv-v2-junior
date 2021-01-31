@@ -1,0 +1,139 @@
+{
+  "sectionTitle": "Porumbei Matca",
+  "listaPorumbei": [
+    {
+      "numePorumbel":"Cuca",
+      "imagePorumbel": "Cuca.jpg",
+      "codPorumbel": "RO 11-0011544 F",
+      "palmares": [
+        "Super Reproducatoare ! ",
+        "Mama la : 48908-16 (GENERALU '08)",
+        "6e AS M+Y EXPO UCPR 18 - 15 angajari/15clasari",
+        "6e PALMARES 2 ani AS M+Y EXPO UCPR '19",
+        "14 National GENERAL 3 an UCPR '20",
+        "1e - 242km - 2762p.",
+        "1e - 650km - 1628p.",
+        "3e - 605km - 2218p.",
+        "6e - 181km - 1025p.",
+        "14e - 242km - 2249p.",
+        "17e - 224km - 2693p.",
+        "54e - 311km - 12308p.",
+        "Mama la : 390930-19 f 'D30",
+        "4e Jud. AS Demifond DB '20",
+        "30e Nat. AS Demifond Db '20",
+        "Orig. Olteanu Cosmin"
+      ]
+    },
+    {
+      "numePorumbel":"DE 814",
+      "imagePorumbel": "DE814.jpg",
+      "codPorumbel": "RO 18-168814 F",
+      "palmares": [
+        "1e - 181km -Ruta Bulgaria- lansare 2852p.",
+        "Mama lui 390924-19",
+        "8e Nat. Demifond Palm. Y. Expo. UCPR '20",
+        "11e Demifond Pui Expo. UCPR '19",
+        "Sora cu 390930-19 F",
+        "4e AS Demifond Jud. DB '20",
+        "33e Nat. AS Demifond UCPR '20",
+        "Sora cu RO 16-048908-GENERALU '08",
+        "6e AS M+Y Expo. UCPR '18",
+        "15 angajari/15 clasari",
+        "6e Palmares 2 ani M+Y Expo. UCPR '19",
+        "14e National General 3 ani UCPR '20",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"Hermesa",
+      "imagePorumbel": "Hermesa.jpg",
+      "codPorumbel": "RO 13-010485 F",
+      "palmares": [
+        "Super Reproducatoare !",
+        "Mama : 175901-15 M",
+        "5e Fond M+Y EXPO UCPR '18",
+        "11e Nat. Fond M+Y '18",
+        "20e Nat. Maraton M+Y '18",
+        "3e - 513km - 9180p.",
+        "12e - 712km - 7198p.",
+        "48e - 511km - 12265p.",
+        "27e - 762km - 4950p.",
+        "16919-17 -(FONDISTA)",
+        "1e Club Fond Palm. 3 ani",
+        "15e Jud. DB Maraton Palm. 3 ani",
+        "24e Jud. DB Fond Palm. 3 ani",
+        "Orig. Popescu Petre Mihai"
+      ]
+    },
+    {
+      "numePorumbel":"ILC",
+      "imagePorumbel": "ilc.jpg",
+      "codPorumbel": "RO 14-1270041 M",
+      "palmares": [
+        "Tatal lui RO 16-048908 M - GENERALU '08",
+        "6e AS M+Y EXPO. UCPR '1",
+        "15 angajari/15 clasari",
+        "6e Palamares 2 ani AS M+Y Expo. UCPR '19",
+        "14e National General 3 ani UCPR '20",
+        "RO 19-390930 F-D30",
+        "4e AS Demifond Jud. DB '20",
+        "33e Nat. AS Demifond UCPR '20",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"Mosu Ciocos",
+      "imagePorumbel": "MosuCiocos.jpg",
+      "codPorumbel": "RO 09-709160 M",
+      "palmares": [
+        "Orig. Popescu Petre Mihai"
+      ]
+    },
+    {
+      "numePorumbel":"Neagra",
+      "imagePorumbel": "Neagra.jpg",
+      "codPorumbel": "RO 11-0011537 F",
+      "palmares": [
+        "Super Reproducatoare !",
+        "Mama la: 175933-15 ",
+        "21e General M+Y Expo. UCPR '18",
+        "Mama la : 14404-17",
+        "7e AS Viteza Yarling Expo. UCPR '18",
+        "Orig. Olteanu Cosmin"
+      ]
+    },
+    {
+      "numePorumbel":"Van Damme",
+      "imagePorumbel": "VanDamme.jpg",
+      "codPorumbel": "RO 12-041193 M",
+      "palmares": [
+        "Super Reproducator !",
+        "Tatal lui RO 15-175901 M",
+        "5e Fond M+Y EXPO UCPR '18",
+        "11e Nat. Fond M+Y '18",
+        "20e Nat. Maraton M+Y '18",
+        "3e - 513km - 9180p.",
+        "12e - 712km - 7198p.",
+        "48e - 511km - 12265p.",
+        "27e - 762km - 4950p.",
+        "Orig. Popescu Petre Mihai"
+      ]
+    },
+    {
+      "numePorumbel":"Van Loonul",
+      "imagePorumbel": "VanLoonul.jpg",
+      "codPorumbel": "RO 11-0011530 M",
+      "palmares": [
+        "Super Reproducator !",
+        "Tatal lui : 000515-20",
+        "1e Jud. DB Demifond Pui 2020",
+        "14e Nat. Demifond Pui UCPR 2020",
+        "175933-15",
+        "21e General M+Y Expo. UCPR '18",
+        "14404-17",
+        "7e AS Viteza Yarling Expo. UCPR '18",
+        "Orig. Olteanu Cosmin"
+      ]
+    }
+  ]
+}
