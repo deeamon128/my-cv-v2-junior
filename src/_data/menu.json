@@ -9,8 +9,12 @@
       "linkId": "#contact"
     },
     {
-      "linkText": "Porumbei",
-      "linkId": "#porumbei"
+      "linkText": "Matca Zburatori",
+      "linkId": "#matcazburatori"
+    },
+    {
+      "linkText": "Porumbei Matca",
+      "linkId": "#porumbeimatca"
     }
   ]
 }
