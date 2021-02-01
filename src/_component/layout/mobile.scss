@@ -15,8 +15,12 @@ body {
   grid-gap: 10px;
 }
 
-.column[span="row"] {
+.column[span^="row"] {
   grid-column: 1/-1;
+}
+
+.column[span^="row-4"] {
+  grid-column: span 4;
 }
 
 .content {
