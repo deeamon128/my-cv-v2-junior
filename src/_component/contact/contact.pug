@@ -3,9 +3,8 @@
   var titluText=data.contact.titluText
 include ../titlu/titlu
 
-.column(span="row")
+.column(span="row-4")
   .contact__image
-.column(span="row" height="10")
 
 
 
@@ -14,13 +13,14 @@ each cerc, cheita in data.contact.buttonsList
     type="radio"
     name="contact__label"
     id=`contact__label--${cheita + 1}`
+    checked
   )
   .column(span="1")
     label(for=`contact__label--${cheita + 1}`).contact__button
       i(class=`icon__${cerc.icon}`)
 
 each cerc, cheita in data.contact.buttonsList
-  .column(span="row" data-contact-box=cheita+1)
+  .column(span="row-9" data-contact-box=cheita+1)
     .aboutus__box__contact
       .aboutus__box__top
         .aboutus__box__titlu=cerc.header
@@ -44,7 +44,7 @@ each cerc, cheita in data.contact.buttonsList
 
 .column(span="row" height="10")
 .column(span="row")
-  button.circle__button--green
+  a(href="#matcazburatori").circle__button--green
     i.icon__arrow-down
 .column(span="row" height="10")
 

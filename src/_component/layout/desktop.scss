@@ -1,0 +1,29 @@
+@media (min-width: 1366px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px;
+  }
+
+  div.titlu::before {
+    position: absolute;
+    content: '';
+    background-color: #d52027;
+    top: 0;
+    bottom: 0;
+    left: -80px;
+    right: -80px;
+  }
+
+  label.contact__button [class^="icon__"] {
+    font-size: 3.5vw;
+  }
+
+  .column[span^="row-9"] {
+    grid-column: span 9;
+  }
+
+  label.contact__button [class^="icon__"] {
+    font-size: 3vw;
+  }
+}

@@ -5,30 +5,30 @@
     {
       "icon": "facebook",
       "header": "Facebook",
-      "buttonContent": "blabla bla aici puteti vedea pagina noastra de fb",
+      "buttonContent": "Apasati pe butonul de mai jus pentru a accesa profilul de facebook",
       "label": "facebook.com",
-      "link": "https://www.facebook.com/laurentiu.oncescu"
+      "link": "https://www.instagram.com/irina_oncescu/"
     },
     {
       "icon": "instagram",
       "header": "Instagram",
-      "buttonContent": "blabla bla aici puteti vedea pagina noastra de fb",
+      "buttonContent": "Apasati pe butonul de mai jus pentru a accesa profilul de instagram",
       "label": "instagram.com",
-      "link": "https://www.facebook.com/laurentiu.oncescu"
+      "link": "https://www.instagram.com/irina_oncescu/"
     },
     {
       "icon": "earth",
-      "header": "Address",
-      "buttonContent": "Adresa unde detin porumbeii este: Jud Dambovita Com Voinesti Sat Izvoare Str Morii Nr 235",
+      "header": "Adresa",
+      "buttonContent": "Adresa unde detin porumbeii este: Jud Dambovita Com Voinesti Sat Lunca Str Raul Alb Nr 62",
       "label": "facebook.com",
-      "link": "https://www.facebook.com/laurentiu.oncescu"
+      "link": "https://www.facebook.com/toma.oncescu.1"
     },
     {
       "icon": "info",
-      "header": "Number",
-      "buttonContent": "Ma puteti contacta la numarul de telefon 0763238756",
+      "header": "Numar de telefon",
+      "buttonContent": "Ma puteti contacta la numarul de telefon 0766676752",
       "label": "facebook.com",
-      "link": "https://www.facebook.com/laurentiu.oncescu"
+      "link": "https://www.facebook.com/toma.oncescu.1"
     }
   ]
 }
