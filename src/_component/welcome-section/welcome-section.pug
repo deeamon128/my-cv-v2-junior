@@ -10,13 +10,13 @@ include ../titlu/titlu
 .column(span="row" height="10")
 .column(span="row")
   h3.aboutus__titlu=data['welcome-section'].aboutusTitlu
-.column(span="row")
+.column(span="row-9")
   .aboutus__box
     each paragraf in data['welcome-section'].textAboutus
       p.aboutus__box__text=paragraf
 
 .column(span="row" height="10")
 .column(span="row")
-  button.circle__button--green
+  a(href="#contact").circle__button--green
     i.icon__arrow-down
 .column(span="row" height="10")

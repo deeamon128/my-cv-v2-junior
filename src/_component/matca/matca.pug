@@ -4,7 +4,7 @@
 include ../titlu/titlu.pug
 
 each porumbel in data.matca.listaPorumbei
-  .column(span="row")
+  .column(span="row-9")
     .pingeon__card
       .pingeon__image__wrapper
         img.pingeon__image(
@@ -18,6 +18,6 @@ each porumbel in data.matca.listaPorumbei
           p.pingeon__content-text=premiu
 
 .column(span="row")
-  button.circle__button--green
+  a(href="#welcome").circle__button--green
       i.icon__arrow-up
 .column(span="row" height="10")
