@@ -38,13 +38,17 @@ each cerc, cheita in data.contact.buttonsList
         a(
           href=cerc.link
           target="_blank"
+          title=cerc.label
         ).button__link
           i.icon__link
           span.button_text=cerc.label
 
 .column(span="row" height="10")
 .column(span="row")
-  a(href="#matcazburatori").circle__button--green
+  a(
+    href="#matcazburatori"
+    title="arrow-down"
+  ).circle__button--green
     i.icon__arrow-down
 .column(span="row" height="10")
 
