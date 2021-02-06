@@ -1,0 +1,27 @@
+- 
+  var sectionId = "superzburatori"
+  var titluText = data.superzburatori.titluText
+include ../titlu/titlu.pug
+
+each porumbel in data.superzburatori.listaPorumbei
+  .column(span="row-9")
+    .pingeon__card
+      .pingeon__image__wrapper
+        img.pingeon__image(
+          src=`asset/image/${porumbel.imagePorumbel}`
+          alt=porumbel.codPorumbel
+        )
+      .pingeon__content
+        h2.pingeon__number=porumbel.codPorumbel
+        h3.pingeon__name=porumbel.numePorumbel
+        each premiu in porumbel.palmares
+          p.pingeon__content-text=premiu
+
+.column(span="row" height="10")
+.column(span="row")
+  a(
+    href="#porumbeimatca"
+    title="porumbeimatca"
+  ).circle__button--green
+    i.icon__arrow-down
+.column(span="row" height="10")
