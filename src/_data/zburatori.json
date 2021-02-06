@@ -1,5 +1,5 @@
 {
-  "titluText": "Porumbei",
+  "titluText": "Zburatori",
   "listaPorumbei": [
     {
       "numePorumbel":"Argintia",
@@ -43,6 +43,14 @@
         "6e Palmares 2 ani M+Y Expo. UCPR '19",
         "14e National General 3 ani UCPR '20",
         "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/de814p.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
       ]
     },
     {
@@ -101,6 +109,14 @@
       ]
     },
     {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/luckyp.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    },
+    {
       "numePorumbel":"Smoala",
       "imagePorumbel": "Smaola.jpg",
       "codPorumbel": "RO 17-144410 M",
@@ -108,6 +124,14 @@
         "35e Nat. Super AS M+Y UCPR 2019",
         "1e Club Super As 2019",
         "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/smoalap.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
       ]
     }
   ]
