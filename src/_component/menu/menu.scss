@@ -9,9 +9,9 @@
   right: 10px;
   top: 50vh;
   text-align: right;
-  width: 40px;
+  width: 77px;
   height: 40px;
-  padding: 14px 12px;
+  padding: 14px 2px;
   transition: width 0.3s, height 0.3s;
 }
 
@@ -29,7 +29,8 @@
   width: 12px;
   height: 3px;
   margin-bottom: 1px;
-  background: #000;
+  margin-left: 5px;
+  background: #707070;
 }
 
 .menu:hover .menu__link {
@@ -58,4 +59,16 @@
 
 .menu:hover [class^="hamburger"] {
   display: none;
+}
+
+.menu:hover .meniu-text {
+  display: none;
+}
+
+.meniu-text {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-transform: uppercase;
+  color: #707070;
 }
