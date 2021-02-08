@@ -1,0 +1,24 @@
+- 
+  var sectionId = "fotografii"
+  var titluText = data.fotografii.titluText
+include ../titlu/titlu.pug
+
+each fotografie in data.fotografii.listaFotografii
+  .column(span="row-9")
+    .pingeon__card
+      .pingeon__image__wrapper
+        img.pingeon__image(
+          src=`asset/image/${fotografie.imageName}`
+          alt=fotografie.imageAlt
+        )
+      .pingeon__content
+        each text in fotografie.imageText
+          p.pingeon__content-text=text
+
+.column(span="row")
+  a(
+    href="#welcome"
+    title="welcome"
+  ).circle__button--green
+      i.icon__arrow-up
+.column(span="row" height="10")

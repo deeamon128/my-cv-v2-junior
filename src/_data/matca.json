@@ -1,6 +1,36 @@
 {
-  "sectionTitle": "Porumbei Matca",
+  "sectionTitle": "Matca",
   "listaPorumbei": [
+    {
+      "numePorumbel":"DE 285",
+      "imagePorumbel": "De285.jpg",
+      "codPorumbel": "RO 14-1000285 F",
+      "palmares": [
+        "5e AS M+Y EXPO. UCPR 2017",
+        "10e Demifond Palmares 3ani EXPO UCPR 18",
+        "1e - 382km - 18656p.",
+        "1e - 263km - 11212p.",
+        "2e - 200km - 5340p.",
+        "4e - 646km - 2726p.",
+        "7e - 347km - 1447p.",
+        "14e - 263km - 8117p.",
+        "19e - 380km - 5426p.",
+        "20e - 263km - 4042p.",
+        "36e - 381km - 3037p.",
+        "42e - 380km - 3827p.",
+        "87e - 558km - 19739p.",
+        "50 clasari 2015-2018",
+        "Orig. Marius Andrei + Mitu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/de285p.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    },
     {
       "numePorumbel":"Cuca",
       "imagePorumbel": "Cuca.jpg",
@@ -25,23 +55,11 @@
       ]
     },
     {
-      "numePorumbel":"DE 814",
-      "imagePorumbel": "De814.jpg",
-      "codPorumbel": "RO 18-168814 F",
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/cucap.jpg",
+      "codPorumbel": "",
       "palmares": [
-        "1e - 181km -Ruta Bulgaria- lansare 2852p.",
-        "Mama lui 390924-19",
-        "8e Nat. Demifond Palm. Y. Expo. UCPR '20",
-        "11e Demifond Pui Expo. UCPR '19",
-        "Sora cu 390930-19 F",
-        "4e AS Demifond Jud. DB '20",
-        "33e Nat. AS Demifond UCPR '20",
-        "Sora cu RO 16-048908-GENERALU '08",
-        "6e AS M+Y Expo. UCPR '18",
-        "15 angajari/15 clasari",
-        "6e Palmares 2 ani M+Y Expo. UCPR '19",
-        "14e National General 3 ani UCPR '20",
-        "Orig. Oncescu Toma + Laurentiu"
+       
       ]
     },
     {
@@ -82,6 +100,14 @@
       ]
     },
     {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/ilcp.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    },
+    {
       "numePorumbel":"Mosu Ciocos",
       "imagePorumbel": "MosuCiocos.jpg",
       "codPorumbel": "RO 09-709160 M",
@@ -100,6 +126,14 @@
         "Mama la : 14404-17",
         "7e AS Viteza Yarling Expo. UCPR '18",
         "Orig. Olteanu Cosmin"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/neagrap.jpg",
+      "codPorumbel": "",
+      "palmares": [
+      
       ]
     },
     {
@@ -133,6 +167,14 @@
         "14404-17",
         "7e AS Viteza Yarling Expo. UCPR '18",
         "Orig. Olteanu Cosmin"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/vanloonulp.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
       ]
     }
   ]

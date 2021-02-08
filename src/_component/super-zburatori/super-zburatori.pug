@@ -1,9 +1,9 @@
 - 
-  var sectionId = "matca"
-  var titluText = data.matca.sectionTitle
+  var sectionId = "superzburatori"
+  var titluText = data.superzburatori.titluText
 include ../titlu/titlu.pug
 
-each porumbel in data.matca.listaPorumbei
+each porumbel in data.superzburatori.listaPorumbei
   .column(span="row-9")
     .pingeon__card
       .pingeon__image__wrapper
@@ -17,11 +17,12 @@ each porumbel in data.matca.listaPorumbei
         each premiu in porumbel.palmares
           p.pingeon__content-text=premiu
 
+
 .column(span="row" height="10")
 .column(span="row")
   a(
-    href="#fotografii"
-    title="Fotografii"
+    href="#zburatori"
+    title="Zburatori"
   ).circle__button--green
     i.icon__arrow-down
 .column(span="row" height="10")

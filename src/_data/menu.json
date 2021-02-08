@@ -9,12 +9,20 @@
       "linkId": "#contact"
     },
     {
-      "linkText": "Matca Zburatori",
-      "linkId": "#matcazburatori"
+      "linkText": "Super Zburatori",
+      "linkId": "#superzburatori"
     },
     {
-      "linkText": "Porumbei Matca",
-      "linkId": "#porumbeimatca"
+      "linkText": "Zburatori",
+      "linkId": "#zburatori"
+    },
+    {
+      "linkText": "Matca",
+      "linkId": "#matca"
+    },
+    {
+      "linkText": "Fotografii diverse",
+      "linkId": "#fotografii"
     }
   ]
 }

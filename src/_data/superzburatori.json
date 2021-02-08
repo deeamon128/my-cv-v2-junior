@@ -1,0 +1,136 @@
+{
+  "titluText": "Super Zburatori",
+  "listaPorumbei": [
+    {
+      "numePorumbel":"Iris",
+      "imagePorumbel": "Iris.jpg",
+      "codPorumbel": "RO 19-390918 F",
+      "palmares": [
+        "Multipla Campioana Nationala UCPR 2020",
+        "1e Nat. AS Viteza M+Y '20",
+        "1e Nat. AS Viteza Yarling '20",
+        "1e Nat. As Demifond M+Y '20",
+        "1e Nat. As Demifond Yarling '20",
+        "1e Jud. DB Demifond Yarling '20",
+        "3e Jud. DB Viteza Yarling '20",
+        "4e Nat. Viteza Yarling '20",
+        "4e Nat. Demifond Yarling '20",
+        "9e Nat. Viteza M+Y '20",
+        "12e Nat. Demifond M+Y '20",
+        "22e Nat. Viteza Palm. Yarling'20",
+        "1e - 223km - 5747p.",
+        "1e - 304km - 495p.",
+        "1e - 304km - 485p.",
+        "4e - 304km - 879p.",
+        "9e - 181km - 6979p.",
+        "8e - 304km - 2058p.",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/irisp.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    },
+    {
+      "numePorumbel":"Red Lady",
+      "imagePorumbel": "RedLady.jpg",
+      "codPorumbel": "RO 16-002548 F",
+      "palmares": [
+        "Super Reproducatoare !",
+        "4e Nat Viteza M+Y UCP '18",
+        "2018 - 5 locuri 1 ---lansare/judet/club-",
+        "1e - 311km - 1386p.",
+        "1e - 242km - 351p.",
+        "1e - 310km - 814p.",
+        "4e - 242km - 14826p. (locul 1 protocol)",
+        "7e - 311km - 2596p. (locul 1 club)",
+        "Mama lui : **390918-2019** (IRIS)",
+        "Multipla Campioana Nationala UCPR 2020",
+        "1e Nat. AS Viteza M+Y",
+        "1e Nat. AS Demifond M+Y",
+        "1e Nat. AS Viteza Yarling",
+        "1e Nat. AS Demifond Yarling",
+        "Orig. Marius Andrei + Mitu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/redladyp.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    },
+    {
+      "numePorumbel":"Adjunctul",
+      "imagePorumbel": "Adjunctul.jpg",
+      "codPorumbel": "RO 16-048934 M",
+      "palmares": [
+        "3e Viteza.Pui EXPO. UCPR '16",
+        "15e Viteza.Y EXPO. YCPR '17",
+        "Tatal lui:**390918-2019**(IRIS)",
+        "Multipla Campioana Nationala UCPR 2020",
+        "1e Nat. As Viteza M+Y",
+        "1e Nat. As Demifond M+Y",
+        "1e Nat. As Viteza Yarling",
+        "1e Nat. As Demifond Yarling",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/adjunctulp.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    },
+    {
+      "numePorumbel":"Generalu' 08",
+      "imagePorumbel": "Generalu08.jpg",
+      "codPorumbel": "RO 16-048908 M",
+      "palmares": [
+        "6e AS M+Y EXPO UCPR '18",
+        "15 angajari/15 clasari",
+        "6e PALMARES 2 ani AS M+Y EXPO. UCPR '19",
+        "6e PALMARES 3 ani GENERAL EXPO. UCPR '20",
+        "14e National GENERAL 3ani UCPR '20",
+        "1e - 242km - 2762p.",
+        "1e - 650km - 1628p.",
+        "3e - 605km - 2218p.",
+        "6e - 181km - 1025p.",
+        "14e - 242km - 2249p.",
+        "17e - 224km - 2693p.",
+        "54e - 311km - 12308p.",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/generalu08p.jpg",
+      "codPorumbel": "",
+      "palmares": [
+    
+      ]
+    },
+    {
+      "numePorumbel":"DE 901",
+      "imagePorumbel": "De901.jpg",
+      "codPorumbel": "RO 15-175901 M",
+      "palmares": [
+        "5e Fond M+Y Expo UCP '18",
+        "11e Nat Fond M+Y '18",
+        "20e Nat Maraton M+Y '18",
+        "12e - 712km - 7198p.",
+        "48e - 511km - 12265p.",
+        "27e - 762km - 4950p.",
+        "3e - 513km - 9180p.",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    }
+  ]
+}

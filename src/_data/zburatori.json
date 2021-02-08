@@ -1,0 +1,138 @@
+{
+  "titluText": "Zburatori",
+  "listaPorumbei": [
+    {
+      "numePorumbel":"Argintia",
+      "imagePorumbel": "Argintia.jpg",
+      "codPorumbel": "RO 15-174968 F",
+      "palmares": [
+        "5e - 554km - 1482p. '15 ",
+        "2e Club Maraton UCPR '19",
+        "1e Club AS Maraton UCPR '19",
+        "1e Club Maraton Extrem '19",
+        "1e Club AS Maraton Extrem '19",
+        "1e Club Super Maraton Extrem UCPR '19",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"DE 515",
+      "imagePorumbel": "De515.jpg",
+      "codPorumbel": "RO 20-000515 M",
+      "palmares": [
+        "1e Demifond Pui Jud. Db '20",
+        "14e Nat. Demifond Pui UCPR '20",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"DE 814",
+      "imagePorumbel": "De814.jpg",
+      "codPorumbel": "RO 18-168814 F",
+      "palmares": [
+        "1e - 181km -Ruta Bulgaria- lansare 2852p.",
+        "Mama lui 390924-19",
+        "8e Nat. Demifond Palm. Y. Expo. UCPR '20",
+        "11e Demifond Pui Expo. UCPR '19",
+        "Sora cu 390930-19 F",
+        "4e AS Demifond Jud. DB '20",
+        "33e Nat. AS Demifond UCPR '20",
+        "Sora cu RO 16-048908-GENERALU '08",
+        "6e AS M+Y Expo. UCPR '18",
+        "15 angajari/15 clasari",
+        "6e Palmares 2 ani M+Y Expo. UCPR '19",
+        "14e National General 3 ani UCPR '20",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/de814p.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    },
+    {
+      "numePorumbel":"DE 924",
+      "imagePorumbel": "De924.jpg",
+      "codPorumbel": "RO 19-390924 M",
+      "palmares": [
+        "8e Nat. Demifond Palm. Y. Expo. UCPR '20",
+        "11e Demifond Pui Expo. UCPR '19",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"DE 930",
+      "imagePorumbel": "De930.jpg",
+      "codPorumbel": "RO 19-390930 F",
+      "palmares": [
+        "4e AS Demifond Jud. Db '20",
+        "33e Nat. AS Demifond UCPR '20",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"Fondista",
+      "imagePorumbel": "Fondista.jpg",
+      "codPorumbel": "RO 17-016919 F",
+      "palmares": [
+        "1e Fond Palm. 3 ani club",
+        "15e Maraton Palm. 3 ani Jud. DB",
+        "24e Fond Palm. 3 ani Jud. DB",
+        "Sora cu RO 15-175901 M",
+        "5e Fond M+Y Expo. UCPR '18",
+        "11e Nat. Fond M+Y '18",
+        "20e Nat. Maraton M+Y '18",
+        "3e - 513km - 9180p.",
+        "12e - 712km - 7198p.",
+        "27e - 762km - 4950.",
+        "48e - 511km - 12265p.",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"Lucky",
+      "imagePorumbel": "Lucky.jpg",
+      "codPorumbel": "RO 15-175933 M",
+      "palmares": [
+        "Loc 21 General M+Y Expo. UCPR 2018",
+        "Frate cu 144404-17",
+        "Loc 7 As Viteza Y. Expo. UCPR 2018",
+        "Tatal lui 144421-17",
+        "Loc 6 As Viteza Y. Expo. UCPR 2018",
+        "144410-17",
+        "Loc 35 Nat. Super As M+Y UCPR 2019",
+        "Loc 1 Club Super As 2019",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/luckyp.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    },
+    {
+      "numePorumbel":"Smoala",
+      "imagePorumbel": "Smaola.jpg",
+      "codPorumbel": "RO 17-144410 M",
+      "palmares": [
+        "35e Nat. Super AS M+Y UCPR 2019",
+        "1e Club Super As 2019",
+        "Orig. Oncescu Toma + Laurentiu"
+      ]
+    },
+    {
+      "numePorumbel":"",
+      "imagePorumbel": "pedigree/smoalap.jpg",
+      "codPorumbel": "",
+      "palmares": [
+        
+      ]
+    }
+  ]
+}
