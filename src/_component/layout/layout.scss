@@ -4,3 +4,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+// Adding a grid
+
+.grid {
+  display: grid; //afiseaza gridul
+  grid-template-columns: repeat(4, 1fr); //repeta de 4 ori o fractie
+  grid-gap: 10px; // spatiu de 10 pixeli intre gridurile dintre coloane si/sau randuri
+}
+
+.column[span="row"] {
+  grid-column: 1/-1; // 1 este prima coloana din stanga -1 este prima coloana din dreapta
+}
