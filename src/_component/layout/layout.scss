@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif; 
+}
+
 // Adding a grid
 
 .grid {
@@ -15,4 +19,8 @@
 
 .column[span="row"] {
   grid-column: 1/-1; // 1 este prima coloana din stanga -1 este prima coloana din dreapta
+}
+
+.content {
+  padding: 0 36px;
 }
