@@ -1,12 +1,12 @@
 // Reset margins paddings and box sizing of layout
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  padding: 0; // am setat margine 0 deasupra si dedesubt
+  margin: 0;  // am setat margine 0 atat pe stanga cat si pe dreapta
+  box-sizing: border-box; //inaltimea si latimea se aplica elementelor de continut si margini
 }
 
 body {
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif; //am setat fontul in care e scris continutul
 }
 
 // Adding a grid
@@ -22,5 +22,5 @@ body {
 }
 
 .content {
-  padding: 0 36px;
+  padding: 0 36px; //continutul are o margine de 0 pixeli deasupra si dedesubt si 36 de pixeli in dreapta si stanga
 }

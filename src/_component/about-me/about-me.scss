@@ -1,16 +1,54 @@
 .section__title-wrapper {
-  padding: 10px;
-  height: 60px;
-  background-color: #d52027;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  padding: 10px; //aici am setat o distanta de 10 pixeli in margine
+  height: 60px; //aici am setat inaltimea de 60 de pixeli a casetei
+  background-color: #d52027; // aici am inserat un backgroud al casetei de culoare rosie
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16); // am inserat o umbra de culoare neagra de 16%
+}
+
+.description-box__with-shadow {
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.descriere {
+  font-size: 14px;
+  color: #707070;
+  line-height: 30px;
+  font-weight: 600;
 }
 
 .section__title {
   // margin: 10px; 
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  color: white;
+  height: 40px; //aici am setat o inaltime de 40 de pixeli a casetei de text
+  line-height: 40px; //aici am setat o inaltime de 40 de pixeli a liniei
+  text-align: center; //alinierea textului pe centru
+  color: white; //culoarea textului
+}
+
+.despre-mine__titlu-mare,
+.despre-mine__titlu, {
+  text-align: center; //am aliniat textul central
+  color: #707070; //culoarea fontului din titlu
+  font-weight: 600; //tipul fontului e mediu
+}
+
+.despre-mine__titlu-mare {
+  font-size: 48px; //marimea fontului am setat-o la 48 de pixeli
+  line-height: 64px; //inaltimea liniei am setat-o la 64
+}  
+
+.despre-mine__titlu, {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.despre-mine__subtitlu {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
 }
 
 
