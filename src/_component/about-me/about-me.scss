@@ -1,0 +1,126 @@
+.button__disc--red{
+  background-color: #d52027;
+}
+
+.button__disc--red,
+.button__disc--green{
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.button__disc--green{
+  background-color: #50d166;
+}
+
+.pill--blue{
+  height: 40px;
+  margin: 0 auto;
+  color: white;
+  border:0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  font-size: 10px;
+  font-weight: bolder;
+  align-items: center;
+}
+
+button.pill i.icon__download {
+  padding-right: 12px;
+}
+
+button[class^="pill"] i[class^="icon__"]{
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pill--blue{
+  background-color: #1875f0;
+}
+
+.about-me__name-title,
+.about-me__job-title{
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+}
+
+.about-me__name-title{
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.about-me__job-title{
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.about-me__more-tile{
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.box__with-shadow{
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.description{
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.section__title{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section__title-wrapper{
+  padding: 10px;
+  height: 60px;
+  background-color: #d52027;
+  position: relative;
+  
+  &::before{
+    position: absolute;
+    content: '';
+    background-color: #d52027;
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    right: -36px;
+  }
+  
+  &::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 2px 6px rgba( 0, 0, 0, 0.25);
+  }
+}
+
