@@ -26,7 +26,7 @@
   margin: 20 auto; //Am centrat pozitia butonului in afisarea template-ului
   width: 40px; //Am setat latimea butonului la 40 de px conform designului
   height: 40px; //Am setat inaltimea butonului la 40 de px
-  display: flex; //Afiseaza aria continutului de tip flex pentru copiii sai directi
+  display: flex; //Afiseaza aria continutului de tip flex pentru copiii sai directi - pozitioneaza pe o singura axa
   justify-content: center; //Pozitioneaza continutul (stanga-dreapta) butonului pe centru
   align-items: center; //Aliniaza continutul (sus - jos) butonului pe centru
   color: white; //Am setat culoarea continutului butonului
