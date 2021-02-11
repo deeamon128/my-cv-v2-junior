@@ -1,3 +1,62 @@
+.button__disc--red{
+  background-color: #d52027;
+}
+
+.button__disc--red,
+.button__disc--green{
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.button__disc--green{
+  background-color: #50d166;
+}
+
+.about-me__name-title,
+.about-me__job-title{
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+}
+
+.about-me__name-title{
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.about-me__job-title{
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.about-me__more-tile{
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.box__with-shadow{
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.description{
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  line-height: 30px;
+}
+
 .section__title{
   height: 40px;
   line-height: 40px;
@@ -11,3 +70,4 @@
   background-color: #d50227;
   box-shadow: 0 2px 6px rgba( 0, 0, 0, 0.16);
 }
+
