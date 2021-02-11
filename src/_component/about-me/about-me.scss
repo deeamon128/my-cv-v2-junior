@@ -19,11 +19,32 @@
   font-weight: 600;
 }
 
+.pastiluta-albastra {
+  height: 40px;
+  margin: 20px auto 0;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+button i[class^="icon__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.pastiluta-albastra {
+  background-color: #1875F0;
+}
+
 .buton__disc-rosu,
 .buton__disc-verde {
   border: 0; //Setam butonul sa fie fara margine
   border-radius: 50%; //Aici am setat rotunjimea marginilor
-  margin: 20 auto; //Am centrat pozitia butonului in afisarea template-ului
+  margin: 20px auto; //Am centrat pozitia butonului in afisarea template-ului
   width: 40px; //Am setat latimea butonului la 40 de px conform designului
   height: 40px; //Am setat inaltimea butonului la 40 de px
   display: flex; //Afiseaza aria continutului de tip flex pentru copiii sai directi - pozitioneaza pe o singura axa
