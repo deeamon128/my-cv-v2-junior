@@ -32,7 +32,11 @@
   align-items: center;
 }
 
-.button[class^="pill"] i[class^="icon__"]{
+button.pill i.icon__download {
+  padding-right: 12px;
+}
+
+button[class^="pill"] i[class^="icon__"]{
   width: 16px;
   height: 16px;
   margin-right: 12px;
