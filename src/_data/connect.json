@@ -1,4 +1,85 @@
 {
   "sectionTitle": "Let's connect",
-  "avatarPath": "asset/image/avatar-maria-cotofana.jpeg"
+  "avatarPath": "asset/image/avatar-maria-cotofana.jpeg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "github",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "linkedin",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "stackoverflow",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "codewars",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "udemy",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "facebook",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "skype",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "instagram",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    },
+
+    {
+      "icon": "twitter",
+      "title": "Codetap",
+      "description": "asdyhgfdsa",
+      "label": "codetap.academy",
+      "link": "http://codetap.academy"
+    }
+  ]
 }
