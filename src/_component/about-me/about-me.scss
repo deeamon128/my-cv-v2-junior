@@ -57,7 +57,7 @@ button i[class^="icon__"] {
   //margin: 20 auto;
 }
 
-.buton__disc-rosu, {
+.buton__disc-rosu {
   background-color: #d52027; //Am setat culoarea rosie, iar mai jos va fi culoarea verde
 }
 
@@ -96,7 +96,7 @@ button i[class^="icon__"] {
 }
 
 .despre-mine__titlu-mare,
-.despre-mine__titlu, {
+.despre-mine__titlu {
   text-align: center; //am aliniat textul central
   color: #707070; //culoarea fontului din titlu
   font-weight: 600; //tipul fontului e mediu
@@ -107,7 +107,7 @@ button i[class^="icon__"] {
   line-height: 64px; //inaltimea liniei am setat-o la 64
 }  
 
-.despre-mine__titlu, {
+.despre-mine__titlu {
   font-size: 36px;
   line-height: 48px;
 }
