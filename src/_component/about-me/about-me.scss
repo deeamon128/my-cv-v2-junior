@@ -50,7 +50,11 @@ button i[class^="icon__"] {
   display: flex; //Afiseaza aria continutului de tip flex pentru copiii sai directi - pozitioneaza pe o singura axa
   justify-content: center; //Pozitioneaza continutul (stanga-dreapta) butonului pe centru
   align-items: center; //Aliniaza continutul (sus - jos) butonului pe centru
+  border: 0; //Setam butonul sa fie fara margine
+  border-radius: 50%; //Aici am setat rotunjimea marginilor
   color: white; //Am setat culoarea continutului butonului
+  margin: 0 auto; //Am centrat pozitia butonului in afisarea template-ului
+  //margin: 20 auto;
 }
 
 .buton__disc-rosu, {
@@ -59,6 +63,28 @@ button i[class^="icon__"] {
 
 .buton__disc-verde {
   background-color: #50d166;
+}
+
+/* introduc o clasa de iconite cu posibile proprietati comune */
+[class^="icon__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px; //Am setat marginea iconitei 12 px la dreapta, dar muta si la restul iconitelor. Le vom repara mai tarziu.
+}
+
+.buton__pastiluta-albastra {
+  height: 40px;
+  margin: 20px auto 0;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+  .buton__pastiluta-albastra {
+  background-color: #1875F0;
 }
 
 .section__title {
