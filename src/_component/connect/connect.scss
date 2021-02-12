@@ -1,15 +1,20 @@
 .connect__avatar{
   padding-top: 100%;
-  background-color: red;
+  background-color: white;
   position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  transform: rotate(-2.5deg);
+
 
   &::after{
     content: '';
+    border-radius: 6px;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
     background-size: cover;
     background-image: url('asset/image/avatar-maria-cotofana.jpeg');
   }
