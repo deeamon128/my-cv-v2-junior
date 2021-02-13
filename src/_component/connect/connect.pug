@@ -1,12 +1,43 @@
 - var sectionTitle = data.connect.sectionTitle
-include ../section-title/section-title 
+include ../section-title/section-title
 
 .column(span="row")
   .connect__avatar
-.column(span="row")
+.column(span="row" height="10")
 
-each social in data.connect.socialList
+
+each social, key in data.connect.socialList 
+  input.connect__radio(
+    type="radio"
+    name="connect__label"
+    id=`connect__label--${key}`
+    )
   .column(span="1")
-    .connect__disc
+    label(for=`connect__label--${key}`).connect__disc
       i(class=`icon__${social.icon}`)
 
+.column(span="row" height="10")
+.column(span="row")
+  .box__with-arrow
+    .box__header
+      .box__title CodeTap
+      .box__close
+        input.connect__radio(
+          type="radio"
+          name="connect__label"
+          id=`connect__label--reset`
+        )
+        label(for=`connect__label--reset`).connect__disc
+          i(class=`icon__cross`)
+    .box__body
+      p.box__paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quibusdam eum reiciendis magnam necessitatibus iste vel cumque, maxime aliquam quia, consequatur, perferendis fugit sed nesciunt aut nostrum totam accusamus possimus?
+    .box__footer
+      button.pill--blue 
+        i.icon__link
+        span.button-text=data['about-me'].downloadButtonLabel 
+
+.column(span="row" height="10")
+.column(span="row")
+  button.button__disc--green
+    i.icon__arrow-down
+.column(span="row" height="10")

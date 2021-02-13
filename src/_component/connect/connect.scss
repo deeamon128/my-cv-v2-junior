@@ -1,9 +1,59 @@
+.connect__radio:checked + .column .connect__disc{
+  background-color: #d52027;
+}
+
+.box__footer,
+.box__body{
+  padding: 20px;
+}
+
+.box__body{
+  border-top: 2px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.box__with-arrow{
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  background-color: white;
+}
+
+.box__header{
+  padding: 20px;
+  display: flex;
+}
+
+p.box__paragraph{
+  font-size: 14px;
+  line-height: 30px
+}
+
+.box__title{
+  flex-grow: 1;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.box__close{
+  width: 40px;
+}
+
 .connect__disc{
+  display: block;
+  transition: 250ms;
   background-color: #1875f0;
   border-radius: 50%;
   padding-top: 100%;
   position: relative;
   color: white;
+  cursor: pointer;
+
+  [for="connect__label--reset"]{
+    width: 40px;
+    color: white;
+  }
 
   [class^= "icon__"] {
     position: absolute;
