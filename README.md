@@ -38,8 +38,14 @@ This is your first PROfessional website where you'll:
 1. If you are a `mentored` or `wise` member of `CodeTap Academy` you want to get in touch with your **mentor-assistant** or **mentor** so they can create for you a dedicated branch. (***Skip this step if you are not wise or mentored member***)
 1. Find the `Fork` button located in the top right area of this window and click on it. If asked, select your personal **GitHub** account. Watch this project being copied over, it should only take a few seconds.
 1. Now you're in the project on your own profile. You want to find the big green button that helps you make a clone to your computer, labeled **Clone or download**. Click on it, copy the path to it.
-1. Open a console like `Git Bash`, `Bash`, `Terminal`, `CMD`, `PowerShell` etc, navigate to the place where you keep your projects and run: ```
-git clone [paste the path to the project in here]``` and hit the `Enter` key. The command should look like `git clone https://github.com/marianzburlea/my-cv-v2-junior` or  `git clone git@github.com:marianzburlea/my-cv-v2-junior`
+1. Open a console like `Git Bash`, `Bash`, `Terminal`, `CMD`, `PowerShell` etc, navigate to the place where you keep your projects and run: `git clone [paste the path to the project in here]` and hit the `Enter` key. The command should look like 
+```
+git clone https://github.com/marianzburlea/my-cv-v2-junior
+```
+or
+```
+git clone git@github.com:marianzburlea/my-cv-v2-junior
+```
 1. Change into your project using `cd my-cv-v2-junior` and install dependencies using `npm i`
 1. Open the project in your editor. If you have Visual Studio Code installed you can do it using `code .` and start your local development server using `npm start`
 1. If you are **wise or mentored member** of Codetap Academy you want to change into your personalised branch using `git checkout [my GitHub username]`. It should look like: `git checkout marianzburlea` (***Skip this step if you are not wise or mentored member***)
@@ -47,7 +53,7 @@ git clone [paste the path to the project in here]``` and hit the `Enter` key. Th
 1. **Happy hacking** and have fun following this amazing course!
 
 ## How to get better and earn money with this project
-One of the best adivce I can give you after you finish first time this project through following this tutoril is for you to do it one more time, at least. This time your main goal is to force yourself to do it with your own ideas, content, colors, positions etc. Basically you follow the video course and while you follow it, you want to pause and then traslate it to your own idea. For example: if the menu in the course doesn't have rounded corners but you feel you want some corners that aren't so sharp, go for it. 
+One of the best adivce I can give you after you finish first time this project for the first time through following this tutorial is for you to do it one more time, at least. This time your main goal is to force yourself to do it with your own ideas, content, colors, positions etc. Basically you follow the video course and while you follow it, you want to pause and then traslate it to your own idea. For example: if the menu in the course doesn't have rounded corners but you feel you want some corners that aren't so sharp, go for it. 
 
 Once the change is done, press play, understand the idea that is presented to you in the next step, translate it to your own and repeat until the entire project is done.
 
@@ -69,7 +75,7 @@ If you have any further questions leave them in comments or notes on our website
 
 This project is part of a bigger series.
 
-* `My CV v2 - Starter` where we'll have fun using `pug-starter`. If you find following the current project a bit too much to chew, consider starting with a more starter level.
+* `My CV v2 - Starter` where we'll have fun using only HTML and CSS. If you find following the current project a bit too much to chew, consider starting with a more starter level.
 * `My CV v2 - Mid` where we'll have fun using `React`
 * `My CV v2 - Senior` where we'll have fun using `React` and `NodeJS`
 
