@@ -15,7 +15,7 @@
   },
   "//": "CUSTOM CONFIGURATION",
   "installConfig": {
-    "pnp": true
+    "pnp": false
   },
   "config": {
     "customUrl": "http://pug-starter.codetap.io",
@@ -99,7 +99,7 @@
     "del": "5.1.0",
     "eslint": "6.1.0",
     "foldero": "0.1.1",
-    "gulp": "4.0.2",
+    "gulp": "^4.0.2",
     "gulp-cached": "1.1.1",
     "gulp-changed": "4.0.1",
     "gulp-changed-in-place": "2.3.0",
