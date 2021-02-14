@@ -51,7 +51,7 @@
 
 .pastiluta-albastra {
   height: 40px; //am setat inaltimea de 40 de pixeli pentru butonul pastiluta
-  margin: 20px auto 0;  //Am centrat pozitia butonului in afisarea template-ului
+  margin: 0 auto;  //Am centrat pozitia butonului in afisarea template-ului
   color: white; // am setat culoarea alba pentru fonturi
   border: 0; // am setat ca butonul sa nu aiba chenar
   border-radius: 20px; // marginile butonului sunt rotunjite cu o margine de 20 de pixeli
@@ -80,7 +80,7 @@ button[class^="pastiluta-albastra"] i[class^="icon__"] {
 .buton__disc-verde {
   border: 0; //Setam butonul sa fie fara chenar
   border-radius: 50%; //Aici am setat rotunjimea marginilor
-  margin: 20px auto; //Am centrat pozitia butonului in afisarea template-ului
+  margin: 0 auto; //Am centrat pozitia butonului in afisarea template-ului
   width: 40px; //Am setat latimea butonului la 40 de px conform designului
   height: 40px; //Am setat inaltimea butonului la 40 de px
   display: flex; //Afiseaza aria continutului de tip flex pentru copiii sai directi - pozitioneaza pe o singura axa
@@ -108,7 +108,7 @@ button[class^="pastiluta-albastra"] i[class^="icon__"] {
 
 .buton__pastiluta-albastra {
   height: 40px;
-  margin: 20px auto 0;
+  margin: 0 auto;
   color: white;
   border: 0;
   border-radius: 20px;
