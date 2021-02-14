@@ -5,81 +5,81 @@
     {
       "icon": "codetap",
       "title": "Codetap",
-      "description": "asdyhgfdsa",
+      "description": "Junior Web Developer with the help of CodeTap Academy",
       "label": "codetap.academy",
       "link": "http://codetap.academy"
     },
 
     {
       "icon": "github",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "Github",
+      "description": "There are more projects where you can see me working with HTML, CSS..",
+      "label": "github.com/mariateo",
+      "link": "http://github.com/mariateo"
     },
 
     {
       "icon": "linkedin",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "LinkedIn",
+      "description": "We can connect even on LinkedIn",
+      "label": "linkedin.com/in/maria-teodora-cotofana-0a56a019b/",
+      "link": "https://www.linkedin.com/in/maria-teodora-cotofana-0a56a019b/"
     },
 
     {
       "icon": "stackoverflow",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "Stack Overflow",
+      "description": "Visit my Stack Overflow profile down below.",
+      "label": "stackoverflow.com/users/15208329/maria-teodora-cotofana?tab=profile",
+      "link": "https://stackoverflow.com/users/15208329/maria-teodora-cotofana?tab=profile"
     },
 
     {
       "icon": "codewars",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "Codewars",
+      "description": "You can see more of my progress here.",
+      "label": "codewars.com/users/MariaTeo",
+      "link": "https://www.codewars.com/users/MariaTeo"
     },
 
     {
       "icon": "udemy",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "Udemy",
+      "description": "You can see more of my progress here.",
+      "label": "udemy.com/user/maria-teodora-cotofana/",
+      "link": "https://www.udemy.com/user/maria-teodora-cotofana/"
     },
 
     {
       "icon": "facebook",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "Facebook",
+      "description": "If you want to see more about me and have a good laugh, then go ahead and add me on Facebook",
+      "label": "facebook.com/mushyroom.m",
+      "link": "https://www.facebook.com/mushyroom.m/"
     },
 
     {
       "icon": "skype",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "Skype",
+      "description": "Here is my Skype account.",
+      "label": "join.skype.com/invite/jXXGbxaQhmze",
+      "link": "https://join.skype.com/invite/jXXGbxaQhmze"
     },
 
     {
       "icon": "instagram",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "Instagram",
+      "description": "Instagram is where you can find me most active when I am off.",
+      "label": "instagram.com/mushyroom.m",
+      "link": "https://www.instagram.com/mushyroom.m/"
     },
 
     {
       "icon": "twitter",
-      "title": "Codetap",
-      "description": "asdyhgfdsa",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "title": "Twitter",
+      "description": "This is not the most favourite social media, but hey! You can find me here too!",
+      "label": "twitter.com/",
+      "link": "https://twitter.com/"  
     }
   ]
 }

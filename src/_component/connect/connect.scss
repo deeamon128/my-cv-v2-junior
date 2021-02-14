@@ -7,6 +7,21 @@
   padding: 20px;
 }
 
+.box__footer{
+  display: flex;
+  justify-content: center;
+}
+
+@for $i from 1 through 10 {
+  .connect__radio:nth-of-type(#{$i}):checked ~ [data-box="#{$i}"] {
+    display: block;
+  }  
+}
+
+[data-box]{
+display: none;
+}
+
 .box__body{
   border-top: 2px solid #f5f5f5;
   border-bottom: 2px solid #f5f5f5;
@@ -16,6 +31,21 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
   background-color: white;
+  position: relative;
+  margin-top: 1rem;
+
+  &::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    top: -7px;
+    left: 15px;
+    clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+    transform: rotate(45deg);
+  }
 }
 
 .box__header{
