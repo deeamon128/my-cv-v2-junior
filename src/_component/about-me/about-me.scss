@@ -1,8 +1,38 @@
+.section__title {
+  // margin: 10px; 
+  height: 40px; //aici am setat o inaltime de 40 de pixeli a casetei de text
+  line-height: 40px; //aici am setat o inaltime de 40 de pixeli a liniei
+  text-align: center; //alinierea textului pe centru
+  color: white; //culoarea textului
+  font-size: 24px; //am setat marimea fontului
+  font-weight: 600; //am setat tipul fontului ca grosime
+  position: relative; //elementul este pozitionat relativ normal fata de alt element
+}
+
 .section__title-wrapper {
   padding: 10px; //aici am setat o distanta de 10 pixeli in margine
   height: 60px; //aici am setat inaltimea de 60 de pixeli a casetei
   background-color: #d52027; // aici am inserat un backgroud al casetei de culoare rosie
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16); // am inserat o umbra de culoare neagra de 16%
+  position: relative; //aici am pozitionat elementul de dedesubt
+  
+  &::before {
+    position: absolute; //prin pozitionare cu proprietatea absolute am creat efectul de umbra din bara rosie de deasupra
+    content: '';
+    background-color: #d52027;
+    left: -36px; //am extins elementul cu 36 de pixeli la stanga
+    top: 0; //am setat margine 0 deasupra elementului
+    bottom: 0; //am setat margine 0 dedesubtul elementului
+    right: -36px; //am extins elementul cu 36 de pixeli la dreapta creand o bara rosie dintr-un capat in altul
+  }
+  &::after {
+    position: absolute; //aici am pozitionat elementul de deasupra
+    content: '';
+    left: 0; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25); // am inserat o umbra de culoare neagra de 25%
+  }
 }
 
 .description-box__with-shadow {
@@ -13,36 +43,42 @@
 }
 
 .descriere {
-  font-size: 14px;
-  color: #707070;
-  line-height: 30px;
-  font-weight: 600;
+  font-size: 14px; //am setat marimea fontului textului la 14 pixeli
+  color: #707070; //am setat culoarea textului din descriere
+  line-height: 30px; //am setat o inaltime a liniei de 30 de pixeli
+  font-weight: 600; //am setat fontul sa fie regular
 }
 
 .pastiluta-albastra {
-  height: 40px;
-  margin: 20px auto 0;
-  color: white;
-  border: 0;
-  border-radius: 20px;
-  padding: 0 24px;
+  height: 40px; //am setat inaltimea de 40 de pixeli pentru butonul pastiluta
+  margin: 20px auto 0;  //Am centrat pozitia butonului in afisarea template-ului
+  color: white; // am setat culoarea alba pentru fonturi
+  border: 0; // am setat ca butonul sa nu aiba chenar
+  border-radius: 20px; // marginile butonului sunt rotunjite cu o margine de 20 de pixeli
+  padding: 0 24px; // am setat marginea elementului 0 pixeli sus jos si 24 pixeli stanga dreapta
+  display: flex; // am setat un tip de afisare
+  font-size: 10px; // marimea fontului e de 10 pixeli
+  font-weight: bolder; // am setat ca fontul sa fie ingrosat
+  align-items: center; // am aliniat central continutul
+  background-color: #1875F0; // am setat culoarea pastilutei
+}
+
+button[class^="pastiluta-albastra"] i[class^="icon__"] {
+  width: 16px; //am setat latimea de 16 pixeli
+  height: 16px; //am setat inaltimea de 16 pixeli
+  margin-right: 12px; //am setat pozitia fata de margine
   display: flex;
-  align-items: center;
+  align-items: center; //am setat alinierea centrala
+  justify-content: center; //aici am setat o spatiere centrala a continutului
 }
 
-button i[class^="icon__"] {
-  width: 16px;
-  height: 16px;
+.pastiluta-albastra .icon__download {
   margin-right: 12px;
-}
-
-.pastiluta-albastra {
-  background-color: #1875F0;
 }
 
 .buton__disc-rosu,
 .buton__disc-verde {
-  border: 0; //Setam butonul sa fie fara margine
+  border: 0; //Setam butonul sa fie fara chenar
   border-radius: 50%; //Aici am setat rotunjimea marginilor
   margin: 20px auto; //Am centrat pozitia butonului in afisarea template-ului
   width: 40px; //Am setat latimea butonului la 40 de px conform designului
@@ -50,11 +86,10 @@ button i[class^="icon__"] {
   display: flex; //Afiseaza aria continutului de tip flex pentru copiii sai directi - pozitioneaza pe o singura axa
   justify-content: center; //Pozitioneaza continutul (stanga-dreapta) butonului pe centru
   align-items: center; //Aliniaza continutul (sus - jos) butonului pe centru
-  border: 0; //Setam butonul sa fie fara margine
   border-radius: 50%; //Aici am setat rotunjimea marginilor
   color: white; //Am setat culoarea continutului butonului
   margin: 0 auto; //Am centrat pozitia butonului in afisarea template-ului
-  //margin: 20 auto;
+  //margin: 20 auto; din cauza lipsei de "px" dupa 20 am castigat 4 ore de experienta
 }
 
 .buton__disc-rosu {
@@ -69,7 +104,6 @@ button i[class^="icon__"] {
 [class^="icon__"] {
   width: 16px;
   height: 16px;
-  margin-right: 12px; //Am setat marginea iconitei 12 px la dreapta, dar muta si la restul iconitelor. Le vom repara mai tarziu.
 }
 
 .buton__pastiluta-albastra {
@@ -81,18 +115,11 @@ button i[class^="icon__"] {
   padding: 0 24px;
   display: flex;
   align-items: center;
+  font-weight: bolder;
 }
 
   .buton__pastiluta-albastra {
   background-color: #1875F0;
-}
-
-.section__title {
-  // margin: 10px; 
-  height: 40px; //aici am setat o inaltime de 40 de pixeli a casetei de text
-  line-height: 40px; //aici am setat o inaltime de 40 de pixeli a liniei
-  text-align: center; //alinierea textului pe centru
-  color: white; //culoarea textului
 }
 
 .despre-mine__titlu-mare,
