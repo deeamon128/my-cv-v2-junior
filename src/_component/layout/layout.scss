@@ -1,0 +1,30 @@
+// Reset margins paddings and box sizing of layout
+* {
+  padding: 0; // am setat margine 0 deasupra si dedesubt
+  margin: 0;  // am setat margine 0 atat pe stanga cat si pe dreapta
+  box-sizing: border-box; //inaltimea si latimea se aplica elementelor de continut si margini
+}
+
+body {
+  font-family: 'Roboto', sans-serif; //am setat fontul in care e scris continutul
+}
+
+// Adding a grid
+
+.grid {
+  display: grid; //afiseaza gridul
+  grid-template-columns: repeat(4, 1fr); //repeta de 4 ori o fractie
+  grid-gap: 10px; // spatiu de 10 pixeli intre gridurile dintre coloane si/sau randuri
+}
+
+.column[span="row"] {
+  grid-column: 1/-1; // 1 este prima coloana din stanga -1 este prima coloana din dreapta
+}
+
+.column[height="10"] {
+  height: 10px; //aici setez o coloana cu inaltimea de 10 pixeli
+}
+
+.content {
+  padding: 0 36px; //continutul are o margine de 0 pixeli deasupra si dedesubt si 36 de pixeli in dreapta si stanga
+}
