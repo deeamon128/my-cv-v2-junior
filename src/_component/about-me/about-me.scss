@@ -51,3 +51,24 @@
   font-weight: 600;
   line-height: 30px;
 }
+
+.buton__disc--foc,
+.buton__disc-dolarel {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.buton__disc--foc {
+  background-color: #d52027;
+}
+
+.buton__disc-dolarel {
+  background-color: green;
+}
