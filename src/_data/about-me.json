@@ -1,0 +1,13 @@
+/* Am inceput sa creez about-me.json. In acest fiser se vor regasi elementele sectiune de titlu, titlu mare, titlu, subtitlu, lista de descriere si butonul de incarcare. Ele vor fi apelate in fisierul about-me.pug cu linia de cod =data['about-me'].clasaDenumitaMaiJos */
+
+{
+  "sectionTitle": "Welcome to My CV",
+  "titluMare": "Constantin Matei",
+  "titlu": "Junior Web Developer",
+  "subtitlu": "About me",
+  "descriptionList": [
+    "I am Junior Web Developer with projects experience.",
+    "If you want to see my work, than you must enter on my github profile to view some projects of mine."
+  ],
+  "downloadButtonLabel": "Click here for CV"
+}

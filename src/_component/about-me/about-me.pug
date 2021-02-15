@@ -1,27 +1,27 @@
 .column(span="row")
   .section__title-wrapper
-    .section__title Welcome to My CV
+    .section__title=data['about-me'].sectionTitle
 .column(span="row" height="10")
 .column(span="row")
   button.buton__disc-rosu 
     i.icon__youtube
 .column(span="row" height="10")
 .column(span="row")
-  h1.despre-mine__titlu-mare Constantin Matei
+  h1.despre-mine__titlu-mare=data['about-me'].titluMare
 .column(span="row")
-  h2.despre-mine__titlu Junior Web Developer
+  h2.despre-mine__titlu=data['about-me'].titlu
 .column(span="row" height="10")
 .column(span="row")
-  h3.despre-mine__subtitlu About me
+  h3.despre-mine__subtitlu=data['about-me'].subtitlu
 .column(span="row")
   .description-box__with-shadow
-    p.descriere I am Junior Web Developer with projects experience.
-    p.descriere If you want to see my work, than you must enter on my github profile to view some projects of mine.
+    each descrierejs in data['about-me'].descriptionList
+      p.descriere=descrierejs
 .column(span="row" height="10")
 .column(span="row")
   button.pastiluta-albastra
     i.icon__download
-    span.cta-text Click here for CV
+    span.cta-text=data['about-me'].downloadButtonLabel
 .column(span="row" height="10")
 .column(span="row")
   .button.buton__disc-verde
