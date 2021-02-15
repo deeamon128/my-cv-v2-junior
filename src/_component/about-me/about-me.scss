@@ -1,0 +1,150 @@
+.section__title {
+  // margin: 10px; 
+  height: 40px; //aici am setat o inaltime de 40 de pixeli a casetei de text
+  line-height: 40px; //aici am setat o inaltime de 40 de pixeli a liniei
+  text-align: center; //alinierea textului pe centru
+  color: white; //culoarea textului
+  font-size: 24px; //am setat marimea fontului
+  font-weight: 600; //am setat tipul fontului ca grosime
+  position: relative; //elementul este pozitionat relativ normal fata de alt element
+}
+
+.section__title-wrapper {
+  padding: 10px; //aici am setat o distanta de 10 pixeli in margine
+  height: 60px; //aici am setat inaltimea de 60 de pixeli a casetei
+  background-color: #d52027; // aici am inserat un backgroud al casetei de culoare rosie
+  position: relative; //aici am pozitionat elementul de dedesubt
+  
+  &::before {
+    position: absolute; //prin pozitionare cu proprietatea absolute am creat efectul de umbra din bara rosie de deasupra
+    content: '';
+    background-color: #d52027;
+    left: -36px; //am extins elementul cu 36 de pixeli la stanga
+    top: 0; //am setat margine 0 deasupra elementului
+    bottom: 0; //am setat margine 0 dedesubtul elementului
+    right: -36px; //am extins elementul cu 36 de pixeli la dreapta creand o bara rosie dintr-un capat in altul
+  }
+  &::after {
+    position: absolute; //aici am pozitionat elementul de deasupra
+    content: '';
+    left: 0; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25); // am inserat o umbra de culoare neagra de 25%
+  }
+}
+
+.description-box__with-shadow {
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.descriere {
+  font-size: 14px; //am setat marimea fontului textului la 14 pixeli
+  color: #707070; //am setat culoarea textului din descriere
+  line-height: 30px; //am setat o inaltime a liniei de 30 de pixeli
+  font-weight: 600; //am setat fontul sa fie regular
+}
+
+.pastiluta-albastra {
+  height: 40px; //am setat inaltimea de 40 de pixeli pentru butonul pastiluta
+  margin: 0 auto;  //Am centrat pozitia butonului in afisarea template-ului
+  color: white; // am setat culoarea alba pentru fonturi
+  border: 0; // am setat ca butonul sa nu aiba chenar
+  border-radius: 20px; // marginile butonului sunt rotunjite cu o margine de 20 de pixeli
+  padding: 0 24px; // am setat marginea elementului 0 pixeli sus jos si 24 pixeli stanga dreapta
+  display: flex; // am setat un tip de afisare
+  font-size: 10px; // marimea fontului e de 10 pixeli
+  font-weight: bolder; // am setat ca fontul sa fie ingrosat
+  align-items: center; // am aliniat central continutul
+  background-color: #1875F0; // am setat culoarea pastilutei
+}
+
+button[class^="pastiluta-albastra"] i[class^="icon__"] {
+  width: 16px; //am setat latimea de 16 pixeli
+  height: 16px; //am setat inaltimea de 16 pixeli
+  margin-right: 12px; //am setat pozitia fata de margine
+  display: flex;
+  align-items: center; //am setat alinierea centrala
+  justify-content: center; //aici am setat o spatiere centrala a continutului
+}
+
+.pastiluta-albastra .icon__download {
+  margin-right: 12px;
+}
+
+.buton__disc-rosu,
+.buton__disc-verde {
+  border: 0; //Setam butonul sa fie fara chenar
+  border-radius: 50%; //Aici am setat rotunjimea marginilor
+  margin: 0 auto; //Am centrat pozitia butonului in afisarea template-ului
+  width: 40px; //Am setat latimea butonului la 40 de px conform designului
+  height: 40px; //Am setat inaltimea butonului la 40 de px
+  display: flex; //Afiseaza aria continutului de tip flex pentru copiii sai directi - pozitioneaza pe o singura axa
+  justify-content: center; //Pozitioneaza continutul (stanga-dreapta) butonului pe centru
+  align-items: center; //Aliniaza continutul (sus - jos) butonului pe centru
+  border-radius: 50%; //Aici am setat rotunjimea marginilor
+  color: white; //Am setat culoarea continutului butonului
+  margin: 0 auto; //Am centrat pozitia butonului in afisarea template-ului
+  //margin: 20 auto; din cauza lipsei de "px" dupa 20 am castigat 4 ore de experienta
+}
+
+.buton__disc-rosu {
+  background-color: #d52027; //Am setat culoarea rosie, iar mai jos va fi culoarea verde
+}
+
+.buton__disc-verde {
+  background-color: #50d166;
+}
+
+/* introduc o clasa de iconite cu posibile proprietati comune */
+[class^="icon__"] {
+  width: 16px;
+  height: 16px;
+}
+
+.buton__pastiluta-albastra {
+  height: 40px;
+  margin: 0 auto;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+
+  .buton__pastiluta-albastra {
+  background-color: #1875F0;
+}
+
+.despre-mine__titlu-mare,
+.despre-mine__titlu {
+  text-align: center; //am aliniat textul central
+  color: #707070; //culoarea fontului din titlu
+  font-weight: 600; //tipul fontului e mediu
+}
+
+.despre-mine__titlu-mare {
+  font-size: 48px; //marimea fontului am setat-o la 48 de pixeli
+  line-height: 64px; //inaltimea liniei am setat-o la 64
+}  
+
+.despre-mine__titlu {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.despre-mine__subtitlu {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
+}
+
+
+
