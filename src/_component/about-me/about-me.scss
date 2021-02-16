@@ -12,3 +12,68 @@
   color: #FFFFFF;
   text-align: center;
 }
+
+.creator,
+.creator__title {
+  color: #707070;
+  text-align: center;
+  font-weight: medium;
+}
+
+.creator {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.creator__title {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.creator__about-me {
+  color: #808080;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: medium;
+}
+
+.description-box__about-me {
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.description {
+  font-style: medium;
+  line-height: 30px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.pill-blue {
+  background-color: #1875F0;
+}
+
+.disc-red, 
+.disc-green {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  margin: 0 auto;
+}
+
+.disc-red {
+  background-color: #D52027 ;
+}
+
+.disc-green {
+  background-color: #50D166;
+}
+
+
