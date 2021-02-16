@@ -1,10 +1,7 @@
 //- pre=JSON.stringify(data['about-me'], null, 5)
-.column(span="row")
-  .section__title-wrapper
-    .section__title=data['about-me'].sectionTitle
-.column(span="row")
-  button.disc__red
-    i.icon__youtube
+- var sectionTitle = data['about-me'].sectionTitle
+include ../section-title/section-title.pug
+
 .column(span="row")
   h1.creator=data['about-me'].creator
 .column(span="row")
@@ -15,7 +12,7 @@
     each lorem in data['about-me'].descriptionList
       Lorem.description=lorem 
       br
-    
+
 .column(span="row")
   button.pill__blue-primary
     i.icon__download

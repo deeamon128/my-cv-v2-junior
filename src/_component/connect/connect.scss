@@ -1,0 +1,17 @@
+.connect__avatar {
+  padding-top: 100%;
+  background-color: rebeccapurple;
+  position: relative;
+  margin-top: 20px;
+
+  &::after {
+    content: "";
+    background-image: url("asset/image/raluca.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
