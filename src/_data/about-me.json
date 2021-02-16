@@ -1,5 +1,3 @@
-/* Am inceput sa creez about-me.json. In acest fiser se vor regasi elementele sectiune de titlu, titlu mare, titlu, subtitlu, lista de descriere si butonul de incarcare. Ele vor fi apelate in fisierul about-me.pug cu linia de cod =dataparanteza patrata'about-me'paranteza patrata.clasaDenumitaMaiJos */
-
 {
   "sectionTitle": "Welcome to My CV",
   "titluMare": "Constantin Matei",
