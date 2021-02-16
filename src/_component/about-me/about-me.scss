@@ -1,28 +1,53 @@
-.section__title-wrapper {
-  padding: 10px;
-  background-color: #D52027;
-  font-size: 24px;
-  font-weight: medium;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
-}
-
 .section__title {
   line-height: 40px;
   height: 40px;
   color: #FFFFFF;
   text-align: center;
+  position: relative;
 }
+
+.section__title-wrapper {
+  background-color: #D52027;
+  padding: 10px 46px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  
+  &::before {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    background-color: #D52027;
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: -36px;
+    right: -36px;
+  }
+  &::after {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    // background-color: #D52027;
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
 
 .creator,
 .creator__title {
   color: #707070;
   text-align: center;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 .creator {
   font-size: 48px;
   line-height: 64px;
+  margin-top: 20px;
 }
 
 .creator__title {
@@ -34,7 +59,9 @@
   color: #808080;
   font-size: 22px;
   line-height: 30px;
-  font-weight: medium;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .description-box__about-me {
@@ -45,18 +72,57 @@
 }
 
 .description {
-  font-style: medium;
+  font-style: 500;
   line-height: 30px;
   font-size: 14px;
   color: #707070;
 }
 
-.pill-blue {
-  background-color: #1875F0;
+button[class^="pill__blue"] i[class^="icon__"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
 }
 
-.disc-red, 
-.disc-green {
+button[class="pill__blue-primary"] i[class="icon__download"] {
+  margin-right: 12px;
+}
+
+button[class="pill__blue-secondary"] i[class="icon__info"] {
+  margin-right: 9px;
+}
+
+.pill__blue-primary,
+.pill__blue-secondary {
+  background-color: #1875F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 0;
+  font-weight: 900;
+}
+
+.pill__blue-primary {
+  height: 40px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  margin: 20px auto;
+  font-size: 10px;
+}
+
+.pill__blue-secondary {
+  height: 30px;
+  padding: 9px 12px;
+  border-radius: 20px;
+  margin: 20px auto;
+  margin-top: 0;
+  font-size: 9px;
+}
+
+.disc__red, 
+.disc__green {
   width: 40px;
   height: 40px;
   display: flex;
@@ -68,11 +134,12 @@
   margin: 0 auto;
 }
 
-.disc-red {
+.disc__red {
   background-color: #D52027 ;
+  margin-top: 20px;
 }
 
-.disc-green {
+.disc__green {
   background-color: #50D166;
 }
 
