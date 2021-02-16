@@ -24,6 +24,7 @@
     left: -36px;
     right: -36px;
   }
+  
   &::after {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
     // background-color: #D52027;
@@ -35,7 +36,6 @@
     right: 0;
   }
 }
-
 
 .creator,
 .creator__title {
@@ -142,5 +142,3 @@ button[class="pill__blue-secondary"] i[class="icon__info"] {
 .disc__green {
   background-color: #50D166;
 }
-
-
