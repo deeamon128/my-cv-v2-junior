@@ -22,7 +22,139 @@
   },
   "skillTypeList": [
     {
-      "type": "Front-end"
-    }
+      "type": "Front-end",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "heart",
+          "label": "Styled Components"
+        },
+        {
+          "type": "trophy",
+          "label": "Sass"
+        },
+        {
+          "type": "trophy",
+          "label": "Less"
+        },
+        {
+          "type": "trophy",
+          "label": "Material UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SOE"
+        }
+      ]
+    },
+    {
+      "type": "Front-end",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "heart",
+          "label": "Styled Components"
+        },
+        {
+          "type": "trophy",
+          "label": "Sass"
+        },
+        {
+          "type": "trophy",
+          "label": "Less"
+        },
+        {
+          "type": "trophy",
+          "label": "Material UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SOE"
+        }
+      ]
+    },
+    {
+      "type": "Front-end",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "heart",
+          "label": "Styled Components"
+        },
+        {
+          "type": "trophy",
+          "label": "Sass"
+        },
+        {
+          "type": "trophy",
+          "label": "Less"
+        },
+        {
+          "type": "trophy",
+          "label": "Material UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SOE"
+        }
+      ]
+    },
   ]
 }
