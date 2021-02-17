@@ -1,0 +1,28 @@
+{
+  "sectionTitle": "Skills",
+  "legend": {
+    "title": "Legend",
+    "itemList": [
+      {
+        "icon": "heart",
+        "color": "red",
+        "label": "Skills I love"
+      },
+      {
+        "icon": "trophy",
+        "color": "orange",
+        "label": "Skills I'm goot at"
+      },
+      {
+        "icon": "book",
+        "color": "green",
+        "label": "Skills I'd love to get better at"
+      }
+    ]
+  },
+  "skillTypeList": [
+    {
+      "type": "Front-end"
+    }
+  ]
+}
