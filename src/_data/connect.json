@@ -1,4 +1,77 @@
 {
   "sectionTitle": "Let's Connect",
-  "caleaAvatarului": "asset/image/avatar-constantin-matei.jpg"
+  "caleaAvatarului": "asset/image/avatar-constantin-matei.jpg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "CodeTap",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    
+    {
+      "icon": "github",
+      "title": "Github",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "linkedin",
+      "title": "Linkedin",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "Stackoverflow",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "codewars",
+      "title": "Codewars",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "udemy",
+      "title": "Udemy",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "facebook",
+      "title": "Facebook",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "skype",
+      "title": "Skype",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "description": "Maria, Elena, Laura Diana si Constantin",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    }
+  ]
 }
