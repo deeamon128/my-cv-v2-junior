@@ -1,17 +1,48 @@
+.connect__disc-blue {
+  padding-top: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #1875F0;
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  font-size: 8vw;
+  
+  [class^="icon__"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+button[class="connect__disc-blue"] i[class="icon__codewars"]{
+  font-size: 12vw;
+}
+
 .connect__avatar {
   padding-top: 100%;
-  background-color: rebeccapurple;
+  background-color: white;
   position: relative;
   margin-top: 20px;
-
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  transform: rotate(-2.5deg);
+  margin-bottom: 24px;
+  
   &::after {
     content: "";
     background-image: url("asset/image/raluca.jpg");
     background-size: cover;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 6px;
   }
 }

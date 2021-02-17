@@ -1,4 +1,76 @@
 {
   "sectionTitle": "Let's connect", 
-  "avatarPath": "asset/image/raluca.jpg"
+  "avatarPath": "asset/image/raluca.jpg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "CodeTap",
+      "description": "description",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "github",
+      "title": "GitHub",
+      "description": "description",
+      "label": "git",
+      "link": "https://www.github.com"
+    },
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "description": "description",
+      "label": "linkedin",
+      "link": "https://www.linkedin.com"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "Stack OverfloW",
+      "description": "description",
+      "label": "stackoverflow",
+      "link": "https://www.stackoverflow.com"
+    },
+    {
+      "icon": "codewars",
+      "title": "Codewars",
+      "description": "description",
+      "label": "codewars",
+      "link": "https://www.codewars.com"
+    },
+    {
+      "icon": "udemy",
+      "title": "Udemy",
+      "description": "description",
+      "label": "udemy",
+      "link": "https://www.udemy.com"
+    },
+    {
+      "icon": "facebook",
+      "title": "Facebook",
+      "description": "description",
+      "label": "facebook",
+      "link": "https://www.facebook.com"
+    },
+    {
+      "icon": "skype",
+      "title": "Skype",
+      "description": "description",
+      "label": "skype",
+      "link": "https://www.skype.com"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "description": "description",
+      "label": "instagram",
+      "link": "https://www.instagram.com"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "description": "description",
+      "label": "twitter",
+      "link": "https://www.twitter.com"
+    }
+  ]
 }

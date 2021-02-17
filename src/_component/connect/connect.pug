@@ -1,8 +1,13 @@
-- var sectionTitle = data['connect'].sectionTitle
+- var sectionTitle = data.connect.sectionTitle
 include ../section-title/section-title.pug 
 
 .column(span="row")
   .connect__avatar 
+
+each social in data.connect.socialList
+  .column(span="1")
+    button.connect__disc-blue 
+      i(class=`icon__${social.icon}`)
 
 .column(span="row")
   button.disc__green
