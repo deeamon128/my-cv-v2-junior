@@ -23,7 +23,7 @@
   }
 }
 
-[class="connect__disc-blue"] i[class="icon__codewars"]{
+[class="connect__disc-blue"] i[class="icon__codewars"] {
   font-size: 12vw;
 }
 
@@ -66,6 +66,20 @@ label[for="connect__label--reset"] {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
   background-color: white;
   margin: 30px 0;
+  position: relative;
+  
+  &::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.50);
+    background-color: white;
+    top: -7px;
+    left: 15px;
+    clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+    transform: rotate(45deg);
+  }
 }
 
 .description-box__header {
