@@ -15,15 +15,25 @@ each social, key in data.connect.socialList
       i(class=`icon__${social.icon}`)
 
 .column(span="row")
-  .description-box__about-me
-    input.connect__radio(
-      type="radio"
-      name="reset"
-      id=`connect__label--reset`
-    )
-    .column(span="1")
-      label(for=`connect__label--reset`).connect__disc-blue
-        i(class=`icon__cross`)
+  .description-box__connect
+    .description-box__header
+      .description-box__title CodeTap
+      .description-box__cross
+        input.connect__radio(
+          type="radio"
+          name="reset"
+          id=`connect__label--reset`
+        )
+        .column(span="1")
+          label(for=`connect__label--reset`).connect__disc-blue
+            i(class=`icon__cross`)
+    .description-box__body
+      p.description-box__paragraph ipsum dolor sit amet consectetur adipisicing elit. In, illo voluptas. Tempore, atque sapiente optio voluptate veritatis incidunt eveniet repellat nobis vero laudantium esse nostrum, sed perferendis temporibus, inventore possimus!
+    .description-box__footer
+      .column(span="row")
+        button.pill__blue-primary
+          i.icon__link &nbsp
+          span.button__text-primary=data.connect.socialList[0].label
 
 .column(span="row")
   button.disc__green
