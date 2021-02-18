@@ -1,10 +1,5 @@
-.column(span="row")
-    .section__title-wrapper
-      .section__title=data['about-me'].sectionTitle
-.column(span="row" height='10')
-    button.buton__disc--foc
-        i.icon__youtube 
-.column(span="row" height='10')
+- var sectionTitle = data['about-me'].sectionTitle;
+include ../section-title/section-title.pug
 .column(span="row")
     h1.numele-meu=data['about-me'].mainTitle
 .column(span="row")
