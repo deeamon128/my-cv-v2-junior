@@ -67,94 +67,82 @@
       ]
     },
     {
-      "type": "Front-end",
+      "type": "Back-end",
       "skillList": [
         {
           "type": "heart",
-          "label": "HTML"
+          "label": "Pug"
         },
         {
           "type": "heart",
-          "label": "CSS"
+          "label": "NodeJs"
         },
         {
           "type": "heart",
-          "label": "JavaScript"
-        },
-        {
-          "type": "heart",
-          "label": "React"
-        },
-        {
-          "type": "heart",
-          "label": "Redux"
-        },
-        {
-          "type": "heart",
-          "label": "Styled Components"
+          "label": "FireBase"
         },
         {
           "type": "trophy",
-          "label": "Sass"
+          "label": "Git"
         },
         {
           "type": "trophy",
-          "label": "Less"
+          "label": "Linux"
+        },
+        {
+          "type": "heart",
+          "label": "Rest"
         },
         {
           "type": "trophy",
-          "label": "Material UI"
+          "label": "MySql"
         },
         {
-          "type": "trophy",
-          "label": "SOE"
+          "type": "book",
+          "label": "SWS"
+        },
+        {
+          "type": "book",
+          "label": "BlockChain"
+        },
+        {
+          "type": "book",
+          "label": "Elastic Search"
+        },
+        {
+          "type": "book",
+          "label": "GraphQl"
         }
       ]
     },
     {
-      "type": "Front-end",
+      "type": " Others",
       "skillList": [
         {
           "type": "heart",
-          "label": "HTML"
+          "label": "Windows"
         },
         {
           "type": "heart",
-          "label": "CSS"
+          "label": "Linux"
         },
         {
           "type": "heart",
-          "label": "JavaScript"
-        },
-        {
-          "type": "heart",
-          "label": "React"
-        },
-        {
-          "type": "heart",
-          "label": "Redux"
-        },
-        {
-          "type": "heart",
-          "label": "Styled Components"
+          "label": "Mac OSx"
         },
         {
           "type": "trophy",
-          "label": "Sass"
+          "label": "Jira"
         },
         {
           "type": "trophy",
-          "label": "Less"
+          "label": "Agile"
         },
         {
           "type": "trophy",
-          "label": "Material UI"
-        },
-        {
-          "type": "trophy",
-          "label": "SOE"
+          "label": "Rally"
         }
       ]
-    },
+    }
   ]
 }
