@@ -5,71 +5,71 @@
     {
       "icon": "codetap",
       "title": "CodeTap",
-      "description": "description",
-      "label": "codetap.academy",
+      "description": "Junior Web Developer at CodeTap and I'm so proud because of this",
+      "label": "CodeTap Academy is right here",
       "link": "https://codetap.academy"
     },
     {
       "icon": "github",
       "title": "GitHub",
-      "description": "description",
-      "label": "git",
-      "link": "https://www.github.com"
+      "description": "descriptiongithub",
+      "label": "Find me on GitHub",
+      "link": "https://www.github.com/RalucaRbc"
     },
     {
       "icon": "linkedin",
       "title": "LinkedIn",
-      "description": "description",
-      "label": "linkedin",
-      "link": "https://www.linkedin.com"
+      "description": "descriptionlinkedin",
+      "label": "Find me on LinkedIn",
+      "link": "https://www.linkedin.com/in/raluca-ghintuiala-22b019206/"
     },
     {
       "icon": "stackoverflow",
-      "title": "Stack OverfloW",
-      "description": "description",
-      "label": "stackoverflow",
+      "title": "Stack Overflow",
+      "description": "",
+      "label": "Stackoverflow",
       "link": "https://www.stackoverflow.com"
     },
     {
       "icon": "codewars",
       "title": "Codewars",
-      "description": "description",
-      "label": "codewars",
+      "description": "",
+      "label": "Codewars",
       "link": "https://www.codewars.com"
     },
     {
       "icon": "udemy",
       "title": "Udemy",
-      "description": "description",
-      "label": "udemy",
+      "description": "",
+      "label": "Udemy",
       "link": "https://www.udemy.com"
     },
     {
       "icon": "facebook",
       "title": "Facebook",
-      "description": "description",
-      "label": "facebook",
-      "link": "https://www.facebook.com"
+      "description": "",
+      "label": "Find me on Facebook",
+      "link": "https://www.facebook.com/raluca.ghintuiala/"
     },
     {
       "icon": "skype",
       "title": "Skype",
-      "description": "description",
-      "label": "skype",
+      "description": "",
+      "label": "Skype",
       "link": "https://www.skype.com"
     },
     {
       "icon": "instagram",
       "title": "Instagram",
-      "description": "description",
-      "label": "instagram",
-      "link": "https://www.instagram.com"
+      "description": "",
+      "label": "Find me on Instagram",
+      "link": "https://www.instagram.com/ralucaghintuiala/"
     },
     {
       "icon": "twitter",
       "title": "Twitter",
-      "description": "description",
-      "label": "twitter",
+      "description": "",
+      "label": "Twitter",
       "link": "https://www.twitter.com"
     }
   ]
