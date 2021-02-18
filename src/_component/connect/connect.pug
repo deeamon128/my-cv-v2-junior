@@ -6,10 +6,14 @@ include ../sectiunea-titlu/sectiunea-titlu
   .conectare__avatar
 .column(span="row" height="10")
 
-each social in data.connect.socialList
-  input.conectare__radio(type="radio")
+each social, lista-social-media in data.connect.socialList
+  input.conectare__radio(
+    type="radio"
+    name="lista-social-media"
+    id=`conectare__eticheta--${lista-social-media}`
+    )
   .column(span="1")
-    .conectare__disc
+    label(for=`conectare__eticheta--${lista-social-media}`).conectare__disc
       i(class=`icon__${social.icon}`)
 
 .column(span="row" height="10")
