@@ -7,6 +7,7 @@ include ../sectiunea-titlu/sectiunea-titlu
 .column(span="row" height="10")
 
 each social in data.connect.socialList
+  input.conectare__radio(type="radio")
   .column(span="1")
     .conectare__disc
       i(class=`icon__${social.icon}`)
