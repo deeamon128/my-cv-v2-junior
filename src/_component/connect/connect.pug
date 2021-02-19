@@ -6,15 +6,28 @@ include ../sectiunea-titlu/sectiunea-titlu
   .conectare__avatar
 .column(span="row" height="10")
 
-each social, lista-social-media in data.connect.socialList
+each social, key in data.connect.socialList
   input.conectare__radio(
     type="radio"
-    name="lista-social-media"
-    id=`conectare__eticheta--${lista-social-media}`
+    name="conectare__eticheta"
+    id=`conectare__eticheta--${key}`
     )
   .column(span="1")
-    label(for=`conectare__eticheta--${lista-social-media}`).conectare__disc
+    label(for=`conectare__eticheta--${key}`).conectare__disc
       i(class=`icon__${social.icon}`)
+
+.column(span="row" height="10")
+.column(span="row")
+
+  .description-box__with-shadow
+    input.conectare__radio(
+      type="radio"
+      name="conectare__eticheta"
+      id=`conectare__eticheta--reset`
+    )
+ /*.column(span="1") //daca lasam linia necomentata butonul apasat ramane activ pe culoarea rosie*/
+    label(for=`conectare__eticheta--reset`).conectare__disc
+      i(class=`icon__cross`)
 
 .column(span="row" height="10")
 .column(span="row")
