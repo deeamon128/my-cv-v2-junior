@@ -12,4 +12,17 @@ include ../section-title/section-title.pug
         span(class=`skills-key`)=key+1
 .column(span="row" height= "10")
 .column(span="row")
-
+each skillType in data.skills.skillTypeList
+  .column(span="row")
+    h3.about-me__more-title=skillType.type
+  .column(span="row")
+    each skill in skillType.skillList
+      span(
+        class= `skills-look--${skill.type}`
+      )=skill.label
+.column(span="row") 
+  .box__with-shadow
+    each descriere in data['about-me'].descriptionList
+      p.description=data.skills.descriere
+.column(span="row") 
+.column(span="row") 

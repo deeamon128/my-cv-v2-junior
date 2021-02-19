@@ -36,6 +36,33 @@
   flex-grow: 1;
 }
 
+
+.skills-look--heart{
+  background-color: #d51027;
+}
+
+.skills-look--trophy{
+  background-color: #2DD070;
+}
+
+.skills-look--book{
+  background-color: #f29e1a;
+}
+
+.skills-look--heart,
+.skills-look--trophy,
+.skills-look--book{
+  font-size: 12px;
+  font-weight: bolder;
+  color: white;
+  line-height: 30px;
+  padding: 0 18px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 .icon__ {
   &heart {
     color: #FD004D;
