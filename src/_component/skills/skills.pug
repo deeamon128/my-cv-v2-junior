@@ -6,11 +6,25 @@ include ../section-title/section-title.pug
 
 .column(span="row")
   ul.skills__legend-list
-    each skill, key in data.skills.skillsLegendList
+    each skill in data.skills.skillsLegendList
       li.skill__legend-item
         .skill__icon
           i(class=`icon__${skill.icon}`) 
         .skill__name=skill.skill  
         .skill__number=skill.numberOfSkills
+
+.column(span="row")
+  each category, key in data.skills.categoryList
+    h3.skills_category=category.category
+    each set in category.skillList
+      if set.icon=="heart" 
+        each skill in set.skills
+          button.skill_heart=skill
+      if set.icon=="trophy" 
+        each skill in set.skills
+          button.skill_trophy=skill
+      if set.icon=="bell" 
+        each skill in set.skills
+          button.skill_bell=skill
 
 .column(span="row")

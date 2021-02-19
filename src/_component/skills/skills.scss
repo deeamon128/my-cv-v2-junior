@@ -13,21 +13,13 @@
   margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 6px;
-  // display: block;
 }
 
 .skill__legend-item {
-  // padding: 20px;
   display: flex;
   line-height: 50px;
   justify-content: center;
   align-items: center;
-}
-
-.skill__icon,
-.skill__name,
-.skill__number {
-  // padding: 15px;
 }
 
 .skill__name {
@@ -37,23 +29,23 @@
   color: #999999;
 }
 
-//  {
-//   font-size: 25px;  
-// }
-
 .skill__icon i[class^="icon__"] {
   height: 30px;
   width: 30px;
 }
+
 i[class="icon__heart"] {
   color: #D52027;
 }
+
 i[class="icon__trophy"] {
   color: #50D166;
 }
+
 i[class="icon__bell"] {
   color: #F18F1C;
 }
 
-
-
+.skill_bell {
+  background-color: orange;
+}
