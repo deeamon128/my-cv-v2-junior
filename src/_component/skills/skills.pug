@@ -1,0 +1,16 @@
+- var sectionTitle = data.skills.sectionTitle
+include ../section-title/section-title.pug
+
+.column(span="row")
+  h3.skills__legend-title=data.skills.sectionSubtitle 
+
+.column(span="row")
+  ul.skills__legend-list
+    each skill, key in data.skills.skillsLegendList
+      li.skill__legend-item
+        .skill__icon
+          i(class=`icon__${skill.icon}`) 
+        .skill__name=skill.skill  
+        .skill__number=skill.numberOfSkills
+
+.column(span="row")

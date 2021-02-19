@@ -1,0 +1,82 @@
+{
+  "sectionTitle": "Skills",
+  "sectionSubtitle": "Legend",
+  "skillsLegendList": [
+    {
+      "icon": "heart", 
+      "skill": "Skills I love",
+      "numberOfSkills": ""
+    },
+    {
+      "icon": "trophy", 
+      "skill": "Skills I am good at",
+      "numberOfSkills": ""
+    },
+    {
+      "icon": "bell", 
+      "skill": "Skills I'd love to get better at",
+      "numberOfSkills": ""
+    }
+  ],
+  "categoryList": [
+    {
+      "category": "Front End",
+      "skills-heart": {
+        "icon": "heart",
+        "skills": [
+        "HTML", "CSS", "JavaScript", "React", "Redux", "Styled Components"
+        ]
+      },
+      "skills-trophy": {
+        "icon": "trophy",
+        "skills": [
+        "Sass", "Less", "Materal UI", "SEO"
+        ]
+      },
+      "skills-bell": {
+        "icon": "bell",
+        "skills": []
+      }
+    },
+    {
+      "category": "Back End",
+      "skills-heart": {
+        "icon": "heart",
+        "skills": [
+        "PUG", "NodeJS", "FireBase"
+        ]
+      },
+      "skills-trophy": {
+        "icon": "trophy",
+        "skills":  [
+        "Git", "Linux", "Rest", "MySQL"
+        ]
+      },
+      "skills-bell": {
+        "icon": "bell",
+        "skills": [
+        "AWS", "BlockChain", "ElasticSearch", "GraphQL"
+        ]
+      }
+    },
+    {
+      "category": "Others",
+      "skills-heart":{
+        "icon": "heart",
+        "skills":  [
+        "Windows", "Linux", "Mac"
+        ]
+      },
+      "skills-trophy": {
+        "icon": "trophy",
+        "skills": [
+        "Jira", "Agile", "Rest"
+        ]
+      },
+      "skills-bell": {
+        "icon": "bell",
+        "skills": []
+      }
+    }
+  ]
+}

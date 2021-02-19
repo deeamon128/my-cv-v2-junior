@@ -1,0 +1,59 @@
+.skills__legend-title {
+  color: #808080;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.skills__legend-list { 
+  border: 2px solid #707070;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  // display: block;
+}
+
+.skill__legend-item {
+  // padding: 20px;
+  display: flex;
+  line-height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill__icon,
+.skill__name,
+.skill__number {
+  // padding: 15px;
+}
+
+.skill__name {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 13px;
+  color: #999999;
+}
+
+//  {
+//   font-size: 25px;  
+// }
+
+.skill__icon i[class^="icon__"] {
+  height: 30px;
+  width: 30px;
+}
+i[class="icon__heart"] {
+  color: #D52027;
+}
+i[class="icon__trophy"] {
+  color: #50D166;
+}
+i[class="icon__bell"] {
+  color: #F18F1C;
+}
+
+
+
