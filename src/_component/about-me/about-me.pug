@@ -1,28 +1,28 @@
+//- pre=JSON.stringify(data['about-me'], null, 2)
 .column(span="row")
     .section__title-wrapper
-      .section__title Welcome, my CV is here 
+      .section__title=data['about-mee'].sectionTitle
 .column(span="row" height="10")
 .column(span="row")
     button.youtube__disc-red 
       i.icon__youtube 
 .column(span="row" height="10")
 .column(span="row")
-    h1.about-me__name Sebastian  Padure 
+    h1.about-me__name=data['about-mee'].name 
 .column(span="row")
-    h2.about-me__job-title Junior Front-End Developer 
+    h2.about-me__job-title=data['about-mee'].jobTitle
 .column(span="row" height="10")
 .column(span="row")
-    h3.about-me__know-better  Know me Better 
+    h3.about-me__know-better=data['about-mee'].knowBetter  
 .column(span="row")
     .description-box__shadow 
-      p.details My journey in this career has already begun, will anyone be able to stop me?
-      p.details I trust myself and if you want your business to prosper you are only a click away.
-
+      each description in data['about-mee'].detailsList
+       p=description 
 .column(span="row" height="10")
 .column(span="row")
-    button.button__get-blue 
+    button.button__get-blue=data['about-mee'].buttonDream  
       i.icon__download 
-      span.button-dream Grub now my CV 
+      span.button-dream 
 .column(span="row" height="10")
 .column(span="row")
      button.button__disc-green 
