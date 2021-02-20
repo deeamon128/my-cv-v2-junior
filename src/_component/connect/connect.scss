@@ -24,9 +24,10 @@
   background-color: #1875f0;
   border-radius: 50%;
   padding-top: 100%;
+  font-size: 8vw;
   position: relative;
 
-  .icon__codetap {
+  [class^="icon__"] {
     position: absolute;
     top: 0;
     left: 0;

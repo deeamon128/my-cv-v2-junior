@@ -1,4 +1,76 @@
 {
     "sectionTitle": "Let's Connect",
-    "avatarPath": "asset/image/image.jpg"
+    "avatarPath": "asset/image/image.jpg",
+    "socialList": [
+        {
+            "icon": "codetap",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "github",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "linkedin",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "stackoverflow",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "codewars",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "udemy",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "facebook",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "skype",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "instagram",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy" 
+        },
+        {
+            "icon": "twitter",
+            "title": "CodeTap",
+            "descripion": "textafsagfaf",
+            "label" : "codetap.academy",
+            "link": "https://codetap.academy"
+        }
+    ]
 }

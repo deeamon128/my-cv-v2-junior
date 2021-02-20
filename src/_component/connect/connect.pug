@@ -1,45 +1,17 @@
-- var sectionTitle=data['connect'].sectionTitle
+- var sectionTitle=data.connect.sectionTitle
 include ../section-title/section-title
 
 .column(span="row")
     .connect__avatar
 .column(span="row")
+.column(span="row" height="10")   
 
-.column(span="1")
-    .connect__disc
-         .icon__codetap 
-        
-.column(span="1")
-    .connect__disc
-        .icon__github
+each social in data.connect.socialList
+    .column(span="1")
+        .connect__disc
+            div(class=`icon__${social.icon}`)
 
-.column(span="1")
-    .connect__disc
-        .icon__linkedin 
-
-.column(span="1")
-    .connect__disc
-        .icon__stackoverflow 
-
-.column(span="1")
-    .connect__disc
-        .icon__codewars 
-
-.column(span="1")
-    .connect__disc
-        .icon__udemy 
-
-.column(span="1")
-    .connect__disc
-        .icon__facebook
-
-.column(span="1")
-    .connect__disc
-        .icon__skype 
-        
-.column(span="1")
-    .connect__disc
-        .icon__instagram 
-.column(span="1")
-    .connect__disc
-        .icon__twitter 
+.column(span="row")
+    button.buton__disc-dolarel 
+        i.icon__arrow-down   
+.column(span="row" height="10")   
