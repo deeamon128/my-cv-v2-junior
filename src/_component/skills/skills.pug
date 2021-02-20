@@ -3,6 +3,7 @@ include ../section-title/section-title.pug
 
 .column(span="row")
   h3.about-me__more-title=data.skills.legend.title
+.column(span="row" height="10")
 .column(span="row")
   ul.skills__legend
     each item, key in data.skills.legend.itemList
@@ -10,9 +11,9 @@ include ../section-title/section-title.pug
         span(class=`icon__${item.icon}`)(class=`skills-icon`)
         span(class=`skills-label`)=item.label
         span(class=`skills-key`)=key+1
-.column(span="row" height= "10")
 .column(span="row")
 each skillType in data.skills.skillTypeList
+  .column(span="row" height="10")
   .column(span="row")
     h3.about-me__more-title=skillType.type
   .column(span="row")
@@ -20,6 +21,7 @@ each skillType in data.skills.skillTypeList
       span(
         class= `skills-look--${skill.type}`
       )=skill.label
+.column(span="row" height="10")
 .column(span="row") 
   .box__with-shadow
     show
