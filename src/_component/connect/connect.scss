@@ -1,3 +1,7 @@
+.connect__radio:checked+.column .connect__disc {
+  background-color: #d52027;
+}
+
 .connect__avatar {
   padding-top: 100%;
   background-color: white;
@@ -5,6 +9,7 @@
   border-radius: 8px;
   transform: rotate(-2.5deg);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+
 
   &::after {
     content: '';
@@ -20,11 +25,14 @@
   }
 }
 
+
 .connect__disc {
+  transition: 250ms;
   background-color: #1875f0;
   border-radius: 50%;
   padding-top: 100%;
   font-size: 8vw;
+  cursor: pointer;
   position: relative;
 
   [class^="icon__"] {

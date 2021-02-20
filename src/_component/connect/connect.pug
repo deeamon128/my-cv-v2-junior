@@ -7,7 +7,11 @@ include ../section-title/section-title
 .column(span="row" height="10")   
 
 each social in data.connect.socialList
-    .column(span="1")
+    input.connect__radio(
+        type="radio"
+        name="abc"          
+    )
+     .column(span="1")
         .connect__disc
             div(class=`icon__${social.icon}`)
 
