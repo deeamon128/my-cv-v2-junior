@@ -14,17 +14,23 @@ include ../section-title/section-title.pug
         .skill__number=skill.numberOfSkills
 
 .column(span="row")
+  div.skill__counter salut
+  
+.column(span="row")
   each category, key in data.skills.categoryList
     h3.skills_category=category.category
     each set in category.skillList
       if set.icon=="heart" 
         each skill in set.skills
-          button.skill_heart=skill
+          button.skill__heart=skill
       if set.icon=="trophy" 
         each skill in set.skills
-          button.skill_trophy=skill
+          button.skill__trophy=skill
       if set.icon=="bell" 
         each skill in set.skills
-          button.skill_bell=skill
+          button.skill__bell=skill
+
+.column(span="row")
+  div.skill__counter-display Inca una 
 
 .column(span="row")

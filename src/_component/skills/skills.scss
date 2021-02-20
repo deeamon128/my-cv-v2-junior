@@ -46,6 +46,29 @@ i[class="icon__bell"] {
   color: #F18F1C;
 }
 
-.skill_bell {
+.skill__counter {
+  counter-set: counter-bell 0 counter-heart 0 counter-trophy 0;
+}
+
+
+.skill__bell {
   background-color: orange;
+  counter-increment: counter-bell 1;
+}
+
+.skill__heart {
+  background-color: red;
+  counter-increment: counter-heart 1;
+}
+
+.skill__trophy {
+  background-color: green;
+  counter-increment: counter-trophy 1;
+}
+
+.skill__counter-display {
+  &::before {
+    content: "ceva" counter(counter-bell);
+
+  }
 }
