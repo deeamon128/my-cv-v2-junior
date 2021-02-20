@@ -19,15 +19,17 @@ each social, key in data.connect.socialList
 .column(span="row" height="10")
 .column(span="row")
 
-  .description-box__with-shadow
-    input.conectare__radio(
-      type="radio"
-      name="conectare__eticheta"
-      id=`conectare__eticheta--reset`
-    )
- /*.column(span="1") //daca lasam linia necomentata butonul apasat ramane activ pe culoarea rosie*/
-    label(for=`conectare__eticheta--reset`).conectare__disc
-      i(class=`icon__cross`)
+  .description-box__with-arrow
+    .description-box__header
+      .description-box__title Test
+      .description-box__close
+        input.conectare__radio(
+          type="radio"
+          name="conectare__eticheta"
+          id=`conectare__eticheta--reset`
+        )
+        label(for=`conectare__eticheta--reset`).conectare__disc
+          i(class=`icon__cross`)
 
 .column(span="row" height="10")
 .column(span="row")
