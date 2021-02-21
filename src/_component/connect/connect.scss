@@ -12,6 +12,16 @@
   justify-content: center;
 }
 
+@for $i from 1 through 10 {
+  .conectare__radio:nth-of-type(#{$i}):checked ~ [data-description-box="#{$i}"] {
+    display: block;
+  }
+}
+
+[data-description-box] {
+  display: none;
+}
+
 .description-box__body {
   border-top: 2px solid #f5f5f5;
   border-bottom: 2px solid #f5f5f5;
