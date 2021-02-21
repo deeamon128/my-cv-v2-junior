@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif; //am setat fontul in care e scris continutul
+  background-color: #f5f5f5;
 }
 
 // Adding a grid
@@ -27,4 +28,16 @@ body {
 
 .content {
   padding: 0 36px; //continutul are o margine de 0 pixeli deasupra si dedesubt si 36 de pixeli in dreapta si stanga
+}
+
+input[type="radio"] {
+  display: none; //am facut butoanele de tip radio sa nu mai fie afisate
+}
+
+.cta-text {
+  padding-left: 12px; //am setat o margine stanga de 12 pixeli
+}
+
+a.pastiluta-albastra {
+  text-decoration: none;
 }

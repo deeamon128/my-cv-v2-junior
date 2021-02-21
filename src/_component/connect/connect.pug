@@ -1,0 +1,46 @@
+- var sectionTitle = data.connect.sectionTitle
+//- am importat fisierul sectiunea-titlu.pug folosind include urmata de calea unde se gaseste fisierul, din folderul _component care contine folderul sectiunea-titlu Pentru aceasta .. inseamna ca am fost in folderul connect si am urcat mai sus in folderul _component dupa care /sectiunea-titlu inseamna ca accesam folderul sectiunea-titlu, iar /sectiunea-titlu inseamna ca accesam fisierul sectiunea-titlu.pug 
+include ../sectiunea-titlu/sectiunea-titlu
+
+.column(span="row")
+  .conectare__avatar
+.column(span="row" height="10")
+
+each social, key in data.connect.socialList
+  input.conectare__radio(
+    type="radio"
+    name="conectare__eticheta"
+    id=`conectare__eticheta--${key}`
+    )
+  .column(span="1")
+    label(for=`conectare__eticheta--${key}`).conectare__disc
+      i(class=`icon__${social.icon}`)
+
+each social, key in data.connect.socialList
+  .column(span="row" data-description-box=key+1)
+    .description-box__with-arrow
+      .description-box__header
+        .description-box__title=social.title
+        .description-box__close
+          input.conectare__radio(
+            type="radio"
+            name="conectare__eticheta"
+            id=`conectare__eticheta--reset`
+          )
+          label(for=`conectare__eticheta--reset`).conectare__disc
+            i(class=`icon__cross`)
+      .description-box__body
+        p.description-box__paragraf=social.description
+      .description-box__footer
+        a(
+          href=social.link
+          target="_blank"
+        ).pastiluta-albastra
+          i.icon__link
+          span.cta-text=social.label
+.column(span="row" height="10")
+.column(span="row")
+  .button.buton__disc-verde
+    i.icon__arrow-down
+.column(span="row" height="10")
+

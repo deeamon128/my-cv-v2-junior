@@ -1,0 +1,77 @@
+{
+  "sectionTitle": "Let's Connect",
+  "caleaAvatarului": "asset/image/avatar-constantin-matei.jpg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "CodeTap",
+      "description": "Codetap Academy is the place where practical experience meets the enthusiasm of learners to learn the secrets of front end development programming.",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    
+    {
+      "icon": "github",
+      "title": "GitHub",
+      "description": "GitHub is where people build software. More than 56 million people use GitHub to discover, fork, and contribute to over 100 million projects. I am one of the over 56 million programmers. Here you can see my work.",
+      "label": "github.com/constantin-matei",
+      "link": "https://github.com/constantin-matei"
+    },
+    {
+      "icon": "linkedin",
+      "title": "Linkedin",
+      "description": "‎LinkedIn is the social network for job seekers, professionals, and businesses. Here you can find business contacts, connect with recruiters, and use your professional profile as an online resume. LinkedIn’s job search filters help you narrow down from the millions of jobs posted to the job. Here you can see my profile.",
+      "label": "linkedin.com/in/constantin-matei-05329325",
+      "link": "https://www.linkedin.com/in/constantin-matei-05329325/"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "Stackoverflow",
+      "description": "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers. - 'The strength of the team is each individual member. The power of each member is the team. - Phil Jackson.'",
+      "label": "stackoverflow.com/users/11854330/constantin-matei",
+      "link": "https://stackoverflow.com/users/11854330/constantin-matei"
+    },
+    {
+      "icon": "codewars",
+      "title": "Codewars",
+      "description": "Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential. Here I show you what I am capable of.",
+      "label": "codewars.com/users/Constantin-Matei",
+      "link": "https://www.codewars.com/users/Constantin-Matei"
+    },
+    {
+      "icon": "udemy",
+      "title": "Udemy",
+      "description": "Millions of Learners From Around The World Already Learning On Udemy! Find the right instructor for you. Any topic, skill level, or language. Over 130,000 Courses. Courses in 60+ Languages. Expert Instructors.",
+      "label": "udemy.com",
+      "link": "https://www.udemy.com"
+    },
+    {
+      "icon": "facebook",
+      "title": "Facebook",
+      "description": "Connect With Your Friends Online. Connect With Old Friends. Find Friends. Follow Interesting Topics. Share Photos. Stay In Touch With Family. Plan Events. Chat Online. Play Games With Friends. Brands: Social Media, Networking. This is my account of Facebook.",
+      "label": "facebook.com/constantin.matei.56/",
+      "link": "https://www.facebook.com/constantin.matei.56/"
+    },
+    {
+      "icon": "skype",
+      "title": "Skype",
+      "description": "Create video calls with friends and family with one click! No records. No mandatory downloads.",
+      "label": "skype.com",
+      "link": "https://www.skype.com"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "description": "A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family. This is my Instagram account.",
+      "label": "instagram.com/Constantin.Matei.77/",
+      "link": "https://www.instagram.com/Constantin.Matei.77/"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "description": "We serve the public conversation. It matters to us that people have a free and safe space to talk. That’s why we’re constantly improving our rules and processes, technology and tools. This is my Twitter account.",
+      "label": "twitter.com/Nepretuit",
+      "link": "https://twitter.com/Nepretuit"
+    }
+  ]
+}
