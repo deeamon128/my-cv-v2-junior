@@ -3,7 +3,7 @@ include ../section-title/section-title.pug
 
 .column.skill__counter-start(span="row")
   each category, key in data.skills.categoryList
-    h3.skills_category=category.category
+    h3.skill_category=category.category
     each set in category.skillList
       if set.icon=="heart" 
         each skill in set.skills
@@ -26,5 +26,13 @@ include ../section-title/section-title.pug
         span.skill__name=skill.skill  
         span.skill__number 
           i(class=`number__${skill.icon}`)
+
+.column(span="row")
+  .description-box__about-me 
+    p.description=data.skills.description
+
+.column(span="row")
+  button.disc__green
+    i.icon__arrow-down
 
 .column(span="row")

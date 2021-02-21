@@ -58,18 +58,33 @@ i[class="icon__bell"] {
 }
 
 .skill__bell {
-  background-color: orange;
+  background-color: #F18F1C;
   counter-increment: counter-bell;
 }
 
 .skill__heart {
-  background-color: red;
+  background-color: #D52027;
   counter-increment: counter-heart;
 }
 
 .skill__trophy {
-  background-color: green;
+  background-color: #50D166;
   counter-increment: counter-trophy;
+}
+
+.skill__heart,
+.skill__bell, 
+.skill__trophy {
+  color: white;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .skill__number {
@@ -87,4 +102,16 @@ i[class="icon__bell"] {
   & > i.number__bell::before {
     content: counter(counter-bell);
   }
+}
+
+.skill_category {
+  font-size: 22px;
+  font-weight: 500;
+  color: #808080;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.description-box__about-me {
+  margin-bottom: 20px;
 }
