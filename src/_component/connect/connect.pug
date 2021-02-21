@@ -1,21 +1,25 @@
+
 - var sectionTitle=data.connect.sectionTitle
 include ../section-title/section-title
 
 .column(span="row")
     .connect__avatar
 .column(span="row")
-.column(span="row" height="10")   
+.column(span="row" height="10")
 
-each social in data.connect.socialList
+each social, cheie in data.connect.socialList
     input.connect__radio(
         type="radio"
-        name="abc"          
+        name="abc"
+        id=`oricevreitu-${cheie}`
     )
-     .column(span="1")
-        .connect__disc
+    .column(span="1")
+        label.connect__disc(
+            for=`oricevreitu-${cheie}`
+        )
             div(class=`icon__${social.icon}`)
 
 .column(span="row")
-    button.buton__disc-dolarel 
-        i.icon__arrow-down   
-.column(span="row" height="10")   
+    button.buton__disc-dolarel
+        i.icon__arrow-down
+.column(span="row" height="10")
