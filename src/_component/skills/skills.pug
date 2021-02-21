@@ -1,22 +1,7 @@
 - var sectionTitle = data.skills.sectionTitle
 include ../section-title/section-title.pug
 
-.column(span="row")
-  h3.skills__legend-title=data.skills.sectionSubtitle 
-
-.column(span="row")
-  ul.skills__legend-list
-    each skill in data.skills.skillsLegendList
-      li.skill__legend-item
-        .skill__icon
-          i(class=`icon__${skill.icon}`) 
-        .skill__name=skill.skill  
-        .skill__number=skill.numberOfSkills
-
-.column(span="row")
-  div.skill__counter salut
-  
-.column(span="row")
+.column.skill__counter-start(span="row")
   each category, key in data.skills.categoryList
     h3.skills_category=category.category
     each set in category.skillList
@@ -31,6 +16,15 @@ include ../section-title/section-title.pug
           button.skill__bell=skill
 
 .column(span="row")
-  div.skill__counter-display Inca una 
+  h3.skills__legend-title=data.skills.sectionSubtitle 
+.column(span="row")
+  ul.skills__legend-list
+    each skill in data.skills.skillsLegendList
+      li.skill__legend-item
+        span.skill__icon
+          i(class=`icon__${skill.icon}`) 
+        span.skill__name=skill.skill  
+        span.skill__number 
+          i(class=`number__${skill.icon}`)
 
 .column(span="row")
