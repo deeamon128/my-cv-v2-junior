@@ -5,24 +5,24 @@
     {
       "icon": "codetap",
       "title": "CodeTap",
-      "description": "Maria, Elena, Laura Diana si Constantin",
+      "description": "CodeTap is awesome",
       "label": "codetap.academy",
       "link": "https://codetap.academy"
     },
     
     {
       "icon": "github",
-      "title": "Github",
-      "description": "Maria, Elena, Laura Diana si Constantin",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "GitHub",
+      "description": "There are more projects of mine here. If you want to see just look inside.",
+      "label": "github.com/constantin-matei",
+      "link": "https://github.com/constantin-matei"
     },
     {
       "icon": "linkedin",
       "title": "Linkedin",
       "description": "Maria, Elena, Laura Diana si Constantin",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "label": "linkedin.com/in/constantin-matei-05329325",
+      "link": "https://www.linkedin.com/in/constantin-matei-05329325/"
     },
     {
       "icon": "stackoverflow",

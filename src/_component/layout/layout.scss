@@ -31,5 +31,13 @@ body {
 }
 
 input[type="radio"] {
-  display: none;
+  display: none; //am facut butoanele de tip radio sa nu mai fie afisate
+}
+
+.cta-text {
+  padding-left: 12px; //am setat o margine stanga de 12 pixeli
+}
+
+a.pastiluta-albastra {
+  text-decoration: none;
 }

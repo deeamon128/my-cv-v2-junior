@@ -16,26 +16,28 @@ each social, key in data.connect.socialList
     label(for=`conectare__eticheta--${key}`).conectare__disc
       i(class=`icon__${social.icon}`)
 
-.column(span="row" height="10")
-.column(span="row")
-
-  .description-box__with-arrow
-    .description-box__header
-      .description-box__title Test
-      .description-box__close
-        input.conectare__radio(
-          type="radio"
-          name="conectare__eticheta"
-          id=`conectare__eticheta--reset`
-        )
-        label(for=`conectare__eticheta--reset`).conectare__disc
-          i(class=`icon__cross`)
-    .description-box__body
-      p.description-box__paragraf Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae suscipit blanditiis magni dolore eaque ipsam nisi facilis fuga consequuntur quae similique, distinctio, in explicabo provident temporibus cupiditate voluptatum rerum? Incidunt!
-    .description-box__footer
-      button.pastiluta-albastra
-        i.icon__link
-        span.cta-text=data['about-me'].downloadButtonLabel
+each social, key in data.connect.socialList
+  .column(span="row")
+    .description-box__with-arrow
+      .description-box__header
+        .description-box__title=social.title
+        .description-box__close
+          input.conectare__radio(
+            type="radio"
+            name="conectare__eticheta"
+            id=`conectare__eticheta--reset`
+          )
+          label(for=`conectare__eticheta--reset`).conectare__disc
+            i(class=`icon__cross`)
+      .description-box__body
+        p.description-box__paragraf=social.description
+      .description-box__footer
+        a(
+          href=social.link
+          target="_blank"
+        ).pastiluta-albastra
+          i.icon__link
+          span.cta-text=social.label
 .column(span="row" height="10")
 .column(span="row")
   .button.buton__disc-verde
