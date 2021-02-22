@@ -4,7 +4,17 @@ include ../section-title/section-title.pug
 .column(span="row")
   ul.experience__list 
     each job in data.experience.jobList
-      li=job.jobTitle
+      li.experience__item
+        .experience__icon
+          img.imagine(src=`${baseUrl}asset/image/${job.iconPath}`)
+        .experience__job-title=job.jobTitle
+        .experience__chevron 
+        .experience__company-name=job.companyName
+        .experience__body 
+          .experience__date=`${job.startDate} - ${job.endDate}`
+          ul.experience__info
+            each info in job.infoList
+              li.experience__info-task=info
 
 
 .column(span="row")
