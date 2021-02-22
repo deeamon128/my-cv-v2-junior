@@ -1,18 +1,14 @@
 .skills__legend-title {
-  color: #808080;
-  font-size: 22px;
   line-height: 30px;
-  font-weight: 500;
-  margin-bottom: 10px;
-  margin-top: 20px;
+ @extend %subtitle
 }
 
 .skills__legend-list { 
-  border: 2px solid #707070;
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  border-radius: 6px;
+  @extend %rounder-border-list;
+}
+
+.description-box__skills {
+  @extend %description-box;
 }
 
 .skill__legend-item {
@@ -22,7 +18,7 @@
   line-height: 48px;
   
   &:nth-child(2) {
-    border: 2px solid #707070;
+    @extend %list-item;
     border-right: 0;
     border-left: 0;
   }
@@ -105,13 +101,9 @@ i[class="icon__bell"] {
 }
 
 .skill_category {
-  font-size: 22px;
-  font-weight: 500;
-  color: #808080;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  @extend %subtitle
 }
 
-.description-box__about-me {
+.description-box__skills {
   margin-bottom: 20px;
 }

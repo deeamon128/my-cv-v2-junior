@@ -1,0 +1,38 @@
+.section__title {
+  line-height: 40px;
+  height: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+}
+
+.section__title-wrapper {
+  background-color: #D52027;
+  padding: 10px 46px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  
+  &::before {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    background-color: #D52027;
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: -36px;
+    right: -36px;
+  }
+  
+  &::after {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    // background-color: #D52027;
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

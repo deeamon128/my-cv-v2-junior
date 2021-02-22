@@ -1,0 +1,24 @@
+- var sectionTitle = data.experience.sectionTitle
+include ../section-title/section-title.pug 
+
+.column(span="row")
+  ul.experience__list 
+    each job, key in data.experience.jobList
+      li.experience__item
+        input(type="checkbox" id=`experience__checkbox-${key}`).experience__checkbox
+        .experience__icon
+          img.imagine(src=`${baseUrl}asset/image/${job.iconPath}`)
+        .experience__job-title=job.jobTitle
+        label(for=`experience__checkbox-${key}`).experience__chevron 
+          .icon__arrow-up
+        .experience__company-name=job.companyName
+        .experience__body 
+          .experience__date=`${job.startDate} - ${job.endDate}`
+          ul.experience__info
+            each info in job.infoList
+              li.experience__info-task=info
+
+
+.column(span="row")
+  button.disc__green
+    i.icon__arrow-down
