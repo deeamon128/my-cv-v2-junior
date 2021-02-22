@@ -1,0 +1,139 @@
+.connect__disc-blue {
+  padding-top: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #1875F0;
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  font-size: 8vw;
+  cursor: pointer;
+  transition: 250ms;
+  display: block;
+  
+  [class^="icon__"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+[class="connect__disc-blue"] i[class="icon__codewars"] {
+  font-size: 12vw;
+}
+
+.connect__avatar {
+  padding-top: 100%;
+  background-color: white;
+  position: relative;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  transform: rotate(-2.5deg);
+  margin-bottom: 24px;
+  
+  &::after {
+    content: "";
+    background-image: url("asset/image/raluca.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 6px;
+  }
+}
+
+label[for="connect__label--reset"] {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.description-box__connect {
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  margin: 30px 0;
+  position: relative;
+  // display: none;
+  
+  &::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.50);
+    background-color: white;
+    top: -7px;
+    left: 15px;
+    clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+    transform: rotate(45deg);
+  }
+}
+
+.description-box__header {
+  padding: 20px;
+  display: flex;
+}
+
+.description-box__title {
+  flex-grow: 1;
+  font-size: 22px;
+  font-weight: 500;
+  color: #808080;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.description-box__body,
+.description-box__footer {
+  padding: 20px;
+  border-top: 2px solid #f5f5f5;
+}
+
+.description-box__footer {
+  display: flex;
+  justify-content: center;
+
+  .pill__blue-primary {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.description-box__paragraph { 
+  font-size: 14px;
+  line-height: 30px;
+  color: #707070;
+  font-weight: 500;
+}
+
+a[class="pill__blue-primary"] {
+  text-decoration: none;
+  
+  span[class="button__text-primary"] {
+  padding-left: 12px;
+  }
+}
+
+.connect__radio:checked + .column .connect__disc-blue {
+  background-color: #D52027;
+}
+
+@for $i from 1 through 10 {
+  .connect__radio:nth-of-type(#{$i}):checked ~ [data-description-box="#{$i}"] {
+    display: block;
+  }
+}
+
+[data-description-box] {
+  display: none;
+}

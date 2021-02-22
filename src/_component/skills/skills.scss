@@ -1,0 +1,117 @@
+.skills__legend-title {
+  color: #808080;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.skills__legend-list { 
+  border: 2px solid #707070;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.skill__legend-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 48px;
+  
+  &:nth-child(2) {
+    border: 2px solid #707070;
+    border-right: 0;
+    border-left: 0;
+  }
+}
+
+.skill__name {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 13px;
+  color: #999999;
+}
+
+.skill__icon i[class^="icon__"] {
+  height: 30px;
+  width: 30px;
+  padding: 10px 12px 8px 10px;
+}
+
+i[class="icon__heart"] {
+  color: #D52027;
+}
+
+i[class="icon__trophy"] {
+  color: #50D166;
+}
+
+i[class="icon__bell"] {
+  color: #F18F1C;
+}
+
+.skill__counter-start {
+  counter-set: counter-bell counter-heart counter-trophy;
+}
+
+.skill__bell {
+  background-color: #F18F1C;
+  counter-increment: counter-bell;
+}
+
+.skill__heart {
+  background-color: #D52027;
+  counter-increment: counter-heart;
+}
+
+.skill__trophy {
+  background-color: #50D166;
+  counter-increment: counter-trophy;
+}
+
+.skill__heart,
+.skill__bell, 
+.skill__trophy {
+  color: white;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.skill__number {
+  padding-right: 10px;
+  color: #666666;
+  font-size: 13px;
+  & > i.number__heart::before {
+    content: counter(counter-heart);
+  }
+
+  & > i.number__trophy::before {
+    content: counter(counter-trophy);
+  }
+
+  & > i.number__bell::before {
+    content: counter(counter-bell);
+  }
+}
+
+.skill_category {
+  font-size: 22px;
+  font-weight: 500;
+  color: #808080;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.description-box__about-me {
+  margin-bottom: 20px;
+}
