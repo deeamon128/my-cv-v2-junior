@@ -1,0 +1,165 @@
+{
+  "sectionTitle": "Skills",
+  "descriere": "Si daca e o capcana? Eu zic sa incercam Inaltpreasfintia ta :))",
+  "legend": {
+    "title": "Legend",
+    "listaItemi": [
+      {
+        "icon": "heart",
+        "color": "red",
+        "label": "Skills I love"
+      },
+      {
+        "icon": "trophy",
+        "color": "green",
+        "label": "Skills I'm good at"
+      },
+      {
+        "icon": "book",
+        "color": "orange",
+        "label": "Skills I'd love to get better at"
+      }
+    ]
+  },
+  "skillTypeList": [
+    {
+      "type": "Front End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "heart",
+          "label": "Styled Components"
+        },
+        {
+          "type": "trophy",
+          "label": "Sass"
+        },
+        {
+          "type": "trophy",
+          "label": "Less"
+        },
+        {
+          "type": "trophy",
+          "label": "Material UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SEO"
+        }
+      ]
+    },
+    {
+      "type": "Back End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "PUG"
+        },
+        {
+          "type": "heart",
+          "label": "NodeJS"
+        },
+        {
+          "type": "heart",
+          "label": "FireBase"
+        },
+        {
+          "type": "trophy",
+          "label": "Git"
+        },
+        {
+          "type": "trophy",
+          "label": "Linux"
+        },
+        {
+          "type": "trophy",
+          "label": "Rest"
+        },
+        {
+          "type": "trophy",
+          "label": "MySQL"
+        },
+        {
+          "type": "book",
+          "label": "AWS"
+        },
+        {
+          "type": "book",
+          "label": "BlockChain"
+        },
+        {
+          "type": "book",
+          "label": "Elastic Search"
+        },
+        {
+          "type": "book",
+          "label": "GraphQL"
+        }
+      ]
+    },
+    {
+      "type": "Others",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "Windows"
+        },
+        {
+          "type": "heart",
+          "label": "Unix"
+        },
+        {
+          "type": "heart",
+          "label": "Mac OSx"
+        },
+        {
+          "type": "trophy",
+          "label": "Jira"
+        },
+        {
+          "type": "trophy",
+          "label": "Agile"
+        },
+        {
+          "type": "trophy",
+          "label": "Bootstrap"
+        },
+        {
+          "type": "trophy",
+          "label": "Trello"
+        },
+        {
+          "type": "trophy",
+          "label": "C"
+        },
+        {
+          "type": "trophy",
+          "label": "C++"
+        },
+        {
+          "type": "trophy",
+          "label": "C#"
+        }
+      ]
+    }
+  ]
+}
