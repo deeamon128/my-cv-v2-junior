@@ -3,9 +3,10 @@ include ../sectiunea-titlu/sectiunea-titlu
 
 .column(span="row")
   h3.despre-mine__subtitlu=data.skills.legend.title
-  ul
+.column(span="row")
+  ul.lista__skills
     each item, cheie in data.skills.legend.listaItemi
       li
-        span=item.icon
+        span(class=`icon__${item.icon}`)
         span=item.label
         span=cheie + 1
