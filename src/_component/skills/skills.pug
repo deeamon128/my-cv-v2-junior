@@ -1,0 +1,11 @@
+- var sectionTitle = data.skills.sectionTitle; //- pentru ca nu are semnul "-"" vom scrie data.skills.sectionTitle altfel scriem ca in about-me intrucat "-" devine operator, desi merge scris si ca string
+include ../sectiunea-titlu/sectiunea-titlu 
+
+.column(span="row")
+  h3.despre-mine__subtitlu=data.skills.legend.title
+  ul
+    each item, cheie in data.skills.legend.listaItemi
+      li
+        span=item.icon
+        span=item.label
+        span=cheie + 1
