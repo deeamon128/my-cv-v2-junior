@@ -3,3 +3,39 @@
   border: 2px solid #707070;
   list-style-type: none;
 }
+
+.skills__item {
+  display: flex;
+  border: 2px solid #707070;
+
+  &:first-child .skills__icon {
+    color: #d52027;
+  }
+
+  &:nth-child(2) .skills__icon {
+    color: #50d166;
+  }
+
+  &:last-child .skills__icon {
+    color: #f18f1c;
+  }
+}
+
+.skills__count {
+  color: #666666;
+  font-size: 18px;
+}
+
+.skills__count,
+.skills__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px 8px 10px;
+}
+
+.skills__label {
+  line-height: 48px;
+  flex-grow: 1;
+  color: #999999;
+}

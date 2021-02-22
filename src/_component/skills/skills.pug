@@ -6,7 +6,7 @@ include ../sectiunea-titlu/sectiunea-titlu
 .column(span="row")
   ul.lista__skills
     each item, cheie in data.skills.legend.listaItemi
-      li
-        span(class=`icon__${item.icon}`)
-        span=item.label
-        span=cheie + 1
+      li.skills__item
+        span.skills__icon(class=`icon__${item.icon}`)
+        span.skills__label=item.label
+        span.skills__count=cheie + 1
