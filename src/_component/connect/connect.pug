@@ -9,22 +9,22 @@ include ../section-title/section-title
 
 each social, cheie in data.connect.socialList
     input.connect__radio(
-        type="radio"
-        name="abc"
-        id=`oricevreitu-${cheie}`
+        type="radio",
+        name="abc",
+        id=`cevanou-${cheie}`
     )
     .column(span="1")
-        label.connect__disc(
+        div.connect__disc(
             for=`oricevreitu-${cheie}`
         )
             div(class=`icon__${social.icon}`)
 
 each social, cheie in data.connect.socialList
-    .column(span="row")
+    .column(span="row" data-description-box=key+1)
         .description-box__with-arrow
             .description-box__header
                 .description-box__title=social.title
-                .description-box__close
+                .description-box__close 
                     input.connect__radio(
                         type="radio"
                         name="abc"
