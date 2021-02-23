@@ -1,3 +1,74 @@
 {
-  "sectionTitle" :"Open Source"
-}
+  "sectionTitle" :"Open Source",
+  "stats":{
+    "statsName": "Stats",
+    "stat":[ 
+      {
+      "statIcon": "codetap",
+      "statDescription": [
+        "Contributions last year :80",
+        "Longest streak: ---"
+      ]
+      },
+      {
+      "statIcon": "codewars",
+      "statDescription": [
+        "Rank: ---",
+        "Honor: ---"
+      ]
+      },
+      {
+      "statIcon": "stackoverflow",
+      "statDescription": [
+        "Top: ---",
+        "Reputation: ---",
+        "People reached: ~3,000,000",
+        "Answers: 102"
+      ]
+      }
+    ]
+  },
+  "projects": {
+    "projectName": "GitHub projects",
+    "project": {
+      "projectName" :"My Cv v2 Junior",
+      "skillsGained": [
+        {
+          "skillName": "HTML",
+          "percentage": "1.2",
+          "color": "#F0E218"
+        },
+        {
+          "skillName": "JavaScript",
+          "percentage": "90",
+          "color": "#1875F0"
+        },
+        {
+          "skillName": "TypeScript",
+          "percentage": "5.1",
+          "color": "#20D55D"
+        },
+        { 
+          "skillName": "CSS",
+          "percentage": "3.7",
+          "color": "#D52027"
+        }
+        ],
+        "projectStats": [
+          {
+            "projectStatIcon": "commits",
+            "projectStatInfo": "Commits: ---"
+          },
+          {
+            "projectStatIcon": "stars",
+            "projectStatInfo": "Stars: ---"
+          },
+          {
+            "projectStatIcon": "forks",
+            "projectStatInfo": "Forks: ---"
+          }
+        ],
+        "projectInfo": "Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux"
+      }
+    }
+  }

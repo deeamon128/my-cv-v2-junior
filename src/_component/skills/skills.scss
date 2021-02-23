@@ -19,6 +19,7 @@
   
   &:nth-child(2) {
     @extend %list-item;
+    border-bottom: 2px solid #707070;
     border-right: 0;
     border-left: 0;
   }
@@ -100,7 +101,7 @@ i[class="icon__bell"] {
   }
 }
 
-.skill_category {
+.skill__category {
   @extend %subtitle
 }
 
