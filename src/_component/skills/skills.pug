@@ -1,0 +1,26 @@
+- var sectionTitle = data.skills.sectionTitle; //- pentru ca nu are semnul "-"" vom scrie data.skills.sectionTitle altfel scriem ca in about-me intrucat "-" devine operator, desi merge scris si ca string
+include ../sectiunea-titlu/sectiunea-titlu 
+
+.column(span="row")
+  h3.despre-mine__subtitlu=data.skills.legend.title
+.column(span="row" height="10")
+.column(span="row")
+  ul.lista__skills
+    each item, cheie in data.skills.legend.listaItemi
+      li.skills__item
+        span.skills__icon(class=`icon__${item.icon}`)
+        span.skills__label=item.label
+        span.skills__count=cheie + 1
+each skillType in data .skills.skillTypeList
+  .column(span="row" height="10")
+  .column(span="row")
+    h3.despre-mine__subtitlu=skillType.type
+  .column(span="row")
+    each skill in skillType.skillList
+      span(
+        class=`skills__skill--${skill.type}`
+      )=skill.label
+.column(span="row" height="10")
+.column(span="row")
+  .description-box__with-shadow
+    p.descriere=data.skills.descriere
