@@ -4,9 +4,9 @@
     "statsName": "Stats",
     "stat":[ 
       {
-      "statIcon": "codetap",
+      "statIcon": "github",
       "statDescription": [
-        "Contributions last year :80",
+        "Contributions last year: 80",
         "Longest streak: ---"
       ]
       },
@@ -22,8 +22,8 @@
       "statDescription": [
         "Top: ---",
         "Reputation: ---",
-        "People reached: ~3,000,000",
-        "Answers: 102"
+        "People reached: ---",
+        "Answers: ---"
       ]
       }
     ]

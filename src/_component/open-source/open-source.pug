@@ -1,5 +1,16 @@
 - var sectionTitle = data['open-source'].sectionTitle
 include ../section-title/section-title.pug 
 
-.column(span="30")
-  
+.column(span="row")
+  .os__stats=data['open-source'].stats.statsName
+  ul.os__stats-list
+    each stat in data['open-source'].stats.stat
+      li.os__stats-item
+        span.os__stats-icon
+          i(class=`icon__${stat.statIcon}`)
+        .os__stats-description
+          each info in stat.statDescription 
+            p=info
+
+.column(span="row")
+  .os__projects=data['open-source'].projects.projectName
