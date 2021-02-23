@@ -30,8 +30,9 @@
   },
   "projects": {
     "projectName": "GitHub projects",
-    "project": {
-      "projectName" :"My Cv v2 Junior",
+    "project":[
+      {
+      "projectName" :"My Cv V2 Junior",
       "skillsGained": [
         {
           "skillName": "HTML",
@@ -69,6 +70,47 @@
           }
         ],
         "projectInfo": "Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux"
-      }
+      },
+      {
+        "projectName" :"My Cv V2 Starter",
+        "skillsGained": [
+          {
+            "skillName": "HTML",
+            "percentage": "10.5",
+            "color": "#F0E218"
+          },
+          {
+            "skillName": "JavaScript",
+            "percentage": "80",
+            "color": "#1875F0"
+          },
+          {
+            "skillName": "TypeScript",
+            "percentage": "6.8",
+            "color": "#20D55D"
+          },
+          { 
+            "skillName": "CSS",
+            "percentage": "2.7",
+            "color": "#D52027"
+          }
+          ],
+          "projectStats": [
+            {
+              "projectStatIcon": "commits",
+              "projectStatInfo": "Commits: ---"
+            },
+            {
+              "projectStatIcon": "stars",
+              "projectStatInfo": "Stars: ---"
+            },
+            {
+              "projectStatIcon": "forks",
+              "projectStatInfo": "Forks: ---"
+            }
+          ],
+          "projectInfo": "Tralalalala despre v2starter"
+        }
+      ]
     }
   }

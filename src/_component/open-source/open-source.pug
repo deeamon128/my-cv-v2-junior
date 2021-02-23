@@ -14,3 +14,13 @@ include ../section-title/section-title.pug
 
 .column(span="row")
   .os__projects=data['open-source'].projects.projectName
+  .os__projects-list
+    each project in data['open-source'].projects.project
+      .os__projects-item
+        .os__projects-name=project.projectName
+        .os__skills-list
+          each skill in project.skillsGained 
+            span.os__skill-item=skill.skillName+"   "
+        .os__projects-stat
+          each item in project.skillsGained
+            span(class=`coloana-${item.skillName}`) .
