@@ -1,6 +1,7 @@
 //-pre=JSON.strinify(data['about-me'],null,2)-\\
 - var sectionTitle = data['about-me'].sectionTitle;
 include ../section-title/section-title.pug
+
 .column(span="row")
     h1.numele-meu=data['about-me'].mainTitle
 .column(span="row")
@@ -9,7 +10,7 @@ include ../section-title/section-title.pug
 .column(span="row")
     h3.descrierea-mea=data['about-me'].leadTitle
 .column(span="row")
-    .desription-box__with-shadow 
+    .description-box__with-shadow 
         each description in data['about-me'].descriptionList
             p.description=description 
 .column(span="row")
