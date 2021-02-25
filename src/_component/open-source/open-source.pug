@@ -2,25 +2,38 @@
 include ../section-title/section-title.pug 
 
 .column(span="row")
-  .os__stats=data['open-source'].stats.statsName
-  ul.os__stats-list
+  .os__stat=data['open-source'].stats.statsName
+  ul.os__stat-list
     each stat in data['open-source'].stats.stat
-      li.os__stats-item
-        span.os__stats-icon
+      li.os__stat-item
+        span.os__stat-icon
           i(class=`icon__${stat.statIcon}`)
-        .os__stats-description
+        .os__stat-description
           each info in stat.statDescription 
             p=info
 
 .column(span="row")
-  .os__projects=data['open-source'].projects.projectName
-  .os__projects-list
-    each project in data['open-source'].projects.project
-      .os__projects-item
-        .os__projects-name=project.projectName
-        .os__skills-list
+  .os__project=data['open-source'].projects.projectName
+  .os__project-list
+    each project, key in data['open-source'].projects.project
+      .os__project-item
+        input(
+              type="checkbox"
+              id=`project__checkbox--${key}`
+            ).os__checkbox
+        .os__project-name=project.projectName
+        .os__skill-list
           each skill in project.skillsGained 
             span.os__skill-item=skill.skillName+"   "
-        .os__projects-stat
+        .os__project-stat
           each item in project.skillsGained
-            span(class=`coloana-${item.skillName}`) .
+            span(
+              class=`coloana-${item.skillName}`
+              style=`width: ${item.percentage}%`
+            ) .
+        label(for=`project__checkbox--${key}`).os__info 
+            .icon__info 
+        .os__project-body 
+          .os__project-description=project.projectInfo
+
+

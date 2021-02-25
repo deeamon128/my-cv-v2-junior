@@ -1,116 +1,141 @@
 {
-  "sectionTitle" :"Open Source",
+  "sectionTitle":"Open Source",
   "stats":{
-    "statsName": "Stats",
-    "stat":[ 
+    "statsName":"Stats",
+    "stat":[
       {
-      "statIcon": "github",
-      "statDescription": [
-        "Contributions last year: 80",
-        "Longest streak: ---"
-      ]
+        "statIcon":"github",
+        "statDescription":[
+          "Contributions last year: 80",
+          "Longest streak: ---"
+        ]
       },
       {
-      "statIcon": "codewars",
-      "statDescription": [
-        "Rank: ---",
-        "Honor: ---"
-      ]
+        "statIcon":"codewars",
+        "statDescription":[
+          "Rank: ---",
+          "Honor: ---"
+        ]
       },
       {
-      "statIcon": "stackoverflow",
-      "statDescription": [
-        "Top: ---",
-        "Reputation: ---",
-        "People reached: ---",
-        "Answers: ---"
-      ]
+        "statIcon":"stackoverflow",
+        "statDescription":[
+          "Top: ---",
+          "Reputation: ---",
+          "People reached: ---",
+          "Answers: ---"
+        ]
       }
     ]
   },
-  "projects": {
-    "projectName": "GitHub projects",
+  "projects":{
+    "projectName":"GitHub projects",
     "project":[
       {
-      "projectName" :"My Cv V2 Junior",
-      "skillsGained": [
-        {
-          "skillName": "HTML",
-          "percentage": "1.2",
-          "color": "#F0E218"
-        },
-        {
-          "skillName": "JavaScript",
-          "percentage": "90",
-          "color": "#1875F0"
-        },
-        {
-          "skillName": "TypeScript",
-          "percentage": "5.1",
-          "color": "#20D55D"
-        },
-        { 
-          "skillName": "CSS",
-          "percentage": "3.7",
-          "color": "#D52027"
-        }
-        ],
-        "projectStats": [
+        "projectName":"My Cv V2 Junior",
+        "skillsGained":[
           {
-            "projectStatIcon": "commits",
-            "projectStatInfo": "Commits: ---"
+            "skillName":"HTML",
+            "percentage":"1.2",
+            "color":"#F0E218"
           },
           {
-            "projectStatIcon": "stars",
-            "projectStatInfo": "Stars: ---"
+            "skillName":"JavaScript",
+            "percentage":"90",
+            "color":"#1875F0"
           },
           {
-            "projectStatIcon": "forks",
-            "projectStatInfo": "Forks: ---"
+            "skillName":"TypeScript",
+            "percentage":"5.1",
+            "color":"#20D55D"
+          },
+          {
+            "skillName":"CSS",
+            "percentage":"3.7",
+            "color":"#D52027"
           }
         ],
-        "projectInfo": "Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux"
+        "projectStats":[
+          {
+            "projectStatIcon":"commits",
+            "projectStatInfo":"Commits: ---"
+          },
+          {
+            "projectStatIcon":"stars",
+            "projectStatInfo":"Stars: ---"
+          },
+          {
+            "projectStatIcon":"forks",
+            "projectStatInfo":"Forks: ---"
+          }
+        ],
+        "projectInfo":"Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux",
+        "projectIcon":{
+          "mandatoryIcon":"info",
+          "extraIcon":[
+            {
+              "icon":"youtube",
+              "link":"www.youtube.com"
+            },
+            {
+              "icon":"github",
+              "link":"www.github.com/RalucaRbc"
+            }
+          ]
+        }
       },
       {
-        "projectName" :"My Cv V2 Starter",
-        "skillsGained": [
+        "projectName":"My Cv V2 Starter",
+        "skillsGained":[
           {
-            "skillName": "HTML",
-            "percentage": "10.5",
-            "color": "#F0E218"
+            "skillName":"HTML",
+            "percentage":"10.5",
+            "color":"#F0E218"
           },
           {
-            "skillName": "JavaScript",
-            "percentage": "80",
-            "color": "#1875F0"
+            "skillName":"JavaScript",
+            "percentage":"80",
+            "color":"#1875F0"
           },
           {
-            "skillName": "TypeScript",
-            "percentage": "6.8",
-            "color": "#20D55D"
+            "skillName":"TypeScript",
+            "percentage":"6.8",
+            "color":"#20D55D"
           },
-          { 
-            "skillName": "CSS",
-            "percentage": "2.7",
-            "color": "#D52027"
+          {
+            "skillName":"CSS",
+            "percentage":"2.7",
+            "color":"#D52027"
           }
-          ],
-          "projectStats": [
+        ],
+        "projectStats":[
+          {
+            "projectStatIcon":"commits",
+            "projectStatInfo":"Commits: ---"
+          },
+          {
+            "projectStatIcon":"stars",
+            "projectStatInfo":"Stars: ---"
+          },
+          {
+            "projectStatIcon":"forks",
+            "projectStatInfo":"Forks: ---"
+          }
+        ],
+        "projectInfo":"Tralalalala despre v2starter",
+        "projectIcon":{
+          "mandatoryIcon":{
+            "icon":"info",
+            "link":""
+          },
+          "extraIcon":[
             {
-              "projectStatIcon": "commits",
-              "projectStatInfo": "Commits: ---"
-            },
-            {
-              "projectStatIcon": "stars",
-              "projectStatInfo": "Stars: ---"
-            },
-            {
-              "projectStatIcon": "forks",
-              "projectStatInfo": "Forks: ---"
+              "icon":"github",
+              "link":"www.github.com/RalucaRbc"
             }
-          ],
-          "projectInfo": "Tralalalala despre v2starter"
+          ]
         }
-      ]
-    }
+      }
+    ]
   }
+}
