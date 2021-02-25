@@ -1,5 +1,42 @@
 {
     "sectionTitle": "Let`s connect",
-    "gigeaPath": "asset/image/sebastianpadure.jpg"
+    "gigeaPath": "asset/image/sebastianpadure.jpg",
+    "socialList": [
+        {
+          "icon": "codetap",
+          "title": "CodeTap",
+          "description": "afasdfasdfa",
+          "label":"codetap.academy",
+          "link": "http://codetap.academy"
+        },
+        {
+          "icon": "github",
+          "title": "CodeTap",
+          "description": "afasdfasdfa",
+          "label":"codetap.academy",
+          "link": "http://codetap.academy"
+        },
+        {
+          "icon": "linkedin",
+          "title": "CodeTap",
+          "description": "afasdfasdfa",
+          "label":"codetap.academy",
+          "link": "http://codetap.academy"
+        },
+        {
+          "icon": "facebook",
+          "title": "CodeTap",
+          "description": "afasdfasdfa",
+          "label":"codetap.academy",
+          "link": "http://codetap.academy"
+        },
+        {
+          "icon": "instagram",
+          "title": "CodeTap",
+          "description": "afasdfasdfa",
+          "label":"codetap.academy",
+          "link": "http://codetap.academy"
+        }
+    ]
 
 }

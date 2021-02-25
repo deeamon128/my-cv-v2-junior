@@ -1,6 +1,37 @@
-- var sectionTitle = data['connect'].sectionTitle
+- var sectionTitle = data.connect.sectionTitle
 include ../section-title/section-title 
 
 .column(span="row")
    .connect__gigea 
+.column(span="row" height="10")
+
+each social, media__links in data.connect.socialList
+    input.connect__radio(
+        type="radio"
+        name="media__links"
+        id=`section__label--${media__links}`
+    )
+    .column(span="1")
+     label(for=`section__label--${media__links}`).connect__disc 
+       i(class=`icon__${social.icon}`)
+
+.column(span="row" height="10")
 .column(span="row")
+    .description-box__shadow-arrow
+        .description-box__header
+            .description-box__title fads
+            .description-box__close
+                input.connect__radio(
+                    type="radio"
+                    name="media__links"
+                    id=`section__label--reset`
+                )
+                label(for=`section__label--reset`).connect__disc 
+                  i(class=`icon__cross`)
+
+.column(span="row" height="10")
+.column(span="row")
+     button.button__disc-green 
+      i.icon__arrow-down 
+.column(span="row" height="10")
+
