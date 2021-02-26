@@ -7,6 +7,7 @@
 
 body {
      font-family: 'Roboto', sans-serif;
+     background-color: #F5F5F5;
 }
 
 .grid {
@@ -30,3 +31,15 @@ body {
 input[type="radio"] {
     display: none;
 }
+
+.button-dream {
+    padding-left: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+    width: 150px;
+}
+
+a.button.button__get-blue { 
+    text-decoration: none;
+} 
