@@ -1,0 +1,42 @@
+{
+    "sectionTitle": "Let`s connect",
+    "gigeaPath": "asset/image/sebastianpadure.jpg",
+    "socialList": [
+        {
+          "icon": "codetap",
+          "title": "CodeTap",
+          "description": "CodeTap Academy",
+          "label":"codetap.academy",
+          "link": "http://codetap.academy"
+        },
+        {
+          "icon": "github",
+          "title": "GitHub",
+          "description": "See my project`s",
+          "label":"Github.com/blowymind99",
+          "link": "https://github.com/blowymind99"
+        },
+        {
+          "icon": "linkedin",
+          "title": "LinkedIn",
+          "description": "In progress",
+          "label":"Linkedin.com/in/sebastian-george-padure",
+          "link": "https://www.linkedin.com/in/sebastian-george-padure-5790a9a9/"
+        },
+        {
+          "icon": "facebook",
+          "title": "Facebook",
+          "description": "Not a superman but I know how to fly",
+          "label":"Facebook.com/george.padure.sebastian",
+          "link": "https://www.facebook.com/george.padure.sebastian/"
+        },
+        {
+          "icon": "instagram",
+          "title": "Instragram",
+          "description": "In progress",
+          "label":"Instagram.com/georgepaduresebastian",
+          "link": "https://www.instagram.com/georgepaduresebastian/"
+        }
+    ]
+
+}
