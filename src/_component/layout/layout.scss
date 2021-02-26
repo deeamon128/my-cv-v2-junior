@@ -1,0 +1,45 @@
+// quickly reset margin, padding and box sizing to all elements 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body {
+     font-family: 'Roboto', sans-serif;
+     background-color: #F5F5F5;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 10px;
+}
+
+.column[span="row"] {
+   grid-column: 1/-1;
+}
+
+.column[height="10"] {
+    height: 10px;
+}
+
+.content {
+    padding: 0 36px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.button-dream {
+    padding-left: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+    width: 150px;
+}
+
+a.button.button__get-blue { 
+    text-decoration: none;
+} 

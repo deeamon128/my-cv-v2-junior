@@ -1,0 +1,27 @@
+//- pre=JSON.stringify(data['about-me'], null, 2)
+- var sectionTitle = data['about-mee'].sectionTitle;
+include ../section-title/section-title
+
+.column(span="row")
+    h1.about-me__name=data['about-mee'].name 
+.column(span="row")
+    h2.about-me__job-title=data['about-mee'].jobTitle
+.column(span="row" height="10")
+.column(span="row")
+    h3.about-me__know-better=data['about-mee'].knowBetter  
+.column(span="row")
+    .description-box__shadow 
+      each description in data['about-mee'].detailsList
+       p=description 
+.column(span="row" height="10")
+.column(span="row")
+    button.button__get-blue  
+      i.icon__download 
+      span.button-dream=data['about-mee'].buttonDream
+.column(span="row" height="10")
+.column(span="row")
+     button.button__disc-green 
+      i.icon__arrow-down 
+.column(span="row" height="10")
+
+

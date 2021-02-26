@@ -1,0 +1,120 @@
+.connect__radio:checked + .column .connect__disc {
+    background-color: #d52027;
+}
+
+.description-box__footer, 
+.description-box__body {
+    padding: 20px;
+}
+.description-box__footer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+@for $i from 1 through 5 {
+    .connect__radio:nth-of-type(#{$i}):checked ~ [data-description-box="#{$i}"] { 
+        display: block;
+    }
+}
+
+[data-description-box] {
+    display: none;
+}
+
+.description-box__body {
+    border-top: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.description-box__shadow-arrow {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    background-color: white;
+    position: relative;
+    margin-top: 1rem;
+    
+    
+    &::after { 
+        content: '';
+        position: absolute;
+        background-color: white;
+        width: 15px;
+        height: 15px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+        top: -7px;
+        left: 15px;
+        clip-path: polygon(-6px -6px, 100% 0, 0 100% );
+        transform: rotate(45deg);
+    }
+}
+
+.description-box__header {
+    display: flex;
+    padding: 20px;
+}
+
+.description-box__paragraph { 
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+.description-box__title {
+    flex-grow: 1;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.connect__disc {
+    display: block;
+    transition: 250ms;
+    background-color: #1875F0;
+    border-radius: 50%;
+    padding-top: 100%;
+    position: relative;
+    color: white;
+    cursor: pointer;
+
+    &[for="section__label--reset"] {
+        width: 40px;    
+        color: white;
+    }
+ 
+    [class^="icon__"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10vw;
+    }
+}
+
+    .connect__gigea {
+    padding-top: 100%;
+    background-color: white; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    position: relative;
+    border-radius: 8px;
+    transform: rotate(-2.5deg);
+    
+    &::after {
+        border-radius: 6px;
+        position: absolute;
+        content: '';
+        top: 10px;
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+        background-size: cover;
+        background-image: url('asset/image/sebastianpadure.jpg');
+      }
+   }
