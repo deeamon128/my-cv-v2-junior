@@ -1,0 +1,23 @@
+{
+    "sectionTitle": "Skills",
+    "legend": { 
+        "title": "Legend",
+        "itemList": [
+            {   
+                "icon":"heart",
+                "color":"red",
+                "label":"Skills I Love the most"
+            },
+            {   
+                "icon":"trophy",
+                "color":"orange",
+                "label":"Skills I`m good at"
+            },
+            {
+                "icon":"book",
+                "color":"green",
+                "label":"Skills I`d love to get better at"
+            }
+        ]
+    }
+}
