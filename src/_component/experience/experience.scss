@@ -1,3 +1,13 @@
 .experience__list {
-  @extend %rounder-border-list
+  @extend %rounder-border-list;
 }
+
+.experience__list {
+  @extend %list-item;
+  // display: grid;
+  // grid-template-columns: auto 1fr auto;
+}
+
+// .experience__cutie {
+//   border-bottom: 3px solid #707070;
+// }

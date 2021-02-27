@@ -6,14 +6,15 @@ include ../section-title/section-title.pug
   ul.experience__list
     each nume in data.experience.listaJoburi
       li.experience__lista
-        .experience__logo
-        .experience__job-title
-        .experience__company-name
-        .experience__chevron
-        .experience__body
-          .experience__date
-          each moreInfo in nume.moreInfoList
-            .experience__more-info=moreInfo
+          .experience__logo
+            img(src=`${baseUrl}asset/image/company-logo/${nume.iconWay}`)
+          .experience__job-title=nume.numeJob
+          .experience__company-name=nume.numeCompanie
+          .experience__chevron
+          .experience__body
+            .experience__date=`${nume.dataStart} - ${nume.dataTerminat}`
+            each moreInfo in nume.moreInfoList
+              .experience__more-info=moreInfo
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--green
