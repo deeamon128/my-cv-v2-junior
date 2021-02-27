@@ -30,3 +30,38 @@
 .experience__body {
   grid-column: 1/-1;
 }
+
+.experience__logo-image {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.experience__job-title, 
+.experience__company-name {
+  line-height: 20px;
+}
+
+.experience__job-title, {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.experience__company-name {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.experience__chevron {
+  margin: 25px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .icon__arrow-up {
+    transform: rotate(180deg);
+  }
+}
