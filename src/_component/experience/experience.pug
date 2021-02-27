@@ -5,15 +5,21 @@ include ../sectiunea-titlu/sectiunea-titlu
 .column(span="row" height="10")
 .column(span="row")
   ul.lista__experienta
-    each job in data.experience.jobList
+    each job, key in data.experience.jobList
       li.experience__item
+        input(
+          type="checkbox"
+          id=`experience__checkbox-${key}`
+        ).experience__checkbox
         .experience__logo
           img.experience__logo-image(
             src=`${baseUrl}asset/image/company-logo/${job.iconPath}`
             width="50"
           )
         .experience__job-title=job.jobTitle
-        .experience__company-name=job.companyName
+        label(
+          for=`experience__checkbox-${key}`
+        ).experience__company-name=job.companyName
         .experience__chevron
           .icon__arrow-up
         .experience__body
