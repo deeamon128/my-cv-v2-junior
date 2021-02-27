@@ -2,6 +2,28 @@
   "sectionTitle": "Experience",
   "listaJoburi": [
     {
+      "numeJob": "Civil Enforcement Officer",
+      "dataStart": "February 2020",
+      "dataTerminat": "Present",
+      "iconWay": "etc.png",
+      "numeCompanie": "etc.venues",
+      "moreInfoList": [
+        "Working in Westminister borough, local authority."
+      ]
+    },
+
+    {
+      "numeJob": "Food and Beverage Supervisor",
+      "dataStart": "May 2019",
+      "dataTerminat": "December 2019",
+      "iconWay": "etc.png",
+      "numeCompanie": "etc.venues",
+      "moreInfoList": [
+        "I was supervising teams of 4+ members and working alongside to provide excellent customer service"
+      ]
+    },
+
+    {
       "numeJob": "Food and Beverage Assistant",
       "dataStart": "October 2018",
       "dataTerminat": "April 2019",
@@ -12,16 +34,6 @@
         "Fast-paced environment",
         "Excellent customer service",
         "Learned a few tips and tricks in the kitchen"
-      ]
-    },
-    {
-      "numeJob": "Food and Beverage Supervisor",
-      "dataStart": "May 2019",
-      "dataTerminat": "December 2019",
-      "iconWay": "etc.png",
-      "numeCompanie": "etc.venues",
-      "moreInfoList": [
-        "I was supervising teams of 4+ members and working alongside to provide excellent customer service"
       ]
     }
   ]

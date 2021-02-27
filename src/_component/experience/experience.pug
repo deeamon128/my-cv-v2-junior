@@ -1,15 +1,22 @@
 - var sectionTitle = data.experience.sectionTitle 
 include ../section-title/section-title.pug
 
-.column(span="row" height="10") 
-.column(span="row") 
-  ul
+.column(span="row" height="10")
+.column(span="row")
+  ul.experience__list
     each nume in data.experience.listaJoburi
-      li=nume.numeJob
-
-.column(span="row" height="10") 
-.column(span="row") 
-  button.button__disc--green 
+      li.experience__lista
+        .experience__logo
+        .experience__job-title
+        .experience__company-name
+        .experience__chevron
+        .experience__body
+          .experience__date
+          each moreInfo in nume.moreInfoList
+            .experience__more-info=moreInfo
+.column(span="row" height="10")
+.column(span="row")
+  button.button__disc--green
     i.icon__arrow-down
-.column(span="row" height="10") 
+.column(span="row" height="10")
  

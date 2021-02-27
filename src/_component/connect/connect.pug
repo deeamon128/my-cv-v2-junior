@@ -6,7 +6,7 @@ include ../section-title/section-title
 .column(span="row" height="10")
 
 
-each social, key in data.connect.socialList 
+each social, key in data.connect.socialList
   input.connect__radio(
     type="radio"
     name="connect__label"
@@ -16,9 +16,9 @@ each social, key in data.connect.socialList
     label(for=`connect__label--${key}`).connect__disc
       i(class=`icon__${social.icon}`)
 
-each social, key in data.connect.socialList 
+each social, key in data.connect.socialList
   .column(span="row" data-box=key+1)
-    .box__with-arrow 
+    .box__with-arrow
       .box__header
         .box__title=social.title
         .box__close
@@ -37,7 +37,7 @@ each social, key in data.connect.socialList
           target="_blank"
         ).pill--blue 
           i.icon__link
-          span.button-text=social.label 
+          span.button-text=social.label
 
 .column(span="row" height="10")
 .column(span="row")
