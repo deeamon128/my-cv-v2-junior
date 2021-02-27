@@ -18,9 +18,9 @@ include ../section-title/section-title.pug
     each project, key in data['open-source'].projects.project
       .os__project-item
         input(
-              type="checkbox"
-              id=`project__checkbox--${key}`
-            ).os__checkbox
+          type="checkbox"
+          id=`project__checkbox--${key}`
+              ).os__checkbox
         .os__project-name=project.projectName
         .os__skill-list
           each skill in project.skillsGained 
@@ -31,9 +31,24 @@ include ../section-title/section-title.pug
               class=`coloana-${item.skillName}`
               style=`width: ${item.percentage}%`
             ) .
-        label(for=`project__checkbox--${key}`).os__info 
-            .icon__info 
-        .os__project-body 
-          .os__project-description=project.projectInfo
-
+        ul.os__project-body 
+          li
+            .os__project-dots
+              each item in project.skillsGained
+                .os__dot
+                  .os__dot-color(style=`background-color: ${item.color}`) 
+                  .os__dot-name=item.skillName+" "+item.percentage+"%"
+          li.os__project-lala
+            each projectStat in project.projectStats
+              .os__project-stats
+                .os__project-stat-icon
+                  i(class=`icon__${projectStat.projectStatIcon}`)
+                .os__project-stat-info=projectStat.projectStatInfo
+          li.os__project-description=project.projectInfo
+      .os__buttons
+        label(for=`project__checkbox--${key}`).os__info-mandatory 
+          i(class=`icon__${project.projectIcon.mandatoryIcon}`)
+        each extraIcon in project.projectIcon.extraIcon
+          button.os__info-extra
+            i(class=`icon__${extraIcon.icon}`)
 

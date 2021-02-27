@@ -74,12 +74,12 @@
           "mandatoryIcon":"info",
           "extraIcon":[
             {
-              "icon":"youtube",
-              "link":"www.youtube.com"
-            },
-            {
               "icon":"github",
               "link":"www.github.com/RalucaRbc"
+            },
+            {
+              "icon":"youtube",
+              "link":"www.youtube.com"
             }
           ]
         }
@@ -124,10 +124,7 @@
         ],
         "projectInfo":"Tralalalala despre v2starter",
         "projectIcon":{
-          "mandatoryIcon":{
-            "icon":"info",
-            "link":""
-          },
+          "mandatoryIcon":"info",
           "extraIcon":[
             {
               "icon":"github",
