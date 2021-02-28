@@ -90,20 +90,25 @@
   list-style-type: none;
 }
 
+.icon__cross {
+  display: none;
+}
+
 .os__checkbox {
   display: none;
 
-  &:checked ~ .os__project-body {
+  &:checked ~ .os__project-list .os__project-body {
     display: initial;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
   }
+}
 
-  // &:checked ~ .os__buttons .os__info-mandatory i[class="icon__info"] {
-  //   transform: rotate(180deg);
-  // }
+.os__checkbox:checked ~ .os__project-list .os__buttons { 
+  & .icon__info {
+    display: none;
+  }
+  & .icon__cross{
+    display: block;
+  }
 }
 
 
@@ -197,4 +202,15 @@
   width: 100%;
   @extend %list-item;
   padding: 20px;
+}
+
+.os__pill-blue {
+  @extend %pill-blue;
+  text-decoration: none; 
+  margin: 0 40px;
+}
+
+.os__pill-blue i[class="icon__github"] {
+  font-size: 15px;
+  margin-right: 10px;
 }

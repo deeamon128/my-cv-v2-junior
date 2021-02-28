@@ -82,6 +82,11 @@
               "link":"www.youtube.com"
             }
           ]
+        },
+        "projectLink": {
+          "icon":"github",
+          "description": "RalucaRbc/my-cv-v2-junior",
+          "link": "https://github.com/RalucaRbc/my-cv-v2-junior"
         }
       },
       {
@@ -131,6 +136,11 @@
               "link":"www.github.com/RalucaRbc"
             }
           ]
+        },
+        "projectLink": {
+          "icon":"github",
+          "description": "RalucaRbc/my-cv-v2-starter",
+          "link": "https://github.com/RalucaRbc/my-cv-v2-starter"
         }
       }
     ]

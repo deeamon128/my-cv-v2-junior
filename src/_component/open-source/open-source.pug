@@ -14,13 +14,18 @@ include ../section-title/section-title.pug
 
 .column(span="row")
   .os__project=data['open-source'].projects.projectName
+  each project, key in data['open-source'].projects.project
+    input(
+      type="checkbox"
+      id=`project__checkbox--${key}`
+          ).os__checkbox
   .os__project-list
     each project, key in data['open-source'].projects.project
       .os__project-item
-        input(
-          type="checkbox"
-          id=`project__checkbox--${key}`
-              ).os__checkbox
+        //- input(
+        //-   type="checkbox"
+        //-   id=`project__checkbox--${key}`
+        //-       ).os__checkbox
         .os__project-name=project.projectName
         .os__skill-list
           each skill in project.skillsGained 
@@ -38,16 +43,26 @@ include ../section-title/section-title.pug
                 .os__dot
                   .os__dot-color(style=`background-color: ${item.color}`) 
                   .os__dot-name=item.skillName+" "+item.percentage+"%"
-          li.os__project-lala
+          li.os__project-data
             each projectStat in project.projectStats
               .os__project-stats
                 .os__project-stat-icon
                   i(class=`icon__${projectStat.projectStatIcon}`)
                 .os__project-stat-info=projectStat.projectStatInfo
           li.os__project-description=project.projectInfo
+          li.os__project-blue-link
+            a(
+            href=project.projectLink.link
+            target="_blank"
+            ).os__pill-blue
+              i(class=`icon__${project.projectLink.icon}`)
+              span.button-text-primary=project.projectLink.description
       .os__buttons
         label(for=`project__checkbox--${key}`).os__info-mandatory 
-          i(class=`icon__${project.projectIcon.mandatoryIcon}`)
+          //- i(class=`icon__${project.projectIcon.mandatoryIcon}`)
+          i.icon__info
+        label(for=`project__checkbox--${key}`).os__info-mandatory 
+          i.icon__cross
         each extraIcon in project.projectIcon.extraIcon
           button.os__info-extra
             i(class=`icon__${extraIcon.icon}`)

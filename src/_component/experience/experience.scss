@@ -1,6 +1,7 @@
 .experience__list {
   @extend %rounder-border-list;
   margin-top: 20px;
+  background-color: white;
 }
 
 .experience__item {
@@ -72,6 +73,7 @@
   list-style-type: none;
   font-size: 14px;
   font-style: 500;
+  line-height: 30px;
 }
 
 .experience__date {

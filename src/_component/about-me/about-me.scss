@@ -22,7 +22,7 @@
 }
 
 .description-box__about-me {
-  @extend %description-box
+  @extend %description-box;
 }
 
 .description {
@@ -49,22 +49,9 @@ button[class="pill__blue-secondary"] i[class="icon__info"] {
 
 .pill__blue-primary,
 .pill__blue-secondary {
-  background-color: #1875F0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  border: 0;
-  font-weight: 900;
+  @extend %pill-blue
 }
 
-.pill__blue-primary {
-  height: 40px;
-  padding: 12px 24px;
-  border-radius: 20px;
-  margin: 20px auto;
-  font-size: 10px;
-}
 
 .pill__blue-secondary {
   height: 30px;
