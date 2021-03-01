@@ -90,27 +90,25 @@
   list-style-type: none;
 }
 
-.icon__cross {
+.close {
   display: none;
 }
 
 .os__checkbox {
   display: none;
 
-  &:checked ~ .os__project-list .os__project-body {
+  &:checked + .os__project-item .os__project-body {
     display: initial;
   }
-}
 
-.os__checkbox:checked ~ .os__project-list .os__buttons { 
-  & .icon__info {
-    display: none;
-  }
-  & .icon__cross{
+  &:checked ~ .os__buttons .close{
     display: block;
   }
+  &:checked ~ .os__buttons .open {
+    display: none;
+  }
+  
 }
-
 
 .os__project-item {
   background-color: white;
@@ -131,6 +129,7 @@
 }
 
 .os__info-mandatory,
+.os__info-close,
 .os__info-extra {
   cursor: pointer;
   background-color: #FF006D;
