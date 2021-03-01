@@ -1,0 +1,11 @@
+- var sectionTitle = data.recommendation.sectionTitle
+include ../section-title/section-title.pug 
+
+.column(span="row" style=`margin-top:35px`)
+  each rec in data.recommendation.rec 
+    .recommendation 
+      img(src=`${rec.avatarPath}`, alt="").rec-image
+      .rec-name=rec.name 
+      .rec-role=rec.role
+      each p in rec.description 
+        p=p
