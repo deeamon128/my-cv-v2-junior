@@ -15,26 +15,26 @@
 @for $i from 1 through 10 {
   .connect__radio:nth-of-type(#{$i}):checked ~ [data-box="#{$i}"] {
     display: block;
-  }  
+  }
 }
 
-[data-box]{
-display: none;
+[data-box] {
+  display: none;
 }
 
-.box__body{
+.box__body {
   border-top: 2px solid #f5f5f5;
   border-bottom: 2px solid #f5f5f5;
 }
 
-.box__with-arrow{
+.box__with-arrow {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
   background-color: white;
   position: relative;
   margin-top: 1rem;
 
-  &::after{
+  &::after {
     content: '';
     position: absolute;
     background-color: white;
@@ -48,17 +48,17 @@ display: none;
   }
 }
 
-.box__header{
+.box__header {
   padding: 20px;
   display: flex;
 }
 
-p.box__paragraph{
+p.box__paragraph {
   font-size: 14px;
   line-height: 30px
 }
 
-.box__title{
+.box__title {
   flex-grow: 1;
   line-height: 40px;
   font-weight: 500;
@@ -66,11 +66,11 @@ p.box__paragraph{
   text-transform: capitalize;
 }
 
-.box__close{
+.box__close {
   width: 40px;
 }
 
-.connect__disc{
+.connect__disc {
   display: block;
   transition: 250ms;
   background-color: #1875f0;
@@ -80,7 +80,7 @@ p.box__paragraph{
   color: white;
   cursor: pointer;
 
-  [for="connect__label--reset"]{
+  [for="connect__label--reset"] {
     width: 40px;
     color: white;
   }
@@ -98,7 +98,7 @@ p.box__paragraph{
     }
 }
 
-.connect__avatar{
+.connect__avatar {
   padding-top: 100%;
   background-color: white;
   position: relative;
@@ -107,7 +107,7 @@ p.box__paragraph{
   transform: rotate(-2.5deg);
 
 
-  &::after{
+  &::after {
     content: '';
     border-radius: 6px;
     position: absolute;
