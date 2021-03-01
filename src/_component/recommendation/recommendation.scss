@@ -1,5 +1,5 @@
 .recommendation {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .recommendation-data {
@@ -27,34 +27,26 @@
   }
 }
 
+.rec-role {
+ @extend %descriptive-subcolumn;
+}
+
 .rec-name {
-  grid-row: 1/2;
-}
-
-.rec-role {
-  grid-row: 2/3;
-}
-
-.rec-name, 
-.rec-role {
   grid-column:2/3 ;
   display: flex;
   align-items: center;
-}
-
-.rec-name {
+  grid-row: 1/2;
   font-weight: 500;
   font-size: 22px;
   color: #808080;
 }
 
-.recommendation-description,
-.rec-role {
+.recommendation-description {
   font-weight: 500;
   font-size: 14px;
   color: #808080;
+  margin: 25px 0 20px 0;
 }
-
 
 .recommendation-description {
   @extend %box-with-arrow;

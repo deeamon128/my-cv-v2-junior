@@ -1,0 +1,16 @@
+- var sectionTitle=data.review.sectionTitle 
+include ../section-title/section-title.pug
+
+.column(span="row" class="review")
+  each review in data.review.review
+    .recommendation 
+      .recommendation-data 
+        .rec-image
+          img(class="imagine", src=`${review.avatarPath}`, alt="")
+        .rec-name=review.name 
+        .review-date=review.date
+      .recommendation-description
+        span.review-description=review.description 
+.column(span="row")
+  button.disc__green 
+    i.icon__arrow-down

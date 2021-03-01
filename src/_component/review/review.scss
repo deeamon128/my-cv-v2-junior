@@ -1,0 +1,8 @@
+.review {
+  margin-top: 20px;
+}
+
+.review-date {
+  @extend %descriptive-subcolumn;
+  color: #1875F0;
+}
