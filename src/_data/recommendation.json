@@ -1,0 +1,22 @@
+{
+  "sectionTitle" : "Recommendations",
+  "rec": [
+    {
+      "avatarPath": "asset/image/user.jpg",
+      "name": "Marian Zburlea",
+      "role": "Mentor and Team Lead at BitBee Ltd",
+      "description": [
+        "HERE WILL BE A NICE RECOMMENDATION FROM MARIAN, ISN'T IT? :PUPPYEYES",
+        "ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nostrum minima doloribus dolor reiciendis ad voluptate aperiam aliquam officia a expedita hic, molestiae placeat, tempora explicabo nemo eum ratione quaerat! ipsum, dolor sit amet consectetur adipisicing elit. Iste porro ratione amet officia nesciunt et, explicabo qui. Aspernatur fugit nisi repellat iste error quae distinctio, cumque voluptate impedit commodi iusto."
+      ]
+    },
+    {
+      "avatarPath": "asset/image/user.jpg",
+      "name": "Someone",
+      "role": "Someone's role",
+      "description": [
+        "ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nostrum minima doloribus dolor reiciendis ad voluptate aperiam aliquam officia a expedita hic, molestiae placeat, tempora explicabo nemo eum ratione quaerat! ipsum, dolor sit amet consectetur adipisicing elit. Iste porro ratione amet officia nesciunt et, explicabo qui. Aspernatur fugit nisi repellat iste error quae distinctio, cumque voluptate impedit commodi iusto."
+      ]
+    }
+  ]
+}
