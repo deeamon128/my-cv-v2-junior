@@ -6,7 +6,7 @@
   list-style-type: none;
 }
 
-%list-item {
+%list-item:not(:last-child) {
   border-bottom: 3px solid #707070;
-  
+
 }

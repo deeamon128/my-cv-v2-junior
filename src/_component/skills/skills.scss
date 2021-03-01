@@ -20,7 +20,11 @@
 }
 
 .skills_legend_item:not(:last-child) {
-  @extend %list-item;
+  display: flex;
+  
+  &:not(:last-child) {
+    @extend %list-item;
+  }
 }
 
 .skills_legend_item:hover {
