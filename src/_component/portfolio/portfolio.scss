@@ -1,0 +1,52 @@
+.recent-title,
+.old-title {
+  @extend %subtitle;
+}
+
+.recent__project-image,
+.old__project-image {
+ width: 100%;
+ height: 100px;
+ padding: 3px;
+ padding-bottom: 0;
+ border-top: 2px solid #707070;
+}
+
+.recent-projects,
+.old-projects {
+  background-color: white;
+  @extend %rounder-border-list;
+  color: #707070;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.old-projects {
+  margin-bottom: 10px;
+
+  &:last-of-type{
+    margin-bottom: 20px;
+  }
+}
+
+.recent-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  
+  & i[class^="icon__"] {
+    @extend %button-pink;
+  }
+}
+
+.recent__project-name,
+.old__project-name {
+  @extend %project-name;
+}
+
+.recent__project-techs,
+.old__project-techs {
+  @extend %skills-list;
+  padding-bottom: 10px;
+}
