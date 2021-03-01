@@ -1,0 +1,27 @@
+{
+  "sectionTitle": "Experience",
+  "jobList": [
+    {
+      "jobTitle": "React Developer",
+      "startDate": "2021 Month",
+      "endDate": "2021 Month",
+      "iconPath": "arcadia.png",
+      "companyName": "ZeusMedia",
+      "moreInfoList": [
+        "This is some achievement",
+        "This is another succes"
+      ]
+    },
+    {
+      "jobTitle": "HTML Developer",
+      "startDate": "2015 Month",
+      "endDate": "2021 Month",
+      "iconPath": "argus.png",
+      "companyName": "Romaris",
+      "moreInfoList": [
+        "This is some achievement 2",
+        "This is another succes 2"
+      ]
+    }
+  ]
+}
