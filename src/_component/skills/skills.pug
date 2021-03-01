@@ -3,7 +3,7 @@ include ../section-title/section-title.pug
 
 .column.skill__counter-start(span="row")
   each category, key in data.skills.categoryList
-    h3.skill_category=category.category
+    h3.skill__category=category.category
     each set in category.skillList
       if set.icon=="heart" 
         each skill in set.skills

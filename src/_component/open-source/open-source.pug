@@ -1,0 +1,64 @@
+- var sectionTitle = data['open-source'].sectionTitle
+include ../section-title/section-title.pug 
+
+.column(span="row")
+  .os__stat=data['open-source'].stats.statsName
+  ul.os__stat-list
+    each stat in data['open-source'].stats.stat
+      li.os__stat-item
+        span.os__stat-icon
+          i(class=`icon__${stat.statIcon}`)
+        .os__stat-description
+          each info in stat.statDescription 
+            p=info
+
+.column(span="row")
+  .os__project=data['open-source'].projects.projectName
+  each project, key in data['open-source'].projects.project
+    input(
+      type="checkbox"
+      id=`project__checkbox--${key}`
+          ).os__checkbox
+    .os__project-item
+      .os__project-name=project.projectName
+      .os__skill-list
+        each skill in project.skillsGained 
+          span.os__skill-item=skill.skillName+"   "
+      .os__project-stat
+        each item in project.skillsGained
+          span(
+            class=`coloana-${item.skillName}`
+            style=`width: ${item.percentage}%`
+          ) .
+      ul.os__project-body
+        li
+          .os__project-dots
+            each item in project.skillsGained
+              .os__dot
+                .os__dot-color(style=`background-color: ${item.color}`) 
+                .os__dot-name=item.skillName+" "+item.percentage+"%"
+        li.os__project-data
+          each projectStat in project.projectStats
+            .os__project-stats
+              .os__project-stat-icon
+                i(class=`icon__${projectStat.projectStatIcon}`)
+              .os__project-stat-info=projectStat.projectStatInfo
+        li.os__project-description=project.projectInfo
+        li.os__project-blue-link
+          a(
+          href=project.projectLink.link
+          target="_blank"
+          ).os__pill-blue
+            i(class=`icon__${project.projectLink.icon}`)
+            span.button-text-primary=project.projectLink.description
+    .os__buttons
+      .open
+        label(for=`project__checkbox--${key}`).os__info-mandatory
+          i.icon__info
+      .close
+        label(for=`project__checkbox--${key}`).os__info-mandatory
+          i.icon__cross
+      each extraIcon in project.projectIcon.extraIcon
+        button.os__info-extra
+          i(class=`icon__${extraIcon.icon}`)
+
