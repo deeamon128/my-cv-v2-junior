@@ -3,9 +3,16 @@ include ../section-title/section-title.pug
 
 .column(span="row" style=`margin-top:35px`)
   each rec in data.recommendation.rec 
-    .recommendation 
-      img(src=`${rec.avatarPath}`, alt="").rec-image
-      .rec-name=rec.name 
-      .rec-role=rec.role
-      each p in rec.description 
-        p=p
+    .recommendation
+      .recommendation-data
+        .rec-image
+          img(class="imagine", src=`${rec.avatarPath}`, alt="")
+        .rec-name=rec.name 
+        .rec-role=rec.role
+      .recommendation-description
+        each p in rec.description 
+          p=p
+
+.column(span="row")
+  button.disc__green
+    .icon__arrow-down
