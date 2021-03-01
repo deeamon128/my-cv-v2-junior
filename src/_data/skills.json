@@ -1,0 +1,158 @@
+{
+  "sectionTitle": "Skills",
+  "descriere":"As entrepreneurs, leaders, managers, and bosses, we must realize that everything we think actually matters. If we are seeking success, we must think successful, inspiring, and motivating thoughts.",
+  "legend": {
+    "title":"Legend",
+    "itemList" : [
+      {
+        "icon": "heart",
+        "color": "red",
+        "label":"Skills I Love"
+      },
+      {
+        "icon": "trophy",
+        "color": "orange",
+        "label": "Skills I`m good at"
+      },
+      {
+        "icon": "book",
+        "color": "green",
+        "label":"Skills I`d love to be better at " 
+      }
+    ]
+  },
+  "skillTypeList": [
+    {
+      "type": "Front End" ,
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JAVASCRIPT"
+        },
+        {
+          "type": "heart",
+          "label": "REACT"
+        },
+        {
+          "type": "heart",
+          "label": "REDUX"
+        },
+        {
+          "type": "heart",
+          "label": "STYLED COMPONENT"
+        },
+        {
+          "type": "trophy",
+          "label": "Sass"
+        },
+        {
+          "type": "trophy",
+          "label": "Less"
+        },
+        {
+          "type": "trophy",
+          "label": "Material UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SEO"
+        }
+      ]
+    },
+    {
+      "type": "Back End" ,
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "Pug"
+        },
+        {
+          "type": "heart",
+          "label": "Node.js"
+        },
+        {
+          "type": "heart",
+          "label": "FireBase"
+        },
+        {
+          "type": "trophy",
+          "label": "Git"
+        },
+        {
+          "type": "trophy",
+          "label": "Linux"
+        },
+        {
+          "type": "trophy",
+          "label": "Rest"
+        },
+        {
+          "type": "trophy",
+          "label": "MySqol"
+        },
+        {
+          "type": "book",
+          "label": "SWS"
+        },
+        {
+          "type": "book",
+          "label": "Block"
+        },
+        {
+          "type": "book",
+          "label": "Elastic Search"
+        },
+        {
+          "type": "book",
+          "label": "GraphQL"
+        }
+      ]
+    },
+    {
+      "type": "Other" ,
+      "skillList": [
+        {
+          "type": "trophy",
+          "label": "Windows"
+        },
+        {
+          "type": "heart",
+          "label": "Linux"
+        },
+        {
+          "type": "heart",
+          "label": "Os Mac"
+        },
+        {
+          "type": "trophy",
+          "label": "AutoCAD"
+        },
+        {
+          "type": "trophy",
+          "label": "Gira"
+        },
+        {
+          "type": "heart",
+          "label": "Agile"
+        },
+        {
+          "type": "trophy",
+          "label": "Rally"
+        },
+        {
+          "type": "trophy",
+          "label": "Sass"
+        }
+      ]
+    }
+  ]
+}
+

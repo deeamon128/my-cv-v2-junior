@@ -1,0 +1,50 @@
+
+- var sectionTitle=data.connect.sectionTitle
+include ../section-title/section-title
+
+.column(span="row")
+    .connect__avatar
+.column(span="row")
+.column(span="row" height="10")
+
+each social, cheie in data.connect.socialList
+    input.connect__radio(
+        type="radio",
+        name="abc",
+        id=`cevanou-${cheie}`
+    )
+    .column(span="1")
+        div.connect__disc(
+            for=`oricevreitu-${cheie}`
+        )
+            div(class=`icon__${social.icon}`)
+
+each social, cheie in data.connect.socialList
+    .column(span="row" data-description-box=key+1)
+        .description-box__with-arrow
+            .description-box__header
+                .description-box__title=social.title
+                .description-box__close 
+                    input.connect__radio(
+                        type="radio"
+                        name="abc"
+                        id=`oricevreitu-${reset}`
+                    )
+                    label(
+                        for=`oricevreitu--reset`
+                        ).connect__disc
+                            i(class=`icon__cross`)
+            .description-box__body
+                p.description-box__detalii=social.description
+            .description-box__footer 
+                a(
+                    href=social.link
+                    target="_blank"
+                ).button__download--albastrel
+                    i.icon__link 
+                    span.button-text=social.label
+.column(span="row" height="10")
+.column(span="row")
+    button.buton__disc-dolarel
+        i.icon__arrow-down
+.column(span="row" height="10")

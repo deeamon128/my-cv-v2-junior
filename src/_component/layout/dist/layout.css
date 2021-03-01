@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .grid {
@@ -14,7 +14,7 @@ body {
   grid-gap: 10px;
 }
 
-.column[span="row"] {
+.column[span=row] {
   grid-column: 1/-1;
 }
 
@@ -22,11 +22,11 @@ body {
   padding: 0 36px;
 }
 
-input[type="radio"] {
+input[type=radio] {
   display: none;
 }
 
-.button-text{
+.button-text {
   padding-left: 12px;
 }
 

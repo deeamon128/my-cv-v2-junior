@@ -1,5 +1,11 @@
 @import '_component/layout/layout';
-@import '_component/layout/roboto-font.scss';
-@import '_component/about-me/about-me.scss';
-@import '_asset/font/style.scss';
-@import '_data/about-me.json';
+@import '_component/section-title/section-title';
+@import '_component/layout/roboto-font';
+@import '_component/about-me/about-me';
+@import '_asset/variables';
+@import '_component/connect/connect';
+@import '_component/skills/skills';
+@import '_component/experience/experience';
+@import '_component/config/reusablecss';
+@import '_asset/font/style';
+

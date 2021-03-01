@@ -130,5 +130,8 @@
     "minimist": "^1.2.0",
     "pngquant-bin": "5.0.2",
     "standard-version": "7.0.0"
+  },
+  "dependencies": {
+    "react": "^16.14.0"
   }
 }
