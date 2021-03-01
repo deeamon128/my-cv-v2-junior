@@ -40,3 +40,30 @@
   border: 0;
   font-weight: 900;
 }
+
+%button-pink {
+  cursor: pointer;
+  background-color: #FF006D;
+  height: 40px;
+  width: 40px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+
+%project-name {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+%skills-list {
+  line-height: 20px;
+  font-size: 12px;
+  font-style: italic;
+  padding: 0 20px 10px 20px;
+}

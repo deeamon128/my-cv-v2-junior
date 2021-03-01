@@ -1,2 +1,28 @@
 - var sectionTitle = data.portfolio.sectionTitle
 include ../section-title/section-title.pug 
+
+.column(span="row")
+  .recent-title=data.portfolio.recent.title
+  each recentProject in data.portfolio.recent.recentProjects
+    .recent-projects
+      .recent__projects-text
+        .recent__project-name=recentProject.projectName
+        .recent__project-techs=recentProject.techs
+      .recent__projects-image
+        img(src=`${recentProject.imagePath}`, alt="").recent__project-image
+    .recent-buttons 
+      i.icon__earth 
+      i.icon__github
+
+  .old-title=data.portfolio.old.title
+  each oldProject in data.portfolio.old.oldProjects
+    .old-projects
+      .old__projects-text
+        .old__project-name=oldProject.projectName
+        .old__project-techs=oldProject.techs
+      .old__projects-image
+        img(src=`${oldProject.imagePath}`, alt="").old__project-image
+
+.column(span="row")
+  button.disc__green
+    i.icon__arrow-down

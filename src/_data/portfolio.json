@@ -1,3 +1,33 @@
 {
-  "sectionTitle" : "Portfolio"
+  "sectionTitle":"Portfolio",
+  "recent":{
+    "title":"Recent",
+    "recentProjects":[
+      {
+        "projectName":"My cv v2 Junior",
+        "techs":"HTML, CSS, JavaScript, React",
+        "imagePath":"asset/image/pinguini.jpg"
+      },
+      {
+        "projectName":"My cv v2 Starter",
+        "techs":"HTML, CSS, JavaScript, React",
+        "imagePath":"asset/image/pinguini.jpg"
+      }
+    ]
+  },
+  "old":{
+    "title":"Old",
+    "oldProjects":[
+      {
+        "projectName":"My cv v1",
+        "techs":"HTML, CSS, JavaScript, React",
+        "imagePath":"asset/image/pinguini.jpg"
+      },
+      {
+        "projectName":"Quick Blog",
+        "techs":"HTML, CSS, JavaScript, React",
+        "imagePath":"asset/image/pinguini.jpg"
+      }
+    ]
+  }
 }

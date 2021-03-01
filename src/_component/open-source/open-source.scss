@@ -42,17 +42,11 @@
 }
 
 .os__project-name {
-  font-size: 13px;
-  font-weight: 700;
-  padding: 20px;
-  padding-bottom: 10px;
+  @extend %project-name;
 }
 
 .os__skill-list {
-  line-height: 20px;
-  font-size: 12px;
-  font-style: italic;
-  padding: 0 20px 10px 20px;
+  @extend %skills-list;
 }
 
 .os__project-stat {
@@ -119,10 +113,6 @@
   margin-bottom: 0;
 }
 
-.os__info-mandatory {
-  right: 10px;
-}
-
 .os__info-extra {
   border: 0;
   display: inline-block;
@@ -131,17 +121,7 @@
 .os__info-mandatory,
 .os__info-close,
 .os__info-extra {
-  cursor: pointer;
-  background-color: #FF006D;
-  height: 40px;
-  width: 40px;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 2px;
+  @extend %button-pink;
 }
 
 .os__buttons {
