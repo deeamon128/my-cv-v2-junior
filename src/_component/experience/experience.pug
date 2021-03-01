@@ -1,0 +1,29 @@
+- var sectionTitle = data.experience.sectionTitle 
+include ../section-title/section-title.pug
+
+.column(span="row" height="10")
+.column(span="row")
+  ul.experience__list
+    each nume in data.experience.listaJoburi
+      li.experience__lista
+        input(
+          type="checkbox"
+          id=`experience__checkbox=${key}`
+        ).experience__checkbox
+        .experience__logo
+          img.experience__logo-image(
+           src=`${baseUrl}asset/image/company-logo/${nume.iconWay}`
+         )
+        .experience__job-title=nume.numeJob
+        label(for=`experience__checkbox=${key}`).experience__chevron 
+          .icon__arrow-up
+        .experience__company-name=nume.numeCompanie
+        .experience__body
+          .experience__date=`${nume.dataStart} - ${nume.dataTerminat}`
+          each moreInfo in nume.moreInfoList
+            .experience__more-info=moreInfo
+.column(span="row" height="10")
+.column(span="row")
+  button.button__disc--green
+    i.icon__arrow-down
+

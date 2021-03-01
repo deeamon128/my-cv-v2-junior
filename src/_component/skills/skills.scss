@@ -1,10 +1,8 @@
 .skills__legend {
-  border-radius: 6px;
-  border: 3px solid #707070;
-  align-items: center;
+ @extend %rounder-border-list
 }
 
-.skills-key{
+.skills-key {
     color: #666666;
     font-size: 18px;
 }
@@ -22,7 +20,11 @@
 }
 
 .skills_legend_item:not(:last-child) {
-  border-bottom: 3px solid #707070;
+  display: flex;
+  
+  &:not(:last-child) {
+    @extend %list-item;
+  }
 }
 
 .skills_legend_item:hover {
@@ -37,21 +39,21 @@
 }
 
 
-.skills-look--heart{
+.skills-look--heart {
   background-color: #d51027;
 }
 
-.skills-look--trophy{
+.skills-look--trophy {
   background-color: #2DD070;
 }
 
-.skills-look--book{
+.skills-look--book {
   background-color: #f29e1a;
 }
 
 .skills-look--heart,
 .skills-look--trophy,
-.skills-look--book{
+.skills-look--book {
   font-size: 12px;
   font-weight: bolder;
   color: white;
@@ -61,6 +63,7 @@
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 10px;
+  
 }
 
 .icon__ {

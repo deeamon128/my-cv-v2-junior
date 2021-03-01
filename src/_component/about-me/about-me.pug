@@ -1,26 +1,26 @@
 //- pre=JSON.stringify(data["about-me"], null, 2)
-- var sectionTitle = data["about-me"].sectionTitle 
+- var sectionTitle = data["about-me"].sectionTitle
 include ../section-title/section-title.pug
 
 .column(span="row") 
   h1.about-me__name-title=data["about-me"].nameTitle
-.column(span="row") 
+.column(span="row")
   h2.about-me__job-title=data["about-me"].jobTitle
 .column(span="row" height="10") 
-.column(span="row") 
+.column(span="row")
   h3.about-me__more-title=data["about-me"].moreTitle
-.column(span="row") 
+.column(span="row")
   .box__with-shadow
     each descriere in data['about-me'].descriptionList
       p.description=descriere
 
-.column(span="row" height="10") 
+.column(span="row" height="10")
 .column(span="row")
-  button.pill--blue 
+  button.pill--blue
     i.icon__download
     span.button-text=data['about-me'].downloadButtonLabel
-.column(span="row" height="10") 
-.column(span="row") 
-  button.button__disc--green 
+.column(span="row" height="10")
+.column(span="row")
+  button.button__disc--green
     i.icon__arrow-down
-.column(span="row" height="10") 
+.column(span="row" height="10")
