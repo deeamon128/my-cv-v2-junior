@@ -1,0 +1,54 @@
+.about-me__first-title,
+.about-me__second-title {
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+}
+
+.about-me__first-title {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.about-me__second-title {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.about-me__third-title {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.description-box__with-shadow {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.description {
+  font-size: 14px;
+  color: #707070;
+  line-height: 30px;
+  font-weight:600;
+}
+
+.section__title {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  
+}
+
+.section__title-wrapper {
+  padding: 10px;
+  height: 60px;
+  background-color: #d52027;
+  box-shadow: 0 2px 6px rgba(0, 0, 0,0.16);
+
+
+}
