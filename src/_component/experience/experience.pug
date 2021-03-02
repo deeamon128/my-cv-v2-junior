@@ -4,16 +4,22 @@ include ../section-title/section-title
 .column(span="row" height='10')
 .column(span="row")
   ul.experience__list
-    each job in data.experience.jobList
+    each job , cheie in data.experience.jobList
       li.experience__item
+        input(
+          type="checkbox"
+          id=`experience__checkbox-${cheie}`
+        ).experience__checkbox
         .experience__logo
           img.experience__logo-image(
             src=`${baseUrl}asset/image/company-logo/${job.iconPath}`
             width="50"
           )
-        .experience__job-title=job.jobTitle
         .experience__company-name=job.companyName
-        .experience__chevron
+        .experience__job-title=job.jobTitle
+        label(
+          for=id=`experience__checkbox-${cheie}`
+        ).experience__chevron
           .icon__arrow-up 
         .experience__body
           .experience__date=`${job.startDate} - ${job.endDate}`
