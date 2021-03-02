@@ -34,11 +34,17 @@
    margin: 20px;
 }
 
-.experience__job-title{
+.experience__job-title,
+.experience__company-name {
+   line-height: 20px
+}
+.experience__job-title {
    margin-top:20px;
+   font-weight: bold;
 }
 .experience__company-name{
-   margin-bottom:20px;
+   line-height: 20px;
+   font-style: italic;
 }
 
 .experience__chevron{
@@ -49,4 +55,10 @@
    border-radius: 50%;
    display: flex;
    justify-content: center;
+   align-items: center;
+   
+   .icon__arrow-up {
+   color: black;
+   transform: rotate(180deg);
+   }
 }

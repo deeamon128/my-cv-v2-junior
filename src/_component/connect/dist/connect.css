@@ -90,6 +90,9 @@
   position: relative;
   width: 40px;
   height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 .connect__disc [for=cevanou--] {
   width: 40px;

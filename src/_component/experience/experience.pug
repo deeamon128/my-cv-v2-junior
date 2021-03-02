@@ -13,8 +13,8 @@ include ../section-title/section-title
           )
         .experience__job-title=job.jobTitle
         .experience__company-name=job.companyName
-        .experience__chevron aaa
-          .icon__arrow-up
+        .experience__chevron
+          .icon__arrow-up 
         .experience__body
           .experience__date=`${job.startDate} - ${job.endDate}`
           each moreInfo in job.moreInfoList

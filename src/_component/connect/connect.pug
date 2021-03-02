@@ -14,7 +14,7 @@ each social, cheie in data.connect.socialList
         id=`cevanou-${cheie}`
         )
     .column(span="1")
-        label(for=`cevanou--${cheie}`).connect__disc
+        div(for=`cevanou--${cheie}`).connect__disc
             i(class=`icon__${social.icon}`)
 each social, cheie in data.connect.socialList
     .column(span="row" data-description-box=key+1)
