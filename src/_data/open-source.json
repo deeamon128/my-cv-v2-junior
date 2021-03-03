@@ -1,20 +1,30 @@
 {
   "sectionTitle": "Open source",
-  "moreTitle": "Stats",
-  "stats": {
-    "title": "Stats",
+  "stat": {
+    "moreTitle": "Stats",
     "itemList": [
       {
-        "icon": "git",
-        "label": " "
-      },
-      {
-        "icon": "code",
-        "label": " "
+        "icon": "github",
+        "label": [
+          "Contributions last year: 69",
+          "Longest streak: 7"
+        ]
       },
       {
         "icon": "codewars",
-        "label": " "
+        "label": [
+          "Rank: 9kyu",
+          "Honor: 4"
+        ]
+      },
+      {
+        "icon": "stackoverflow",
+        "label": [
+          "Top:",
+          "Reputation:",
+          "People reached: 0",
+          "Answers: 0"
+        ]
       }
     ]
   }

@@ -5,16 +5,58 @@
   color: #707070;
 }
 
+.stats_list:hover {
+    background-color: hsl(0, 0%, 94%);
+  }
+
 .stats_list {
   padding: 10px 12px 8px 10px;
-  display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
+.stats_list:not(:last-child):not(:last-child) {
+  border-bottom: 2px solid #707070
+}
+
+.stats__box {
+  grid-template-columns: auto 1fr auto;
+  @extend %rounder-border-list;
+}
+
+.icon__github,
+.icon__codewars,
+.icon__stackoverflow {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding: 0 10px;
+}
 
 .icon__ {
-  &github
-  &codewars
-  &stackoverflow 
+  &github {
+    color: black;
+  }
+  &codewars {
+    color: none;
+  }
+  &stackoverflow {
+    color: none;
+  }
 }
+
+.casute {
+  color: #999999;
+  flex-grow: 1;
+  font-weight: 500;
+  font-size: 13px;
+  grid-row: 1/2;
+  display: flex;
+}
+

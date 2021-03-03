@@ -3,10 +3,19 @@ include ../section-title/section-title.pug
 
 .column(span="row" height="10")
 .column(span="row")
-   h3.open-source__moreTitle= data["open-source"].moreTitle
+   h3.open-source__moreTitle= data["open-source"].stat.moreTitle
 .column(span="row" height="10")
 .column(span="row")
   ul.stats__box
-    each stat in data["open-source"].stats.itemList
+    each item in data["open-source"].stat.itemList
        li(class=`stats_list`)
-        span(class=`icon__${itemList.icon}`)(class=`stats-icon`)
+         span(class=`icon__${item.icon}`)(class=`iconite`)
+         span 
+            each label in item.label
+               span(class='casute')=label
+
+.column(span="row" height="10")
+.column(span="row")
+  button.button__disc--green
+    i.icon__arrow-down
+.column(span="row" height="10")
