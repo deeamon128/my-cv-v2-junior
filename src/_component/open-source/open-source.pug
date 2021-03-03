@@ -4,3 +4,9 @@ include ../section-title/section-title.pug
 .column(span="row" height="10")
 .column(span="row")
    h3.open-source__moreTitle= data["open-source"].moreTitle
+.column(span="row" height="10")
+.column(span="row")
+  ul.stats__box
+    each stat in data["open-source"].stats.itemList
+       li(class=`stats_list`)
+        span(class=`icon__${itemList.icon}`)(class=`stats-icon`)

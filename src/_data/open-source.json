@@ -1,4 +1,21 @@
 {
   "sectionTitle": "Open source",
-  "moreTitle": "Stats"
+  "moreTitle": "Stats",
+  "stats": {
+    "title": "Stats",
+    "itemList": [
+      {
+        "icon": "git",
+        "label": " "
+      },
+      {
+        "icon": "code",
+        "label": " "
+      },
+      {
+        "icon": "codewars",
+        "label": " "
+      }
+    ]
+  }
 }

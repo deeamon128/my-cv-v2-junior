@@ -1,5 +1,8 @@
 .experience__list {
   @extend %rounder-border-list;
+  font-size: 14px;
+  font-weight: medium;
+  color: #808080;
 }
 
 .experience__lista {

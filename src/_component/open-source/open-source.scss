@@ -1,0 +1,20 @@
+.open-source__moreTitle {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #707070;
+}
+
+.stats_list {
+  padding: 10px 12px 8px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icon__ {
+  &github
+  &codewars
+  &stackoverflow 
+}
