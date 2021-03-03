@@ -1,0 +1,37 @@
+.proud__subtitle {
+  @extend %subtitle;
+  margin-bottom: 16px;
+}
+
+.hobby__list {
+  @extend %rounder-border-list;
+  background-color: white;
+}
+
+.hobby__item {
+  @extend %list-item;
+  color: #707070;
+  padding: 10px 20px 20px;
+  line-height: 22px;
+
+  &:first-of-type {
+    border: 0;
+  }
+
+}
+
+.hobby__description {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.hobby__type {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.column .upside-down button[class="disc__green"] i[class="icon__arrow-down"] {
+  transform: rotate(180deg);
+}
