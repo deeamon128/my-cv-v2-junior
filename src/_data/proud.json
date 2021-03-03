@@ -1,0 +1,22 @@
+{
+  "sectionTitle": "My other side",
+  "subtitle": "Hobbies and Interests",
+  "hobby": [
+    {
+      "hobbyType": "Reading books",
+      "description": "I try and sometimes manage to read a book every 2 weeks; hope that in the future I will have more spare time as reading is one of my favourite things to do"
+    },
+    {
+      "hobbyType": "Organising holidays in my circle of friends",
+      "description": "As someone who has an everyday to-do list, I like to do things on time, so going in a holiday with my friends is one of the best opportunities to show off my organisational skills. "
+    },
+    {
+      "hobbyType": "Solving puzzles",
+      "description": "I can stay hours and hours solving puzzles without getting bored. It rarely happens for me to give up on solving a puzzle and be distracted by something else."
+    },
+    {
+      "hobbyType": "Travelling",
+      "description": "Discovering new places, eat local food and take every single trip as the adventure odf my life; all of them make me want to travel as much as I can and I don't think I will ever stop doing it."
+    }
+  ]
+}

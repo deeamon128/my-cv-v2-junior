@@ -1,0 +1,15 @@
+- var sectionTitle=data.proud.sectionTitle
+include ../section-title/section-title.pug
+
+.column(span="row")
+  .proud__subtitle=data.proud.subtitle
+  .hobby__list
+    each hobby in data.proud.hobby
+      .hobby__item
+        .hobby__type=hobby.hobbyType 
+        .hobby__description=hobby.description
+
+.column(span="row")
+  .upside-down
+    button.disc__green 
+      i.icon__arrow-down
