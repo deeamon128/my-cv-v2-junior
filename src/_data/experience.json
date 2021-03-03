@@ -1,0 +1,25 @@
+{
+    "sectionTitle": "Experience",
+    "jobList": [
+        {
+            "jobTitle": "React Developer",
+            "startDate": "2021 Month",
+            "endDate": "2021 Month",
+            "iconPath": "BitBee.png",
+            "companyName":"BitBee",
+            "moreInfoList":[
+                "This is some achievemnet"
+            ]
+        },
+        {
+            "jobTitle": "Front Lead Receptionist",
+            "startDate": "2018 Month",
+            "endDate": "2020 Month",
+            "iconPath": "ParkGrand.png",
+            "companyName":"Park Grand London",
+            "moreInfoList":[
+                "This is some achievemnet 2"
+            ]
+        }
+    ]
+}
