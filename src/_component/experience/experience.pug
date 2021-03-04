@@ -4,8 +4,12 @@ include ../section-title/section-title
 .column(span="row" height="10")
 .column(span="row")
  ul.experience__list 
-    each job in data.experience.jobList 
+    each job, key in data.experience.jobList 
         li.experience__item
+          input(
+            type="checkbox"
+            id=`experience__checkbox-${key}`
+          ).experience__checkbox
           .experience__logo
             img.experience__logo-image(
                src=`${baseUrl}asset/image/company-logo/${job.iconPath}`
@@ -13,7 +17,9 @@ include ../section-title/section-title
              )
           .experience__jobTitle=job.jobTitle
           .experience__company-name=job.companyName
-          .experience__chevron 
+          label(
+            for=`experience__checkbox-${key}`
+            ).experience__chevron 
             .icon__arrow-up
           .experience__body 
             .experience__date=`${job.startDate} - ${job.endDate}`

@@ -4,7 +4,11 @@
 
 .skills__item {
     display: flex;
-    @extend %list-item; 
+    
+    &:not(:last-child) {
+        @extend %list-item;
+    }
+
 
     &:first-child .skills__icon { 
         color: #D52027;
