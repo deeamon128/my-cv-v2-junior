@@ -1,0 +1,30 @@
+//- pre=JSON.stringify(data['about-me'], null, 2)
+.column(span="row")
+    .section__title-wrapper 
+     .section__title=data['about-me'].sectionTitle
+.column(span="row" height="10")
+.column(span="row")
+    button.button__disc--red 
+        i.icon__youtube
+.column(span="row" height="10")
+.column(span="row")
+    h1.about-me__first-title=data['about-me'].firstTitle 
+.column(span="row")
+    h2.about-me__second-title=data['about-me'].secondTitle
+.column(span="row" height="10")
+.column(span="row")
+    h3.about-me__third-title=data['about-me'].thirdTitle
+.column(span="row")
+    .description-box__with-shadow 
+        each description in data['about-me'].descriptionList
+        p.description
+.column(span="row" height="10")
+.column(span="row")
+    button.button__push--me 
+        i.icon__download 
+        span.inside-button=data['about-me'].downloadButtonLabel
+.column(span="row" height="10")
+.column(span="row")
+    button.button__disc--green 
+      i.icon__arrow-down 
+.column(span="row" height="10")
