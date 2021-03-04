@@ -1,0 +1,26 @@
+{
+    "sectionTitle": "Experience",
+    "jobList": [
+        {
+            "jobTitle": "React Developer",
+            "startDate": "2021 February",
+            "endDate": "Present",
+            "iconPath": "BitBee.png",
+            "companyName":"BitBee",
+            "moreInfoList":[
+                "This is some achievemnet"
+            ]
+        },
+        {
+            "jobTitle": "Front Lead Receptionist",
+            "startDate": "2017 June",
+            "endDate": "2018 September",
+            "iconPath": "ParkGrand.png",
+            "companyName":"Shaftesbury Hotels",
+            "moreInfoList":[
+                "Bulding a great team and make the imposible possible by we managed to bringing the hotel in top 10 in TripAdvisor from 1027 Hotel`s in London from 198 when I get hierd",
+                "Being most nomilezed team member from the team by guests in TripAdvisor"
+            ]
+        }
+    ]
+}
