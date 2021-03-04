@@ -426,8 +426,11 @@ a.button__download--albastrel {
   position: relative;
   width: 40px;
   height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
-.connect__disc [for=oricevreitu--reset] {
+.connect__disc [for=cevanou--] {
   width: 40px;
   color: white;
 }
@@ -505,6 +508,10 @@ a.button__download--albastrel {
   margin-right: 10px;
 }
 
+.experience__item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
 .experience__chevron {
   grid-column: 3/4;
 }
@@ -526,6 +533,9 @@ a.button__download--albastrel {
 
 .experience__body {
   grid-column: 1/-1;
+  padding: 20px;
+  display: none;
+  border-top: 2px solid #707070;
 }
 
 .experience__logo-image {
@@ -533,12 +543,19 @@ a.button__download--albastrel {
   margin: 20px;
 }
 
+.experience__job-title,
+.experience__company-name {
+  line-height: 20px;
+}
+
 .experience__job-title {
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .experience__company-name {
-  margin-bottom: 20px;
+  line-height: 20px;
+  font-style: italic;
 }
 
 .experience__chevron {
@@ -549,6 +566,33 @@ a.button__download--albastrel {
   border-radius: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.experience__chevron .icon__arrow-up {
+  color: black;
+  transform: rotate(180deg);
+}
+
+.experience__checkbox {
+  display: none;
+}
+.experience__checkbox:checked ~ .experience__body {
+  display: block;
+}
+.experience__checkbox:checked ~ .experience__chevron, .experience__checkbox .icon__arrow-up {
+  transform: rotate(0);
+}
+
+.experience__date {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.experience__more-info {
+  font-style: 500;
+  font-size: 14px;
 }
 
 .skills__list, .experience__list {
@@ -557,7 +601,7 @@ a.button__download--albastrel {
   list-style-type: none;
 }
 
-.skills__list, .experience__item {
+.experience__item, .skills__list, .skills__item:not(:last-child), .experience__item:not(:last-child) {
   border: 2px solid #707070;
 }
 
@@ -568,7 +612,7 @@ a.button__download--albastrel {
 
 @font-face {
   font-family: "my-cv-junior";
-  src: url("fonts/my-cv-junior.ttf?ilb2j7") format("truetype"), url("fonts/my-cv-junior.woff?ilb2j7") format("woff"), url("fonts/my-cv-junior.svg?ilb2j7#my-cv-junior") format("svg");
+  src: url("asset/font/my-cv-junior.ttf?ilb2j7") format("truetype"), url("asset/font/my-cv-junior.woff?ilb2j7") format("woff"), url("asset/font/my-cv-junior.svg?ilb2j7#my-cv-junior") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -586,7 +630,7 @@ a.button__download--albastrel {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon__arrow-down::before {
+.icon__arrow-down:before {
   content: "";
 }
 

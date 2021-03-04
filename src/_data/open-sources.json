@@ -1,0 +1,30 @@
+{
+  "sectionTitle":"Open Source",
+  "stats": {
+    "nameTi":"Stats",
+    "stat": [
+      {
+        "statIcon":"github",
+        "statDetalii": [
+          "Contribution last year: 31",
+          "Longest streak:N/A"
+        ]
+      },
+      {
+        "statcon":"codewors",
+        "statDetalii": [
+          "Rank:N/A",
+          "Honor:N/A"
+        ]
+      },
+      {
+        "statIcon":"stockoverflow",
+        "statDetalii":[
+          "Top:N/A",
+          "Reputation:N/A",
+          "Answers:5"
+        ]
+      }
+    ]
+  }
+}

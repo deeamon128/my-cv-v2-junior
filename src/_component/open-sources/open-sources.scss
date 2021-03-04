@@ -1,0 +1,40 @@
+.ab__stat{
+  @extend %subtitle;
+}
+
+.ab__stat-list {
+  @extend %rounded-border-list;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.ab__stat-item {
+  @extend %list-item;
+  display: grid;
+ grid-template-columns: 40px 1fr auto;
+ grid-template-rows: 1fr 1fr;
+
+  &:first-child {
+    border: 0;
+  }
+
+  .ab__stat-icon i[class="icon__codewars"] {
+    font-size: 23px;
+  }
+}
+
+  .ab__stat-icon {
+  padding: 10px;
+  grid-column: 1/2;
+  grid-row: 1/3 ;
+  }
+  .ab__stat-description {
+    font-size: 13px;
+    font-weight: 700;
+    color: #707070;
+    grid-column: 2/3;
+    grid-row:1/3 ;
+    line-height: 22px;
+    padding: 10px;
+    padding-left: 0;
+  }
