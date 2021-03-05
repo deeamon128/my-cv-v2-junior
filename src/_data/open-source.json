@@ -26,6 +26,15 @@
           "Answers: 0"
         ]
       }
-    ]
+    ],
+    "secondTitle": "GitHub projects",
+    "itemGit": [
+      {
+        "labelTitle": "My CV v2",
+        "labelText": "HTML, CSS, Git, JavaScript, SEO, Optimise, React, Redux,",
+        "progressBar": ""
+      }
+    ] 
   }
 }
+ 

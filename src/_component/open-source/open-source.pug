@@ -13,6 +13,9 @@ include ../section-title/section-title.pug
          span 
             each label in item.label
                span(class='casute')=label
+.column(span="row" height="10")
+.column(span="row")
+   h3.open-source__secondTitle= data["open-source"].stat.secondTitle
 
 .column(span="row" height="10")
 .column(span="row")
