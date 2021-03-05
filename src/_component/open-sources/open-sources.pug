@@ -3,11 +3,14 @@ include ../section-title/section-title.pug
 //-pre= JSON.stringify(data, null, 2) 
 .column(span="row")
   .ab__stat=data['open-sources'].stats.nameTI
-  ul.ab__stats__stat-list
+  ul.ab__stat-list
     each stat in data['open-sources'].stats.stat
       li.ab__stat-item
-        span.ab__stat-icon
+        span.ab__stat-icons 
           i(class=`icon__${stat.statIcon}`)
         .ab__statDetalii
           each info in stat.statDetalii 
             p=info
+.column(span="row")
+  .ab__proiect=data['open-sources'].proiect.proiectNume
+  each proiect , key in data['open-sources'].priecte.proiect
