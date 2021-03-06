@@ -1,7 +1,7 @@
 {
   "sectionTitle": "Open source",
   "stat": {
-    "moreTitle": "Stats",
+    "titluMult": "Stats",
     "itemList": [
       {
         "icon": "github",
@@ -35,6 +35,122 @@
         "progressBar": ""
       }
     ] 
+  },
+  "projects":{
+    "projectNume":"GitHub projects",
+    "project":[
+      {
+        "projectName":"My Cv V2 Junior",
+        "skillsGained":[
+          {
+            "skillName":"HTML",
+            "percentage":"1.2",
+            "color":"#F0E218"
+          },
+          {
+            "skillName":"JavaScript",
+            "percentage":"90",
+            "color":"#1875F0"
+          },
+          {
+            "skillName":"TypeScript",
+            "percentage":"5.1",
+            "color":"#20D55D"
+          },
+          {
+            "skillName":"CSS",
+            "percentage":"3.7",
+            "color":"#D52027"
+          }
+        ],
+        "projectStatus":[
+          {
+            "projectStatIcon":"commits",
+            "projectStatInfo":"Commits: ---"
+          },
+          {
+            "projectStatIcon":"stars",
+            "projectStatInfo":"Stars: ---"
+          },
+          {
+            "projectStatIcon":"forks",
+            "projectStatInfo":"Forks: ---"
+          }
+        ],
+        "projectInfo":"Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux",
+        "projectIcon":{
+          "mandatoryIcon":"info",
+          "extraIcon":[
+            {
+              "icon":"github",
+              "link":"www.github.com/MariaTeo"
+            },
+            {
+              "icon":"youtube",
+              "link":"www.youtube.com"
+            }
+          ]
+        },
+        "projectLink": {
+          "icon":"github",
+          "description": "MariaTeo/my-cv-v2-junior",
+          "link": "https://github.com/MariaTeo/my-cv-v2-junior"
+        }
+      },
+      {
+        "projectName":"My Cv V2 Starter",
+        "skillsGained":[
+          {
+            "skillName":"HTML",
+            "percentage":"10.5",
+            "color":"#F0E218"
+          },
+          {
+            "skillName":"JavaScript",
+            "percentage":"80",
+            "color":"#1875F0"
+          },
+          {
+            "skillName":"TypeScript",
+            "percentage":"6.8",
+            "color":"#20D55D"
+          },
+          {
+            "skillName":"CSS",
+            "percentage":"2.7",
+            "color":"#D52027"
+          }
+        ],
+        "projectStats":[
+          {
+            "projectStatIcon":"commits",
+            "projectStatInfo":"Commits: ---"
+          },
+          {
+            "projectStatIcon":"stars",
+            "projectStatInfo":"Stars: ---"
+          },
+          {
+            "projectStatIcon":"forks",
+            "projectStatInfo":"Forks: ---"
+          }
+        ],
+        "projectInfo":"Despre v2starter",
+        "projectIcon":{
+          "mandatoryIcon":"info",
+          "extraIcon":[
+            {
+              "icon":"github",
+              "link":"www.github.com/MariaTeo"
+            }
+          ]
+        },
+        "projectLink": {
+          "icon":"github",
+          "description": "MariaTeo/my-cv-v2-starter",
+          "link": "https://github.com/MariaTeo/my-cv-v2-starter"
+        }
+      }
+    ]
   }
 }
- 

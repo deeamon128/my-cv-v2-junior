@@ -20,6 +20,8 @@
 }
 
 .pill--blue {
+  background-color: #1875f0;
+  display: flex;
   height: 40px;
   margin: 0 auto;
   color: white;
@@ -42,11 +44,6 @@ button[class^="pill"] i[class^="icon__"] {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.pill--blue {
-  background-color: #1875f0;
-  display: flex;
 }
 
 .about-me__name-title,

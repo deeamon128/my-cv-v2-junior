@@ -1,4 +1,4 @@
-.open-source__moreTitle,
+.open-source__titluMult,
 .open-source__secondTitle {
   font-size: 22px;
   line-height: 30px;
@@ -60,4 +60,159 @@
   display: flex;
 }
 
+// .neapolitan {
+//   background:red;
+//   position:relative;
+//   height: 8px;
+// }
 
+// .neapolitan:before {
+//   content:'';
+//   background:gray;
+//   width:30%;
+//   height:100%;
+//   position:absolute;
+//   top:0;
+//   left:0;
+// }
+
+// .neapolitan:after {
+//   content:'';
+//   background:black;
+//   width:40%;
+//   height:100%;
+//   position:absolute;
+//   top:0;
+//   right:0;
+// }
+
+.open__check {
+  display: none;
+  &:checked ~ .os__project-list .os__project-body {
+    display: initial;
+  }
+}
+
+.open__checkbox:checked,
+.open__project-list,
+.open__buttons { 
+  & .icon__info {
+    display: none;
+  }
+  & .icon__cross{
+    display: block;
+  }
+}
+
+.open__project-item {
+  background-color: white;
+  @extend %rounder-border-list;
+  color: #707070;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.open__info-mandatory {
+  right: 10px;
+}
+
+.open__info-extra {
+  border: 0;
+  display: inline-block;
+}
+
+.open__info-mandatory,
+.open__info-extra {
+  cursor: pointer;
+  background-color: #FF006D;
+  height: 40px;
+  width: 40px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.open__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.open__project-description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.open__project-stats {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.open__project-stat-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.open__dot-color {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.open__dot {
+  display: grid;
+  grid-template-columns: 15px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.open__project-dots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.open__dot-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.open__project-body li {
+  width: 100%;
+  @extend %list-item;
+  padding: 20px;
+}
+
+.open__pill--blue {
+  text-decoration: none; 
+  margin: 0 40px;
+  display: flex;
+  height: 40px;
+  margin: 0 auto;
+  color: white;
+  border:0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: inline-flex;
+  font-size: 10px;
+  font-weight: bolder;
+  align-items: center;
+}
+
+.open__pill-blue i[class="icon__github"] {
+  font-size: 15px;
+  margin-right: 10px;
+}
