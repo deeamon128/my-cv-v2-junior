@@ -18,7 +18,7 @@
         ]
       },
       {
-        "statIcon":"stockoverflow",
+        "statIcon":"stackoverflow",
         "statDetalii":[
           "Top:N/A",
           "Reputation:N/A",
@@ -26,5 +26,35 @@
         ]
       }
     ]
-  }
+ },
+ "proiecte": {
+  "proiectNume":"Project",
+  "proiect": [
+    {
+      "proiectNume":"My Cv V2 Junior",
+      "skillGained": [
+     {   
+        "skillNume":"HTML",
+        "percentage":"1.2",
+        "color":"#F0e218"
+      },
+     {   
+        "skillNume":"JavaScript",
+        "percentage":"90",
+        "color":"#1875f0"
+      },
+     {   
+        "skillNume":"TypeScript",
+        "percentage":"5.1",
+        "color":"#20d55d"
+      },
+     {   
+        "skillNume":"CSS",
+        "percentage":"3.7",
+        "color":"#d52027"
+      }
+      ]
+    }
+  ]
+}
 }
