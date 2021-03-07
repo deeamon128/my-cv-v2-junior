@@ -1,0 +1,50 @@
+.connect__disc {
+  transition: 250ms;
+  background: #1875f0;
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+  color: white;
+  display: block;
+  //   display: flex;
+  //   justify-content: center;
+  //   text-align: center;
+  cursor: pointer;
+
+  [class^="icon__"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+  }
+}
+
+.connect__radio:checked + .column .connect__disc {
+  background-color: #d52027;
+}
+
+.connect__avatar {
+  padding-top: 100%;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  //   transform: rotate(-2.5deg);
+
+  &::after {
+    content: "";
+    border-radius: 6px;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    background-size: cover;
+    background-image: url("/asset/image/me.jpg");
+  }
+}

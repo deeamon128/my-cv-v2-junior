@@ -1,0 +1,24 @@
+-var sectionTitle= data.connect.sectionTitle
+include ../section-title/section-title.pug
+
+.column(span="row")
+    .connect__avatar
+.column(span="row" height="10")
+
+each social, key in data.connect.socialList
+    input.connect__radio(
+        type="radio"
+        name="key"
+        id=`connect__label--${key}`
+        )
+    .column(span="1" )
+        label(for=`connect__label--${key}`).connect__disc
+            i(class=`icon__${social.icon}`)
+
+.column(span="row" height="10")
+.column(span="row")
+    button.disc-green     
+        i.icon__arrow-down 
+        span.button-text 
+.column(span="row" height="10")
+
