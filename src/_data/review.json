@@ -2,13 +2,13 @@
   "sectionTitle": "Reviews",
   "review" : [
     {
-      "avatarPath": "asset/image/pikachu.jpg",
+      "avatarPath": "asset/image/bogdan.png",
       "date": "5 days ago",
       "name": "Bogdan Negura",
       "description": "Hey Raluca nice video, and well done! #codetapgang 💪"
     },
     {
-      "avatarPath": "asset/image/pikachu.jpg",
+      "avatarPath": "asset/image/cornel.png",
       "date": "5 days ago",
       "name": "Cornel Cristian Filip",
       "description": "Nice work Raluca! 🚀Without challenge, there is no change! 🤘🏼 #codetapgang"

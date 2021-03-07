@@ -6,12 +6,17 @@
       {
         "projectName":"My cv v2 Junior",
         "techs":"HTML, CSS, JavaScript, React",
-        "imagePath":"asset/image/pinguini.jpg"
+        "imagePath":"asset/image/juniorproject.png"
       },
       {
         "projectName":"My cv v2 Starter",
         "techs":"HTML, CSS, JavaScript, React",
-        "imagePath":"asset/image/pinguini.jpg"
+        "imagePath":"asset/image/starterproject.png"
+      },
+      {
+        "projectName":"Quick Blog",
+        "techs":"HTML, CSS, JavaScript, React",
+        "imagePath":"asset/image/quickblogproject.png"
       }
     ]
   },
@@ -21,12 +26,7 @@
       {
         "projectName":"My cv v1",
         "techs":"HTML, CSS, JavaScript, React",
-        "imagePath":"asset/image/pinguini.jpg"
-      },
-      {
-        "projectName":"Quick Blog",
-        "techs":"HTML, CSS, JavaScript, React",
-        "imagePath":"asset/image/pinguini.jpg"
+        "imagePath":"asset/image/firstcvproject.png"
       }
     ]
   }

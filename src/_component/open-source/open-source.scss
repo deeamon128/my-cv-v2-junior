@@ -66,12 +66,15 @@
     background-color: #1875F0;
   }
 
-  span[class$="TypeScript"] {
+  span[class$="SCSS"] {
     background-color: #20D55D;
   }
 
   span[class$="CSS"] {
     background-color: #D52027;
+  }
+  span[class$="PUG"] {
+    background-color: #AB1CF2;
   }
 
   span[class^="coloana-"] {
