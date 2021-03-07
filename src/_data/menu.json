@@ -1,0 +1,40 @@
+{
+  "item": [
+    {
+      "title": "About Me",
+      "link": "#about-me"
+    },
+    {
+      "title": "Let's Connect",
+      "link": "#connect"
+    },
+    {
+      "title": "Skills",
+      "link": "#skills"
+    },
+    {
+      "title": "Experience",
+      "link": "#experience"
+    },
+    {
+      "title": "Open Source",
+      "link": "#open-source"
+    },
+    {
+      "title": "Portfolio",
+      "link": "#portfolio"
+    },
+    {
+      "title": "Recommendations",
+      "link": "#recommendations"
+    },
+    {
+      "title": "Review",
+      "link": "#review"
+    },
+    {
+      "title": "My Other Side",
+      "link": "#other-side"
+    }
+  ]
+}

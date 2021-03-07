@@ -1,3 +1,4 @@
+#portfolio
 - var sectionTitle = data.portfolio.sectionTitle
 include ../section-title/section-title.pug 
 
@@ -11,8 +12,10 @@ include ../section-title/section-title.pug
       .recent__projects-image
         img(src=`${recentProject.imagePath}`, alt="").recent__project-image
     .recent-buttons 
-      i.icon__earth 
-      i.icon__github
+      a(href=`${recentProject.linkEarth}` target="_blank")
+        i.icon__earth 
+      a(href=`${recentProject.linkGithub}` target="_blank")
+        i.icon__github
 
   .old-title=data.portfolio.old.title
   each oldProject in data.portfolio.old.oldProjects
@@ -24,5 +27,5 @@ include ../section-title/section-title.pug
         img(src=`${oldProject.imagePath}`, alt="").old__project-image
 
 .column(span="row")
-  button.disc__green
+  a.disc__green(href="/#recommendations")
     i.icon__arrow-down

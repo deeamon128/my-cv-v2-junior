@@ -1,3 +1,4 @@
+#open-source
 - var sectionTitle = data['open-source'].sectionTitle
 include ../section-title/section-title.pug 
 
@@ -59,9 +60,9 @@ include ../section-title/section-title.pug
         label(for=`project__checkbox--${key}`).os__info-mandatory
           i.icon__cross
       each extraIcon in project.projectIcon.extraIcon
-        button.os__info-extra
+        a.os__info-extra(href=`${extraIcon.link}` target="_blank")
           i(class=`icon__${extraIcon.icon}`)
 
 .column(span="row")
-  button.disc__green
+  a.disc__green(href="/#portfolio")
     i.icon__arrow-down

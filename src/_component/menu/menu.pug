@@ -1,0 +1,14 @@
+#menu
+.column(span="row")
+  input(id="toggle-menu" type="checkbox")
+  ul.menu__list
+    each item in data.menu.item 
+      li.menu__item
+        a.menu__link(href=`${baseUrl}${item.link}`)=item.title
+    li.menu__item
+      a.menu__close
+        .text Close Menu
+        label(for="toggle-menu") 
+          .icon__cross
+  label(for="toggle-menu") 
+    .icon__menu
