@@ -19,7 +19,8 @@
         "projectName":"Quick Blog",
         "techs":"HTML, CSS, JavaScript, React",
         "imagePath":"asset/image/quickblogproject.png",
-        "linkGithub": "https://github.com/RalucaRbc/quick-blog"
+        "linkGithub": "https://github.com/RalucaRbc/quick-blog",
+        "linkEarth": "https://ralucarbc.github.io/quick-blog/"
       }
     ]
   },

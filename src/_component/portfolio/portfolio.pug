@@ -12,7 +12,7 @@ include ../section-title/section-title.pug
       .recent__projects-image
         img(src=`${recentProject.imagePath}`, alt="").recent__project-image
     .recent-buttons 
-      a(href="https://www.google.com" target="_blank")
+      a(href=`${recentProject.linkEarth}` target="_blank")
         i.icon__earth 
       a(href=`${recentProject.linkGithub}` target="_blank")
         i.icon__github
