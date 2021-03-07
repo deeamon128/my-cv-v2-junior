@@ -110,18 +110,14 @@
   padding: 0 24px;
   font-size: 10px;
   font-weight: bolder;
-
-  & {
-    padding-left: 42px;
-  }
-}
-
-i.icon__download:before {
-  margin-left: -35px;
 }
 
 button [class^="button__pill-blue"] i [class^="icon__"] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon__arrow-down:before {
+  padding-left: 11px;
 }

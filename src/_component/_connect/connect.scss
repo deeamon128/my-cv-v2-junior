@@ -31,7 +31,7 @@
   position: relative;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  //   transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
 
   &::after {
     content: "";
@@ -92,6 +92,11 @@
 .about-box__body {
   padding: 20px;
 }
+
+.about-box__footer {
+  display: flex;
+}
+
 .about-box__body {
   border-top: 2px solid #f5f5f5;
   border-bottom: 2px solid #f5f5f5;
@@ -105,6 +110,13 @@ p.description-box__p {
   line-height: 30px;
 }
 
-.icon__link:before {
-  margin-left: -35px;
+@for $i from 1 through 10 {
+  .connect__radio:nth-of-type(#{$i}):checked
+    ~ [data-about-box="#{$i}"] {
+    display: block;
+  }
+}
+
+[data-about-box] {
+  display: none;
 }
