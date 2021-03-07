@@ -5,15 +5,36 @@ include ../section-title/section-title.pug
     .connect__avatar
 .column(span="row" height="10")
 
-each social, key in data.connect.socialList
-    input.connect__radio(
-        type="radio"
-        name="key"
-        id=`connect__label--${key}`
-        )
-    .column(span="1" )
-        label(for=`connect__label--${key}`).connect__disc
-            i(class=`icon__${social.icon}`)
+
+each social, key in data.connect.socialList 
+  input.connect__radio(
+    type="radio"
+    name="connect__label"
+    id=`connect__label--${key}`
+    )
+  .column(span="1")
+    label(for=`connect__label--${key}`).connect__disc
+      i(class=`icon__${social.icon}`)
+
+.column(span="row" height="10")
+.column(span="row")
+    .about-box-arrow
+        .about-box__header asd
+            .about-box__title 
+            .about-box__close 
+                input.connect__radio(
+                    type="radio"
+                    name="connect__label"
+                    id=`connect__label--reset`
+                )
+                label(for=`connect__label--reset`).connect__disc
+                    i(class=`icon__cross`)
+        .about-box__body 
+            p.description-box__p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus.
+        .about-box__footer 
+            button.button__pill-blue 
+                i.icon__link 
+                span.button-text= data['about-me'].downloadButtonLabel
 
 .column(span="row" height="10")
 .column(span="row")
