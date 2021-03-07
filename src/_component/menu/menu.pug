@@ -5,7 +5,10 @@
     each item in data.menu.item 
       li.menu__item
         a.menu__link(href=`${baseUrl}${item.link}`)=item.title
-    label(for="toggle-menu") 
-      .icon__cross
+    li.menu__item
+      a.menu__close
+        .text Close Menu
+        label(for="toggle-menu") 
+          .icon__cross
   label(for="toggle-menu") 
     .icon__menu
