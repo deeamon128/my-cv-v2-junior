@@ -118,7 +118,10 @@
 
 .os__info-extra {
   border: 0;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .os__info-mandatory,

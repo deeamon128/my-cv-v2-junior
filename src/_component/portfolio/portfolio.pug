@@ -12,8 +12,10 @@ include ../section-title/section-title.pug
       .recent__projects-image
         img(src=`${recentProject.imagePath}`, alt="").recent__project-image
     .recent-buttons 
-      i.icon__earth 
-      i.icon__github
+      a(href="https://www.google.com" target="_blank")
+        i.icon__earth 
+      a(href=`${recentProject.linkGithub}` target="_blank")
+        i.icon__github
 
   .old-title=data.portfolio.old.title
   each oldProject in data.portfolio.old.oldProjects
