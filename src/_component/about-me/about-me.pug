@@ -15,14 +15,16 @@ include ../section-title/section-title.pug
       br
 
 .column(span="row")
-  button.pill__blue-primary
+  .pill__blue-primary
     i.icon__download
-    span.button__text-primary=data['about-me'].downloadButtonLabel
+    a(href="asset/image/raluca.jpg" download)=data['about-me'].downloadButtonLabel
+    //- span.button__text-primary
 
 .column(span="row")
-  button.pill__blue-secondary
+  .pill__blue-secondary
     i.icon__info 
-    span.button__text-secondary=data['about-me'].viewButtonLabel
+    a(href="asset/image/raluca.jpg" target="_blank")=data['about-me'].viewButtonLabel
+    //- span.button__text-secondary=data['about-me'].viewButtonLabel
 
 .column(span="row")
   button.disc__green
