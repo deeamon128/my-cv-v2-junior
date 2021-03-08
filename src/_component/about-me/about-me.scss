@@ -1,3 +1,39 @@
+.about-me__Name,
+.about-me__Position {
+  font-size: 50px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #4d4d4dda;
+  text-align: center;
+}
+
+.about-me__Position {
+  color: #4d4d4dda;
+  text-align: center;
+  font-weight: 600;
+}
+
+.about-me__Info {
+font-size: 25px;
+line-height: 30px;
+font-weight: 600;
+color: #808080;
+}
+
+.info-box__with-shadow {
+  background-color: #fff
+  box-shadow 0, 2px, 6px, rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.description {
+  font-size: 15px;
+  color: #808080;
+  font-weight: 600;
+  line-height: 30px;
+}
+
 .section__title {
   text-align: center;
   height: 40px;
