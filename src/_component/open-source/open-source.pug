@@ -12,52 +12,25 @@ include ../section-title/section-title.pug
          span(class=`icon__${item.icon}`)(class=`iconite`)
          span 
             each label in item.label
-               span(class='casute')=label
+              span(class='casute')=label
 .column(span="row" height="10")
 .column(span="row")
   h3.open-source__secondTitle= data["open-source"].stat.secondTitle
 .column(span="row")
-  .git__projects=data['open-source'].projects.project.projectName
-    each ggg, key in data['open-source'].projects.project
-      input(
-        type="checkbox"
-        name= "git__pink-icons"
-        id=(`project__checkbox--${key}`).open__check)
-      .git-projects-list
-        each item in ggg.skillsGained
-          div= item.skillName
-    //-   .git-projects-stat
-    //-     each item in projects.project.skillsGained
-    //-       span(class=`coloana-${item.skillName}` style=`width: ${item.percentage}%`)
-    //-   ul.open__project-body 
-    //-     li
-    //-       .open__project-dots
-    //-         each item in project.skillsGained
-    //-           .open__dot
-    //-             .open__dot-color(style=`background-color: ${item.color}`) 
-    //-             .open__dot-name=item.skillName+" "+item.percentage+"%"
-    //-     li.open__project-data
-    //-       each projectStat in project.projectStats
-    //-         .open__project-stats
-    //-           .open__project-stat-icon
-    //-             i(class=`icon__${projectStat.projectStatIcon}`)
-    //-           .open__project-stat-info=projectStat.projectStatInfo
-    //-     li.open__project-description=project.projectInfo
-    //-     li.open__project-blue-link
-    //-       a(
-    //-         href=project.projectLink.link
-    //-         target="_blank"
-    //-       ).open__pill--blue
-    //-         i(class=`icon__${project.projectLink.icon}`)
-    //-         span.button-text-primary=project.projectLink.description
-    //-     .open__buttons
-    //-       label(for=`project__checkbox--${key}`).open__info-mandatory 
-    //-         i.icon__info
-    //-       label(for=`project__checkbox--${key}`).open__info-mandatory 
-    //-         i.icon__cross
-    //-       each extraIcon in project.projectIcon.extraIcon
-    //-         button.open__info-extra
-    //-           i(class=`icon__${extraIcon.icon}`)
+  ul.listaGit 
+    each a in data['open-source'].stat.itemGit
+      li.eleGit
+        span.cacaunu=a.labelTitle
+        span.cacadoi=a.labelText 
+        span.cacatrei=a.progressBar 
+        .git__projects=data['open-source'].projects.project.projectName
+          each g, key in data['open-source'].projects.project
+            input(
+              type="checkbox"
+              name= "git__pink-icons"
+              id=(`project__checkbox--${key}`)).project__checkbox
+            label(for=`project__chevron=${key}`).project__chevron
+              .icon__info
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--green

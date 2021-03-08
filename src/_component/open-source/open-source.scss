@@ -6,8 +6,41 @@
   color: #707070;
 }
 
+.listaGit {
+  border: 2px solid #707070;
+  list-style: none;
+}
+
+.eleGit {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+ }
+
+.cacaunu {
+  color: #808080;
+  font-size: 14px;
+  font-weight: medium;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  margin: 15px;
+}
+
+.cacadoi {
+  color: #707070;
+  font-size: 12px;
+  font-weight: normal;
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.cacatrei {
+  
+}
+
 .stats_list:hover {
-    background-color: hsl(0, 0%, 94%);
+    background-color: hsl(0%, 0%, 94%);
   }
 
 .stats_list {
@@ -27,7 +60,6 @@
   grid-template-columns: auto 1fr auto;
   @extend %rounder-border-list;
 }
-
 
 .iconite {
   width: 30px;
@@ -59,32 +91,6 @@
   grid-row: 1/2;
   display: flex;
 }
-
-// .neapolitan {
-//   background:red;
-//   position:relative;
-//   height: 8px;
-// }
-
-// .neapolitan:before {
-//   content:'';
-//   background:gray;
-//   width:30%;
-//   height:100%;
-//   position:absolute;
-//   top:0;
-//   left:0;
-// }
-
-// .neapolitan:after {
-//   content:'';
-//   background:black;
-//   width:40%;
-//   height:100%;
-//   position:absolute;
-//   top:0;
-//   right:0;
-// }
 
 .open__check {
   display: none;
