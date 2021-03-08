@@ -71,6 +71,8 @@
   color: #707070;
   font-weight: 600;
   line-height: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 //buttons welcome section
@@ -101,25 +103,21 @@
   border-radius: 20px;
   border: 0;
   color: white;
-  margin: 20px auto 0;
+  margin: 0 auto 0;
   background-color: #1875f0;
   width: 160px;
   height: 40px;
   padding: 0 24px;
   font-size: 10px;
   font-weight: bolder;
-
-  & {
-    padding-left: 42px;
-  }
-}
-
-i.icon__download:before {
-  margin-left: -35px;
 }
 
 button [class^="button__pill-blue"] i [class^="icon__"] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon__arrow-down:before {
+  padding-left: 11px;
 }
