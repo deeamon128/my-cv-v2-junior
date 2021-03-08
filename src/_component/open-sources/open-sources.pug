@@ -1,6 +1,6 @@
 - var sectionTitle = data['open-sources'].sectionTitle
 include ../section-title/section-title.pug
-//-pre= JSON.stringify(data, null, 2) 
+
 .column(span="row")
   .ab__stat=data['open-sources'].stats.nameTi
   ul.ab__stat-list
@@ -11,22 +11,28 @@ include ../section-title/section-title.pug
         .ab__statDetalii
           each info in stat.statDetalii 
             p=info
+            .column(span="row" height="10")
 .column(span="row")
   .ab__proiect=data['open-sources'].proiecte.proiectNume
-  each proiect , key in data['open-sources'].proiecte.proiect
-    input(
-      type="checkbox"
-      id=`proiect__checkbox--${key}`
+    each proiect in data['open-sources'].proiecte.proiect
+      input(
+        type="checkbox"
+        id=`proiect__checkbox--${key}`
         ).ab__checkbox
-    .ab__proiect-item
-      .ab__proiect-nume=proiect.proiectNume
-      .ab__skill-list
-        each skill in proiect.skillGained
-          span.ab__skill-item=skill.skillNume+" "
-      .ab__proiect-stat
-        each item in proiect.skillGained 
-          span(
-            class=`coloana-${item.skillNume}`
-            style=`width: ${item.percentage}%`
-          ).
-      ul.ab__proiect-body
+      .ab__proiect-item
+        .ab__proiect-nume=proiect.proiectNume
+        .ab__skill-list
+          each skill in project.proiectName 
+            span.ab__skill-item=skill.SkillNume+" "
+        .ab__proiect-stat
+          each item in proiect.skillGained 
+            span (
+              class=`coloana-${item.skillNume}`
+              style= `width: ${item.percentage}%`
+            )
+       
+.column(span="row")
+  button.buton__disc-dolarel
+    i.icon__arrow-down
+.column(span="row" height="10")
+ 

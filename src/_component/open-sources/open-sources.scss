@@ -1,8 +1,10 @@
-.ab__stat{
-  @extend %subtitle ;
+.ab__stat ,
+.ab__proiect {
+  @extend %subtitle;
 }
 
-.ab__stat-list {
+.ab__stat-list , 
+.ab__proiect-list {
   @extend %rounded-border-list;
   @extend %list-item;
   margin-bottom: 0;
@@ -11,7 +13,6 @@
   color: black;
 
 }
-
 .ab__stat-item {
   @extend %list-item;
   display: grid;
@@ -52,4 +53,32 @@
     padding: 10px;
     padding-left: 0;
   }
+  .proiect-list {
+    display: none;
+    list-style-type: none;
+  }
+  
+.ab__proiect, .ab__proiect-list {
+  @extend %subtitle;
+}
+.ab__proiect {
+  @extend %rounded-border-list;
+  @extend %list-item;
+  margin-bottom: 0;
+  background-color: rgb(255, 255, 255);
+  //nt-size: 23px;
+  color: black;
+}
+
+.ab__proiect-list{
+  @extend %list-item;
+  @extend %rounded-border-list;
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  grid-template-rows: 1fr 1fr;
+  }
+
+
+
+  
 }
