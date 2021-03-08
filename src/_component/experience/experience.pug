@@ -1,16 +1,25 @@
--var sectionTitle= data.experience.sectionTitle
+- var sectionTitle = data.experience.sectionTitle
 include ../section-title/section-title.pug
 
 .column(span="row" height="10")
 .column(span="row")
     ul.experience__list 
-        each job in data.experience.jobList
+        each job, key in data.experience.jobList
             li.experience__item 
-                .experience__logo
-                    img(src=`${baseUrl}asset/image/${job.iconPath}`)
+                input(
+                    type="checkbox"
+                    id=`experience__checkbox-${key}`
+                ).experience__checkbox
+                img.experience__logo-image(
+                    src=`${baseUrl}asset/image/${job.iconPath}`
+                    width="50"
+                )
                 .experience__job-title= job.jobTitle
                 .experience__company-name= job.companyName
-                .experience__chevron asd
+                label(
+                    for=`experience__checkbox-${key}`
+                ).experience__chevron
+                    .icon__arrow-up
                 .experience__body 
                     .experience__date=`${job.startDate} - ${job.endDate}`
                     each moreInfo in job.moreInfoList
