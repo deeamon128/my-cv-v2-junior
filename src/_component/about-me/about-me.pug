@@ -1,25 +1,26 @@
-.column(span="row")
-    .section__title-wrapper
-        .section-title Welcome to My CV
-.column(span="row")
-    button.disc-red
-        i.icon__youtube 
-        span.button-text 
+-var sectionTitle= data['about-me'].sectionTitle
+
+include ../section-title/section-title.pug
 .column(span="row")        
-    h1.about-me__main-title Iosif Screpciuc 
+    h1.about-me__main-title= data['about-me'].mainTitle
 .column(span="row")
-    h2.about-me__sub-title Junior Front-End Developer
+    h2.about-me__sub-title= data['about-me'].subTitle
+.column(span="row" height="10")
 .column(span="row")
-    h3.about-me__lead-title About Me
+    h3.about-me__lead-title= data['about-me'].leadTitle
 .column(span="row")
     .about-box 
-        p.description Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus.
+        p.description= data['about-me'].descriptionList
 .column(span="row")
+.column(span="row" height="10")
+.column(span="row" height="10")
     button.button__pill-blue 
         i.icon__download 
-        span.button-text Download CV
+        span.button-text= data['about-me'].downloadButtonLabel
 
 .column(span="row")
     button.disc-green     
         i.icon__arrow-down 
         span.button-text 
+.column(span="row" height="10")
+
