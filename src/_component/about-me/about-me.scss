@@ -1,10 +1,9 @@
-.buton__disc--red,
-.buton__disc--purple {
+.button__disc--red,
+.button__disc--purple {
   width: 40px;
   height: 40px;
-  border: 0 auto;
+  margin: 20px auto;
   align-items: center;
-  background-color: #d52027;
   display: flex;
   justify-content: center;
   border: 0;
@@ -12,9 +11,13 @@
   color: #fff;
 }
 
-.buton__disc--purple {
+.button__disc--purple {
   background-color: #9F389D;
-  color: greenyellow;
+  color:#64F10E;
+}
+
+.button__disc--red {
+  background-color: #d52027;
 }
 
 .section__title-wrapper {
