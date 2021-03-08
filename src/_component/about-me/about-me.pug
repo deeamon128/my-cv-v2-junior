@@ -1,42 +1,24 @@
-<<<<<<< HEAD
- column(span="row")
-    .section-title Welcome to My Cv 
- column(span="row")
-    button.disc
-        i.icon_youtube 
-        span.button-text YT 
+//-pre=JSON.strinify(data['about-me'],null,2)-\\
+- var sectionTitle = data['about-me'].sectionTitle;
+include ../section-title/section-title.pug
 
- column(span="row")
-    h1 Paul Nicolae Geambazu
- column(span="row")
-    h2 Junior Web Developer 
- column(span="row")
-    h3 About me 
- column(span="row")
-    .desription-box__with-shadow 
-        p      A dynamic and enthusiastic person focused on developing a career in the electro mechanic field. I am willing to improve my technical skills and to achieve greater knowledge about the industrial technological processes.
- column(span="row")
-    button.pill 
-        i.icon__download 
-        span.button-text Download Cv 
- column(span="row")
- button.disc
- i.icon_arrow-down 
- span.button-text AD
- 
-=======
-.section-title Welcome to My Cv 
-button.disc
-    i.icon_youtube 
-    span.button-text YT 
-
-h1 Paul Nicolae Geambazu
-h2 Junior Web Developer 
-h3 About me 
-.desription-box__with-shadow 
-    p      A dynamic and enthusiastic person focused on developing a career in the electro mechanic field. I am willing to improve my technical skills and to achieve greater knowledge about the industrial technological processes.
-button.pill 
-    i.icon__download 
-    span.button-text Download Cv 
->>>>>>> 2b292ad56aed595c41e385833caf410b9f880aea
-
+.column(span="row")
+    h1.numele-meu=data['about-me'].mainTitle
+.column(span="row")
+    h2.pozitia-mea=data['about-me'].subTitle
+.column(span="row" height='10')
+.column(span="row")
+    h3.descrierea-mea=data['about-me'].leadTitle
+.column(span="row")
+    .description-box__with-shadow 
+        each description in data['about-me'].descriptionList
+            p.description=description 
+.column(span="row")
+    button.button__download--albastrel
+        i.icon__download
+        span.button-text=data['about-me'].downloadButtonlabel
+.column(span="row" height="10")
+.column(span="row")
+    button.buton__disc-dolarel
+        i.icon__arrow-down
+.column(span="row" height="10")

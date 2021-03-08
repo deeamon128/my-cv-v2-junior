@@ -1,0 +1,77 @@
+.skills__list {
+  @extend %rounded-border-list
+}
+
+.skills__list {
+  border-radius: 6px;
+  border: 2px solid #707070;
+  list-style-type: none;
+  @extend %list-item;
+}
+
+.skills__item {
+  display:flex;
+  border: 2px solid #707070;
+
+  &:not(:last-child) {
+    @extend %list-item;
+ }
+
+  &:first-child .skills__icon {
+    color:#d52027;
+  }
+  &:last-child .skills__icon {
+    color:#f18f1c;
+  }
+  &:nth-child(2) .skills__icon {
+    color:#50d166;
+  }
+  
+}
+
+.skills__icon {
+  padding: 10px 12px 8px 10px;
+}
+
+.skills__count {
+  color: #666666;
+  font-size: 18px;
+}
+
+.skills__count ,
+.skills__icon ,
+.skills__label {
+  line-height: 48px;
+}
+.skills__label {
+  flex-grow: 1;
+  color: #999999;
+}
+
+
+.skills__new--heart {
+  background-color: #d52027;
+}
+
+.skills__new--trophy {
+  background-color: #50d166;
+}
+
+.skills__new--book {
+  background-color: #f18f1c;
+}
+
+.skills__new--heart,
+.skills__new--trophy,
+.skills__new--book {
+  line-height: 30px;
+  border-radius: 25%;
+  font-size: 9px;
+  font-weight: bolder;
+  color: white;
+  padding: 0 18px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
