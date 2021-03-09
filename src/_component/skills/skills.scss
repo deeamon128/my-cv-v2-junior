@@ -20,10 +20,10 @@
 }
 
 .skills_legend_item:not(:last-child) {
-  display: flex;
-  
   &:not(:last-child) {
     @extend %list-item;
+    border-bottom: 2px solid #707070;
+    border-top: 0;
   }
 }
 
@@ -63,7 +63,6 @@
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 10px;
-  
 }
 
 .icon__ {

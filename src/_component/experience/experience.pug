@@ -1,10 +1,10 @@
-- var sectionTitle = data.experience.sectionTitle 
+- var sectionTitle = data.experience.sectionTitle
 include ../section-title/section-title.pug
 
 .column(span="row" height="10")
 .column(span="row")
   ul.experience__list
-    each nume in data.experience.listaJoburi
+    each nume, key in data.experience.listaJoburi
       li.experience__lista
         input(
           type="checkbox"
