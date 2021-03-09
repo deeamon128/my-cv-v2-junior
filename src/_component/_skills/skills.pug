@@ -13,8 +13,8 @@ include ../section-title/section-title.pug
                 span.skills__label= item.label
                 span.skills__count= key+1
 each skillType in data.skills.skillTypeList
-.column(span="row" height="10")
-.column(span="row")
+    .column(span="row" height="10")
+    .column(span="row")
     .column(span="row")
         h3.about-me__lead-title= skillType.type
     .column(span="row")
@@ -26,7 +26,9 @@ each skillType in data.skills.skillTypeList
 .column(span="row")
     .about-box 
         p.description= data['about-me'].descriptionList
-           
-
-
+.column(span="row")
+    button.disc-green     
+        i.icon__arrow-down 
+        span.button-text 
+.column(span="row" height="10")
 
