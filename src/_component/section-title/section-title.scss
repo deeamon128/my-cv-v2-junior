@@ -37,32 +37,34 @@
   }
 }
 
-.portrait__body {
-  display: none;
-}
-
 .close {
   display: none;
 }
 
 .portrait {
+  display: none;
   transition: 0.25s;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  display: flex;
+  // display: flex;
   flex-direction: column;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.06);
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 500000000;
 }
 
 .youtube__checkbox {
   display: none;
 
   &:checked {
-    ~ .portrait .portrait__body {
+    ~ .portrait {
       display: block;
+    }
+
+    ~ .content {
+      overflow: hidden;
     }
 
     ~ .portrait .portrait__body {
@@ -74,14 +76,13 @@
       }
     }
 
-    ~ .portrait .disc__red {
+    ~ .portrait .disc__green {
       display: none;
     }
 
     ~ .portrait .close {
       display: initial;
       position: relative;
-      z-index: 1;
 
       .disc__green {
         background-color: #1875f0;
@@ -97,7 +98,6 @@
       flex-direction: column;
       width: 100%;
       height: 100%;
-      margin-top: 30px;
       // position: absolute;
     }
   }
