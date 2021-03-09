@@ -1,5 +1,73 @@
 - var sectionTitle = data.source.sectionTitle
-include ../section-title/section-title.pug
+include ../section-title/section-title.pug 
 
-.column(span="row" height="10")
+//- stats section
 .column(span="row")
+  .status__info=data.source.stats.statsName
+  ul.status__info-list
+    each info in data.source.stats.stat
+      li.status__info-item
+        span.status__info-icon
+          i(class=`icon__${info.statsIcon}`)
+        .status__description
+          each data in info.statusDescription
+            p=data
+
+//- expandable section 
+
+.column(span="row")
+  .status__project=data.source.projects.projectName
+  each project, key in data.source.projects.project
+    input(
+      type="checkbox"
+      id=`project__checkbox--${key}`
+          ).status__checkbox
+    .status__project-item
+      .status__project-name=project.projectName
+      .status__skill-list
+        each data in project.projectName 
+          span.status__skill-item=project.languages.language
+      .status__project-stat
+        each item in project.languages
+          each item in project.language
+          span(
+            class=`coloana-${item.languages}`
+            style=`width: ${item.percentage}%`
+          ) .
+      ul.status__project-body
+        li
+        .status__project-dots
+            .status__dot
+              .status__dot-color(style=`background-color: ${item.color}`) 
+              .status__dot-name=item.language+" "+item.percentage
+        li.status__project-data
+          each projectStat in project.repoDone
+            .status__project-stats
+              .status__project-stat-icon
+                i(class=`icon__${projectStat.repoIcon}`)
+              .status__project-stat-info=projectStat.repoInfo
+        li.status__project-description=project.repoInfos
+        li.status__project-blue-link
+          a(
+          href=project.repoLinks.link
+          target="_blank"
+          ).status__pill-blue
+            i(class=`icon__${project.repoLinks.icon}`)
+            span.button-text-primary=project.repoLinks.description
+    .status__buttons
+      .open
+        label(for=`project__checkbox--${key}`).status__info-mandatory
+          i.icon__info
+      .close
+        label(for=`project__checkbox--${key}`).status__info-mandatory
+          i.icon__cross
+      each extraIcon in project.repoIcons.extraIcon
+        a.status__info-extra(href=`${extraIcon.link}` target="_blank")
+          i(class=`icon__${extraIcon.icon}`)
+
+//- arrow button
+.column(span="row")
+    button.disc-green     
+        i.icon__arrow-down 
+        span.button-text 
+.column(span="row" height="10")

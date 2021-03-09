@@ -1,3 +1,159 @@
 {
-  "sectionTitle":"Open-Source"
+  "sectionTitle":"Open Source",
+  "stats":{
+    "statsName":"Stats",
+    "stat":[
+      {
+        "statsIcon":"github",
+        "statusDescription":[
+          "Contributions last year: 100",
+          "Longest streak: 100"
+        ]
+      },
+      {
+        "statsIcon":"codewars",
+        "statusDescription":[
+          "Rank: 2",
+          "Honor: 1"
+        ]
+      },
+      {
+        "statsIcon":"stackoverflow",
+        "statusDescription":[
+          "Top: 123",
+          "Reputation: 123",
+          "People reached: 12",
+          "Answers: 32"
+        ]
+      }
+    ]
+  },
+  "projects":{
+    "projectName":"GitHub projects",
+    "project":[
+      {
+        "projectName":"My Cv V2 Junior",
+        "languages":[
+          {
+            "language":"JavaScript ",
+            "percentage":"70%",
+            "color":"#1875F0"
+          },
+          {
+            "language":"PUG ",
+            "percentage":"5%",
+            "color":"red"
+          },
+          {
+            "language":"HTML ",
+            "percentage":"5%",
+            "color":"blue"
+          },
+          {
+            "language":"CSS ",
+            "percentage":"5%",
+            "color":"#D52027"
+          },
+          {
+            "language":"SCSS ",
+            "percentage":"5%",
+            "color":"#F0E218"
+          }
+        ],
+        "repoDone":[
+          {
+            "repoIcon":"commits",
+            "repoInfo":"Commits: 20"
+          },
+          {
+            "repoIcon":"stars",
+            "repoInfo":"Stars: "
+          },
+          {
+            "repoIcon":"forks",
+            "repoInfo":"Forks: "
+          }
+        ],
+        "repoInfos":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus.",
+        "repoIcons":{
+          "mandatoryIcon":"info",
+          "extraIcon":[
+            {
+              "icon":"github",
+              "link":"https://github.com/"
+            },
+            {
+              "icon":"youtube",
+              "link":"https://www.youtube.com"
+            }
+          ]
+        },
+        "repoLinks": {
+          "icon":"github",
+          "description": "GitHub",
+          "link": "https://github.com/"
+        }
+      },
+      {
+        "projectName":"My CV V2 Starter",
+        "languages":[
+
+          {
+            "language":"JavaScript ",
+            "percentage":"70%",
+            "color":"#1875F0"
+          },
+          {
+            "language":"HTML ",
+            "percentage":"5%",
+            "color":"#F0E218"
+          },
+
+          {
+            "language":"CSS ",
+            "percentage":"5%",
+            "color":"#D52027"
+          },
+          {
+            "language":"CSS %",
+            "percentage":"5",
+            "color":"#D55407"
+          }
+        ],
+        "repoDone":[
+          {
+            "repoIcon":"commits",
+            "repoInfo":"Commits: 12"
+          },
+          {
+            "repoIcon":"stars",
+            "repoInfo":"Stars: ---"
+          },
+          {
+            "repoIcon":"forks",
+            "repoInfo":"Forks: ---"
+          }
+        ],
+        "repoInfos":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus.",
+        "repoIcons":{
+          "mandatoryIcon":"info",
+          "extraIcon":[
+            {
+              "icon":"github",
+              "link":"https://github.com/"
+            },
+            {
+              "icon":"youtube",
+              "link":"https://github.com/"
+            }
+          ]
+        },
+        "repoLinks": {
+          "icon":"github",
+          "description": "GitHub",
+          "link": "https://github.com/"
+        }
+      }
+    ]
+  }
 }
