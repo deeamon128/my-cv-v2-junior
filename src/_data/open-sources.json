@@ -1,18 +1,18 @@
 {
   "sectionTitle":"Open Source",
-  "stats": {
+  "stats":{
     "nameTi":"Stats",
-    "stat": [
+    "stat":[
       {
         "statIcon":"github",
-        "statDetalii": [
+        "statDetalii":[
           "Contribution last year: 31",
           "Longest streak:N/A"
         ]
       },
       {
         "statIcon":"codewars",
-        "statDetalii": [
+        "statDetalii":[
           "Rank:N/A",
           "Honor:N/A"
         ]
@@ -26,60 +26,126 @@
         ]
       }
     ]
- },
- "proiecte": {
-  "proiectNume":"GitHub Project",
-  "proiect": [
-    {
-      "proiectNume":"My Cv V2 Junior",
-      "skillGained": [
-     {   
-        "skillNume":"HTML",
-        "percentage":"1.2",
-        "color":"#F0e218"
-      },
-     {   
-        "skillNume":"JavaScript",
-        "percentage":"90",
-        "color":"#1875f0"
-      },
-     {   
-        "skillNume":"TypeScript",
-        "percentage":"5.1",
-        "color":"#20d55d"
-      },
-     {   
-        "skillNume":"CSS",
-        "percentage":"3.7",
-        "color":"#d52027"
+  },
+  "proiecte":{
+    "proiectNume":"GitHub Project",
+    "proiect":[
+      {
+        "proiectNume":"My Cv V2 Junior",
+        "skillGained":[
+          {
+            "skillNume":"HTML",
+            "percentage":"1.2",
+            "color":"#F0e218"
+          },
+          {
+            "skillNume":"JavaScript",
+            "percentage":"90",
+            "color":"#1875f0"
+          },
+          {
+            "skillNume":"TypeScript",
+            "percentage":"5.1",
+            "color":"#20d55d"
+          },
+          {
+            "skillNume":"CSS",
+            "percentage":"3.7",
+            "color":"#d52027"
+          }
+        ],
+        "proiectComm":[
+          {
+          "proiectCommIconita":"commits",
+          "proiectCommDetalii":"Commit: 70"
+          },
+          {
+          "proiectCommIconita":"stars",
+          "proiectCommDetalii":"Stars: ---"
+          },
+          {
+          "proiectCommIconita":"forks",
+          "proiectCommDetalii":"Forks: -----"
+          }
+        ],
+        "proiectDetalii":"With this chance i had my biggest brainstorm and i put myself in situation when i must to be calm to can sort out the problem even if when i saw something it s not working .",
+        "proiectIconita":{
+          "obligatoriuIconita":"info",
+          "extraIconita":[
+            {
+              "iconita":"github",
+              "link":"https://github.com/NicolaePaulGeambazu"
+            },
+            {
+              "iconita":"youtube",
+              "link":"https://github.com/NicolaePaulGeambazu"
+            }
+          ]
+        },
+
+      "proiectLink": {
+        "icon":"github",
+        "descriere":"https://github.com/codetapacademy/my-cv-v2-junior/tree/dev-nicolaepaulgeambazu"
       }
-      ]
     },
-    {
-      "proiectNume":"My Cv V2 Starter",
-      "skillGained": [
-     {   
-        "skillNume":"HTML",
-        "percentage":"1.2",
-        "color":"#F0e218"
-      },
-     {   
-        "skillNume":"JavaScript",
-        "percentage":"90",
-        "color":"#1875f0"
-      },
-     {   
-        "skillNume":"TypeScript",
-        "percentage":"5.1",
-        "color":"#20d55d"
-      },
-     {   
-        "skillNume":"CSS",
-        "percentage":"3.7",
-        "color":"#d52027"
+      {
+        "proiectNume":"My Cv V2 Starter",
+        "skillGained":[
+          {
+            "skillNume":"HTML",
+            "percentage":"1.2",
+            "color":"#F0e218"
+          },
+          {
+            "skillNume":"JavaScript",
+            "percentage":"90",
+            "color":"#1875f0"
+          },
+          {
+            "skillNume":"TypeScript",
+            "percentage":"5.1",
+            "color":"#20d55d"
+          },
+          {
+            "skillNume":"CSS",
+            "percentage":"3.7",
+            "color":"#d52027"
+          }
+        ],
+        "proiectComm":[
+          {
+            "proiectCommIconita":"commits",
+          "proiectCommDetalii":"Commit: 70"
+          },
+          {
+            "proiectCommIconita":"stars",
+          "proiectCommDetalii":"Stars: ---"
+          },
+          {
+            "proiectCommIconita":"forks",
+          "proiectCommDetalii":"Forks: -----"
+          }
+        ],
+        "proiectDetalii":"With this chance i had my biggest brainstorm and i put myself in situation when i must to be calm to can sort out the problem even if when i saw something it s not working .",
+        "proiectIconita":{
+          "obligatoriuIconita":"info",
+          "extraIconita":[
+            {
+              "iconita":"github",
+              "link":"https://github.com/NicolaePaulGeambazu"
+            },
+            {
+              "iconita":"youtube",
+              "link":"https://github.com/NicolaePaulGeambazu"
+            }
+          ]
+        },
+
+      "proiectLink": {
+        "icon":"github",
+        "descriere":"https://github.com/codetapacademy/my-cv-v2-junior/tree/dev-nicolaepaulgeambazu"
       }
-      ]
     }
-  ]
-}
+    ]
+  }
 }

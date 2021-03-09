@@ -11,28 +11,50 @@ include ../section-title/section-title.pug
         .ab__statDetalii
           each info in stat.statDetalii 
             p=info
-            .column(span="row" height="10")
+.column(span="row" height="10")
 .column(span="row")
   .ab__proiect=data['open-sources'].proiecte.proiectNume
-    each proiect in data['open-sources'].proiecte.proiect
+    each proiect, key in data['open-sources'].proiecte.proiect
       input(
         type="checkbox"
         id=`proiect__checkbox--${key}`
-        ).ab__checkbox
+      ).ab__checkbox
       .ab__proiect-item
-        .ab__proiect-nume=proiect.proiectNume
-        .ab__skill-list
-          each skill in project.proiectName 
-            span.ab__skill-item=skill.SkillNume+" "
-        .ab__proiect-stat
-          each item in proiect.skillGained 
-            span (
-              class=`coloana-${item.skillNume}`
-              style= `width: ${item.percentage}%`
-            )
-       
+        label.ab__proiect-nume(
+          for=`proiect__checkbox--${key}`
+        )=proiect.proiectNume
+        .ab__proiect-corp
+          h1 neata
+          .abc 
+            each item in proiect.skillGained
+              .ab__punct
+                .ab__punct-color(style=`background-color: ${item.color}`)
+                .ab__punct-nume=item.skillNume+" "+item.percentage+"%"
+          .ab__skill-list
+            each skill in proiect.skillGained
+              span.ab__skill-item=skill.skillNume+" "
+  //-li.ab__proiect-punct
+  //-each item in proiect.skillGained
+    .ab__punct
+      .ab__punct-color(style=`background-color: ${item.color}`)
+      .ab__punct-nume=item.skillNume+" "+item.percentage+"%"
+//-li.ab__proiect-data
+//-each proiectComm in proiect.proiectComm 
+  .ab__proiect-comm
+    .ab__proiect-Comm-iconita 
+      i(class=`icon__${proiectComm.proiectCommIconita}`)
+    .ab__proiect-comm-info=proiectComm.proiectDetalii
+  //-li.ab__proiect-descriere=proiect.proiectDetalii 
+  //-li.ab__proiect-bara-albastra
+    a(
+      href=proiect.proiectLink.descriere
+      target="_blank"
+    ).ab__download--albastrel
+      i(class=`icon_${proiect.proiectLink.icon}`)
+      span.button-text-primary=proiect.proiectLink.descriere 
+
+.column(span="row" height="10")
 .column(span="row")
   button.buton__disc-dolarel
     i.icon__arrow-down
 .column(span="row" height="10")
- 

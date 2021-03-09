@@ -1,25 +1,22 @@
-.ab__stat ,
+.ab__stat,
 .ab__proiect {
   @extend %subtitle;
 }
 
-.ab__stat-list , 
-.ab__proiect-list {
+.ab__stat-list,
+.ab__proiect-item {
   @extend %rounded-border-list;
   @extend %list-item;
   margin-bottom: 0;
   background-color: rgb(255, 255, 255);
   //nt-size: 23px;
   color: black;
-
 }
 .ab__stat-item {
   @extend %list-item;
   display: grid;
   grid-template-columns: 40px 1fr auto;
   grid-template-rows: 1fr 1fr;
-
-
 
   &:first-child {
     border: 0;
@@ -34,21 +31,21 @@
     color: black;
   }
   .ab__stat-icons i[class="icon__github"] {
-  //  font-size: 23px;
+    //  font-size: 23px;
     color: black;
   }
 
   .ab__stat-icons {
-  padding: 10px;
-  grid-column: 1/2;
-  grid-row: 1/3 ;
+    padding: 10px;
+    grid-column: 1/2;
+    grid-row: 1/3;
   }
   .ab__stat-description {
     font-size: 13px;
     font-weight: 700;
     color: #707070;
     grid-column: 2/3;
-    grid-row:1/3 ;
+    grid-row: 1/3;
     line-height: 22px;
     padding: 10px;
     padding-left: 0;
@@ -57,28 +54,77 @@
     display: none;
     list-style-type: none;
   }
-  
-.ab__proiect, .ab__proiect-list {
-  @extend %subtitle;
-}
-.ab__proiect {
-  @extend %rounded-border-list;
-  @extend %list-item;
-  margin-bottom: 0;
-  background-color: rgb(255, 255, 255);
-  //nt-size: 23px;
-  color: black;
-}
 
-.ab__proiect-list{
-  @extend %list-item;
-  @extend %rounded-border-list;
-  display: grid;
-  grid-template-columns: 40px 1fr auto;
-  grid-template-rows: 1fr 1fr;
+  .ab__proiect,
+  .ab__proiect-list {
+    @extend %subtitle;
+  }
+  .ab__proiect {
+    @extend %rounded-border-list;
+    @extend %list-item;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    //nt-size: 23px;
+    color: black;
   }
 
+  .ab__proiect-list {
+    @extend %list-item;
+    @extend %rounded-border-list;
+    display: grid;
+    grid-template-columns: 40px 1fr auto;
+    grid-template-rows: 1fr 1fr;
+  }
 
+  .ab__proiect-comm {
+    padding: 0;
+    background-color: white;
+    line-height: 10px;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    position: absolute;
+
+    span[class$="HTML"] {
+      background-color: #f0e218;
+    }
+    span[class$="JavaScript"] {
+      background-color: #1875f0;
+    }
+    span[class$="SCSS"] {
+      background-color: #20d55d;
+    }
+    span[class$="CSS"] {
+      background-color: #d52027;
+    }
+    span[class$="PUG"] {
+      background-color: #ab1cf2;
+    }
+    span[class$="coloana-"] {
+      display: inline-block;
+    }
+  }
 
   
+  
+  .ab__proiect-item {
+    background-color: white;
+    @extend %rounded-border-list;
+    color: #707070;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+
+.ab__checkbox {
+  display: none;
+  
+  &:checked + .ab__proiect-item .ab__proiect-corp {
+    display: initial;
+  }
+}
+.ab__proiect-corp {
+  display: none;
+  list-style-type: none;
 }
