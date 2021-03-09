@@ -3,34 +3,65 @@ include ../section-title/section-title.pug
 
 .column(span="row" height="10")
 .column(span="row")
-   h3.open-source__moreTitle= data["open-source"].stat.titluMult
+  .data__stat=data['open-source'].stats.statsName
+  ul.data__stat-list
+    each stat in data['open-source'].stats.stat
+      li.data__stat-item
+        span.data__stat-icon
+          i(class=`icon__${stat.statIcon}`)
+        .data__stat-description
+          each info in stat.statDescription 
+            p=info
 .column(span="row" height="10")
 .column(span="row")
-  ul.stats__box
-    each item in data["open-source"].stat.itemList
-       li(class=`stats_list`)
-         span(class=`icon__${item.icon}`)(class=`iconite`)
-         span 
-            each label in item.label
-              span(class='casute')=label
-.column(span="row" height="10")
-.column(span="row")
-  h3.open-source__secondTitle= data["open-source"].stat.secondTitle
-.column(span="row")
-  ul.listaGit 
-    each a in data['open-source'].stat.itemGit
-      li.eleGit
-        span.cacaunu=a.labelTitle
-        span.cacadoi=a.labelText 
-        span.cacatrei=a.progressBar 
-        .git__projects=data['open-source'].projects.project.projectName
-          each g, key in data['open-source'].projects.project
-            input(
-              type="checkbox"
-              name= "git__pink-icons"
-              id=(`project__checkbox--${key}`)).project__checkbox
-            label(for=`project__chevron=${key}`).project__chevron
-              .icon__info
+  .data__project=data['open-source'].projects.projectName
+  each project, key in data['open-source'].projects.project
+    input(
+      type="checkbox"
+      id=`project__checkbox--${key}`
+          ).data__checkbox
+    .data__project-item
+      .data__project-name=project.projectName
+      .data__skill-list
+        each skill in project.skillsGained 
+          span.data__skill-item=skill.skillName+"   "
+      .data__project-stat
+        each item in project.skillsGained
+          span(
+            class=`coloana-${item.skillName}`
+            style=`width: ${item.percentage}%`
+          ) .
+      ul.data__project-body
+        li
+          .data__project-dots
+            each item in project.skillsGained
+              .data__dot
+                .data__dot-color(style=`background-color: ${item.color}`) 
+                .data__dot-name=item.skillName+" "+item.percentage+"%"
+        li.data__project-data
+          each projectStat in project.projectStats
+            .data__project-stats
+              .data__project-stat-icon
+                i(class=`icon__${projectStat.projectStatIcon}`)
+              .data__project-stat-info=projectStat.projectStatInfo
+        li.data__project-description=project.projectInfo
+        li.data__project-blue-link
+          a(
+          href=project.projectLink.link
+          target="_blank"
+          ).data__pill-blue
+            i(class=`icon__${project.projectLink.icon}`)
+            span.button-text-primary=project.projectLink.description
+    .data__buttons
+      .open
+        label(for=`project__checkbox--${key}`).data__info-mandatory
+          i.icon__info
+      .close
+        label(for=`project__checkbox--${key}`).data__info-mandatory
+          i.icon__cross
+      each extraIcon in project.projectIcon.extraIcon
+        a.data__info-extra(href=`${extraIcon.link}` target="_blank")
+          i(class=`icon__${extraIcon.icon}`)
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--green

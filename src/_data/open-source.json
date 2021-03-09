@@ -1,72 +1,69 @@
 {
-  "sectionTitle": "Open source",
-  "stat": {
-    "titluMult": "Stats",
-    "itemList": [
+  "sectionTitle":"Open Source",
+  "stats":{
+    "statsName":"Stats",
+    "stat":[
       {
-        "icon": "github",
-        "label": [
-          "Contributions last year: 69",
-          "Longest streak: 7"
+        "statIcon":"github",
+        "statDescription":[
+          "Contributions last year: over 100",
+          "Longest streak: ---"
         ]
       },
       {
-        "icon": "codewars",
-        "label": [
-          "Rank: 9kyu",
+        "statIcon":"codewars",
+        "statDescription":[
+          "Rank: 8kyu",
           "Honor: 4"
         ]
       },
       {
-        "icon": "stackoverflow",
-        "label": [
-          "Top:",
-          "Reputation:",
-          "People reached: 0",
-          "Answers: 0"
+        "statIcon":"stackoverflow",
+        "statDescription":[
+          "Top: ---",
+          "Reputation: ---",
+          "People reached: ---",
+          "Answers: ---"
         ]
       }
-    ],
-    "secondTitle": "GitHub projects",
-    "itemGit": [
-      {
-        "labelTitle": "My CV v2",
-        "labelText": "HTML, CSS, Git, JavaScript, SEO, Optimise, React, Redux,",
-        "progressBar": ""
-      }
-    ] 
+    ]
   },
   "projects":{
-    "proiecteGit":"GitHub projects",
+    "projectName":"GitHub projects",
     "project":[
       {
         "projectName":"My Cv V2 Junior",
         "skillsGained":[
           {
             "skillName":"HTML",
-            "percentage":"1.2",
+            "percentage":"43.1",
             "color":"#F0E218"
           },
           {
             "skillName":"JavaScript",
-            "percentage":"90",
+            "percentage":"31.0",
             "color":"#1875F0"
           },
           {
-            "skillName":"TypeScript",
-            "percentage":"5.1",
+            "skillName":"SCSS",
+            "percentage":"16.3",
             "color":"#20D55D"
           },
           {
             "skillName":"CSS",
-            "percentage":"3.7",
+            "percentage":"8.5",
             "color":"#D52027"
+          },
+          {
+            "skillName":"PUG",
+            "percentage":"1.1",
+            "color":"#AB1CF2"
           }
         ],
-        "projectStatus":[
+        "projectStats":[
           {
             "projectStatIcon":"commits",
-            "projectStatInfo":"Commits: ---"
+            "projectStatInfo":"Commits: 66"
           },
           {
             "projectStatIcon":"stars",
@@ -83,11 +80,11 @@
           "extraIcon":[
             {
               "icon":"github",
-              "link":"www.github.com/MariaTeo"
+              "link":"https://github.com/MariaTeo/my-cv-v2-junior"
             },
             {
               "icon":"youtube",
-              "link":"www.youtube.com"
+              "link":""
             }
           ]
         },
@@ -102,29 +99,24 @@
         "skillsGained":[
           {
             "skillName":"HTML",
-            "percentage":"10.5",
+            "percentage":"57.1",
             "color":"#F0E218"
           },
           {
             "skillName":"JavaScript",
-            "percentage":"80",
+            "percentage":"3.1",
             "color":"#1875F0"
           },
           {
-            "skillName":"TypeScript",
-            "percentage":"6.8",
-            "color":"#20D55D"
-          },
-          {
             "skillName":"CSS",
-            "percentage":"2.7",
+            "percentage":"39.8",
             "color":"#D52027"
           }
         ],
         "projectStats":[
           {
             "projectStatIcon":"commits",
-            "projectStatInfo":"Commits: ---"
+            "projectStatInfo":"Commits: 49"
           },
           {
             "projectStatIcon":"stars",
@@ -135,13 +127,17 @@
             "projectStatInfo":"Forks: ---"
           }
         ],
-        "projectInfo":"Despre v2starter",
+        "projectInfo":"Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript .",
         "projectIcon":{
           "mandatoryIcon":"info",
           "extraIcon":[
             {
               "icon":"github",
-              "link":"www.github.com/MariaTeo"
+              "link":"https://github.com/MariaTeo/my-cv-v2-starter"
+            },
+            {
+              "icon":"youtube",
+              "link":""
             }
           ]
         },

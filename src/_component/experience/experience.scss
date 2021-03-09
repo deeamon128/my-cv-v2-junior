@@ -11,6 +11,8 @@
   
   &:not(:last-child) {
     @extend %list-item;
+    border-top: 0;
+    border-bottom: 2px solid #707070;
   }
 }
 
