@@ -1,71 +1,70 @@
-- var sectionTitle = data.source.sectionTitle
+- var sectionTitle = data['open-source'].sectionTitle
 include ../section-title/section-title.pug 
 
 //- stats section
 .column(span="row")
-  .status__info=data.source.stats.statsName
-  ul.status__info-list
-    each info in data.source.stats.stat
-      li.status__info-item
-        span.status__info-icon
-          i(class=`icon__${info.statsIcon}`)
-        .status__description
-          each data in info.statusDescription
-            p=data
+  .data__stat=data['open-source'].stats.statsName
+  ul.data__stat-list
+    each stat in data['open-source'].stats.stat
+      li.data__stat-item
+        span.data__stat-icon
+          i(class=`icon__${stat.statIcon}`)
+        .data__stat-description
+          each info in stat.statDescription 
+            p=info
 
-//- expandable section 
-
+//- accordion section
 .column(span="row")
-  .status__project=data.source.projects.projectName
-  each project, key in data.source.projects.project
+  .data__project=data['open-source'].projects.projectName
+  each project, key in data['open-source'].projects.project
     input(
       type="checkbox"
       id=`project__checkbox--${key}`
-          ).status__checkbox
-    .status__project-item
-      .status__project-name=project.projectName
-      .status__skill-list
-        each data in project.projectName 
-          span.status__skill-item=project.languages.language
-      .status__project-stat
-        each item in project.languages
-          each item in project.language
+          ).data__checkbox
+    .data__project-item
+      .data__project-name=project.projectName
+      .data__skill-list
+        each skill in project.skillsGained 
+          span.data__skill-item=skill.skillName+"   "
+      .data__project-stat
+        each item in project.skillsGained
           span(
-            class=`coloana-${item.languages}`
+            class=`coloana-${item.skillName}`
             style=`width: ${item.percentage}%`
           ) .
-      ul.status__project-body
+      ul.data__project-body
         li
-        .status__project-dots
-            .status__dot
-              .status__dot-color(style=`background-color: ${item.color}`) 
-              .status__dot-name=item.language+" "+item.percentage
-        li.status__project-data
-          each projectStat in project.repoDone
-            .status__project-stats
-              .status__project-stat-icon
-                i(class=`icon__${projectStat.repoIcon}`)
-              .status__project-stat-info=projectStat.repoInfo
-        li.status__project-description=project.repoInfos
-        li.status__project-blue-link
+          .data__project-dots
+            each item in project.skillsGained
+              .data__dot
+                .data__dot-color(style=`background-color: ${item.color}`) 
+                .data__dot-name=item.skillName+" "+item.percentage+"%"
+        li.data__project-data
+          each projectStat in project.projectStats
+            .data__project-stats
+              .data__project-stat-icon
+                i(class=`icon__${projectStat.projectStatIcon}`)
+              .data__project-stat-info=projectStat.projectStatInfo
+        li.data__project-description=project.projectInfo
+        li.data__project-blue-link
           a(
-          href=project.repoLinks.link
+          href=project.projectLink.link
           target="_blank"
-          ).status__pill-blue
-            i(class=`icon__${project.repoLinks.icon}`)
-            span.button-text-primary=project.repoLinks.description
-    .status__buttons
+          ).data__pill-blue
+            i(class=`icon__${project.projectLink.icon}`)
+            span.button-text-primary=project.projectLink.description
+    .data__buttons
       .open
-        label(for=`project__checkbox--${key}`).status__info-mandatory
+        label(for=`project__checkbox--${key}`).data__info-mandatory
           i.icon__info
       .close
-        label(for=`project__checkbox--${key}`).status__info-mandatory
+        label(for=`project__checkbox--${key}`).data__info-mandatory
           i.icon__cross
-      each extraIcon in project.repoIcons.extraIcon
-        a.status__info-extra(href=`${extraIcon.link}` target="_blank")
+      each extraIcon in project.projectIcon.extraIcon
+        a.data__info-extra(href=`${extraIcon.link}` target="_blank")
           i(class=`icon__${extraIcon.icon}`)
 
-//- arrow button
+//- green arrow
 .column(span="row")
     button.disc-green     
         i.icon__arrow-down 
