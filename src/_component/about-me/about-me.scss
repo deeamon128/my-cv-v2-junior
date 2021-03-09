@@ -1,16 +1,16 @@
-// .pill {
-//   padding: 10px;
-//   width: 85px;
-//   height: 52px;
-//   margin: 20px auto;
-//   align-items: center;
-//   display: flex;
-//   justify-content: center;
-//   border: 0;
-//   border-radius: 10%;
-//   color: black;
-//   background-color: #62ED61;
-// }
+.pill {
+  padding: 10px;
+  width: 82px;
+  height: 48px;
+  margin: 20px auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 0;
+  border-radius: 10%;
+  color: black;
+  background-color: #62ED61;
+}
 
 .button__disc--red,
 .button__disc--purple {
@@ -56,17 +56,17 @@
 }
 
 .about-me__name {
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 42px;
+  line-height: 68px;
 }
 
 .about-me__position {
-  line-height: 48px;
-  font-size: 36px;
+  line-height: 40px;
+  font-size: 28px;
 }
 
 .about-me__info {
-font-size: 25px;
+font-size: 20px;
 line-height: 30px;
 font-weight: 600;
 color: #808080;
