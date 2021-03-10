@@ -1,3 +1,24 @@
+// se apeleaza reusable.scss din folderul config
+.stats__list {
+  @extend %rounder-border-list;
+}
+
+// aliniem iconitele cu continutul
+.stats__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    @extend %list-item;
+  }
+}
+
+// punem margini de 10 pixeli iconitelor
+.stats__icon {
+  margin: 10px;
+}
+
+// stilizam continutul din stats
 .stats__content {
   display: flex;
   flex-direction: column;
