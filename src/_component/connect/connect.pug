@@ -1,7 +1,17 @@
-- var sectionTitle = data['connect'].sectionTitle
+- var sectionTitle = data.connect.sectionTitle
 include ../section-title/section-title
 
 .column(span="row")
-  .connect__avatar
-.column(span="row")
+  .connect__avatar 
+.column(span="row" height="10")
 
+each social in data.connect.socialList
+ .column(span="1")
+   .connect__disc 
+     div(class=`icon__${social.icon}`)
+
+.column(span="row" height="10")
+.column(span="row")
+    button.button__disc--green 
+      i.icon__arrow-down 
+.column(span="row" height="10")

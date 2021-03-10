@@ -1,4 +1,76 @@
 {
     "sectionTitle": "Let's Connect",
-    "avatarPath": "asset/image/andrei-maftei.jpg"
+    "avatarPath": "asset/image/andrei-maftei.jpg",
+    "socialList": [
+      {
+        "icon": "codetap",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "github",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "linkedin",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "stackoverflow",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "codewars",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "udemy",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "facebook",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "skype",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "instagram",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      },
+      {
+        "icon": "twitter",
+        "title": "codetap",
+        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "label": "codetap.academy",
+        "link" : "http://codetap.academy"
+      }
+    ]
 }
