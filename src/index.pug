@@ -5,6 +5,16 @@ html
   title My CV as a Junior Web Developer
   link(rel="stylesheet", href="style.css")
   body 
+    input.youtube__checkbox(type="checkbox", id="portrait")
+    .portrait
+      .close
+        label(for="portrait").disc__green
+          i.icon__cross
+      .portrait__body
+        img(src="asset/image/device.png", alt="").image-device
+        a.youtube__video(href="https://www.youtube.com/watch?v=0VvTBwJQMoQ&t=15s")
+          img(src="asset/image/youtube.png", alt="")
+
     .content 
       .grid
         include _component/about-me/about-me.pug

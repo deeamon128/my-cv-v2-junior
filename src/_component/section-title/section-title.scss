@@ -1,38 +1,134 @@
 .section__title {
   line-height: 40px;
   height: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   position: relative;
 }
 
 .section__title-wrapper {
-  background-color: #D52027;
+  background-color: #d52027;
   padding: 10px 46px;
   height: 60px;
   font-size: 24px;
   font-weight: 500;
   position: relative;
-  
+
   &::before {
+    content: "";
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-    background-color: #D52027;
+    background-color: #d52027;
     position: absolute;
-    content: '';
     top: 0;
     bottom: 0;
     left: -36px;
     right: -36px;
   }
-  
+
   &::after {
+    content: "";
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-    // background-color: #D52027;
     position: absolute;
-    content: '';
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+  }
+}
+
+.close {
+  display: none;
+}
+
+.portrait {
+  display: none;
+  transition: 0.25s;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  padding-left: 36px;
+  padding-right: 36px;
+
+  .close {
+    display: initial;
+    position: fixed;
+    top: 10px;
+    right: 16px;
+  }
+
+  .close .disc__green {
+    background-color: #1875f0;
+    margin-bottom: 0;
+  }
+
+  .portrait__body {
+
+    .image-device {
+      animation-duration: 5s;
+      animation-name: deviceRotation;
+      animation-iteration-count: infinite;
+      transform: rotate(0deg);
+    }
+
+    @keyframes deviceRotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(90deg);
+      }
+    }
+
+    .youtube__video img {
+      width: 100%;
+      height: 250px;
+      display: block;
+      margin: auto;
+      padding-top: 53px;
+    }
+  }
+
+  .portrait__body {
+    padding-top: 140px;
+    text-align: center;
+  }
+}
+
+.youtube__checkbox {
+  display: none;
+
+  &:checked {
+    ~ .portrait {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+    }
+
+    ~ .content {
+      overflow: hidden;
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  .portrait .portrait__body {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+
+    .image-device {
+      display: none;
+    }
+    
+    .youtube__video img {
+      height: 100%;
+    }
   }
 }
