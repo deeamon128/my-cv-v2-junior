@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "Portfolio",
+  "mainTitle": "Recent",
+  "recent": {
+    "projectName": "My CV v2 Junior",
+    "projects": {
+        "projectContent": "descriere",
+        "avatarPath": "",
+        "projectsIcon": {
+          "icons":[
+            {
+              "icon":"earth",
+              "link":"https://github.com/MariaTeo/my-cv-v2-junior"
+            },
+            {
+              "icon":"github",
+              "link":""
+            }
+          ]
+        }
+    }
+  }
+}
