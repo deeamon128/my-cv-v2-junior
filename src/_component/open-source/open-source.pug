@@ -6,3 +6,13 @@ include ../sectiunea-titlu/sectiunea-titlu
   h3.despre-mine__subtitlu=data['open-source'].subtitlu
 .column(span="row")
 .column(span="row")
+  ul.stats__list
+    each stats in data['open-source'].listaStats
+      li.stats__item
+        span.stats__icon(class=`icon__${stats.icon}`)
+        span.stats__content
+          each content in stats.content
+            span.stats__content-item=content
+.column(span="row")
+.column(span="row" height="10")
+
