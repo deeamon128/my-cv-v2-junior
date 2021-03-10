@@ -5,11 +5,10 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #F5F5F5;
 }
-
 
 .grid {
   display: grid;
@@ -27,4 +26,8 @@ body {
 
 .content {
   padding: 0 36px;
+}
+
+input[type="radio"] {
+  display: none;
 }
