@@ -1,0 +1,23 @@
+{
+  "header" : "Recommendations",
+  "recommandation1": [
+    {
+      "avatarUrl": "asset/image/argus.png",
+      "name": "ipsum",
+      "position": "ipsum",
+      "description": [
+        "ipsum dolor sit amet consect voluptate impedit commodi iusto."
+      ]
+    }
+  ],
+  "recommandation2": [
+    {
+      "avatarUrl": "asset/image/argus.png",
+      "name": "ipsum",
+      "position": "ipsum",
+      "description": [
+        "ipsum dolor sit amet consect voluptate impedit commodi iusto."
+      ]
+    }
+  ]
+}

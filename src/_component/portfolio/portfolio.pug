@@ -1,0 +1,37 @@
+- var sectionTitle = data.portfolio.sectionTitle
+include ../section-title/section-title.pug 
+
+.column(span="row" height="10")
+.column(span="row")
+//- recent portfolio
+h3.about-me__lead-title= data.portfolio.header
+.column(span="row")
+    each item  in data.portfolio.card1 
+      .recent__projects
+          .recent__projects-text=item.title
+          .recent__projects-skills=item.skills
+          .recent__projects-skills=item.link
+          img(src=`${item.image}`, alt="avatar").project__image
+      .buttons
+        a(href=`${item.linkIcon}` target="_blank")
+          i.icon__earth 
+        a(href=`${item.linkIcon}` target="_blank")
+          i.icon__github
+.column(span="row" height="10")
+
+//- old projects
+h3.about-me__lead-title= data.portfolio.card2.title 
+.column(span="row")
+    each item  in data.portfolio.card2.data
+      .old__projects
+          .recent__projects-text=item.title
+          .recent__projects-skills=item.skills
+          .recent__projects-skills=item.link
+          img(src=`${item.image}`, alt="avatar").project__image
+
+//- green arrow down
+.column(span="row")        
+    button.disc-green     
+        i.icon__arrow-down 
+        span.button-text 
+.column(span="row" height="10")
