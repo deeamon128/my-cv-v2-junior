@@ -49,6 +49,17 @@
   height: 60px;
   background-color:#bbbcbe;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    background-color:#bbbcbe;
+    left: -36px;
+    right: -36px;
+    top: 0;
+    bottom: 0;
+  }
 }
 
 .section-title {
@@ -58,6 +69,7 @@
   color: #a5456c;
   font-size: 20px;
   font-weight: bold;
+  position: relative;
 }
 
 .about-me__name,
@@ -78,10 +90,10 @@
 }
 
 .about-me__info {
-font-size: 20px;
-line-height: 30px;
-font-weight: 600;
-color: #808080;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #808080;
 }
 
 .info-box__with-shadow {
@@ -96,4 +108,4 @@ color: #808080;
   color: #808080;
   font-weight: 600;
   line-height: 30px;
-}
+  }
