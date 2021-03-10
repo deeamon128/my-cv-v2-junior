@@ -56,16 +56,16 @@
         ],
         "proiectComm":[
           {
-          "proiectCommIconita":"commits",
-          "proiectCommDetalii":"Commit: 70"
+            "proiectCommiIconita":"commits",
+          "proiectCommiDetalii":"Commit: 70"
           },
           {
-          "proiectCommIconita":"stars",
-          "proiectCommDetalii":"Stars: ---"
+            "proiectCommiIconita":"stars",
+          "proiectCommiDetalii":"Stars: ---"
           },
           {
-          "proiectCommIconita":"forks",
-          "proiectCommDetalii":"Forks: -----"
+            "proiectCommiIconita":"forks",
+          "proiectCommiDetalii":"Forks: -----"
           }
         ],
         "proiectDetalii":"With this chance i had my biggest brainstorm and i put myself in situation when i must to be calm to can sort out the problem even if when i saw something it s not working .",
@@ -114,16 +114,16 @@
         ],
         "proiectComm":[
           {
-            "proiectCommIconita":"commits",
-          "proiectCommDetalii":"Commit: 70"
+            "proiectCommiIconita":"commits",
+          "proiectCommiDetalii":"Commit: 70"
           },
           {
-            "proiectCommIconita":"stars",
-          "proiectCommDetalii":"Stars: ---"
+            "proiectCommiIconita":"stars",
+          "proiectCommiDetalii":"Stars: ---"
           },
           {
-            "proiectCommIconita":"forks",
-          "proiectCommDetalii":"Forks: -----"
+            "proiectCommiIconita":"forks",
+          "proiectCommiDetalii":"Forks: -----"
           }
         ],
         "proiectDetalii":"With this chance i had my biggest brainstorm and i put myself in situation when i must to be calm to can sort out the problem even if when i saw something it s not working .",

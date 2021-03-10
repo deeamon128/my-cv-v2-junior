@@ -24,35 +24,18 @@ include ../section-title/section-title.pug
           for=`proiect__checkbox--${key}`
         )=proiect.proiectNume
         .ab__proiect-corp
-          h1 neata
           .abc 
             each item in proiect.skillGained
               .ab__punct
                 .ab__punct-color(style=`background-color: ${item.color}`)
                 .ab__punct-nume=item.skillNume+" "+item.percentage+"%"
-          .ab__skill-list
-            each skill in proiect.skillGained
-              span.ab__skill-item=skill.skillNume+" "
-  //-li.ab__proiect-punct
-  //-each item in proiect.skillGained
-    .ab__punct
-      .ab__punct-color(style=`background-color: ${item.color}`)
-      .ab__punct-nume=item.skillNume+" "+item.percentage+"%"
-//-li.ab__proiect-data
-//-each proiectComm in proiect.proiectComm 
-  .ab__proiect-comm
-    .ab__proiect-Comm-iconita 
-      i(class=`icon__${proiectComm.proiectCommIconita}`)
-    .ab__proiect-comm-info=proiectComm.proiectDetalii
-  //-li.ab__proiect-descriere=proiect.proiectDetalii 
-  //-li.ab__proiect-bara-albastra
-    a(
-      href=proiect.proiectLink.descriere
-      target="_blank"
-    ).ab__download--albastrel
-      i(class=`icon_${proiect.proiectLink.icon}`)
-      span.button-text-primary=proiect.proiectLink.descriere 
-
+          .ab__proiect-stats
+            each proiectComm in proiect.proiectComm
+              .ab__proiect-comm
+                .ab__proiect-comm-item
+                  i(class=`icon__${proiectComm.proiectCommiIconita}`)
+                .ab__proiect-comm-detalii=proiectComm.proiectCommiDetalii
+          .ab__proiect-descriere=proiect.proiectDetalii
 .column(span="row" height="10")
 .column(span="row")
   button.buton__disc-dolarel
