@@ -1,0 +1,44 @@
+{
+  "sectionTitle":"Portfolio",
+  "header":"Recent",
+  "card1": [
+    {
+      "title":"CodeTap Academy",
+      "skills":"HTML, CSS, Git, JavaScript, CEO, React",
+      "link": "https://codetap.academy",
+      "image":"asset/image/romaris.png",
+      "linkIcon":"https://codetap.academy"
+
+    },
+    {
+      "title":"CodeTap Academy",
+      "skills":"HTML, CSS, Git, JavaScript, CEO, React",
+      "link": "https://codetap.academy",
+      "image":"asset/image/romaris.png",
+      "linkIcon":"https://codetap.academy"
+
+    }
+  ], 
+  "card2":{
+    "title":"Old",
+    "data":
+    [
+      {
+        "title":"CodeTap Academy",
+        "skills":"HTML, CSS, Git, JavaScript, CEO, React",
+        "link": "https://codetap.academy",
+        "image":"asset/image/romaris.png",
+        "linkIcon":"https://codetap.academy"
+  
+      },
+      {
+        "title":"CodeTap Academy",
+        "skills":"HTML, CSS, Git, JavaScript, CEO, React",
+        "link": "https://codetap.academy",
+        "image":"asset/image/romaris.png",
+        "linkIcon":"https://codetap.academy"
+  
+      }
+    ] 
+  }
+}
