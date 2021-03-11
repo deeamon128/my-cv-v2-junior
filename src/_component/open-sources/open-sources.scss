@@ -1,6 +1,8 @@
 .ab__stat,
 .ab__proiect,
-.ab__proiect-nume {
+.ab__proiect-nume,
+.ab__proiect-descriere,
+.ab__proiect-comm-detalii{
   @extend %subtitle;
 }
 
@@ -8,7 +10,7 @@
 .ab__proiect-comm {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0fr 0fr;
   row-gap: 0px;
   column-gap: 0px;
 }
@@ -66,14 +68,17 @@ align-items: center;
   .ab__stat-icons i[class="icon__codewars"] {
     font-size: 23px;
     color: black;
+    display: contents;
   }
   .ab__stat-icons i[class="icon__stackoverflow"] {
     font-size: 23px;
     color: black;
+    display:contents;
   }
   .ab__stat-icons i[class="icon__github"] {
     //  font-size: 23px;
     color: black;
+    display: contents;
   }
 
   .ab__stat-icons {
@@ -120,6 +125,10 @@ align-items: center;
   .ab__proiect-comm-item{
     margin-right: 10px;
     font-size: 18px;
+    display: grid;
+  grid-template-columns: 15px 1fr;
+  justify-content: center;
+  align-items: center;
   }
 
   .icon__commit {
@@ -191,4 +200,44 @@ align-items: center;
 .ab__proiect-corp {
   display: none;
   list-style-type: none;
+}
+
+.ab__info-obg,
+.ab__info-close,
+.ab__info-extra {
+ @extend %button-pink
+}
+
+.button__link--albastrel i[class="icon__github"] {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.ab__info-extra {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ab__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+
+.button__link--albastrel {
+  height: 40px;
+  margin: 24px auto 0;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  background-color: blue;
+  display: inline-flex;
+  align-items: center;
+
 }
