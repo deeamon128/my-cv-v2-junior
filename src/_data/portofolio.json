@@ -1,3 +1,31 @@
+
 {
-  "sectionTitle":"Portfolio!!"
+  "sectionTitle":"Portfolio",
+  "proiecte": {
+    "numepro":"Recent",
+  "proiectList": [
+    {
+    "proiectNume": "My-CV-Junior",
+    "skillsName":[
+      {
+        "proiectNume":"My Cv V2 Junior",
+        "skillGained":[
+          {
+            "skillNume":"HTML"
+          },
+          {
+            "skillNume":"JavaScript"
+          },
+          {
+            "skillNume":"TypeScript"
+          },
+          {
+            "skillNume":"CSS"
+          }
+        ]
+      }
+    ]
+    }
+  ]
+}
 }
