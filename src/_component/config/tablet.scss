@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
+
+  body {
+    margin: 0 80px;
+  }
+
+  .column[span-tablet="4"],
+  .column[span-tablet$="+4"] {
+    grid-column: auto / span 4;
+  }
+  
+  .grid[columns-tablet="4"] {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
