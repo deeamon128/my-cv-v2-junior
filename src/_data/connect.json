@@ -4,73 +4,73 @@
     "socialList": [
       {
         "icon": "codetap",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
+        "title": "Codetap",
+        "description": "CodeTap is awesome!",
         "label": "codetap.academy",
         "link" : "http://codetap.academy"
       },
       {
         "icon": "github",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "GitHub",
+        "description": "You can enter and see my work with HTML, CSS, JAVA, REACT.",
+        "label": "github.com/andreimaff",
+        "link" : "http://github.com/andreimaff"
       },
       {
         "icon": "linkedin",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "LinkedIn",
+        "description": "I'm not here yet but i will be soon",
+        "label": "linkedin.com",
+        "link" : "http://linkedin.com"
       },
       {
         "icon": "stackoverflow",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "Stackoverflow",
+        "description": "I'm not here yet but I will be soon",
+        "label": "stackoverflow.com",
+        "link" : "http://stackoverflow.com"
       },
       {
         "icon": "codewars",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "Codewars",
+        "description": "I'm not here yet but I will be soon",
+        "label": "codewars.com",
+        "link" : "http://codewars.com"
       },
       {
         "icon": "udemy",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "Udemy",
+        "description": "I'm not here yet but I will be soon",
+        "label": "udemy.com",
+        "link" : "http://udemy.com"
       },
       {
         "icon": "facebook",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "Facebook",
+        "description": "I'm not here yet but I will be soon",
+        "label": "facebook.com",
+        "link" : "http://facebook.com"
       },
       {
         "icon": "skype",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "Skype",
+        "description": "I'm not here yet but I will be soon",
+        "label": "skype.com",
+        "link" : "http://skype.com"
       },
       {
         "icon": "instagram",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "Instagram",
+        "description": "I'm not here yet but I will be soon",
+        "label": "instagram.com",
+        "link" : "http://instagram.com"
       },
       {
         "icon": "twitter",
-        "title": "codetap",
-        "description": "jdshbvjshbvhajbvdkahjbvhavkahjsvaskvj",
-        "label": "codetap.academy",
-        "link" : "http://codetap.academy"
+        "title": "Twitter",
+        "description": "I'm not here yet but I will be soon",
+        "label": "twitter.com",
+        "link" : "http://twitter.com"
       }
     ]
 }

@@ -15,25 +15,28 @@ each social, key in data.connect.socialList
    label(for=`connect__label--${key}`).connect__disc 
      i(class=`icon__${social.icon}`)
 
-.column(span="row" height="10")
-.column(span="row")
-  .description-box__with-arrow
-    .description-box__header
-      .description-box__title haha
-      .description-box__close
-        input.connect__radio(
-          type="radio"
-          name="connect__label"
-          id=`connect__label--reset`
-        )
-        label(for=`connect__label--reset`).connect__disc 
-          i(class=`icon__cross`)
-    .description-box__body
-      p.description-box__paragraph Errare humanum est sed perseverare diabolicum. 
-    .description-box__footer
-      button.button__push--me 
-        i.icon__download 
-        span.inside-button=data['about-me'].downloadButtonLabel
+each social, key in data.connect.socialList
+  .column(span="row" data-description-box=key+1)
+    .description-box__with-arrow
+      .description-box__header
+        .description-box__title=social.title
+        .description-box__close
+          input.connect__radio(
+            type="radio"
+            name="connect__label"
+            id=`connect__label--reset`
+          )
+          label(for=`connect__label--reset`).connect__disc 
+            i(class=`icon__cross`)
+      .description-box__body
+        p.description-box__paragraph=social.description 
+      .description-box__footer
+        a(
+          href=social.link
+          target="_blank"
+        ).button.button__push--me 
+          i.icon__link 
+          span.inside-button=social.label
 
 .column(span="row" height="10")
 .column(span="row")
