@@ -9,11 +9,11 @@ include ../section-title/section-title
         .recent__projects-text=project.title
         .recent__projects-skills=project.skills
         .recent__projects-skills=project.link
-        img(src=`${project.image}`, alt="avatar").project__image
+        img(src=project.image, alt="avatar").project__image
       .buttons
-        a(href=`${project.linkIcon}` target="_blank")
+        a(href=project.linkIcon target="_blank")
           i.icon__earth 
-        a(href=`${project.linkIcon}` target="_blank")
+        a(href=project.linkIcon target="_blank")
           i.icon__github
 .column(span="row" height="10")
 .column(span="row")
@@ -23,7 +23,7 @@ include ../section-title/section-title
         .recent__projects-text=project.title
         .recent__projects-skills=project.skills
         .recent__projects-skills=project.link
-        img(src=`${project.image}`, alt="avatar").project__image
+        img(src=project.image, alt="avatar").project__image
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--green

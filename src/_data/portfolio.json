@@ -1,41 +1,39 @@
 {
-  "sectionTitle":"Portfolio",
-  "mainTitle":"Recent",
+  "sectionTitle": "Portfolio",
+  "mainTitle": "Recent",
   "project1": [
     {
-      "title":"My CV v2 Junior",
-      "skills":"HTML, CSS, Git, JavaScript, CEO, React",
+      "title": "My CV v2 Junior",
+      "skills": "HTML, CSS, Git, JavaScript, CEO, React",
       "link": "https://github.com/MariaTeo/my-cv-v2-junior",
-      "image":"asset/image/company-logo/romaris.png",
-      "linkIcon":"https://github.com/MariaTeo/my-cv-v2-junior"
+      "image": "asset/image/company-logo/romaris.png",
+      "linkIcon": "https://github.com/MariaTeo/my-cv-v2-junior"
     },
     {
-      "title":"My CV v2 Starter",
-      "skills":"HTML, CSS, Git, JavaScript, CEO, React",
+      "title": "My CV v2 Starter",
+      "skills": "HTML, CSS, Git, JavaScript, CEO, React",
       "link": "https://github.com/MariaTeo/my-cv-v2-starter",
-      "image":"asset/image/company-logo/romaris.png",
-      "linkIcon":"https://github.com/MariaTeo/my-cv-v2-starter"
+      "image": "asset/image/company-logo/romaris.png",
+      "linkIcon": "https://github.com/MariaTeo/my-cv-v2-starter"
     }
-  ], 
-  "project2":{
-    "title":"Old",
-    "data":
-    [
+  ],
+  "project2": {
+    "title": "Old",
+    "data": [
       {
-        "title":"CodeTap Academy",
-        "skills":"HTML, CSS, Git, JavaScript, CEO, React",
+        "title": "CodeTap Academy",
+        "skills": "HTML, CSS, Git, JavaScript, CEO, React",
         "link": "https://codetap.academy",
-        "image":"asset/image/company-logo/romaris.png",
-        "linkIcon":"https://codetap.academy"
-
+        "image": "asset/image/company-logo/romaris.png",
+        "linkIcon": "https://codetap.academy"
       },
       {
-        "title":"CodeTap Academy",
-        "skills":"HTML, CSS, Git, JavaScript, CEO, React",
+        "title": "CodeTap Academy",
+        "skills": "HTML, CSS, Git, JavaScript, CEO, React",
         "link": "https://codetap.academy",
-        "image":"asset/image/company-logo/romaris.png",
-        "linkIcon":"https://codetap.academy"
+        "image": "asset/image/company-logo/romaris.png",
+        "linkIcon": "https://codetap.academy"
       }
-    ] 
+    ]
   }
 }
