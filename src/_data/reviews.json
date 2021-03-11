@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "Reviews",
+  "cards" : [
+    {
+      "avatarUrl": "asset/image/argus.png",
+      "date": "10.10.2020",
+      "name": "ipsum",
+      "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
+    },
+    {
+      "avatarUrl": "asset/image/argus.png",
+      "date": "10.10.2020",
+      "name": "ipsum",
+      "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
+    },
+    {
+      "avatarUrl": "asset/image/argus.png",
+      "date": "10.10.2020",
+      "name": "ipsum",
+      "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
+    }
+  ]
+}

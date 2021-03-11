@@ -1,0 +1,19 @@
+- var sectionTitle = data.reviews.sectionTitle
+include ../section-title/section-title.pug 
+
+.column(span="row" class="review")
+  each item in data.reviews.cards
+    .review-box
+    .review-data 
+      .review-image
+        img.image(src=`${item.avatarUrl}`, alt="avatar")
+      .review-name=item.name 
+      .review-date=item.date
+    .review-description
+      p=item.description
+
+.column(span="row")        
+    button.disc-green     
+        i.icon__arrow-down 
+        span.button-text 
+.column(span="row" height="10")
