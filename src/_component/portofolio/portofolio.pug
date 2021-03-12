@@ -1,18 +1,21 @@
 - var sectionTitle = data['portofolio'].sectionTitle
 include ../section-title/section-title.pug
 
+.column(span="row" height="10")
 .column(span="row")
-  .ab__stat=data['portofolio'].proiecte.numepro
-  ul.ab__proiecte-list
-    each proiecte in data['portofolio'].proiectList
-      .ab__proiect-corp
-        .appc
-          each item , cheie in proiectList.skillGained
-            li.ab__proiect-punct 
-              input(
-          type="checkbox"
-          id=`portofolio__checkbox-${cheie}`
-        ).experience__checkbox
+  .recent-titlu=data.portofolio.recent.title
+    each recentProiect in data.portofolio.recent.recentProiect 
+      .recent-proiecte
+        .recent__proiect-image
+          img(src=`${recentProiect.imagePath}`, alt="").recent__proiect-image
+        .recent__proiect-text
+          .recent__proiect-nume=recentProiect.proiectNume
+          .recent__proiect-skills=recentProiect.skills
+      .recent-buttons
+        a(href=`${recentProiect.linkEarth}` target="_blank")
+          i.icon__earth
+        a(href=`${recentProiect.linkGithub}` target="_blank")
+          i.icon__github
 .column(span="row" height="10")
 .column(span="row")
   button.buton__disc-dolarel
