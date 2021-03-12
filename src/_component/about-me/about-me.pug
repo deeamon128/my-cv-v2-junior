@@ -1,27 +1,27 @@
 .column(span="row")
   .section__title-wrapper
-    .section-title Welcome To My Bulletproof CV
+    .section-title=data['about-me'].sectionTitle
 .column(span="row" height='10px')
 .column(span="row")
   button.button__disc--red
     i.icon__youtube 
 .column(span="row" height='10px')
 .column(span="row")
-  h1.about-me__name Ada Sagau
+  h1.about-me__name=data['about-me'].name
 .column(span="row")
-  h2.about-me__position Junior Web Developer
+  h2.about-me__position=data['about-me'].position
 .column(span="row" height='10px')
 .column(span="row")
-  h3.about-me__info My Info
+  h3.about-me__info=data['about-me'].info
 .column(span="row")
   .info-box__with-shadow
-    p.description I am a dynamic person who easily adapts to any situation and can work under pressure, meeting all the expectation.
-    p.description I am proud to be part of CodeTap Academy, because I am truly passionate about coding and I aim to become a succesful web developer.
+    p.description=data['about-me'].descriptionList[0]
+    p.description=data['about-me'].descriptionList[1]
 .column(span="row")
 .column(span="row" height='10px')
   .button.button__pill--green
     i.icon__download
-    .span.text-button Download CV
+    .span.text-button=data['about-me'].downloadButtonLabel
 .column(span="row")
 .column(span="row" height='10px')
   button.button__disc--purple
