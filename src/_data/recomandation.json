@@ -1,0 +1,16 @@
+{
+  "sectionTitle":"Recommandation",
+  "descriereM" : [
+    {
+      "nameP":"Jason Staten",
+      "hisjob":"blabla",
+      "descriereP":"ceva vrajeala pe aici despre cat de bun sunt ",
+      "avatarPath" : "asset/image/image.jpg"
+    },
+    {
+      "nameP":"Angelina Joulie",
+      "descriereP":"alta  vrajeala pe aici despre cat de bun sunt ",
+      "avatarPath" : "asset/image/image.jpg"
+    }
+  ]
+}

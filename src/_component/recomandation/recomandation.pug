@@ -1,0 +1,20 @@
+- var sectionTitle = data['recomandation'].sectionTitle
+include ../section-title/section-title.pug
+
+.column(span="row")
+  each descriereM in data.recomandation.descriereM
+    .recomandare
+      .recomandare-data
+        //-.rec-imagine
+          img(class="imagine" , src=`${descriereM.avatarPath}` , alt="")
+        .descriereM-nume=descriereM.nameP
+        .descriereM-hisjob=descriereM.hisjob
+      .recomandare-descriere
+        each p in descriereM.descriereP
+          p=descriereP
+
+.column(span="row" height="10")
+.column(span="row")
+  button.buton__disc-dolarel
+    i.icon__arrow-down
+.column(span="row" height="10")
