@@ -15,8 +15,8 @@
   h3.about-me__info=data['about-me'].info
 .column(span="row")
   .info-box__with-shadow
-    p.description=data['about-me'].descriptionList[0]
-    p.description=data['about-me'].descriptionList[1]
+    each description in data['about-me'].descriptionList
+      p.description=description
 .column(span="row")
 .column(span="row" height='10px')
   .button.button__pill--green
