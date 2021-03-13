@@ -1,0 +1,44 @@
+.info__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 14px;
+  font-weight: medium;
+  color: #808080;
+}
+
+.image__reviewer {
+  grid-template-columns: 1/-1;
+  border-radius: 50%;
+}
+
+.person__name {
+  grid-template-columns: 2/3;
+  display: absolute;
+  font-size: 14px;
+  font-weight: medium;
+  color: #808080;
+  display: flex;
+}
+
+.cariera {
+  grid-template-columns: 2/3;
+  font-size: 14px;
+  font-weight: medium;
+  color: #808080;
+  border: 0;
+  margin: 0;
+}
+
+.persoane {
+  font-size: 14px;
+  font-weight: medium;
+  color: #808080;
+  list-style-type: none;
+  list-style-position: inherit;
+  border: 0;
+  margin: 0;
+}
+
+.box__header {
+  margin-bottom: 1rem;
+}
