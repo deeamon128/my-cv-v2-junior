@@ -6,8 +6,7 @@ include ../section-title/section-title
 .column(span="row")
   ul.skills__list
     each item, key in data.skills.legend.itemList 
-      li 
-        span=item.icon 
-        span=item.label 
-        span=key + 1
-        
+      li.skills__item
+        span.skills__icon(class=`icon__${item.icon}`)
+        span.skills__label=item.label 
+        span.skills__count=key + 1
