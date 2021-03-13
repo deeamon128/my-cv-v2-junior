@@ -37,8 +37,31 @@
 .skills__label {
     line-height: 48px;
     color: #999999;
+    flex-grow: 1;
 }
 
-.skills__label {
-    flex-grow: 1;
+.skills__skill--heart {
+    background-color: #d52027;
+}
+
+.skills__skill--trophy {
+    background-color: #50d166;
+}
+
+.skills__skill--book {
+    background-color: #f18f1c;
+}
+
+.skills__skill--heart ,
+.skills__skill--trophy ,
+.skills__skill--book {
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+    line-height: 30px;
+    padding: 0 18px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
