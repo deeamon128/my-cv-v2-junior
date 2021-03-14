@@ -12,13 +12,10 @@ each social, cheie in data.connect.socialList
         type="radio",
         name="abc",
         id=`cevanou-${cheie}`
-    )
-    .column(span="1")
-        div.connect__disc(
-            for=`oricevreitu-${cheie}`
         )
-            div(class=`icon__${social.icon}`)
-
+    .column(span="1")
+        div(for=`cevanou--${cheie}`).connect__disc
+            i(class=`icon__${social.icon}`)
 each social, cheie in data.connect.socialList
     .column(span="row" data-description-box=key+1)
         .description-box__with-arrow

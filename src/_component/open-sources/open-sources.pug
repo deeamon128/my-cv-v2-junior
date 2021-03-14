@@ -1,0 +1,61 @@
+- var sectionTitle = data['open-sources'].sectionTitle
+include ../section-title/section-title.pug
+
+.column(span="row")
+  .ab__stat=data['open-sources'].stats.nameTi
+  ul.ab__stat-list
+    each stat in data['open-sources'].stats.stat
+      li.ab__stat-item
+        span.ab__stat-icons 
+          i(class=`icon__${stat.statIcon}`)
+        .ab__statDetalii
+          each info in stat.statDetalii 
+            p=info
+.column(span="row" height="10")
+.column(span="row")
+  .ab__proiect=data['open-sources'].proiecte.proiectNume
+    each proiect, key in data['open-sources'].proiecte.proiect
+      input(
+        type="checkbox"
+        id=`proiect__checkbox--${key}`
+      ).ab__checkbox
+      .ab__proiect-item
+        label.ab__proiect-nume(
+          for=`proiect__checkbox--${key}`
+        )=proiect.proiectNume
+        .ab__proiect-corp
+          .abc 
+            each item in proiect.skillGained
+              .ab__punct
+                .ab__punct-color(style=`background-color: ${item.color}`)
+                .ab__punct-nume=item.skillNume+" "+item.percentage+"%"
+          .ab__proiect-stats
+            each proiectComm in proiect.proiectComm
+              .ab__proiect-comm
+                .ab__proiect-comm-item
+                  i(class=`icon__${proiectComm.proiectCommiIconita}`)
+                .ab__proiect-comm-detalii=proiectComm.proiectCommiDetalii
+          .ab__proiect-descriere=proiect.proiectDetalii
+          .ab_proiect-albastrel-link
+            a(
+              href=proiect.proiectLink
+              target="_blank"
+              ).button__link--albastrel
+                i(class=`icon__${proiect.proiectLink.icon}`)
+                span.button-text-p=proiect.proiectLink.descriere
+      .ab__buttons
+        .open
+          label(for=`proiect__checkbox--${key}`).ab__info-obg
+            i.icon__info
+        .close
+          label(for=`proiect__checkbox--${key}`).ab__info-obg
+            i.icon__cross
+        each extraIconita in proiect.proiectIconita.extraIconita
+          a.ab__info-extra(href=`${extraIconita.link}` target="_blank")
+            i(class=`icon__${extraIconita.iconita}`)
+
+.column(span="row" height="10")
+.column(span="row")
+  button.buton__disc-dolarel
+    i.icon__arrow-down
+.column(span="row" height="10")

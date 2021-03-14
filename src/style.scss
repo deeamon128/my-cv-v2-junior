@@ -1,3 +1,4 @@
+@import '_component/config/reusablecss';
 @import '_component/layout/layout';
 @import '_component/section-title/section-title';
 @import '_component/layout/roboto-font';
@@ -6,6 +7,9 @@
 @import '_component/connect/connect';
 @import '_component/skills/skills';
 @import '_component/experience/experience';
-@import '_component/config/reusablecss';
+@import '_component/section-title/section-title';
 @import '_asset/font/style';
-
+@import '_asset/fonts/variables';
+@import '_component/open-sources/open-sources.scss';
+@import '_component/portofolio/portofolio.scss';
+@import '_component/recomandation/recomandation.scss';

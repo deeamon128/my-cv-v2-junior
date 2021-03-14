@@ -1,0 +1,52 @@
+recent-title,
+.old-title {
+  @extend %subtitle;
+}
+
+.recent__proiect-image,
+.old__proiect-image {
+ width: 100%;
+ height: 100px;
+ padding: 3px;
+ padding-bottom: 0;
+ border-top: 2px solid #707070;
+}
+
+.recent-proiecte,
+.old-proiecte {
+  background-color: white;
+  @extend %rounded-border-list;
+  color: #707070;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.old-proiecte {
+  margin-bottom: 10px;
+
+  &:last-of-type{
+    margin-bottom: 20px;
+  }
+}
+
+.recent-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  
+  & i[class^="icon__"] {
+    @extend %button-pink;
+  }
+}
+
+.recent__proiect-nume,
+.old__proiect-nume {
+  @extend %project-name;
+}
+
+.recent__proiect-skills,
+.old__proiect-skills {
+  @extend %skills-list;
+  padding-bottom: 10px;
+}

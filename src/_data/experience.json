@@ -4,7 +4,7 @@
     {
     "jobTitle": "React Developer",
     "startDate": "2020 Month",
-    "endDate": "2020 Mmonth",
+    "endDate": "2025 Month",
     "iconPath": "arcadia.png",
     "companyName": "ZeusMedia",
     "moreInfoList": [
@@ -15,13 +15,13 @@
     {
     "jobTitle": "Html Developer",
     "startDate": "2019 Month",
-    "endDate": "2019 Mmonth",
+    "endDate": "2019 Month",
     "iconPath": "argus.png",
     "companyName": "Romaris",
     "moreInfoList": [
-      "This is some achievement",
-      "This is another achivement"
+      "This is some achievement2",
+      "This is another achivement2"
      ]
-    }
+    }  
   ]
 }

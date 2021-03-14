@@ -93,16 +93,19 @@ line-height: 30px;
   position: relative;
   width: 40px;
   height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
   
 
-  [for="oricevreitu-reset"] {
+  [for="cevanou--"] {
     width: 40px;
     color: white;
   }
 
  }
-[class^="icon__"] {
-  text-align: center;
-  line-height: 1.7;
-  color: white;
-}
+  [class^="icon__"] {
+    text-align: center;
+    line-height: 1.7;
+    color: white;
+  }

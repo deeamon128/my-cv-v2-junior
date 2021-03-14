@@ -1,0 +1,17 @@
+{
+  "sectionTitle":"Recommandation",
+  "descriereM" : [
+    {
+      "nameP":"Jason Staten",
+      "hisjob":"Senior Web Developer",
+      "descriereP":"ceva vrajeala pe aici despre cat de bun sunt ",
+      "avatarPath" : "asset/image/image.jpg"
+    },
+    {
+      "nameP":"Angelina Joulie",
+      "hisjob":"Chef Senior Web Developer",
+      "descriereP":"alta  vrajeala pe aici despre cat de bun sunt ",
+      "avatarPath" : "asset/image/image.jpg"
+    }
+  ]
+}

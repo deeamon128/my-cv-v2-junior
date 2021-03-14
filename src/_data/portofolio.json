@@ -1,0 +1,30 @@
+{
+  "sectionTitle":"Portfolio",
+  "recent":{
+    "title":"Recent",
+    "recentProiect":[
+      {
+        "proiectNume":"My cv v2 Junior",
+        "skills":"HTML, CSS, JavaScript, React",
+        "imagePath":"asset/image/company-logo/solera.png",
+        "linkGithub": "https://github.com/NicolaePaulGeambazu"
+      },
+      {
+        "proiectNume":"My cv v2 Starter",
+        "skills":"HTML, CSS, JavaScript, React",
+        "imagePath":"asset/image/company-logo/arcadia.png",
+        "linkGithub": "https://github.com/NicolaePaulGeambazu"
+      }
+    ]
+  },
+  "old":{
+    "title":"Old",
+    "oldProjects":[
+      {
+        "projectName":"My cv v1",
+        "skills":"HTML, CSS, JavaScript, React",
+        "imagePath":"asset/image/company-logo/arcadia.romaris"
+      }
+    ]
+  }
+}
