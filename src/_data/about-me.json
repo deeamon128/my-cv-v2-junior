@@ -1,0 +1,11 @@
+{
+  "sectionTitle": "Welcome To My Bulletproof CV",
+  "name": "Ada Sagau",
+  "position": "Junior Web Developer",
+  "info": "My Info",
+  "descriptionList": [
+    "I am a dynamic person who easily adapts to any situation and can work under pressure, meeting all the expectation.",
+    "I am proud to be part of CodeTap Academy, because I am truly passionate about coding and I aim to become a succesful web developer."
+  ],
+    "downloadButtonLabel": "Download CV"
+}
