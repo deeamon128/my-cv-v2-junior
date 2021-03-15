@@ -1,0 +1,20 @@
+- var sectionTitle = data.reviews.sectionTitle
+include ../section-title/section-title.pug
+
+.column(span="row" data-box=key+1)
+.column(span="row")
+    each person in data.reviews.reviews
+      span.info__box
+        img.image__reviewer(src=person.image, alt="avatar")
+        .person__name= person.personName
+        .data=person.date
+      .column(span="row")
+        .box__with-arrow
+          .box__header 
+            each comment in data.reviews.reviews
+              .box__text=comment.review
+.column(span="row" height="10")
+.column(span="row")
+  button.button__disc--green
+    i.icon__arrow-down
+.column(span="row" height="10")
