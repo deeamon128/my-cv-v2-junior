@@ -3,15 +3,17 @@
 include ../section-title/section-title.pug
 
 .column(span="row" class="review")
-  each review in data.review.review
-    .recommendation 
-      .recommendation-data 
-        .rec-image
-          img(class="imagine", src=`${review.avatarPath}`, alt="")
-        .rec-name=review.name 
-        .review-date=review.date
-      .recommendation-description
-        span.review-description=review.description 
+  .grid__portfolio
+    each review in data.review.review
+      .recommendation 
+        .recommendation-data 
+          .rec-image
+            img(class="imagine", src=`${review.avatarPath}`, alt="")
+          .rec-name=review.name 
+          .review-date=review.date
+        .recommendation-description
+          span.review-description=review.description 
+          
 .column(span="row")
   a.disc__green(href="/#other-side")
     i.icon__arrow-down
