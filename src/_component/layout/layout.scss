@@ -25,28 +25,31 @@ body {
   grid-gap: 10px;
 }
 
-.grid__connect{
+.grid__connect,
+.grid__portfolio,
+.grid__recommendation,
+.grid__review{ 
   display: contents;
 }
 
-.grid__portfolio {
-  display: contents;
-}
 
-.column[span-tablet="4"]{
+.about-me-content,
+.skills-content,
+.experience-content,
+.os-content,
+.portfolio-content,
+.review-content, 
+.recommendation-content, 
+.proud-content {
   display: contents;
 }
 
 .column[span="1"] {
-  grid-column-end: span 1;
+  grid-column: auto / span 1;
 }
 
 .column[span="row"] {
   grid-column: 1/-1;
-}
-
-c[span="1"] {
-  grid-column-end: span 1;
 }
 
 input[type="radio"] {

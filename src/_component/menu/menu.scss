@@ -45,8 +45,6 @@
   }
 }
 
-
-
 .icon__menu {
   display: initial;
   position: fixed;
@@ -58,16 +56,16 @@
   border-radius: 6px;
 }
 
-#toggle-menu {
+#toggle-menu-mobile {
   display: none;
-
+  
   &:checked + ul.menu__list {
     text-align: right;
     display: block;
     position: fixed;
     width: auto;
     height: auto;
-    top:45%;
+    top:250px;
     right: 10px;
   }
 
@@ -76,4 +74,10 @@
       display: none;
     }
   }
+}
+
+@media (max-width: 999px) {
+.desktop {
+  display: none;
+}
 }

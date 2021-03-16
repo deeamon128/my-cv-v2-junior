@@ -1,12 +1,19 @@
 @media (min-width: 768px) {
+  .content {
+    padding: 0 80px;
+  }
+
+  .section__title-wrapper {
+    &::before {
+      left: -80px;
+      right: -80px;
+    }
+  }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 16px;
-  }
-
-  body {
-    margin: 0 80px;
   }
 
   .column[span-tablet$="+4"] {
@@ -18,7 +25,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-column: auto / span 4;
     column-gap: 16px;
-    row-gap: 16px;
     margin-top: 15px;
 
     label.connect__disc-blue {
@@ -44,7 +50,9 @@
     width: 230px;
   }
 
-  .grid__portfolio {
+  .grid__portfolio,
+  .grid__review,
+  .grid__recommendation {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
