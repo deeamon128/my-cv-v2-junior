@@ -1,3 +1,45 @@
+.button__disc--red {
+  background-color: #d52027;
+}
+
+.button__disc--green {
+  background-color: greenyellow;
+}
+
+.button__pill--blue {
+  height: 40px;
+  margin: 20px auto 0;
+  color:black;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+button i[class^="icon__"] {
+  width: 16px;
+  height: 16px;
+}
+
+.button__pill--blue {
+  background-color: rgb(11, 205, 240);
+}
+
+.button__disc--green,
+.button__disc--red {
+  width: 40px;
+  margin: 20px auto;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+}
+
+
 .about-me__main-title,
 .about-me__sub-title {
   // whatever goes in here
