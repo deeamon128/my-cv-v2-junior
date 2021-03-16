@@ -194,6 +194,13 @@
   @extend %pill-blue;
   text-decoration: none; 
   margin: 0 40px;
+  width: 230px;
+}
+
+.os__project-blue-link {
+  justify-content: center;
+  align-content: center;
+  display: flex;
 }
 
 .os__pill-blue i[class="icon__github"] {
