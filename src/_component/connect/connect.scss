@@ -2,7 +2,7 @@
   padding-top: 100%;
   width: 100%;
   position: relative;
-  background-color: #1875F0;
+  background-color: #1875f0;
   border: 0;
   border-radius: 50%;
   color: white;
@@ -10,7 +10,7 @@
   cursor: pointer;
   transition: 250ms;
   display: block;
-  
+
   [class^="icon__"] {
     position: absolute;
     top: 0;
@@ -36,7 +36,7 @@
   border-radius: 8px;
   transform: rotate(-2.5deg);
   margin-bottom: 24px;
-  
+
   &::after {
     content: "";
     background-image: url("asset/image/raluca.jpg");
@@ -91,7 +91,7 @@ label[for="connect__label--reset"] {
   }
 }
 
-.description-box__paragraph { 
+.description-box__paragraph {
   font-size: 14px;
   line-height: 30px;
   color: #707070;
@@ -100,14 +100,14 @@ label[for="connect__label--reset"] {
 
 a[class="pill__blue-primary"] {
   text-decoration: none;
-  
+
   span[class="button__text-primary"] {
-  padding-left: 12px;
+    padding-left: 12px;
   }
 }
 
 .connect__radio:checked + .column .connect__disc-blue {
-  background-color: #D52027;
+  background-color: #d52027;
 }
 
 @for $i from 1 through 10 {

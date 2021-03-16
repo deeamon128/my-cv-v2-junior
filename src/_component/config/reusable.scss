@@ -1,4 +1,4 @@
-%rounder-border-list { 
+%rounder-border-list {
   border: 2px solid #707070;
   width: 95%;
   margin: 0 auto;
@@ -23,7 +23,7 @@
 }
 
 %list-item {
-  border-top :2px solid #707070;
+  border-top: 2px solid #707070;
 }
 
 %pill-blue {
@@ -32,7 +32,7 @@
   border-radius: 20px;
   margin: 20px auto;
   font-size: 10px;
-  background-color: #1875F0;
+  background-color: #1875f0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +43,7 @@
 
 %button-pink {
   cursor: pointer;
-  background-color: #FF006D;
+  background-color: #ff006d;
   height: 40px;
   width: 40px;
   border-bottom-left-radius: 50%;
@@ -74,7 +74,7 @@
   background-color: white;
   margin: 25px 0;
   position: relative;
-  
+
   &::after {
     content: "";
     position: absolute;
@@ -91,7 +91,7 @@
 
 %descriptive-subcolumn {
   grid-row: 2/3;
-  grid-column:2/3 ;
+  grid-column: 2/3;
   display: flex;
   align-items: center;
   font-weight: 500;

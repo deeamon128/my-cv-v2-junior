@@ -14,11 +14,11 @@
   display: grid;
   grid-template-columns: 40px 1fr auto;
   grid-template-rows: 1fr 1fr;
-  
+
   &:first-child {
     border: 0;
   }
-  
+
   .os__stat-icon i[class="icon__codewars"] {
     font-size: 23px;
   }
@@ -27,7 +27,7 @@
 .os__stat-icon {
   padding: 10px;
   grid-column: 1/2;
-  grid-row: 1/3 ;
+  grid-row: 1/3;
 }
 
 .os__stat-description {
@@ -35,7 +35,7 @@
   font-weight: 700;
   color: #707070;
   grid-column: 2/3;
-  grid-row:1/3 ;
+  grid-row: 1/3;
   line-height: 22px;
   padding: 10px;
   padding-left: 0;
@@ -51,31 +51,31 @@
 
 .os__project-stat {
   padding: 0;
-  background-color:white;
+  background-color: white;
   line-height: 10px;
   left: 0;
   right: 0;
   bottom: -1px;
   position: absolute;
-  
+
   span[class$="HTML"] {
-    background-color: #F0E218;
+    background-color: #f0e218;
   }
 
   span[class$="JavaScript"] {
-    background-color: #1875F0;
+    background-color: #1875f0;
   }
 
   span[class$="SCSS"] {
-    background-color: #20D55D;
+    background-color: #20d55d;
   }
 
   span[class$="CSS"] {
-    background-color: #D52027;
+    background-color: #d52027;
   }
-  
+
   span[class$="PUG"] {
-    background-color: #AB1CF2;
+    background-color: #ab1cf2;
   }
 
   span[class^="coloana-"] {
@@ -99,13 +99,12 @@
     display: initial;
   }
 
-  &:checked ~ .os__buttons .close{
+  &:checked ~ .os__buttons .close {
     display: block;
   }
   &:checked ~ .os__buttons .open {
     display: none;
   }
-  
 }
 
 .os__project-item {
@@ -122,7 +121,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .os__info-mandatory,
@@ -192,7 +190,7 @@
 
 .os__pill-blue {
   @extend %pill-blue;
-  text-decoration: none; 
+  text-decoration: none;
   margin: 0 40px;
   width: 230px;
 }
