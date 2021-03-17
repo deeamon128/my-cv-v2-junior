@@ -7,13 +7,15 @@
         "projectName":"My cv v2 Junior",
         "techs":"HTML, CSS, JavaScript, React",
         "imagePath":"asset/image/juniorproject.png",
-        "linkGithub": "https://github.com/RalucaRbc/my-cv-v2-junior"
+        "linkGithub": "https://github.com/RalucaRbc/my-cv-v2-junior",
+        "linkEarth": "https://ralucarbc.github.io/my-cv-v2-junior/"
       },
       {
         "projectName":"My cv v2 Starter",
         "techs":"HTML, CSS, JavaScript, React",
         "imagePath":"asset/image/starterproject.png",
-        "linkGithub": "https://github.com/RalucaRbc/my-cv-v2-starter"
+        "linkGithub": "https://github.com/RalucaRbc/my-cv-v2-starter",
+        "linkEarth": "https://ralucarbc.github.io/my-cv-v2-starter/"
       },
       {
         "projectName":"Quick Blog",

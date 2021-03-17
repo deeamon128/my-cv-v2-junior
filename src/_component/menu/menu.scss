@@ -13,7 +13,7 @@
     display: block;
     padding: 10px 20px 0 10px;
   }
-  
+
   & .menu__close,
   & .menu__link,
   & .menu__link:visited,
@@ -21,13 +21,13 @@
     text-decoration: none;
     color: #808080;
   }
-  
+
   & .menu__close:hover,
   & .menu__link:hover {
     color: white;
     background-color: #ff006d;
   }
-  
+
   & .menu__close {
     display: flex;
     flex-direction: row-reverse;
@@ -45,8 +45,6 @@
   }
 }
 
-
-
 .icon__menu {
   display: initial;
   position: fixed;
@@ -58,7 +56,7 @@
   border-radius: 6px;
 }
 
-#toggle-menu {
+#toggle-menu-mobile {
   display: none;
 
   &:checked + ul.menu__list {
@@ -67,7 +65,7 @@
     position: fixed;
     width: auto;
     height: auto;
-    top:45%;
+    top: 250px;
     right: 10px;
   }
 
@@ -75,5 +73,11 @@
     .icon__menu {
       display: none;
     }
+  }
+}
+
+@media (max-width: 999px) {
+  .desktop {
+    display: none;
   }
 }

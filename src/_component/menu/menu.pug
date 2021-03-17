@@ -1,6 +1,12 @@
 #menu
-.column(span="row")
-  input(id="toggle-menu" type="checkbox")
+.column(span="row" class="desktop")
+  ul.menu__list
+    each item in data.menu.item 
+      li.menu__item
+        a.menu__link(href=`${baseUrl}${item.link}`)=item.title
+
+.column(span="row" class="mobile")
+  input(id="toggle-menu-mobile" type="checkbox")
   ul.menu__list
     each item in data.menu.item 
       li.menu__item
@@ -8,7 +14,7 @@
     li.menu__item
       a.menu__close
         .text Close Menu
-        label(for="toggle-menu") 
+        label(for="toggle-menu-mobile") 
           .icon__cross
-  label(for="toggle-menu") 
+  label(for="toggle-menu-mobile") 
     .icon__menu

@@ -2,42 +2,42 @@
 - var sectionTitle = data.connect.sectionTitle
 include ../section-title/section-title.pug 
 
-.column(span="row")
+.column(span="row" span-tablet="1+4")
   .connect__avatar 
 
-each social, key in data.connect.socialList
-  input.connect__radio(
-    type="radio"
-    name="connect__label"
-    id=`connect__label--${key}`
-  )
-  .column(span="1")
-    label(for=`connect__label--${key}`).connect__disc-blue 
-      i(class=`icon__${social.icon}`)
-
-each social, key in data.connect.socialList
-  .column(span="row" data-description-box=key+1)
-    .description-box__connect
-      .description-box__header
-        .description-box__title=social.title
-        .description-box__cross
-          input.connect__radio(
-            type="radio"
-            name="connect__label"
-            id=`connect__label--reset`
-          )
-          label(for=`connect__label--reset`).connect__disc-blue
-            i(class=`icon__cross`)
-      .description-box__body
-        p.description-box__paragraph=social.description
-      .description-box__footer
-        .column(span="row")
-          a(
-            href=social.link
-            target="_blank"
-          ).pill__blue-primary
-            i.icon__link &nbsp
-            span.button__text-primary=social.label
+.grid__connect
+  each social, key in data.connect.socialList
+    input.connect__radio(
+      type="radio"
+      name="connect__label"
+      id=`connect__label--${key}`
+    )
+    .column(span="1")
+      label(for=`connect__label--${key}`).connect__disc-blue 
+        i(class=`icon__${social.icon}`)
+  each social, key in data.connect.socialList
+    .column(span="row" data-description-box=key+1)
+      .description-box__connect
+        .description-box__header
+          .description-box__title=social.title
+          .description-box__cross
+            input.connect__radio(
+              type="radio"
+              name="connect__label"
+              id=`connect__label--reset`
+            )
+            label(for=`connect__label--reset`).connect__disc-blue
+              i(class=`icon__cross`)
+        .description-box__body
+          p.description-box__paragraph=social.description
+        .description-box__footer
+          .column(span="row")
+            a(
+              href=social.link
+              target="_blank"
+            ).pill__blue-primary
+              i.icon__link &nbsp
+              span.button__text-primary=social.label
 
 .column(span="row")
   a.disc__green(href="/#skills")

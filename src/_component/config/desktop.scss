@@ -1,0 +1,72 @@
+@media (min-width: 1000px) {
+  .content {
+    padding: 0 139px;
+  }
+
+  .section__title-wrapper {
+    &::before {
+      left: -139px;
+      right: -139px;
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px;
+
+    .about-me-content,
+    .skills-content,
+    .experience-content,
+    .os-content,
+    .portfolio-content,
+    .review-content,
+    .recommendation-content,
+    .proud-content {
+      grid-column: 1/10;
+      .column[span="row"] {
+        grid-column: 1/10;
+      }
+    }
+  }
+
+  .connect__avatar {
+    transform: rotate(0deg);
+  }
+
+  .grid__connect {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column: auto / span 5;
+    column-gap: 16px;
+    margin-top: 15px;
+
+    label.connect__disc-blue {
+      font-size: 2.8vw;
+
+      & .icon__codewars {
+        font-size: 4.05vw;
+      }
+    }
+  }
+
+  .grid__review,
+  .grid__recommendation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  ul.menu__list {
+    text-align: right;
+    display: block;
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 185px;
+    right: 130px;
+  }
+
+  .mobile {
+    display: none;
+  }
+}

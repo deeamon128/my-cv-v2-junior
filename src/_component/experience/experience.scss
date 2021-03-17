@@ -10,14 +10,14 @@
   grid-template-columns: auto 1fr auto;
 
   &:first-child {
-  border: 0;
+    border: 0;
   }
 }
 
 .experience__icon {
   grid-column: 1/2;
   grid-row: 1/3;
-  
+
   .imagine {
     width: 60px;
     height: 60px;

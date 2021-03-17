@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-body { 
-  font-family: 'Roboto', sans-serif;
-  background-color: #F5F5F5;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
   overflow: hidden;
 }
 
@@ -23,6 +23,28 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+
+.grid__connect,
+.grid__portfolio,
+.grid__recommendation,
+.grid__review {
+  display: contents;
+}
+
+.about-me-content,
+.skills-content,
+.experience-content,
+.os-content,
+.portfolio-content,
+.review-content,
+.recommendation-content,
+.proud-content {
+  display: contents;
+}
+
+.column[span="1"] {
+  grid-column: auto / span 1;
 }
 
 .column[span="row"] {

@@ -2,35 +2,36 @@
 - var sectionTitle = data.skills.sectionTitle
 include ../section-title/section-title.pug
 
-.column.skill__counter-start(span="row")
-  each category, key in data.skills.categoryList
-    h3.skill__category=category.category
-    each set in category.skillList
-      if set.icon=="heart" 
-        each skill in set.skills
-          button.skill__heart=skill
-      if set.icon=="trophy" 
-        each skill in set.skills
-          button.skill__trophy=skill
-      if set.icon=="bell" 
-        each skill in set.skills
-          button.skill__bell=skill
+.skills-content
+  .column.skill__counter-start(span="row")
+    each category, key in data.skills.categoryList
+      h3.skill__category=category.category
+      each set in category.skillList
+        if set.icon=="heart" 
+          each skill in set.skills
+            button.skill__heart=skill
+        if set.icon=="trophy" 
+          each skill in set.skills
+            button.skill__trophy=skill
+        if set.icon=="bell" 
+          each skill in set.skills
+            button.skill__bell=skill
 
-.column(span="row")
-  h3.skills__legend-title=data.skills.sectionSubtitle 
-.column(span="row")
-  ul.skills__legend-list
-    each skill in data.skills.skillsLegendList
-      li.skill__legend-item
-        span.skill__icon
-          i(class=`icon__${skill.icon}`) 
-        span.skill__name=skill.skill  
-        span.skill__number 
-          i(class=`number__${skill.icon}`)
+  .column(span="row")
+    h3.skills__legend-title=data.skills.sectionSubtitle 
+  .column(span="row")
+    ul.skills__legend-list
+      each skill in data.skills.skillsLegendList
+        li.skill__legend-item
+          span.skill__icon
+            i(class=`icon__${skill.icon}`) 
+          span.skill__name=skill.skill  
+          span.skill__number 
+            i(class=`number__${skill.icon}`)
 
-.column(span="row")
-  .description-box__skills 
-    p.description=data.skills.description
+  .column(span="row")
+    .description-box__skills 
+      p.description=data.skills.description
 
 .column(span="row")
   a.disc__green(href="/#experience")
