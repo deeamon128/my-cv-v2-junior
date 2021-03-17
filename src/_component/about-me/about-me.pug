@@ -1,7 +1,7 @@
 //- pre=JSON.stringify(data['about-me'], null, 2)
-- var sectionTitle = data['about-me'].sectionTitle
-//- - var firstTitle = data['about-me'].firstTitle 
+- var sectionTitle = data['about-me'].sectionTitle;
 include ../section-title/section-title
+
 .column(span="row")
     h1.about-me__first-title=data['about-me'].firstTitle 
 .column(span="row")
@@ -13,6 +13,7 @@ include ../section-title/section-title
     .description-box__with-shadow 
         each description in data['about-me'].descriptionList
             p.description=description
+            
 .column(span="row" height="10")
 .column(span="row")
     button.button__push--me 
