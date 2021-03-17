@@ -3,16 +3,17 @@ include ../section-title/section-title.pug
 
 .column(span="row")
   .about-me__more-title=data.proud.proud
+.column(span="row")
+.column(span="row")
   .box__reviews
     each item in data.proud.proudList
       ul
         .box__text
           li.lista
-            .date=item.date
-            .award=item.award
-            .location=item.location
-
-.column(span="row" height="10")
+            .texte
+              .date=item.date
+              .award=item.award
+              .location=item.location
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--green
