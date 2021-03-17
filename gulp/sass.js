@@ -56,10 +56,10 @@ const sass = ({
           path.join(dir.source, dir.component)
         ]
       }))
-      .pipe(plugins.notify({
-        title: 'Pug Starter - CodeTap',
-        message: 'Converting (sass|scss) into beautiful CSS'
-      }))
+      // .pipe(plugins.notify({
+      //   title: 'Pug Starter - CodeTap',
+      //   message: 'Converting (sass|scss) into beautiful CSS'
+      // }))
       .on('error', function(error) {
         plugins.sass.logError;
         browserSync.notify(printError(error), 25000);
