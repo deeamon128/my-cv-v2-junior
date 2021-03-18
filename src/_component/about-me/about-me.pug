@@ -1,11 +1,6 @@
-.column(span="row")
-  .section__title-wrapper
-    .section-title=data['about-me'].sectionTitle
-.column(span="row" height='10px')
-.column(span="row")
-  button.button__disc--red
-    i.icon__youtube 
-.column(span="row" height='10px')
+- var sectionTitle = data['about-me'].sectionTitle;
+include ../section-title/section-title
+
 .column(span="row")
   h1.about-me__name=data['about-me'].name
 .column(span="row")
@@ -27,3 +22,5 @@
   button.button__disc--purple
     i.icon__arrow-down
 .column(span="row" height='10px')
+
+

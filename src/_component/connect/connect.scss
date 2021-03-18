@@ -1,0 +1,16 @@
+.connect__avatar {
+  padding-top: 100%;
+  background-color:#3FD5BE;
+  position: relative;
+
+  &::after {
+    content: '';
+    background-image: url('asset/image/ada-avatar.jpeg');
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+  }
+}
