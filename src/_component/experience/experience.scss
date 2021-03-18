@@ -3,9 +3,12 @@
 }
 
 .experience__item {
-    @extend %list-item;
     display: grid;
     grid-template-columns: auto 1fr auto;
+    
+    &:not(last-child) {
+        @extend %list-item;
+    }
 }
 
 .experience__chevron {
@@ -29,6 +32,9 @@
 
 .experience__body {
     grid-column: 1/-1;
+    padding: 20px;
+    display: none;
+    border-top: 2px solid #707070;
 }
 
 .experience__logo-image {
@@ -41,6 +47,19 @@
     font-weight: bold;
     
 }
+
+.experience__checkbox {
+    display: none;
+
+    &:checked ~ .experience__body {
+      display: block;
+    }
+
+    &:checked ~ .experience__chevron .icon__arrow-up {
+      transform: rotate(0);
+    }
+}
+
 .experience__job-title,
 .experience__company-name {
     line-height: 20px;    
@@ -61,8 +80,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     .icon__arrow-up {
         transform: rotate(180deg);
     }
+}
+
+.experience__date {
+    font-style: italic;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.experience__more-info {
+    font-weight: 500;
+    font-size: 14px;
 }
