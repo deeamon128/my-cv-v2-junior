@@ -1,2 +1,12 @@
-.burger 
-  i.icon__menu 
+input(id="burger" type="checkbox")
+ul.menu__list 
+  li.menu__item
+    a(href="#welcome")="Welcome"
+  li.menu__item
+    a(href="#connect")="Connect"
+  li.menu__item
+    a.menu__close
+      label(for="burger")
+        .icon__cross
+label(for="burger")
+  .icon__menu
