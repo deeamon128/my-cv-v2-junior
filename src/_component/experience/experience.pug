@@ -7,9 +7,13 @@ include ../section-title/section-title
     each job in data.experience.jobList
       li.experience__item 
         .experience__logo
-          img(src=`${baseUrl}asset/image/company-logo/${job.iconPath}`)
+          img.experience__logo-image(
+            src=`${baseUrl}asset/image/company-logo/${job.iconPath}`
+            width="50"
+          )
         .experience__job-title=job.jobTitle
-        .experience__chevron xxxx
+        .experience__chevron 
+          .icon__arrow-up
         .experience__company-name=job.companyName
         .experience__body 
           .experience__date=`${job.startDate} - ${job.endDate}`
