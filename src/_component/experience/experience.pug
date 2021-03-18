@@ -1,0 +1,13 @@
+- var sectionTitle = data.experience.sectionTitle;
+include ../section-title/section-title
+
+.column(span="row" height="10")
+.column(span="row")
+  ul.experience__list
+    each job in data.experience.jobList
+      li=job.jobTitle
+.column(span="row" height="10")
+.column(span="row")
+    button.button__disc--green 
+      i.icon__arrow-down 
+.column(span="row" height="10")
