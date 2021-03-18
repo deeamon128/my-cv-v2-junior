@@ -1,0 +1,29 @@
+{
+    "sectionTitle": "Experience",
+    "jobList": [
+        {
+            "jobTitle": "Junior Web Developer",
+            "startDate": "2021 February",
+            "endDate": " to Present",
+            "iconPath": "bitbee.png",
+            "companyName": "BitBee Limited",
+            "moreInfoList": [
+                "Write well designed, testable, efficient code by using best software development practices.",
+                "Create website layout/user interface by using standard HTML/CSS practices.",
+                "Gather and refine specifications and requirements based on technical needs."
+            ]
+        },
+        {
+            "jobTitle": "Private Hire Driver",
+            "startDate": "2018 December",
+            "endDate": "to Present",
+            "iconPath": "uber.png",
+            "companyName": "Uber",
+            "moreInfoList": [
+                "Picking up clients and delivering them to their destinations.",
+                "Planning routes and alternative routes using local road maps.",
+                "Communicating with customers.",
+                "Kind and patient with every kind of passenger."            ]
+        }
+    ]
+}
