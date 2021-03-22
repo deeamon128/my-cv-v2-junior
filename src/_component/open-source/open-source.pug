@@ -26,7 +26,9 @@ include ../sectiunea-titlu/sectiunea-titlu
       .proiecte__git-displayed
         .proiecte__git-proiect=project.proiect
         .proiecte__git-limbaj=project.limbaj
-        .proiecte__git-color-bar=project.bar
+        .proiecte__git-color-bar
+           each culoare in project.colorBar
+             span(class=`linie-${culoare.color}` style=`width: ${culoare.percent}%; background-color: ${culoare.color};`)
         .proiecte__git-detailat
           .proiecte__git-percentage
             ul.proiecte__git-percentList
@@ -43,12 +45,6 @@ include ../sectiunea-titlu/sectiunea-titlu
             .proiecte__git-link 
               span.icon__github 
               span.project-link=project.gitLink 
-          .proiecte__git-color-wrapper 
-            each bar in project.colorBar 
-              .proiecte__git-color-bar(
-                class=`${bar.color}`
-                style=`width:${bar.percent}`
-              )
         .git__roz-icons
           label(for=`git__roz-icons-${key}`).container-roz
             i.icon__info 

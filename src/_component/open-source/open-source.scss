@@ -117,49 +117,49 @@
   font-style: italic;
 }
 
-.proiecte__git-color-wrapper {
-  display: flex;
-}
-
 .proiecte__git-color-bar {
-  display: inline-block;
+  span[class^="linie-"] {
+    display: inline-block;
+    height: 10px;
+    margin: -4px 0;
+  }
 
-    // am creat bara de procentaj a tehnologiilor in care au fost realizate proiectele
-    .html-rosu {
-      font-size: 1px;
-      height: 5px;
-      color: red;
-      background-color: red;
-    }
+// am creat bara de procentaj a tehnologiilor in care au fost realizate proiectele
+//     .html-rosu {
+//       font-size: 1px;
+//       height: 5px;
+//       color: red;
+//       background-color: red;
+//     }
 
-    .css-mov {
-      font-size: 1px;
-      height: 5px;
-      color: purple;
-      background-color: purple;
-    }
+//     .css-mov {
+//       font-size: 1px;
+//       height: 5px;
+//       color: purple;
+//       background-color: purple;
+//     }
 
-    .js-galben {
-      font-size: 1px;
-      height: 5px;
-      color: yellow;
-      background-color: yellow;
-    }
+//     .js-galben {
+//       font-size: 1px;
+//       height: 5px;
+//       color: yellow;
+//       background-color: yellow;
+//     }
 
-    .pug-maro {
-      font-size: 1px;
-      height: 5px;
-      color: #4d3c26;
-      background-color: #4d3c26;
-    }
+//     .pug-maro {
+//       font-size: 1px;
+//       height: 5px;
+//       color: #4d3c26;
+//       background-color: #4d3c26;
+//     }
 
-    .scss-roz {
-      font-size: 1px;
-      height: 5px;
-      color: #ff006d;
-      background-color: #ff006d;
-    }
-}
+//     .scss-roz {
+//       font-size: 1px;
+//       height: 5px;
+//       color: #ff006d;
+//       background-color: #ff006d;
+//     }
+// }
 
 
 // se apeleaza reusable.scss din folderul config
