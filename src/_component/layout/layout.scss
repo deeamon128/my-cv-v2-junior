@@ -26,6 +26,10 @@ body {
   height: 10px; //aici setez o coloana cu inaltimea de 10 pixeli
 }
 
+.column[height="20"] {
+  height: 20px; //aici setez o coloana cu inaltimea de 20 pixeli
+}
+
 .content {
   padding: 0 36px; //continutul are o margine de 0 pixeli deasupra si dedesubt si 36 de pixeli in dreapta si stanga
 }

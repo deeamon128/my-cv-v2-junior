@@ -13,6 +13,63 @@ include ../sectiunea-titlu/sectiunea-titlu
         span.stats__content
           each content in stats.content
             span.stats__content-item=content
+.column(span="row" height="10")
 .column(span="row")
+  h3.despre-mine__subtitlu=data['open-source'].titluGit
+  .column(span="row").proiecte__git
+    each project, key in data[`open-source`].listaGit
+      input.git__checkbox(
+        type="checkbox"
+        name="git__roz-icons"
+        id= `git__roz-icons-${key}`
+      )
+      .proiecte__git-displayed
+        .proiecte__git-proiect=project.proiect
+        .proiecte__git-limbaj=project.limbaj
+        .proiecte__git-color-bar=project.bar
+        .proiecte__git-detailat
+          .proiecte__git-percentage
+            ul.proiecte__git-percentList
+              each percent in project.percentage
+                li=percent
+          .proiecte__git-commit
+            ul.proiecte__git-commitList
+              each commit in project.commitStarFork
+                li 
+                  i(class=`icon__${commit.icon}`)
+                  span.commit-text=commit.text 
+          .proiecte__git-description=project.gitDescription
+          .proiecte__git-link-wrapper
+            .proiecte__git-link 
+              span.icon__github 
+              span.project-link=project.gitLink 
+          .proiecte__git-color-wrapper 
+            each bar in project.colorBar 
+              .proiecte__git-color-bar(
+                class=`${bar.color}`
+                style=`width:${bar.percent}`
+              )
+        .git__roz-icons
+          label(for=`git__roz-icons-${key}`).container-roz
+            i.icon__info 
+            i.icon__cross
+          each pink, key in data['open-source'].containerRoz
+            .container-roz 
+              i(class=`icon__${pink}`)
+
+
+
+
+.column(span="row" height="10")
 .column(span="row" height="10")
 
+
+
+
+
+
+
+.column(span="row")
+  .button.buton__disc-verde
+    i.icon__arrow-down
+.column(span="row" height="10")

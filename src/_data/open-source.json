@@ -25,5 +25,121 @@
         "Answer: 102"
       ]
     }
+  ],
+"titluGit": "GitHub projects",
+"listaGit": [ 
+  {
+    "proiect": "My CV v2 Starter",
+    "limbaj": "HTML, CSS, Git",
+    "colorBar": [
+      {
+        "color": "html-rosu",
+        "percent": "100%"
+      }
+    ],
+    "percentage": [
+      "HTML 100%"
+    ],
+    "commitStarFork": [
+      {
+        "icon": "commits",
+        "text": "Commits: 13"
+      },
+      {
+        "icon": "stars",
+        "text": "Stars: 0"
+      },
+      {
+        "icon": "forks",
+        "text": "Forks: 23"
+      }
+    ],
+    "gitDescription": "Welcome to version of the project My CV. This Cv is a starter version which means is realized in HTML and CSS at basic level of coding.",
+    "gitLink": "Constantin-Matei/my-cv-v2-starter"
+  },
+  {
+    "proiect": "CodeTap Academy",
+    "limbaj": "HTML, CSS, Git, JavaScript",
+    "colorBar": [
+      {
+        "color":"html-rosu",
+        "percent":"49%"
+      },
+      {
+        "color": "js-galben",
+        "percent": "20%"
+      },
+      {
+        "color": "css-mov",
+        "percent": "31%"
+      }
+    ],
+    "percentage": [
+      "HTML 49%",
+      "CSS 31%",
+      "JavaScript 31%"
+    ],
+    "commitStarFork": [
+      {
+        "icon": "commits",
+        "text": "Commits: 33"
+      },
+      {
+        "icon": "stars",
+        "text": "Stars: 3"
+      },
+      {
+        "icon": "forks",
+        "text": "Forks: 43"
+      }
+    ],
+    "gitDescription": "Welcome to version of the project My CV. This Cv is a starter version which means is realized in HTML and CSS at basic level of coding.",
+    "gitLink": "Constantin-Matei/my-cv-v2-starter"
+  },
+  {
+    "proiect": "PUG Starter",
+    "limbaj": "HTML, CSS, Git, JavaScript",
+    "colorBar": [
+      {
+        "color":"html-rosu",
+        "percent":"49%"
+      },
+      {
+        "color": "js-galben",
+        "percent": "49%"
+      },
+      {
+        "color": "css-mov",
+        "percent": "2%"
+      }
+    ],
+    "percentage": [
+      "HTML 49%",
+      "CSS 49%",
+      "JavaScript 2%"
+    ],
+    "commitStarFork": [
+      {
+        "icon": "commits",
+        "text": "Commits: 50"
+      },
+      {
+        "icon": "stars",
+        "text": "Stars: 5"
+      },
+      {
+        "icon": "forks",
+        "text": "Forks: 63"
+      }
+    ],
+    "gitDescription": "Welcome to version of the project My CV. This Cv is a starter version which means is realized in HTML and CSS at basic level of coding.",
+    "gitLink": "Constantin-Matei/my-cv-v2-starter"
+  }
+],
+"containerRoz":
+  [
+    "github",
+    "youtube"
   ]
 }
+
