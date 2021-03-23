@@ -27,11 +27,11 @@
 #burger {
   display: none;
 
-  &:checked+ul.menu__list {
+  &:checked + ul.menu__list {
     display: block;
   }
 
-  &:checked+ul.menu__list+label {
+  &:checked + ul.menu__list + label {
     .icon__menu {
       display: none;
     }
