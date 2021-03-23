@@ -1,0 +1,12 @@
+.column(span="row").meniu
+  input(id="burger" type="checkbox")
+  ul.menu__list 
+    each section in data.burger.section
+      li.menu__item
+        a.menu__link(href=`${baseUrl}${section.link}`)=section.title
+    li.menu__item
+      a.menu__close
+        label(for="burger")
+          .icon__cross
+  label(for="burger")
+    .icon__menu
