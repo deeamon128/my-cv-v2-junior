@@ -8,7 +8,7 @@
 }
 
 .proiecte__git-link {
-  background-color: #1875F0;
+  background-color: #1875f0;
   border-radius: 30px;
   color: #fff;
   font-size: 10px;
@@ -44,17 +44,25 @@
   list-style-type: none;
 }
 
+.proiecte__git-detailat {
+  display: none;
+}
+
 .git__checkbox {
   display: none;
 
-  .git__checkbox:checked ~ .git__roz-icons {
-    & .icon__info {
+  &:checked + .proiecte__git-displayed .git__roz-icons {
+    &.icon__info {
       display: none;
     }
 
-    & .icon__cross {
+    &.icon__cross {
       display: block;
     }
+  }
+
+  &:checked + .proiecte__git-displayed .proiecte__git-detailat {
+    display: block;
   }
 }
 
@@ -67,17 +75,13 @@
   display: none;
 }
 
-.proiecte__git-detailat {
-  display: none;
-}
-
 .proiecte__git-percentList {
   list-style-type: none;
   font-size: 14px;
   color: #707070;
 
   & li::before {
-    content: "...";
+    content: ".";
     font-size: 25px;
     color: red;
     margin-right: 5px;
@@ -92,7 +96,7 @@
   color: white;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  background-color: #FF006D;
+  background-color: #ff006d;
   width: 40px;
   height: 40px;
 }
@@ -123,43 +127,7 @@
     height: 10px;
     margin: -4px 0;
   }
-
-// am creat bara de procentaj a tehnologiilor in care au fost realizate proiectele
-//     .html-rosu {
-//       font-size: 1px;
-//       height: 5px;
-//       color: red;
-//       background-color: red;
-//     }
-
-//     .css-mov {
-//       font-size: 1px;
-//       height: 5px;
-//       color: purple;
-//       background-color: purple;
-//     }
-
-//     .js-galben {
-//       font-size: 1px;
-//       height: 5px;
-//       color: yellow;
-//       background-color: yellow;
-//     }
-
-//     .pug-maro {
-//       font-size: 1px;
-//       height: 5px;
-//       color: #4d3c26;
-//       background-color: #4d3c26;
-//     }
-
-//     .scss-roz {
-//       font-size: 1px;
-//       height: 5px;
-//       color: #ff006d;
-//       background-color: #ff006d;
-//     }
-// }
+}
 
 
 // se apeleaza reusable.scss din folderul config

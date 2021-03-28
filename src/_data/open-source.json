@@ -63,15 +63,15 @@
     "colorBar": [
       {
         "color":"red",
-        "percent":"49"
+        "percent":"44"
       },
       {
         "color": "yellow",
-        "percent": "20"
+        "percent": "44"
       },
       {
         "color": "purple",
-        "percent": "31"
+        "percent": "12"
       }
     ],
     "percentage": [
@@ -102,15 +102,15 @@
     "colorBar": [
       {
         "color":"red",
-        "percent":"49"
+        "percent":"42"
       },
       {
         "color": "yellow",
-        "percent": "49"
+        "percent": "38"
       },
       {
         "color": "purple",
-        "percent": "2"
+        "percent": "20"
       }
     ],
     "percentage": [
