@@ -56,39 +56,36 @@
 .menu-wrap .menu > ul {
   border: 2px solid #707070;
   background: white;
-  display: flex;
-  flex: none;
-  align-items: center;
-  justify-content: center;
   border-radius: 6px;
   position: fixed;
   right: 19px;
   bottom: 50px;
-  position: absolute;
-  z-index: 99;
+  width: 205px;
+  height: 405px;
 }
 
-.box > a {
-  list-style: none;
+li {
+  list-style-type: none;
+}
+a {
+  line-height: 40px;
+  padding-right: 10px;
   color: #808080;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   display: block;
   text-align: right;
-  padding: 10px 15px 0 30px;
   &:hover {
     background: #ff006d;
   }
 }
 
-li {
-  list-style-type: none;
-  text-align: right;
-  line-height: 30px;
+.icon__cross:before {
+  margin-right: 60px;
+  font-size: 20px;
+  color: black;
 }
 
-.icon__cross:before {
-  padding-right: 35px;
-  margin-bottom: 20px;
-  font-size: 23px;
+.close {
+  display: flex;
 }
