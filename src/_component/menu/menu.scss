@@ -80,12 +80,19 @@ a {
   }
 }
 
-.icon__cross:before {
-  margin-right: 60px;
-  font-size: 20px;
+.x:before {
+  padding-right: 54px;
+  font-size: 30px;
   color: black;
+  // margin: 0;
+}
+.x {
+  margin-top: 5px;
 }
 
 .close {
   display: flex;
+  &:hover {
+    background: #ff006d;
+  }
 }
