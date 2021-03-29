@@ -1,0 +1,19 @@
+#proud
+
+- var sectionTitle = data.proud.sectionTitle
+include ../section-title/section-title.pug 
+
+.column(span="row" height="10")
+  .proud__header=data.proud.header
+  .proud__box
+    each item in data.proud.text
+      .proud__item
+        .proud__title=item.awardsTitle 
+        .proud__description=item.awardsDescription
+
+//- green arrow down
+.column(span="row" )        
+    button.disc-green     
+        i.icon__arrow-down 
+        span.button-text 
+.column(span="row" height="10")
