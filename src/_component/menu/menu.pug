@@ -1,11 +1,11 @@
 .menu-wrap
-  input.toggler(type='checkbox' id="toggler")
+  input.toggler(type="checkbox" id="toggler")
   i.icon__menu
   .menu 
     ul
       each item in data.burger.item 
         li
-          a(href=`${item.link}`)=item.title
+          a(href=${item.link})=item.title
       label(for="toggler") 
         .close
           i(class="icon__cross").x 
