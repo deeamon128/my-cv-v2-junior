@@ -58,7 +58,7 @@
     "gitLink": "Constantin-Matei/my-cv-v2-starter"
   },
   {
-    "proiect": "CodeTap Academy",
+    "proiect": "Fun Retrospective",
     "limbaj": "HTML, CSS, Git, JavaScript",
     "colorBar": [
       {
@@ -93,8 +93,8 @@
         "text": "Forks: 43"
       }
     ],
-    "gitDescription": "Welcome to version of the project My CV. This Cv is a starter version which means is realized in HTML and CSS at basic level of coding.",
-    "gitLink": "Constantin-Matei/my-cv-v2-starter"
+    "gitDescription": "Aici pun eu ce text vreau ca asa vreau eu si nu fac ce vrei tu de fan, nah.",
+    "gitLink": "Constantin-Matei/fun-retrospective"
   },
   {
     "proiect": "PUG Starter",
@@ -132,8 +132,8 @@
         "text": "Forks: 63"
       }
     ],
-    "gitDescription": "Welcome to version of the project My CV. This Cv is a starter version which means is realized in HTML and CSS at basic level of coding.",
-    "gitLink": "Constantin-Matei/my-cv-v2-starter"
+    "gitDescription": "A project made in PUG starter. This template engine helps to write html much easier and faster.",
+    "gitLink": "Constantin-Matei/mega-menu"
   }
 ],
 "containerRoz":
