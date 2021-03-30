@@ -9,9 +9,7 @@ iframe {
 .popup {
   position: fixed;
   z-index: 1;
-  background: rgba(0,0,0,0.7);
   top: 50px;
-  
 }
 
 .youtube {
@@ -19,10 +17,11 @@ iframe {
   transition: 0.5s ease-out;
   flex-direction: column;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
   height: 100%;
-  z-index: 3;
+  z-index: 1;
+  transform: translate(-50%,-50%) scale();
 }
 
 .content__buton {
@@ -36,7 +35,7 @@ iframe {
 
 .youtube__checkbox {
   display: none;
-
+  
   &:checked {
     ~.youtube {
       display: flex;
@@ -49,7 +48,7 @@ iframe {
 .buton__inchis {
   position: fixed;
   top: 20px;
-  right: 3px;
+  right: 36px;
   font-size: 20px;
   border: 2px solid #1875f0;
   padding: 5px;
@@ -58,11 +57,11 @@ iframe {
   color: white;
 }
 
-// .popup.active .overlay {
-//   display: block;
-// }
+.popup.active .overlay {
+  display: block;
+}
 
-// .popup.active .content__buton {
-//   transform: all 300ms ease-in-out;
-//   transform: translate(-50%,-50%) scale(1);
-// }
+.popup.active .content__buton {
+  transform: all 300ms ease-in-out;
+  transform: translate(-50%,-50%) scale(1);
+}
