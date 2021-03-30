@@ -1,0 +1,71 @@
+- var sectionTitle = data['open-source'].sectionTitle
+//- pentru a scrie cod JavaScript in pug folosim semnul -, daca dorim sa scriem mai multe linii de cod JavaScript dupa - dam enter si indentam cu un tab
+include ../sectiunea-titlu/sectiunea-titlu 
+//- am importat fisierul sectiunea-titlu.pug din folderul _component care contine folderul sectiunea-titlu
+.column(span="row")
+  h3.despre-mine__subtitlu=data['open-source'].subtitlu
+.column(span="row")
+.column(span="row")
+  ul.stats__list
+    each stats in data['open-source'].listaStats
+      li.stats__item
+        span.stats__icon(class=`icon__${stats.icon}`)
+        span.stats__content
+          each content in stats.content
+            span.stats__content-item=content
+.column(span="row" height="10")
+.column(span="row")
+  h3.despre-mine__subtitlu=data['open-source'].titluGit
+  .column(span="row").proiecte__git
+    each project, key in data[`open-source`].listaGit
+      input.git__checkbox(
+        type="checkbox"
+        name="git__roz-icons"
+        id= `git__roz-icons-${key}`
+      )
+      .proiecte__git-displayed
+        .proiecte__git-proiect=project.proiect
+        .proiecte__git-limbaj=project.limbaj
+        .proiecte__git-detailat
+          .proiecte__git-percentage
+            ul.proiecte__git-percentList
+              each percent in project.percentage
+                li=percent
+          .proiecte__git-commit
+            ul.proiecte__git-commitList
+              each commit in project.commitStarFork
+                li 
+                  i(class=`icon__${commit.icon}`)
+                  span.commit-text=commit.text 
+          .proiecte__git-description=project.gitDescription
+          .proiecte__git-link-wrapper
+            .proiecte__git-link 
+              span.icon__github 
+              span.project-link=project.gitLink
+        .proiecte__git-color-bar
+           each culoare in project.colorBar
+             span(class=`linie-${culoare.color}` style=`width: ${culoare.percent}%; background-color: ${culoare.color};`)
+        .git__roz-icons
+          label(for=`git__roz-icons-${key}`).container-roz
+            i.icon__info 
+            i.icon__cross
+          each pink, key in data['open-source'].containerRoz
+            .container-roz 
+              i(class=`icon__${pink}`)
+
+
+
+
+.column(span="row" height="10")
+.column(span="row" height="10")
+
+
+
+
+
+
+
+.column(span="row")
+  .button.buton__disc-verde
+    i.icon__arrow-down
+.column(span="row" height="10")

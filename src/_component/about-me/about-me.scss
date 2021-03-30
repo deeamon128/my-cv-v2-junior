@@ -56,10 +56,11 @@
   border: 0; // am setat ca butonul sa nu aiba chenar
   border-radius: 20px; // marginile butonului sunt rotunjite cu o margine de 20 de pixeli
   padding: 0 24px; // am setat marginea elementului 0 pixeli sus jos si 24 pixeli stanga dreapta
-  display: inline-flex; // am setat un tip de afisare
+  display: flex; // am setat un tip de afisare
   font-size: 10px; // marimea fontului e de 10 pixeli
   font-weight: bolder; // am setat ca fontul sa fie ingrosat
   align-items: center; // am aliniat central continutul
+  justify-items: center; // am centrat continutul
   background-color: #1875F0; // am setat culoarea pastilutei
 }
 

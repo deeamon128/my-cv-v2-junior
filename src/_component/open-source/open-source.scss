@@ -1,0 +1,172 @@
+.proiecte__git-link-wrapper {
+  // @extend %top-bottom-border;
+  padding: 20px;
+
+  & .project-link {
+    margin-left: 10px;
+  }
+}
+
+.proiecte__git-link {
+  background-color: #1875f0;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 12px 20px 13px 40px;
+
+  & .icon__github {
+    font-size: 16px;
+  }
+}
+
+.proiecte__git-description {
+  // @extend %top-bottom-border;
+  color: #707070;
+  font-size: 14px;
+  padding: 10px;
+  line-height: 30px;
+  justify-content: center;
+  border-bottom: 1px solid #707070;
+}
+
+.proiecte__git-commit {
+  // @extend %top-bottom-border;
+  color: #707070;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-bottom: 1px solid #707070;
+
+  .commit-text {
+    margin-left: 5px;
+  }
+}
+
+.proiecte__git-commitList {
+  list-style-type: none;
+}
+
+.proiecte__git-detailat {
+  display: none;
+}
+
+.git__checkbox {
+  display: none;
+
+  &:checked + .proiecte__git-displayed .git__roz-icons {
+    &.icon__info {
+      display: none;
+    }
+
+    &.icon__cross {
+      display: block;
+    }
+  }
+
+  &:checked + .proiecte__git-displayed .proiecte__git-detailat {
+    display: block;
+  }
+}
+
+.proiecte__git-percentage {
+  // @extend %top-bottom-border;
+  padding: 10px;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.icon__cross {
+  display: none;
+}
+
+.proiecte__git-percentList {
+  list-style-type: none;
+  font-size: 14px;
+  color: #707070;
+
+  & li::before {
+    content: ".";
+    font-size: 25px;
+    color: red;
+    margin-right: 5px;
+  }
+}
+
+.container-roz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  color: white;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #ff006d;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5px;
+}
+
+.proiecte__git-displayed {
+  @extend %rounder-border-list;
+}
+
+.proiecte__git-proiect {
+  font-size: 15px;
+  font-weight: bold;
+  color: #808080;
+  line-height: 20px;
+  margin: 10px;
+}
+
+.proiecte__git-limbaj {
+  font-size: 12px;
+  margin: 10px;
+  line-height: 20px;
+  color: #707070;
+  font-style: italic;
+}
+
+.proiecte__git-color-bar {
+  span[class^="linie-"] {
+    display: inline-block;
+    height: 10px;
+    margin: -4px 0;
+  }
+}
+
+
+// se apeleaza reusable.scss din folderul config
+.stats__list {
+  @extend %rounder-border-list;
+}
+
+// aliniem iconitele cu continutul
+.stats__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    @extend %list-item;
+  }
+}
+
+// punem margini de 10 pixeli iconitelor
+.stats__icon {
+  margin: 10px;
+}
+
+// stilizam continutul din stats
+.stats__content {
+  display: flex;
+  flex-direction: column;
+  color: #707070;
+  font-size: 13px;
+  line-height: 22px;
+}
