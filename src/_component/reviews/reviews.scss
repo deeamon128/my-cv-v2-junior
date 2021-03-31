@@ -11,15 +11,8 @@
 }
 
 .data {
-  grid-row: 2/3;
-  grid-column: 2/3;
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 12px;
+  @extend %career__data;
   color: rgb(66, 135, 245);
-  padding-bottom: 15px;
-  margin-left: -75px;
 }
 
 .box__header {
