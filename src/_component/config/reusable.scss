@@ -8,3 +8,17 @@
 %list-item {
   border-bottom: 2px solid #707070;
 }
+
+%container-roz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  color: white;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #ff006d;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5px;
+}
