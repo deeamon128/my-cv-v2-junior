@@ -1,9 +1,24 @@
 %rounder-border-list {
   border-radius: 6px;
   border: 2px solid #707070;
-  list-style-type: none;
+  list-style-type: none; //scoaterea bumbilor
+  margin-bottom: 50px; //spatiere intre casete
 }
 
 %list-item {
   border-bottom: 2px solid #707070;
+}
+
+%container-roz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  color: white;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #ff006d;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5px;
 }

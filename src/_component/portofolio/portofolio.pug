@@ -1,0 +1,49 @@
+- var sectionTitle = data.portofolio.sectionTitle
+include ../sectiunea-titlu/sectiunea-titlu 
+
+.column(span="row")
+  .recente=data.portofolio.recente.titlu
+.column(span="row" height="10")
+.column(span="row")
+  each proiecteRecente in data.portofolio.recente.proiecteRecente
+    .proiect-recent
+      .proiecte__recente-text
+        .proiecte__recente-nume= proiecteRecente.numeProiect
+        .proiecte__recente-tehnologii= proiecteRecente.tehnologii
+      .proiecte__recente-imagine-wrapper
+        img.proiecte__recente-imagine(
+          src=`${proiecteRecente.locatieImagine}`
+          alt="masha invata"
+        )
+      .container-roz
+        a(
+          target="_blank"
+          href=`${proiecteRecente.link}`
+        )
+          i.icon__github
+      .container-roz
+        a(
+          target="_blank"
+          href=`https://www.google.com`
+        )
+          i.icon__earth
+.column(span="row" height="10")
+.column(span="row")
+  .vechi=data.portofolio.vechi.titlu
+.column(span="row" height="10")
+.column(span="row")
+  each proiecteVechi in data.portofolio.vechi.proiecteVechi 
+    .proiecte-vechi
+      .proiecte__vechi-text
+        .proiecte__vechi-nume= proiecteVechi.numeProiect
+        .proiecte__vechi-tehnologii= proiecteVechi.tehnologii
+      .proiecte__vechi-imagine-wrapper
+        img.proiecte__vechi-imagine(
+        src=`${proiecteVechi.locatieImagine}`
+        alt="masha invata"
+      )
+  .button.buton__disc-verde
+    i.icon__arrow-down
+.column(span="row" height="10")
+
+

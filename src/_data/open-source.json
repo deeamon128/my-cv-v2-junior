@@ -1,0 +1,145 @@
+{
+  "sectionTitle": "Open source",
+  "subtitlu": "Stats",
+  "listaStats": [
+    {
+      "icon": "github",
+      "content": [
+        "Contributions last year: 25",
+        "Longest streak: 767"
+      ]
+    },
+    {
+      "icon": "codewars",
+      "content": [
+        "Rank: 4kyu",
+        "Honor: 630"
+      ]
+    },
+    {
+      "icon": "stackoverflow",
+      "content": [
+        "Top: 5%",
+        "Reputation: 7,367",
+        "People reached: ~ 3,000,000",
+        "Answer: 102"
+      ]
+    }
+  ],
+"titluGit": "GitHub projects",
+"listaGit": [ 
+  {
+    "proiect": "My CV v2 Starter",
+    "limbaj": "HTML, CSS, Git",
+    "colorBar": [
+      {
+        "color": "red",
+        "percent": "100"
+      }
+    ],
+    "percentage": [
+      "HTML 100%"
+    ],
+    "commitStarFork": [
+      {
+        "icon": "commits",
+        "text": "Commits: 13"
+      },
+      {
+        "icon": "stars",
+        "text": "Stars: 0"
+      },
+      {
+        "icon": "forks",
+        "text": "Forks: 23"
+      }
+    ],
+    "gitDescription": "Welcome to version of the project My CV. This Cv is a starter version which means is realized in HTML and CSS at basic level of coding.",
+    "gitLink": "Constantin-Matei/my-cv-v2-starter"
+  },
+  {
+    "proiect": "Fun Retrospective",
+    "limbaj": "HTML, CSS, Git, JavaScript",
+    "colorBar": [
+      {
+        "color":"red",
+        "percent":"44"
+      },
+      {
+        "color": "yellow",
+        "percent": "44"
+      },
+      {
+        "color": "purple",
+        "percent": "12"
+      }
+    ],
+    "percentage": [
+      "HTML 49%",
+      "CSS 31%",
+      "JavaScript 31%"
+    ],
+    "commitStarFork": [
+      {
+        "icon": "commits",
+        "text": "Commits: 33"
+      },
+      {
+        "icon": "stars",
+        "text": "Stars: 3"
+      },
+      {
+        "icon": "forks",
+        "text": "Forks: 43"
+      }
+    ],
+    "gitDescription": "Aici pun eu ce text vreau ca asa vreau eu si nu fac ce vrei tu de fan, nah.",
+    "gitLink": "Constantin-Matei/fun-retrospective"
+  },
+  {
+    "proiect": "PUG Starter",
+    "limbaj": "HTML, CSS, Git, JavaScript",
+    "colorBar": [
+      {
+        "color":"red",
+        "percent":"42"
+      },
+      {
+        "color": "yellow",
+        "percent": "38"
+      },
+      {
+        "color": "purple",
+        "percent": "20"
+      }
+    ],
+    "percentage": [
+      "HTML 49%",
+      "CSS 49%",
+      "JavaScript 2%"
+    ],
+    "commitStarFork": [
+      {
+        "icon": "commits",
+        "text": "Commits: 50"
+      },
+      {
+        "icon": "stars",
+        "text": "Stars: 5"
+      },
+      {
+        "icon": "forks",
+        "text": "Forks: 63"
+      }
+    ],
+    "gitDescription": "A project made in PUG starter. This template engine helps to write html much easier and faster.",
+    "gitLink": "Constantin-Matei/mega-menu"
+  }
+],
+"containerRoz":
+  [
+    "github",
+    "youtube"
+  ]
+}
+

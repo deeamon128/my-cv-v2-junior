@@ -1,0 +1,54 @@
+{
+  "sectionTitle": "Portofolio",
+  "recente": {
+    "titlu": "Recent",
+    "proiecteRecente":[
+      {
+        "numeProiect": "My CV v2 Junior",
+        "tehnologii": "HTML, CSS, JavaScript, Git",
+        "locatieImagine": "../asset/image/proiecte/masha.jpg",
+        "link": "https://github.com/Constantin-Matei/my-cv-v2-junior"
+      },
+      {
+        "numeProiect": "Mega Menu",
+        "tehnologii": "HTML, CSS, JavaScript, Git",
+        "locatieImagine": "../asset/image/proiecte/masha.jpg"
+      },
+      {
+        "numeProiect": "Budget",
+        "tehnologii": "HTML, CSS, JavaScript, Git",
+        "locatieImagine": "../asset/image/proiecte/masha.jpg"
+      },
+      {
+        "numeProiect": "Fun Retrospective",
+        "tehnologii": "HTML, CSS, JavaScript, Git",
+        "locatieImagine": "../asset/image/proiecte/masha.jpg"
+      },
+      {
+        "numeProiect": "My CV v2 Starter",
+        "tehnologii": "HTML, CSS, Git",
+        "locatieImagine": "../asset/image/proiecte/masha.jpg"
+      },
+      {
+        "numeProiect": "Bitbee V2",
+        "tehnologii": "HTML, CSS, JavaScript, Git",
+        "locatieImagine": "../asset/image/proiecte/masha.jpg"
+      }
+    ]
+  },
+  "vechi": {
+    "titlu": "Old",
+    "proiecteVechi": [
+      {
+        "numeProiect": "w3school Replica",
+        "tehnologii": "HTML, CSS, Git",
+        "locatieImagine": "../asset/image/proiecte/masha.jpg"
+      },
+      {
+        "numeProiect": "Amazing Roulette",
+        "tehnologii": "HTML, CSS, Javascript, Git",
+        "locatieImagine": "../asset/image/proiecte/masha.jpg"
+      }
+    ]
+  }
+}
