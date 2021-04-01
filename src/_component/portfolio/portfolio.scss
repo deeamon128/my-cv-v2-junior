@@ -30,8 +30,7 @@
 .buttons {
   display: flex;
   justify-content: flex-end;
-  margin-right: 20px;
-  margin-bottom: 10px;
+  text-decoration: none;
 
   & i[class^="icon__"] {
     @extend %button-pink;

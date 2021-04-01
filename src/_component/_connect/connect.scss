@@ -111,8 +111,7 @@ p.description-box__p {
 }
 
 @for $i from 1 through 10 {
-  .connect__radio:nth-of-type(#{$i}):checked
-    ~ [data-about-box="#{$i}"] {
+  .connect__radio:nth-of-type(#{$i}):checked ~ [data-about-box="#{$i}"] {
     display: block;
   }
 }
