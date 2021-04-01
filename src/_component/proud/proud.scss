@@ -12,6 +12,9 @@
   padding-right: 10px;
   padding-left: 10px;
 }
+.box__text {
+  @extend %list-item;
+}
 
 .award {
   font-weight: normal;
@@ -22,8 +25,7 @@
 }
 
 .date {
-  text-align: right;
-  margin-right: 10px;
+  padding-left: 620px;
 }
 
 .box__reviews {
@@ -31,5 +33,5 @@
 }
 
 .texte {
-  @extend %list-item;
+  margin: auto;
 }
