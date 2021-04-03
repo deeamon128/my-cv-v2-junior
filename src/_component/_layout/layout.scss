@@ -10,12 +10,20 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
+  // grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  @media (min-device-width: 768px) and (max-device-width: 1024px) {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
 }
 
 .column[span="row"] {
   grid-column: 1/-1;
+}
+.column[span="4"] {
+  grid-column: span 4;
 }
 
 .column[heigh="10"] {

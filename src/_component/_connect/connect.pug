@@ -3,43 +3,41 @@
 - var sectionTitle = data.connect.sectionTitle
 include ../section-title/section-title.pug
 
-.column(span="row")
+.column(span="row" class="grids")
     .connect__avatar
-.column(span="row" height="10")
-
-
-each social, key in data.connect.socialList 
-  input.connect__radio(
-    type="radio"
-    name="connect__label"
-    id=`connect__label--${key}`
-  )
-  .column(span="1")
-    label(for=`connect__label--${key}`).connect__disc
-      i(class=`icon__${social.icon}`)
-
-each social, key in data.connect.socialList 
-    .column(span="row" data-about-box=key+1)
-        .about-box-arrow
-            .about-box__header 
-                .about-box__title= social.title 
-                .about-box__close 
-                    input.connect__radio(
-                        type="radio"
-                        name="connect__label"
-                        id=`connect__label--reset`
-                    )
-                    label(for=`connect__label--reset`).connect__disc
-                        i(class=`icon__cross`)
-            .about-box__body 
-                p.description-box__p= social.description
-            .about-box__footer 
-                a(
-                    href=social.link
-                    target="_blank"
-                ).button__pill-blue 
-                    i.icon__link 
-                    span.button-text= social.label
+    .grid-connect
+        each social, key in data.connect.socialList 
+            input.connect__radio(
+                type="radio"
+                name="connect__label"
+                id=`connect__label--${key}`
+            )
+            .column(span="1")
+                label(for=`connect__label--${key}`).connect__disc
+                    i(class=`icon__${social.icon}`)
+        
+        each social, key in data.connect.socialList 
+            .column(span="row" data-about-box=key+1)
+                .about-box-arrow
+                    .about-box__header 
+                        .about-box__title= social.title 
+                        .about-box__close 
+                            input.connect__radio(
+                                type="radio"
+                                name="connect__label"
+                                id=`connect__label--reset`
+                            )
+                            label(for=`connect__label--reset`).connect__disc
+                                i(class=`icon__cross`)
+                    .about-box__body 
+                        p.description-box__p= social.description
+                    .about-box__footer 
+                        a(
+                            href=social.link
+                            target="_blank"
+                        ).button__pill-blue 
+                            i.icon__link 
+                            span.button-text= social.label
 
 .column(span="row" height="10")
 .column(span="row")
@@ -47,4 +45,3 @@ each social, key in data.connect.socialList
         i.icon__arrow-down 
         span.button-text 
 .column(span="row" height="10")
-
