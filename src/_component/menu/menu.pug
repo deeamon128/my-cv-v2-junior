@@ -5,7 +5,7 @@
     ul
       each item in data.burger.item 
         li
-          a(style="padding-right:20px")(href=item.link).links= item.title
+          a(style="padding-right: 20px" href=`${item.link}`).links= item.title
       label(for="toggler") 
         .close
           i(class="icon__cross").x 
