@@ -2,26 +2,27 @@
 
 - var sectionTitle = data.recommandation.sectionTitle
 include ../section-title/section-title.pug 
-.gaps
-  .column.gap
-    each items in data.recommandation.recommandation1
-      .recommandation-info 
-        .recommandation-image
-          img.imagine(src=`${items.avatarUrl}`, alt="avatar")
-        .recommandation-name=items.name
-        .recommandation-position=items.position
-      .recommandation-description
-        p=items.description
 
-  .column.gap
-    each items in data.recommandation.recommandation2
-      .recommandation-info 
-        .recommandation-image
-          img.imagine(src=`${items.avatarUrl}`, alt="avatar")
-        .recommandation-name=items.name
-        .recommandation-position=items.position
-      .recommandation-description
-        p=items.description
+
+
+.column(span="row")
+  each items in data.recommandation.recommandation1
+    .recommandation-info 
+      .recommandation-image
+        img.imagine(src=`${items.avatarUrl}`, alt="avatar")
+      .recommandation-name=items.name
+      .recommandation-position=items.position
+    .recommandation-description
+      p=items.description
+
+  each items in data.recommandation.recommandation2
+    .recommandation-info 
+      .recommandation-image
+        img.imagine(src=`${items.avatarUrl}`, alt="avatar")
+      .recommandation-name=items.name
+      .recommandation-position=items.position
+    .recommandation-description
+      p=items.description
 
 
 //- green arrow down

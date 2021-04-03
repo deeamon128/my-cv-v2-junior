@@ -8,7 +8,7 @@
 
   .grid-connect {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .connect__disc {
@@ -97,29 +97,20 @@
     column-gap: 10px;
   }
 
-  // recommendations
-  .gaps {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-
-    .gap {
-      display: grid;
-      align-self: center;
-    }
-  }
-
   // menu
 
   .menu-wrap .menu > ul {
     height: 370px;
   }
+
   .menu-wrap .menu {
     visibility: visible;
   }
+
   .close {
     display: none;
   }
+
   i.icon__menu {
     opacity: 0;
   }
