@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+  .menu__list {
+    left: 530px;
+  }
+  .gridspan {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr;
+  }
+  .connect__disc {
+    [class^="icon__"] {
+      font-size: 4vw;
+    }
+  }
+  .connect__avatar {
+    grid-row: 1/1;
+    width: 296px;
+    height: 296px;
+    margin-right: 35px;
+    left: 20px;
+  }
+  .databox {
+    padding-top: 50px;
+    grid-row: 5/5;
+    width: 630px;
+    position: relative;
+    right: 290px;
+    top: 50px;
+    height: 450px;
+  }
+  .iconitele {
+    width: 60px;
+    height: 60px; 
+  }
+  .grid__tablet,
+  .grid__port {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr auto;
+  }
+  .grid__ports {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .iconitaa {
+    position: relative;
+  }
+  .info__box {
+    margin-left: 70px;
+  }
+  .proud_box,
+  .continut  {
+    width: auto;
+  }
+  .date {
+    padding-left: 620px;
+  }
+}

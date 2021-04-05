@@ -2,42 +2,40 @@
 include ../section-title/section-title
 
 #connect
-.column(span="row")
+.column(span="row" class="gridspan") 
   .connect__avatar
-.column(span="row" height="10")
-each social, key in data.connect.socialList
-  input.connect__radio(
-    type="radio"
-    name="connect__label"
-    id=`connect__label--${key}`
-    )
-  .column(span="1")
-    label(for=`connect__label--${key}`).connect__disc
-      i(class=`icon__${social.icon}`)
-
-each social, key in data.connect.socialList
-  .column(span="row" data-box=key+1)
-    .box__with-arrow
-      .box__header
-        .box__title=social.title
-        .box__close
-          input.connect__radio(
-            type="radio"
-            name="connect__label"
-            id=`connect__label--reset`
-          )
-          label(for=`connect__label--reset`).connect__disc
-            i(class=`icon__cross`)
-      .box__body
-        p.box__paragraph=social.description
-      .box__footer
-        a(
-          href=social.link 
-          target="_blank"
-        ).pill--blue 
-          i.icon__link
-          span.button-text=social.label
-
+  .mobile
+    each social, key in data.connect.socialList
+      input.connect__radio(
+        type="radio"
+        name="connect__label"
+        id=`connect__label--${key}`
+        )
+      .column(span="1" class="iconitele")
+        label(for=`connect__label--${key}`).connect__disc
+          i(class=`icon__${social.icon}`)
+    each social, key in data.connect.socialList
+      .column(span="row" data-box=key+1  class="databox")
+        .box__with-arrow
+          .box__header
+            .box__title=social.title
+            .box__close
+              input.connect__radio(
+                type="radio"
+                name="connect__label"
+                id=`connect__label--reset`
+              )
+              label(for=`connect__label--reset`).connect__disc
+                i(class=`icon__cross`)
+          .box__body
+            p.box__paragraph=social.description
+          .box__footer
+            a(
+              href=social.link 
+              target="_blank"
+            ).pill--blue 
+              i.icon__link
+              span.button-text=social.label
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--green

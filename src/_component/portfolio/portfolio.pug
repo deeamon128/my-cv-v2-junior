@@ -5,20 +5,21 @@ include ../section-title/section-title
 .column(span="row" height="10")
 .column(span="row")
   .data__stat=data.portfolio.mainTitle
+  .grid__port
     each project in data.portfolio.project1 
       .recent__projects
         .recent__projects-text=project.title
         .recent__projects-skills=project.skills
         .recent__projects-skills=project.link
         img(src=project.image, alt="avatar").project__image
-      .buttons
-        a(href=project.linkIcon target="_blank")
-          i.icon__earth 
-        a(href=project.linkIcon target="_blank")
-          i.icon__github
-.column(span="row" height="10")
+        .buttons
+          a(href=project.linkIcon target="_blank")
+            i.icon__earth.iconitaa
+          a(href=project.linkIcon target="_blank")
+            i.icon__github.iconitaa
 .column(span="row")
   .data__stat=data.portfolio.project2.title
+  .grid__port
     each project in data.portfolio.project2.data
       .old__projects
         .recent__projects-text=project.title

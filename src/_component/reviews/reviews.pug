@@ -3,13 +3,12 @@ include ../section-title/section-title.pug
 
 #reviews
 .column(span="row" data-box=key+1)
-.column(span="row")
+.column(span="row").grid__tablet
     each person in data.reviews.reviews
       span.info__box
         img.image__reviewer(src=person.image, alt="avatar")
         .person__name= person.personName
         .data=person.date
-      .column(span="row")
         .box__with-arrow
           .box__header 
             each comment in data.reviews.reviews

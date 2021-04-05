@@ -3,7 +3,7 @@
   color: #707070;
   font-weight: 600;
   line-height: 30px;
-  @extend %rounder-border-list
+  @extend %rounder-border-list;
 }
 
 .location,
@@ -11,6 +11,9 @@
   font-style: italic;
   padding-right: 10px;
   padding-left: 10px;
+}
+.casuta_proud {
+  @extend %list-item;
 }
 
 .award {
@@ -22,14 +25,22 @@
 }
 
 .date {
-  text-align: right;
-  margin-right: 10px;
+  padding-left: 270px;
 }
 
 .box__reviews {
   border-top: 0;
 }
 
+.proud_box {
+  margin-left: 0px;
+  width: 310px;
+}
+
+.continut {
+  width: 310px;
+}
+
 .texte {
-  @extend %list-item;
+  margin: auto;
 }

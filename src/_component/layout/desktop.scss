@@ -1,0 +1,50 @@
+@media (min-width: 1024px) {
+  .mobile {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr;
+    position: absolute;
+    left: 600px;
+    height: 350px;
+  }
+  .connect__disc {
+    [class^="icon__"] {
+      font-size: 2vw;
+    }
+  }
+  .connect__avatar {
+    grid-row: 1/1;
+    width: 296px;
+    height: 296px;
+    margin-right: 35px;
+    left: 150px;
+    padding-right: 349px;
+    margin-bottom: 270px;
+  }
+  .databox {
+    right: 370px;
+    grid-row: 5/5;
+    position: relative;
+    top: 152px;  
+  }
+  .menu__list {
+    position: sticky;
+    margin-right: -1852px;
+    margin-top: 60px;
+  }
+  .grid__port,
+  .box__with-shadow {
+    width: 88%;
+  }
+  .proud_box,
+  .data__stat-list,
+  .data__project-item,
+  .experience__list,
+  .skills__legend {
+    width: 88%;
+    margin: 0;
+  }
+  .date {
+    padding-left: 1572px;
+  }
+}
