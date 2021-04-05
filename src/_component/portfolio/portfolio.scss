@@ -10,6 +10,7 @@
   color: #707070;
   position: relative;
   margin-bottom: 0;
+  margin-top: 40px;
 }
 
 .old__projects {
@@ -32,7 +33,9 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: -40px;
+  position: relative;
+
 
   & i[class^="icon__"] {
     @extend %button-pink;

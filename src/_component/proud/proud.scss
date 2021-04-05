@@ -3,7 +3,7 @@
   color: #707070;
   font-weight: 600;
   line-height: 30px;
-  @extend %rounder-border-list
+  @extend %rounder-border-list;
 }
 
 .location,
@@ -12,7 +12,7 @@
   padding-right: 10px;
   padding-left: 10px;
 }
-.box__text {
+.casuta_proud {
   @extend %list-item;
 }
 
@@ -25,11 +25,20 @@
 }
 
 .date {
-  padding-left: 620px;
+  padding-left: 270px;
 }
 
 .box__reviews {
   border-top: 0;
+}
+
+.proud_box {
+  margin-left: 0px;
+  width: 310px;
+}
+
+.continut {
+  width: 310px;
 }
 
 .texte {

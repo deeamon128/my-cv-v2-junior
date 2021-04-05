@@ -103,3 +103,11 @@ p.box__paragraph {
     background-image: url('asset/image/avatar-maria-cotofana.jpeg');
   }
 }
+
+.mobile {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  left: 30px;
+}

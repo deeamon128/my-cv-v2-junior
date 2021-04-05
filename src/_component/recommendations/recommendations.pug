@@ -3,17 +3,16 @@ include ../section-title/section-title.pug
 
 #recommendations
 .column(span="row" data-box=key+1)
-.column(span="row")
-    each person in data.recommendations.reviews
-      span.info__box
-        img.image__reviewer(src=person.image, alt="avatar")
-        .person__name= person.personName
-        .cariera=person.jobTitle
-      .column(span="row")
-        .box__with-arrow
-          .box__header 
-            each comment in data.recommendations.reviews
-              .box__text=comment.review
+.column(span="row").grid__ports
+  each person in data.recommendations.reviews
+    span.info__box
+      img.image__reviewer(src=person.image, alt="avatar")
+      .person__name= person.personName
+      .cariera=person.jobTitle
+      .box__with-arrow
+        .box__header
+          each comment in data.recommendations.reviews
+            .box__text=comment.review
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--green

@@ -5,13 +5,12 @@ include ../section-title/section-title.pug
 .column(span="row")
   .about-me__more-title=data.proud.proud
 .column(span="row")
-.column(span="row")
-  .box__reviews
+  .box__reviews.proud_box
     each item in data.proud.proudList
       ul
-        .box__text
+        .box__text.casuta_proud
           li.lista
-            .texte
+            .texte.continut
               .date=item.date
               .award=item.award
               .location=item.location
