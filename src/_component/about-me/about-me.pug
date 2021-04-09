@@ -1,23 +1,26 @@
+//- pre=JSON.stringify(data["about-me"], null, 2)
+
+- var sectionTitle = data["about-me"].sectionTitle;
+include ../section-title/section-title
+
 .column(span="row")
-  .section__wrapper
-    .section-title Welcome to my CV 
+  h1.first-title=data["about-me"].firstTitle
 .column(span="row")
-  button.disc-red
-    i.icon__youtube
+  h2.second-title=data["about-me"].secondTitle
+.column(span="row" height="10")
 .column(span="row")
-  h1.first-title Andreea Bobariu
-.column(span="row")
-  h2.second-title Junior Web Developer
-.column(span="row")
-  h3.description-title About Me
+  h3.description-title=data["about-me"].descriptionTitle
 .column(span="row")
   .description-box-shadow 
-    p.description-text I am a Junior developer with a passion to learn constantly and lallalala
+    each description in data["about-me"].descriptionText
+      p.description-text=description
+.column(span="row" height="10")
 .column(span="row")
   button.download-cv 
     i.icon__download
-    span.text-button Download my CV
+    span.text-button=data["about-me"].downloadButtonLabel
+.column(span="row" height="10")
 .column(span="row")
   button.disc-green   
     i.icon__arrow-down
-    
+.column(span="row" height="10")

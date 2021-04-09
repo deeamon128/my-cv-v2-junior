@@ -18,6 +18,10 @@ body {
   grid-column: 1/-1;
 }
 
+.column[height="10"] {
+  height: 10px;
+}
+
 .content {
   padding: 0 36px;
 }
