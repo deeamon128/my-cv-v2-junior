@@ -1,6 +1,17 @@
-- var sectionTitle=data['connect'].sectionTitle;
+- var sectionTitle = data.connect.sectionTitle
 include ../section-title/section-title.pug
 
 .column(span="row")
   .connect__image
+.column(span="row" height="10")
+
+each social in data.connect.socialList
+  .column(span="1")
+    .connect__disc
+      i(class=`icon__${social.icon}`)
+
+.column(span="row" height="10")
 .column(span="row")
+  button.disc-green   
+    i.icon__arrow-down
+.column(span="row" height="10")
