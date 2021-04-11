@@ -15,14 +15,17 @@ each social, key in data.connect.socialList
       i(class=`icon__${social.icon}`)
 .column(span="row" height="10")
 .column(span="row")
-  .description-box-shadow 
-    input.connect__radio(
-      type="radio"
-      name="connect__label"
-      id=`connect__label--reset`)
-    .column(span="1")
-      label(for=`connect__label--reset`).connect__disc
-        i(class=`icon__cross`)
+  .description-box__arrow
+    .description-box__header
+      .description-box__title CodeTap Academy
+      .description-box__close
+        input.connect__radio(
+          type="radio"
+          name="connect__label"
+          id=`connect__label--reset`)
+        .column(span="1")
+        label(for=`connect__label--reset`).connect__disc
+          i(class=`icon__cross`)
 .column(span="row" height="10")
 .column(span="row")
   button.disc-green   
