@@ -34,6 +34,11 @@
   display: block;
 }
 
+[for="connect__label--reset"] {
+  width: 40px;
+  color: white;
+}
+
 [class="connect__disc"] [class^="icon__"] {
   font-size: 8vw;
   position: absolute;
@@ -47,6 +52,7 @@
 }
 
 .description-box__arrow {
+  background-color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
 }
@@ -58,9 +64,26 @@
 
 .description-box__title {
   flex-grow: 1;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  color: #808080;
+  text-transform: capitalize;
 }
 
-[for="connect__label--reset"] {
-  width: 40px;
-  color: white;
+.description-box__body,
+.description-box__footer {
+  padding: 20px;
+}
+
+.description-box__body {
+  border-top: 2px solid #F5F5F5;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.description-box__paragraph {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
 }

@@ -26,6 +26,13 @@ each social, key in data.connect.socialList
         .column(span="1")
         label(for=`connect__label--reset`).connect__disc
           i(class=`icon__cross`)
+    .description-box__body 
+      p.description-box__paragraph ipsum dolor sit amet, consectetur adipisicing elit. Totam commodi unde nostrum nesciunt ducimus, placeat id laudantium? Dignissimos mollitia aspernatur, ducimus quidem sed qui sint natus architecto magni, ut accusantium?
+    .description-box__footer
+      button.download-cv 
+        i.icon__link
+        span.text-button=data["about-me"].downloadButtonLabel
+
 .column(span="row" height="10")
 .column(span="row")
   button.disc-green   
