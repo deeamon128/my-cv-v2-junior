@@ -5,11 +5,24 @@ include ../section-title/section-title.pug
   .connect__image
 .column(span="row" height="10")
 
-each social in data.connect.socialList
-  .column(span="1")
-    .connect__disc
+each social, key in data.connect.socialList
+    input.connect__radio(
+      type="radio"
+      name="connect__label"
+      id=`connect__label--${key}`
+    )
+    label(for=`connect__label--${key}`).connect__disc
       i(class=`icon__${social.icon}`)
-
+.column(span="row" height="10")
+.column(span="row")
+  .description-box-shadow 
+    input.connect__radio(
+      type="radio"
+      name="connect__label"
+      id=`connect__label--reset`)
+    .column(span="1")
+      label(for=`connect__label--reset`).connect__disc
+        i(class=`icon__cross`)
 .column(span="row" height="10")
 .column(span="row")
   button.disc-green   

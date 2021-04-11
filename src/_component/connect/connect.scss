@@ -19,12 +19,19 @@
   }
 }
 
+.connect__radio:checked + .connect__disc {
+  background-color: #D52027;
+  transition: 250ms;
+}
+
 .connect__disc {
   background-color: #1875F0;
   border-radius: 50%;
   padding-top: 100%;
   position: relative;
   color: white;
+  cursor: pointer;
+  display: block;
 }
 
 [class="connect__disc"] [class^="icon__"] {
