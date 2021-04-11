@@ -1,3 +1,62 @@
 {
-  "sectionTitle": "Let's Connect"
+  "sectionTitle": "Let's Connect",
+  "imagePath": "asset/image/andreea-avatar.jpg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "CodeTap",
+      "description": "lalalalala",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "github",
+      "title": "GitHub",
+      "description": "lalalalala",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "linkedin",
+      "title": "Linkedin",
+      "description": "lalalalala",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "Stackoverflow",
+      "description": "lalalalala",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "facebook",
+      "title": "Facebook",
+      "description": "lalalalala",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "description": "lalalalala",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "description": "lalalalala",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "skype",
+      "title": "Skype",
+      "description": "lalalalala",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    }
+  ]
 }
