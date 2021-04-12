@@ -19,7 +19,7 @@
   }
 }
 
-.connect__radio:checked + .connect__disc {
+.connect__radio:checked + .column .connect__disc {
   background-color: #D52027;
   transition: 250ms;
 }
@@ -107,4 +107,14 @@
 .description-box__footer {
   display: flex;
   justify-content: center;
+}
+
+@for $i from 1 through 8 {
+  .connect__radio:nth-last-of-type(#{$i}):checked ~ [data-description-box="#{$i}"] {
+    display: block;
+  }
+}
+
+[data-description-box] {
+  display: none;
 }
