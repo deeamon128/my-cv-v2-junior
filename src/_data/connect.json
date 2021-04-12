@@ -5,23 +5,23 @@
     {
       "icon": "codetap",
       "title": "CodeTap",
-      "description": "lalalalala",
+      "description": "Let's study together",
       "label": "codetap.academy",
       "link": "https://codetap.academy"
     },
     {
       "icon": "github",
       "title": "GitHub",
-      "description": "lalalalala",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "My github profile",
+      "label": "github.com/deeamon128",
+      "link": "https://github.com/deeamon128"
     },
     {
       "icon": "linkedin",
       "title": "Linkedin",
-      "description": "lalalalala",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "My online CV",
+      "label": "linkedin/abobariu",
+      "link": "https://www.linkedin.com/in/abobariu-661315151/"
     },
     {
       "icon": "stackoverflow",
@@ -33,30 +33,30 @@
     {
       "icon": "facebook",
       "title": "Facebook",
-      "description": "lalalalala",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "follow me here",
+      "label": "facebook",
+      "link": "https://www.facebook.com/"
     },
     {
       "icon": "instagram",
       "title": "Instagram",
-      "description": "lalalalala",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "My insta",
+      "label": "insta.page",
+      "link": "https://www.instagram.com/"
     },
     {
       "icon": "twitter",
       "title": "Twitter",
-      "description": "lalalalala",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "follow my ",
+      "label": "twitter",
+      "link": "https://twitter.com/home?lang=en-gb"
     },
     {
       "icon": "skype",
       "title": "Skype",
-      "description": "lalalalala",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "Let's have a chat",
+      "label": "skype",
+      "link": "https://www.skype.com/en/"
     }
   ]
 }
