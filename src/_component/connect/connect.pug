@@ -11,8 +11,9 @@ each social, key in data.connect.socialList
     name="connect__label"
     id=`connect__label--${key}`
   )
-  label(for=`connect__label--${key}`).connect__disc
-    i(class=`icon__${social.icon}`)
+  .column(span="1")
+    label(for=`connect__label--${key}`).connect__disc
+      i(class=`icon__${social.icon}`)
 
 each social, key in data.connect.socialList
   .column(span="row" data-description-box=key+1)
