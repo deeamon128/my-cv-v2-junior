@@ -1,0 +1,12 @@
+- var sectionTitle = data.skills.sectionTitle;
+include ../section-title/section-title
+
+.column(span="row")
+  h3.description-title=data.skills.legend.title
+.column(span="row")
+  ul.skill__list
+    each item, key in data.skills.legend.itemList 
+      li 
+        span(class=`icon__${item.icon}`)
+        span=item.label 
+        span=key + 1
