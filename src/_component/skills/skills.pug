@@ -10,3 +10,22 @@ include ../section-title/section-title
         span.skills__icon(class=`icon__${item.icon}`)
         span.skills__label=item.label 
         span.skills__count=key + 1
+
+each skillType in data.skills.skillTypeList
+  .column(span="row" height="10")
+  .column(span="row")
+    h3.description-title=skillType.type
+  .column(span="row")
+    each skill in skillType.skillList
+      span(
+        class=`skills__skill--${skill.type}`
+      )=skill.label
+.column(span="row" height="10")
+.column(span="row")
+  .description-box-shadow 
+      p.description-text=data.skills.description
+.column(span="row" height="10")
+.column(span="row")
+  button.disc-green   
+    i.icon__arrow-down
+.column(span="row" height="10")
