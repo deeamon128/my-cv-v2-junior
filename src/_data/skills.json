@@ -1,0 +1,93 @@
+{
+  "sectionTitle": "Skills",
+  "description": "These are my skills that I have developed over a period of 6 months",
+  "legend": {
+    "title": "Legend",
+    "itemList": [
+      {
+        "icon": "heart",
+        "color": "red",
+        "label": "Skills I love"
+      },
+      {
+        "icon": "trophy",
+        "color": "green",
+        "label": "Skills I'm good at"
+      },
+      {
+        "icon": "book",
+        "color": "orange",
+        "label": "Skills I'd love to get better at"
+      }
+    ]
+  },
+  "skillTypeList":[
+    {
+      "type": "Front End",
+      "skillList": [
+        {
+          "type": "heart",
+        "label": "HTML"
+        },
+        {
+          "type": "heart",
+        "label": "CSS"
+        },
+        {
+          "type": "heart",
+        "label": "JavaScript"
+        },
+        {
+          "type": "book",
+          "label": "Sass"
+        },
+        {
+          "type": "trophy",
+        "label": "React"
+        }
+      ]
+    },
+    {
+      "type": "Back End",
+      "skillList": [
+        {
+          "type": "heart",
+        "label": "Pug"
+        },
+        {
+          "type": "book",
+          "label": "Git"
+        },
+        {
+          "type": "trophy",
+          "label": "MySQL"
+        },
+        {
+          "type": "trophy",
+        "label": "NodeJS"
+        }
+      ]
+    },
+    {
+      "type": "Others",
+      "skillList": [
+        {
+          "type": "heart",
+        "label": "Microsoft Office"
+        },
+        {
+          "type": "book",
+          "label": "Photoshop"
+        },
+        {
+          "type": "trophy",
+          "label": "Sigma"
+        },
+        {
+          "type": "trophy",
+        "label": "AdobeXD"
+        }
+      ]
+    }
+  ]
+}
