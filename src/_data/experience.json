@@ -1,0 +1,27 @@
+{
+  "sectionTitle": "Experience",
+  "jobList": [
+    {
+      "jobTitle": "Consular Office",
+      "startDate": "2017 August",
+      "endDate": "current",
+      "iconPath": "download.jpg",
+      "companyName": "Consular Section of Romania in London",
+      "moreInfoList": [
+        "i am good at",
+        "also good at and my skills are"
+      ]
+    },
+    {
+      "jobTitle": "Junior Front-End Developer",
+      "startDate": "2021 March",
+      "endDate": "current",
+      "iconPath": "bitbee.png",
+      "companyName": "Bitbee",
+      "moreInfoList": [
+        "i am good at 2",
+        "also good at and my skills are 2"
+      ]
+    }
+  ]
+}

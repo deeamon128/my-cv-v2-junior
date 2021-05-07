@@ -1,0 +1,17 @@
+- var sectionTitle = data.experience.sectionTitle;
+include ../section-title/section-title
+
+.column(span="row" height="10")
+.column(span="row")
+  ul.experience__list
+    each job in data.experience.jobList 
+      li.experience__item 
+        .experience__logo 
+          img(src=`${baseUrl}asset/image/logo/${job.iconPath}`)
+        .experience__job-title=job.jobTitle
+        .experience__company-name=job.companyName
+        .experience__chevron
+        .experience__body
+          .experience__date=`${job.startDate} - ${job.endDate}`
+          each moreInfo in job.moreInfoList
+            .experience__more-info=moreInfo
